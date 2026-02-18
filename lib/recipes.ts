@@ -1,6 +1,9 @@
 import fs from "fs";
 import path from "path";
 
+// basePath empty for custom domain root deployment
+const basePath = "";
+
 export interface Ingredient {
   item: string;
   amount?: string;
@@ -170,7 +173,7 @@ export function loadAllRecipes(): Recipe[] {
           description,
           ingredients,
           directions,
-          image: `/images/recipes/${r.id}.webp`,
+          image: `${basePath}/images/recipes/${r.id}.webp`,
           source: "cookbook",
           chapter: chapter.title,
           chapterNumber: chapter.number,
@@ -202,7 +205,7 @@ export function loadAllRecipes(): Recipe[] {
     const directions: string[] = r.directions || [];
     const difficulty = inferDifficulty(r);
 
-    const imgPath = `/images/personal/recipes/${r.slug}.webp`;
+    const imgPath = `${basePath}/images/personal/recipes/${r.slug}.webp`;
     const imgExists = fs.existsSync(
       path.join(process.cwd(), "..", `images/personal/recipes/${r.slug}.webp`)
     );
@@ -247,7 +250,7 @@ export function loadCategories(): Category[] {
   for (const [id, data] of catMap) {
     let image: string | null = null;
     if (id.startsWith("chapter-")) {
-      image = `/images/chapters/${id}.webp`;
+      image = `${basePath}/images/chapters/${id}.webp`;
     } else {
       const catImgPath = path.join(
         process.cwd(),
@@ -255,7 +258,7 @@ export function loadCategories(): Category[] {
         `images/personal/categories/${id}.webp`
       );
       if (fs.existsSync(catImgPath)) {
-        image = `/images/personal/categories/${id}.webp`;
+        image = `${basePath}/images/personal/categories/${id}.webp`;
       }
     }
 

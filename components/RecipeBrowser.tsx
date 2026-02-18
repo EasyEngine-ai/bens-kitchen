@@ -46,10 +46,12 @@ export default function RecipeBrowser({
   recipes,
   categories,
   initialCategory,
+  showCategoryChips,
 }: {
   recipes: BrowserRecipe[];
   categories: CategoryOption[];
   initialCategory?: string;
+  showCategoryChips?: boolean;
 }) {
   const [search, setSearch] = useState("");
   const [selectedCategory, setSelectedCategory] = useState(
@@ -125,6 +127,46 @@ export default function RecipeBrowser({
 
   return (
     <div>
+      {/* Chapter filter chips (always visible) */}
+      {showCategoryChips && categories.length > 0 && (
+        <motion.div
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.4 }}
+          className="mb-8"
+        >
+          <p className="text-xs uppercase tracking-[0.2em] text-text-muted mb-3">
+            Browse by Chapter
+          </p>
+          <div className="flex flex-wrap gap-2">
+            <button
+              onClick={() => setSelectedCategory("all")}
+              className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 ${
+                selectedCategory === "all"
+                  ? "bg-accent text-bg shadow-[0_0_15px_rgba(212,165,116,0.2)]"
+                  : "bg-bg-surface text-text-muted border border-border hover:border-accent/50 hover:text-text"
+              }`}
+            >
+              All Chapters
+            </button>
+            {categories.map((cat) => (
+              <button
+                key={cat.id}
+                onClick={() => setSelectedCategory(cat.id)}
+                className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 ${
+                  selectedCategory === cat.id
+                    ? "bg-accent text-bg shadow-[0_0_15px_rgba(212,165,116,0.2)]"
+                    : "bg-bg-surface text-text-muted border border-border hover:border-accent/50 hover:text-text"
+                }`}
+              >
+                {cat.name}
+                <span className="ml-1.5 opacity-60">({cat.count})</span>
+              </button>
+            ))}
+          </div>
+        </motion.div>
+      )}
+
       {/* Search Bar */}
       <div className="relative mb-8">
         <motion.div

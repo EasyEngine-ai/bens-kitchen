@@ -6,6 +6,7 @@ import SmoothScroll from "@/components/SmoothScroll";
 import EasterEggs from "@/components/EasterEggs";
 import FallingIngredients from "@/components/FallingIngredients";
 import CookingAssistant from "@/components/CookingAssistant";
+import ScrollToTop from "@/components/ScrollToTop";
 import "./globals.css";
 
 const playfair = Playfair_Display({
@@ -21,7 +22,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://go-big-bens-cookbook.netlify.app"),
+  metadataBase: new URL("https://gobigbencookbook.com"),
   title: "Ben's Kitchen — Original Recipes & The Cookbook",
   description:
     "A personal collection of 210+ original recipes — from signature chicken sandwiches to everyday sauces, sides, and everything in between. By Benjamin Larson.",
@@ -29,6 +30,7 @@ export const metadata: Metadata = {
     title: "Ben's Kitchen",
     description: "210+ original recipes crafted with obsessive attention to flavor.",
     type: "website",
+    images: [{ url: "/images/recipes/recipe-73.webp", width: 1024, height: 1024, alt: "Country Breakfast Chicken Sandwich — Ben's Kitchen" }],
   },
 };
 
@@ -41,6 +43,7 @@ export default function RootLayout({
     <html lang="en" className={`${playfair.variable} ${inter.variable}`}>
       <body className="antialiased">
         <SmoothScroll>
+          <ScrollToTop />
           <div className="grain-overlay" />
           <FallingIngredients />
           <Navigation />

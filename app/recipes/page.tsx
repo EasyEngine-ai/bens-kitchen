@@ -49,7 +49,7 @@ export default function RecipesPage() {
       id: "cookbook",
       name: "Chicken Sandwiches",
       count: cookbookCount,
-      image: "/images/cover/cover.webp",
+      image: `${process.env.NEXT_PUBLIC_BASE_PATH || ""}/images/cover/cover.webp`,
       linkTo: "/categories/cookbook/",
     },
     ...personalCategories.map((c) => ({

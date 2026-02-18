@@ -25,7 +25,7 @@ export default function Hero() {
       {/* Parallax background image */}
       <motion.div className="absolute inset-0" style={{ y: imageY, scale: imageScale }}>
         <img
-          src="/images/cover/cover.webp"
+          src="/images/recipes/recipe-73.webp"
           alt="Ben's Kitchen"
           className="w-full h-full object-cover"
         />

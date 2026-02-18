@@ -1,10 +1,15 @@
 "use client";
 
-import { useState, useRef } from "react";
-import { motion, useScroll, useTransform } from "framer-motion";
+import { useState, useRef, useCallback, useEffect } from "react";
+import { motion, useScroll, useTransform, AnimatePresence } from "framer-motion";
 import Link from "next/link";
 import { AnimatedLine } from "./AnimatedText";
 import type { Ingredient } from "@/lib/recipes";
+
+const TTS_URL =
+  "https://n8n-main-instance-production-c69d.up.railway.app/webhook/tts";
+const CHAT_URL =
+  "https://n8n-main-instance-production-c69d.up.railway.app/webhook/chat";
 
 interface RecipeDetailProps {
   title: string;
@@ -51,6 +56,20 @@ export default function RecipeDetail({
   const [checked, setChecked] = useState<Set<number>>(new Set());
   const [completedSteps, setCompletedSteps] = useState<Set<number>>(new Set());
   const heroRef = useRef<HTMLDivElement>(null);
+
+  // AI Summary state
+  const [summaryOpen, setSummaryOpen] = useState(false);
+  const [summaryText, setSummaryText] = useState("");
+  const [summaryLoading, setSummaryLoading] = useState(false);
+
+  // Step-by-Step Guide state
+  const [guideActive, setGuideActive] = useState(false);
+  const [guideStatus, setGuideStatus] = useState<"idle" | "generating" | "speaking" | "paused">("idle");
+  const [guideStep, setGuideStep] = useState("");
+  const guideAudioRef = useRef<HTMLAudioElement | null>(null);
+  const guideAbortRef = useRef(false);
+  const guidePausedRef = useRef(false);
+  const guideRecognitionRef = useRef<SpeechRecognition | null>(null);
   const { scrollYProgress } = useScroll({
     target: heroRef,
     offset: ["start start", "end start"],
@@ -96,6 +115,224 @@ export default function RecipeDetail({
       scaled % 1 === 0 ? scaled.toString() : scaled.toFixed(1).replace(/\.0$/, "");
     return amount.replace(match[1], display);
   };
+
+  // Build recipe context string for AI
+  const recipeContext = `Recipe: ${title}\nCategory: ${categoryName}\nDifficulty: ${difficulty}\nCook Time: ${cookTime}\nServings: ${defaultServings}\nHeat Level: ${HEAT_LABELS[Math.min(heatLevel, 5)]}\n\nDescription: ${description}\n\nIngredients:\n${ingredients.map((i) => `- ${i.amount ? i.amount + " " : ""}${i.item}${i.group ? " (" + i.group + ")" : ""}`).join("\n")}\n\nDirections:\n${directions.map((d, i) => `${i + 1}. ${d}`).join("\n")}`;
+
+  // AI Summary
+  const fetchSummary = useCallback(async () => {
+    if (summaryText) {
+      setSummaryOpen(!summaryOpen);
+      return;
+    }
+    setSummaryOpen(true);
+    setSummaryLoading(true);
+    try {
+      const res = await fetch(CHAT_URL, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          message: `Give me a super fun, playful, and exciting summary of this recipe! Get me PUMPED to make it! Highlight the key ingredients that really matter, give me the quick rundown on how to make it, and make it feel like an adventure. Keep it to 3-4 short paragraphs max. Be enthusiastic and use personality! Here's the recipe:\n\n${recipeContext}`,
+        }),
+      });
+      const data = await res.json();
+      setSummaryText(data.reply || data.output || "Oops! Couldn't generate a summary right now.");
+    } catch {
+      setSummaryText("Hmm, looks like the AI chef stepped out for a smoke break. Try again in a sec!");
+    }
+    setSummaryLoading(false);
+  }, [summaryText, summaryOpen, recipeContext]);
+
+  // Step-by-Step Cooking Guide
+  const playTTSSegment = useCallback(async (text: string): Promise<void> => {
+    return new Promise(async (resolve, reject) => {
+      try {
+        const res = await fetch(TTS_URL, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ text }),
+        });
+        const blob = await res.blob();
+        const url = URL.createObjectURL(blob);
+        const audio = new Audio(url);
+        guideAudioRef.current = audio;
+        audio.onended = () => {
+          URL.revokeObjectURL(url);
+          guideAudioRef.current = null;
+          resolve();
+        };
+        audio.onerror = () => {
+          URL.revokeObjectURL(url);
+          guideAudioRef.current = null;
+          reject(new Error("Audio playback failed"));
+        };
+        audio.play();
+      } catch (e) {
+        reject(e);
+      }
+    });
+  }, []);
+
+  const waitForResume = useCallback((): Promise<void> => {
+    return new Promise((resolve) => {
+      const check = () => {
+        if (guideAbortRef.current) return resolve();
+        if (!guidePausedRef.current) return resolve();
+        setTimeout(check, 300);
+      };
+      check();
+    });
+  }, []);
+
+  const startVoiceCommands = useCallback(() => {
+    const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+    if (!SR) return;
+    const rec = new SR();
+    rec.continuous = true;
+    rec.interimResults = false;
+    rec.lang = "en-US";
+    rec.onresult = (e: SpeechRecognitionEvent) => {
+      const last = e.results[e.results.length - 1];
+      if (!last.isFinal) return;
+      const text = last[0].transcript.toLowerCase().trim();
+      if (text.includes("pause") || text.includes("stop") || text.includes("shut up")) {
+        guidePausedRef.current = true;
+        setGuideStatus("paused");
+        if (guideAudioRef.current) {
+          guideAudioRef.current.pause();
+        }
+      } else if (text.includes("restart") || text.includes("resume") || text.includes("continue") || text.includes("go") || text.includes("start")) {
+        guidePausedRef.current = false;
+        setGuideStatus("speaking");
+        if (guideAudioRef.current) {
+          guideAudioRef.current.play();
+        }
+      }
+    };
+    rec.onend = () => {
+      if (!guideAbortRef.current) {
+        try { rec.start(); } catch {}
+      }
+    };
+    try { rec.start(); } catch {}
+    guideRecognitionRef.current = rec;
+  }, []);
+
+  const startGuide = useCallback(async () => {
+    guideAbortRef.current = false;
+    guidePausedRef.current = false;
+    setGuideActive(true);
+    setGuideStatus("generating");
+    setGuideStep("Getting your cooking guide ready...");
+
+    try {
+      // Generate the full guide script
+      const res = await fetch(CHAT_URL, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          message: `You're a super fun, playful cooking buddy. The user is currently looking at the recipe "${title}" and just pressed the Step-by-Step Cooking Guide button. You ALREADY KNOW what recipe they're making — DO NOT ask them what they want to cook. Just dive right in!
+
+Generate a complete cooking guide script for "${title}" that will be read aloud via text-to-speech.
+
+IMPORTANT RULES:
+- Start with a brief excited intro like "Alright! We're making ${title}! This is gonna be SO good!"
+- Then say: "Quick heads up - if I'm going too fast, just say PAUSE and I'll zip it! Say RESTART when you're ready and we'll keep rolling!"
+- Then list the ingredients they need to gather
+- Then walk through each step clearly and at a relaxed pace
+- Between steps, add a brief transition like "Alright, moving on!" or "You're crushing it!"
+- End with an encouraging finish
+- Keep it conversational, fun, lighthearted, not rushed
+- Use simple language, no special characters or markdown
+- Separate each section with ||| on its own line so I can split them
+
+Here's the full recipe:\n\n${recipeContext}`,
+        }),
+      });
+      const data = await res.json();
+      const script = data.reply || data.output || "";
+
+      if (guideAbortRef.current) return;
+
+      // Split into segments
+      const segments = script.split("|||").map((s: string) => s.trim()).filter((s: string) => s.length > 0);
+
+      // Start voice commands listener
+      startVoiceCommands();
+
+      setGuideStatus("speaking");
+
+      // Play each segment
+      for (let i = 0; i < segments.length; i++) {
+        if (guideAbortRef.current) break;
+
+        // Wait if paused
+        if (guidePausedRef.current) {
+          await waitForResume();
+          if (guideAbortRef.current) break;
+        }
+
+        setGuideStep(segments[i].slice(0, 120) + (segments[i].length > 120 ? "..." : ""));
+
+        try {
+          await playTTSSegment(segments[i]);
+        } catch {
+          // Continue to next segment even if one fails
+        }
+
+        // Brief pause between segments
+        if (i < segments.length - 1 && !guideAbortRef.current) {
+          await new Promise((r) => setTimeout(r, 1500));
+        }
+      }
+    } catch {
+      setGuideStep("Oops! Something went wrong. Try again!");
+    }
+
+    // Done
+    if (!guideAbortRef.current) {
+      setGuideStatus("idle");
+      setGuideStep("All done! You're a kitchen rockstar!");
+      setTimeout(() => {
+        if (!guideAbortRef.current) setGuideActive(false);
+      }, 5000);
+    }
+    // Cleanup voice recognition
+    if (guideRecognitionRef.current) {
+      try { guideRecognitionRef.current.stop(); } catch {}
+      guideRecognitionRef.current = null;
+    }
+  }, [recipeContext, playTTSSegment, waitForResume, startVoiceCommands]);
+
+  const stopGuide = useCallback(() => {
+    guideAbortRef.current = true;
+    guidePausedRef.current = false;
+    if (guideAudioRef.current) {
+      guideAudioRef.current.pause();
+      guideAudioRef.current = null;
+    }
+    if (guideRecognitionRef.current) {
+      try { guideRecognitionRef.current.stop(); } catch {}
+      guideRecognitionRef.current = null;
+    }
+    setGuideActive(false);
+    setGuideStatus("idle");
+    setGuideStep("");
+  }, []);
+
+  // Cleanup on unmount
+  useEffect(() => {
+    return () => {
+      guideAbortRef.current = true;
+      if (guideAudioRef.current) {
+        guideAudioRef.current.pause();
+        guideAudioRef.current = null;
+      }
+      if (guideRecognitionRef.current) {
+        try { guideRecognitionRef.current.stop(); } catch {}
+      }
+    };
+  }, []);
 
   // Group ingredients by group name
   const groupedIngredients = ingredients.reduce(
@@ -226,10 +463,148 @@ export default function RecipeDetail({
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.4 }}
-          className="text-text-muted leading-relaxed mb-12 text-lg"
+          className="text-text-muted leading-relaxed mb-8 text-lg"
         >
           {description}
         </motion.p>
+
+        {/* AI Buttons */}
+        <motion.div
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.45 }}
+          className="mb-12"
+        >
+          <div className="flex flex-wrap gap-3">
+            {/* AI Summary Button */}
+            <button
+              onClick={fetchSummary}
+              disabled={summaryLoading}
+              className="group flex items-center gap-2.5 px-5 py-3 bg-gradient-to-r from-purple-600/20 to-indigo-600/20 border border-purple-500/30 rounded-xl hover:border-purple-400/50 hover:shadow-[0_0_20px_rgba(147,51,234,0.15)] transition-all duration-300"
+            >
+              <span className="text-lg">
+                {summaryLoading ? (
+                  <motion.span
+                    animate={{ rotate: 360 }}
+                    transition={{ duration: 1, repeat: Infinity, ease: "linear" }}
+                    className="inline-block"
+                  >
+                    {"\u2728"}
+                  </motion.span>
+                ) : (
+                  "\u2728"
+                )}
+              </span>
+              <span className="text-sm font-medium text-purple-300 group-hover:text-purple-200 transition-colors">
+                AI Summary
+              </span>
+            </button>
+
+            {/* Step-by-Step Cooking Guide Button */}
+            {!guideActive ? (
+              <button
+                onClick={startGuide}
+                className="group flex items-center gap-2.5 px-5 py-3 bg-gradient-to-r from-emerald-600/20 to-teal-600/20 border border-emerald-500/30 rounded-xl hover:border-emerald-400/50 hover:shadow-[0_0_20px_rgba(16,185,129,0.15)] transition-all duration-300"
+              >
+                <svg className="w-5 h-5 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M19.114 5.636a9 9 0 010 12.728M16.463 8.288a5.25 5.25 0 010 7.424M6.75 8.25l4.72-4.72a.75.75 0 011.28.53v15.88a.75.75 0 01-1.28.53l-4.72-4.72H4.51c-.88 0-1.704-.507-1.938-1.354A9.01 9.01 0 012.25 12c0-.83.112-1.633.322-2.396C2.806 8.756 3.63 8.25 4.51 8.25H6.75z" />
+                </svg>
+                <span className="text-sm font-medium text-emerald-300 group-hover:text-emerald-200 transition-colors">
+                  Step-by-Step Cooking Guide
+                </span>
+              </button>
+            ) : (
+              <div className="flex items-center gap-3">
+                <div className="flex items-center gap-2.5 px-5 py-3 bg-gradient-to-r from-emerald-600/20 to-teal-600/20 border border-emerald-500/30 rounded-xl">
+                  {guideStatus === "generating" && (
+                    <motion.div className="flex items-center gap-2">
+                      <motion.div
+                        animate={{ scale: [1, 1.3, 1] }}
+                        transition={{ duration: 0.6, repeat: Infinity }}
+                        className="w-2 h-2 rounded-full bg-emerald-400"
+                      />
+                      <span className="text-sm text-emerald-300">Preparing guide...</span>
+                    </motion.div>
+                  )}
+                  {guideStatus === "speaking" && (
+                    <div className="flex items-center gap-2">
+                      <div className="flex items-center gap-0.5 h-4">
+                        {[...Array(4)].map((_, i) => (
+                          <motion.div
+                            key={i}
+                            animate={{ height: ["4px", "16px", "4px"] }}
+                            transition={{ duration: 0.6, repeat: Infinity, delay: i * 0.1 }}
+                            className="w-1 rounded-full bg-emerald-400"
+                          />
+                        ))}
+                      </div>
+                      <span className="text-sm text-emerald-300 max-w-[200px] truncate">{guideStep}</span>
+                    </div>
+                  )}
+                  {guideStatus === "paused" && (
+                    <div className="flex items-center gap-2">
+                      <span className="text-amber-400 text-sm">Paused</span>
+                      <span className="text-xs text-text-dim">Say &quot;restart&quot; to continue</span>
+                    </div>
+                  )}
+                  {guideStatus === "idle" && guideActive && (
+                    <span className="text-sm text-emerald-300">{guideStep}</span>
+                  )}
+                </div>
+                <button
+                  onClick={stopGuide}
+                  className="px-3 py-3 bg-red-500/20 border border-red-500/30 rounded-xl hover:bg-red-500/30 transition-all"
+                  title="Stop guide"
+                >
+                  <svg className="w-4 h-4 text-red-400" fill="currentColor" viewBox="0 0 24 24">
+                    <rect x="6" y="6" width="12" height="12" rx="1" />
+                  </svg>
+                </button>
+              </div>
+            )}
+          </div>
+
+          {/* AI Summary Panel */}
+          <AnimatePresence>
+            {summaryOpen && (
+              <motion.div
+                initial={{ height: 0, opacity: 0 }}
+                animate={{ height: "auto", opacity: 1 }}
+                exit={{ height: 0, opacity: 0 }}
+                transition={{ duration: 0.3 }}
+                className="overflow-hidden"
+              >
+                <div className="mt-4 p-6 bg-gradient-to-br from-purple-950/30 to-indigo-950/30 border border-purple-500/20 rounded-xl">
+                  {summaryLoading ? (
+                    <div className="flex items-center gap-3">
+                      <motion.div
+                        animate={{ rotate: 360 }}
+                        transition={{ duration: 1, repeat: Infinity, ease: "linear" }}
+                        className="w-5 h-5 border-2 border-purple-400/30 border-t-purple-400 rounded-full"
+                      />
+                      <span className="text-sm text-purple-300">Your AI chef is cooking up a summary...</span>
+                    </div>
+                  ) : (
+                    <div>
+                      <div className="flex items-center justify-between mb-3">
+                        <h3 className="text-sm font-medium text-purple-300 uppercase tracking-wider">AI Summary</h3>
+                        <button
+                          onClick={() => setSummaryOpen(false)}
+                          className="text-text-dim hover:text-text transition-colors"
+                        >
+                          <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                          </svg>
+                        </button>
+                      </div>
+                      <p className="text-text-muted leading-relaxed whitespace-pre-line">{summaryText}</p>
+                    </div>
+                  )}
+                </div>
+              </motion.div>
+            )}
+          </AnimatePresence>
+        </motion.div>
 
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-12">
           {/* Ingredients */}

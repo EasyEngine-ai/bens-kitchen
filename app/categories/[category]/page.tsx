@@ -80,7 +80,7 @@ export default async function CategoryPage({
         <div className="max-w-7xl mx-auto px-6">
           <div className="relative rounded-2xl overflow-hidden mb-12 h-64 md:h-80">
             <img
-              src="/images/cover/cover.webp"
+              src="/images/recipes/recipe-73.webp"
               alt="Crazy Chicken Sandwiches"
               className="w-full h-full object-cover"
             />
@@ -106,6 +106,7 @@ export default async function CategoryPage({
           <RecipeBrowser
             recipes={browserRecipes}
             categories={chapterCategories}
+            showCategoryChips
           />
         </div>
       </div>

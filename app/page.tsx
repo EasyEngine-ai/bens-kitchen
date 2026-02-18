@@ -66,7 +66,7 @@ export default function HomePage() {
           <div className="relative rounded-2xl overflow-hidden bg-bg-surface border border-border">
             <div className="absolute inset-0 opacity-30">
               <img
-                src="/images/cover/cover.webp"
+                src="/images/recipes/recipe-73.webp"
                 alt=""
                 className="w-full h-full object-cover"
               />
