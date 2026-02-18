@@ -3,23 +3,23 @@
   "categories": [
     {
       "id": "sauces",
-      "name": "Sauces & Glazes",
-      "count": 37
+      "name": "Sauces",
+      "count": 60
     },
     {
       "id": "salads-sides",
       "name": "Salads & Sides",
-      "count": 21
+      "count": 20
     },
     {
       "id": "mains",
       "name": "Main Dishes",
-      "count": 16
+      "count": 11
     },
     {
-      "id": "burger-sauces",
-      "name": "Burger Sauces",
-      "count": 10
+      "id": "sandwiches",
+      "name": "Sandwiches & Wraps",
+      "count": 3
     },
     {
       "id": "dips",
@@ -27,28 +27,13 @@
       "count": 8
     },
     {
-      "id": "wing-sauces",
-      "name": "Wing Sauces",
-      "count": 6
-    },
-    {
-      "id": "soups",
-      "name": "Soups & Stews",
-      "count": 5
-    },
-    {
-      "id": "jams",
-      "name": "Jams & Toppings",
-      "count": 4
-    },
-    {
       "id": "breakfast",
       "name": "Breakfast",
       "count": 3
     },
     {
-      "id": "quick-ideas",
-      "name": "Quick Ideas",
+      "id": "soups",
+      "name": "Soups & Stews",
       "count": 3
     }
   ],
@@ -98,7 +83,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_001.txt",
-      "description": "This hearty crockpot dip transforms classic pot pie flavors into a thick, savory dip loaded with tender beef, vegetables, and crispy hash browns. Perfect for game day or family gatherings — serve with crusty bread, crackers, or tortilla chips.",
+      "description": "Beef Pot Pie Crockpot Dip is a cozy, hearty blend of chuck steak, ground beef, and garden-fresh vegetables like mushrooms, peas, and carrots, all simmered to perfection. The rich flavor of garlic combined with the savory depth of the meats creates a comforting dip that’s perfect for gatherings. Serve it with crusty bread and watch it disappear as guests savor every creamy, meaty bite!",
       "prep_time": "20 min",
       "cook_time": "6-7 hours",
       "servings": 12
@@ -143,7 +128,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_002.txt",
-      "description": "This hearty crockpot dip packs all the comfort of pot pie into a smoky, cheesy masterpiece loaded with BBQ pork, sausage, and vegetables. Perfect for game day or any gathering where you need a crowd-pleasing appetizer that eats like a meal.",
+      "description": "BBQ Pork Pot Pie Crockpot Dip is a comforting blend of Jimmy Dean's sausage and tender shredded pork shoulder, mixed with colorful veggies like corn, jalapeños, and green beans. Infused with aromatic herbs like thyme and rosemary, this dip bursts with flavor, making it a crowd-pleaser at any party. Pair it with tortilla chips, and enjoy the smoky, savory goodness that’s sure to leave everyone craving more!",
       "prep_time": "25 min",
       "cook_time": "4-5 hours",
       "servings": 16
@@ -194,7 +179,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_003.txt",
-      "description": "This loaded crockpot dip takes all the comfort of chicken pot pie and turns it into a rich, cheesy party dip packed with rotisserie chicken, sausage, bacon, and plenty of vegetables. Serve it up with flaky puff pastry, warm biscuits, or buttery croissants for serious crowd-pleasing appeal.",
+      "description": "Savor the warmth of Chicken Pot Pie Crockpot Dip, a sumptuous blend of shredded rotisserie chicken and crispy bacon, combined with a medley of vegetables such as hash browns and green beans. The garlic and jalapeños add a delightful kick, while the creamy base envelops you in comfort. Perfect for sharing, this dip is a delicious twist on a classic that will have everyone reaching for seconds!",
       "prep_time": "25 min",
       "cook_time": "4 hours",
       "servings": 16
@@ -228,7 +213,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_005.txt",
-      "description": "A rich, creamy tomato sauce loaded with roasted garlic and cherry tomatoes that's perfect for tossing with pasta or spreading on crusty bread. The combination of tangy yogurt, whipped feta, and parmesan makes this sauce ridiculously good.",
+      "description": "Dive into this luscious creamy roasted tomato garlic sauce, where vibrant cherry tomatoes and sweet, caramelized garlic take center stage. With a drizzle of extra virgin olive oil and a pat of butter, this sauce bursts with flavor from the oven-roasted goodness. Perfect for pasta, it's a comforting delight that elevates any dish with its rich, tangy depth.",
       "prep_time": "10 min",
       "cook_time": "35 min",
       "servings": 6
@@ -263,7 +248,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_006.txt",
-      "description": "A rich, tangy sauce packed with roasted garlic and fresh herbs that's perfect for drizzling over grilled chicken, vegetables, or using as a dip. The combination of creamy dairy and bright lemon makes this sauce ridiculously versatile.",
+      "description": "This creamy lemon roasted garlic herb sauce is a delightful blend of soft, caramelized garlic infused with zesty lemon and fresh herbs. The melted butter creates a velvety base that captures the buttery sweetness of the roasted garlic. Ideal for drizzling over grilled chicken or veggies, this sauce will awaken your taste buds and add a fresh, herbaceous twist to your meals.",
       "prep_time": "10 min",
       "cook_time": "45 min",
       "servings": 8
@@ -306,7 +291,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_007.txt",
-      "description": "Crispy baked potato cups filled with a creamy pesto-cheese mixture and topped with a fresh tomato salad. These make an impressive side dish that's equal parts comforting and bright.",
+      "description": "Experience the mouthwatering combination of fluffy potatoes, tangy goat cheese, and vibrant pesto in these decadent muffins. Coated in a buttery flour mixture, these savory delights are baked to perfection, creating a heavenly texture that's both crispy on the outside and soft within. These muffins are an irresistible side dish or snack that will leave you craving more!",
       "prep_time": "20 min",
       "cook_time": "1 hr 15 min",
       "servings": 6
@@ -343,7 +328,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_008.txt",
-      "description": "Crispy Mediterranean potato fritters loaded with fresh herbs, feta, and vegetables, then fried until golden and served with a cool, spicy tzatziki for dipping. These addictive little cakes make a perfect appetizer or side dish that disappears fast.",
+      "description": "Savor the delightful crunch of Mediterranean potato crunchies, where creamy mashed potatoes meet tangy feta cheese and fresh herbs like parsley and dill. The vibrant mix of red onion and tomato adds a burst of flavor, while a crispy breadcrumb coating gives each bite a satisfying crunch. Perfect as an appetizer or snack, these crunchies are a celebration of Mediterranean flavors that will keep you coming back for more!",
       "prep_time": "20 min",
       "cook_time": "20 min",
       "servings": 6
@@ -351,7 +336,7 @@
     {
       "title": "Southwest Salad Dressing",
       "slug": "southwest-salad-dressing",
-      "category": "salads-sides",
+      "category": "sauces",
       "ingredients": [
         "1 cup Greek yogurt (or ½ cup mayo and ½ cup sour cream)",
         "2-3 chipotle peppers in adobo, finely chopped",
@@ -381,7 +366,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_009.txt",
-      "description": "A creamy, smoky dressing with a serious kick from chipotle peppers and fresh jalapeños. Perfect for taco salads, Southwest bowls, or as a zesty dip for veggies.",
+      "description": "Elevate your salads with this zesty Southwest salad dressing, bursting with flavor from creamy Greek yogurt, smoky chipotle peppers, and tangy lime juice. Each spoonful is a harmonious blend of spices, including chili powder and garlic powder, creating a deliciously bold kick that's perfect for drizzling over crisp greens. It's not just a dressing; it's a flavor explosion that will transform your salads into something truly unforgettable!",
       "prep_time": "10 min",
       "cook_time": "0 min",
       "servings": 8
@@ -418,7 +403,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_010.txt",
-      "description": "A hearty, colorful tuna pasta salad loaded with fresh veggies, creamy mayo dressing, and a satisfying crunch from kettle chips. Perfect for potlucks, picnics, or an easy weeknight dinner.",
+      "description": "This vibrant Tasty Tuna Salad combines al dente penne pasta with flavorsome tuna and sharp cheddar cheese. Fresh cherry tomatoes, crunchy cucumber, and sweet peas elevate the dish, while a zesty dressing of mayonnaise and lemon juice brings it all together. Perfect for a light lunch or picnic, every bite is a refreshing explosion of taste!",
       "prep_time": "20 min",
       "cook_time": "12 min",
       "servings": 8
@@ -426,7 +411,7 @@
     {
       "title": "Fried Chicken Caesar Salad Pasta Bake",
       "slug": "fried-chicken-caesar-salad-pasta-bake",
-      "category": "salads-sides",
+      "category": "mains",
       "ingredients": [
         "4 fried chicken thighs, chopped into bite-sized pieces",
         "1 lb penne pasta",
@@ -458,7 +443,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_011.txt",
-      "description": "This loaded pasta bake takes all the best parts of a Caesar salad and turns it into a hearty casserole with crispy fried chicken, bacon, and loads of cheese. Top it with cold, crunchy romaine and tangy feta after baking for the perfect hot-and-cold contrast.",
+      "description": "Imagine a delicious Fried Chicken Caesar Salad Pasta Bake that perfectly melds crispy fried chicken with creamy Caesar dressing and al dente penne pasta. Infused with garlic, red peppers, and savory bacon, this dish is the ultimate comfort food. It's baked to golden perfection, ensuring every forkful is a tasty, cheesy delight that will have everyone coming back for more!",
       "prep_time": "25 min",
       "cook_time": "30 min",
       "servings": 8
@@ -498,7 +483,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_012.txt",
-      "description": "This loaded macaroni salad is a Southern potluck showstopper — packed with crispy bacon, crunchy veggies, and your choice of smoky pulled pork or roasted chicken, all tossed in a sweet mayo dressing and topped with crushed jalapeño chips for that perfect kick.",
+      "description": "Mystic Macaroni Salad is a creamy and tangy side dish that brings macaroni to life with a luscious mixture of mayonnaise, sweet relish, and a hint of smoky paprika. The added crunch from fresh vegetables like red peppers and celery makes it irresistibly satisfying. This salad is perfect for barbecues or picnics, offering a nostalgic burst of flavor in every bite.",
       "prep_time": "30 min",
       "cook_time": "15 min",
       "servings": 10
@@ -543,7 +528,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_013.txt",
-      "description": "This ain't your grandma's boring egg salad — it's loaded with crispy bacon, fresh veggies, herbs, and tangy goat cheese for a salad that's got everything going on. Perfect for sandwiches, crackers, or just eating straight from the bowl.",
+      "description": "Eggsalant Everything Egg Salad takes classic egg salad to new heights with hard-boiled eggs, crispy bacon, and a medley of vibrant veggies like jalapeños and cherry tomatoes. The creamy blend of mayo, mustard, and a kick of red pepper flakes creates an addictive flavor profile. It's a fantastic spread for sandwiches or can be enjoyed right out of the bowl!",
       "prep_time": "25 min",
       "cook_time": "0 min",
       "servings": 8
@@ -575,7 +560,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_014.txt",
-      "description": "These bite-sized hotdog burnt ends get smoked until crispy on the outside, then glazed with BBQ sauce, butter, and brown sugar until they're sticky, sweet, and absolutely addictive. They're like candy for meat lovers — perfect for game day or any backyard gathering.",
+      "description": "Dive into the smoky goodness of Smoked and Candied BBQ Hotdog Burnt Ends, where juicy hotdogs or kielbasa are transformed into savory bites. Coated in a sweet and tangy mixture of yellow mustard, honey, and a bold BBQ seasoning with a touch of jalapeño heat, these burnt ends are smoked to perfection. Perfect for game day or any gathering, they are a flavor-packed treat that will leave you craving more!",
       "prep_time": "15 min",
       "cook_time": "2.5 hours",
       "servings": 8
@@ -617,7 +602,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_015.txt",
-      "description": "This hearty German-inspired potato salad is loaded with fire-grilled bratwursts, crispy bacon, and all the fixings. Perfect for cookouts or potlucks, with an optional hot beer cheese drizzle that takes it over the top.",
+      "description": "This Loaded Bratwurst Potato Salad is a hearty, smoky dish that combines tender potatoes with juicy bratwursts. Key ingredients like crispy bacon, tangy mustard, and fresh chives elevate each bite, making for an irresistible side. It's creamy yet robust, perfect for BBQs or family gatherings, delivering a burst of flavor that will have everyone coming back for seconds!",
       "prep_time": "25 min",
       "cook_time": "35 min",
       "servings": 12
@@ -655,7 +640,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_016.txt",
-      "description": "A rich, smoky spin on the classic dip loaded with five different cheeses, artichokes, and spinach. Perfect for game day or any gathering where you want to impress with bold, Southern-inspired flavors.",
+      "description": "Dive into the decadence of Smoked 5 Cheese Spinach Artichoke Dip, a creamy and cheesy delight packed with smoked cream cheese, rich gouda, and tangy feta. The combination of sautéed onions, jalapeños, and garlic brings a burst of flavor that pairs perfectly with crunchy chips or toasted baguette slices. Ideal for gatherings or cozy nights in, this dip is sure to impress with its smoky richness and creamy texture!",
       "prep_time": "20 min",
       "cook_time": "45 min",
       "servings": 10
@@ -691,7 +676,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_017.txt",
-      "description": "These sweet and tangy crockpot meatballs combine savory pork, sauerkraut, and a surprising mix of fruit and peppers for a crowd-pleasing dish that's perfect for game day or potlucks. The slow cooker does all the work while the flavors meld into something special.",
+      "description": "Sweet Sourkrout Meatballs are a deliciously unexpected comfort food, featuring tender meatballs and savory pork belly slow-cooked to perfection. The dish is made special with layers of tangy sauerkraut, sweet pineapple, and a unique sauce of chili sauce and grape jelly that creates an amazing sweet and savory balance. Perfect for a comforting dinner, this crockpot recipe is both easy and full of flavor!",
       "prep_time": "20 min",
       "cook_time": "6-7 hours",
       "servings": 8
@@ -730,7 +715,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_018.txt",
-      "description": "A wild fusion of crispy pork belly and caramelized onions swimming in a creamy Parmesan sauce with Asian heat from chili crisp. This ain't your grandma's spaghetti, but it'll make you just as happy.",
+      "description": "Experience a flavor explosion with Caramelized Onion and Garlic Asian Fusion Spaghetti, where al dente angel hair pasta meets crispy pork belly and sweet, caramelized onions. The blend of butter and pork fat creates a rich base that beautifully complements the garlic, making each bite a savory delight. It's a fusion dish that’s both comforting and exciting, perfect for impressing dinner guests or satisfying a craving!",
       "prep_time": "15 min",
       "cook_time": "45 min",
       "servings": 4
@@ -738,7 +723,7 @@
     {
       "title": "Crispy Chili Mayo Salad",
       "slug": "crispy-chili-mayo-salad",
-      "category": "soups",
+      "category": "salads-sides",
       "ingredients": [
         "2 cups shredded chicken or pork belly, cooked",
         "1/2 cup Greek yogurt",
@@ -766,7 +751,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_019.txt",
-      "description": "A crunchy, colorful salad bowl with tender shredded meat tossed in a creamy, spicy chili mayo dressing that's got just the right kick. Fresh veggies and crispy toppings make this a satisfying meal that's equal parts comfort food and crisp refreshment.",
+      "description": "Crispy Chili Mayo Salad is a vibrant and zesty dish that tantalizes the taste buds with its combination of Greek yogurt, crispy chili oil, and Hoisin sauce. Shredded chicken or pork belly join forces with fresh veggies like cucumber and carrots, creating a refreshing crunch that contrasts beautifully with the creamy dressing. This salad is not just a side; it’s a flavor-packed experience that transforms any meal!",
       "prep_time": "15 min",
       "cook_time": "0 min",
       "servings": 4
@@ -804,7 +789,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_020.txt",
-      "description": "A bold, creamy steak sauce loaded with cracked black pepper and bourbon that'll turn any steak dinner into something special. Perfect for dipping fries or drizzling over potatoes and beef.",
+      "description": "This Peppercorn Steak Sauce is a luxurious condiment perfect for elevating your steak. The rich combination of bourbon, heavy cream, and cracked black pepper creates a velvety sauce bursting with flavor. Its creamy texture and depth make every bite of steak irresistible, enticing anyone to whip this up for a gourmet meal at home.",
       "prep_time": "10 min",
       "cook_time": "15 min",
       "servings": 6
@@ -845,7 +830,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_021.txt",
-      "description": "A hearty pasta salad loaded with pepperoni, chicken, and fresh vegetables, all tossed in a tangy tomato-Italian sauce that's perfect for potlucks and cookouts.",
+      "description": "Bright and refreshing, this Tomato Pasta Salad is a delightful medley of rotini pasta, sautéed garlic, and zesty tomato paste. Tossed in a drizzle of olive oil and finished with a hint of butter, it's a perfect balance of flavors. With its vibrant colors and satisfying textures, this salad is a sure way to impress at any picnic or gathering.",
       "prep_time": "20 min",
       "cook_time": "15 min",
       "servings": 8
@@ -888,7 +873,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_022.txt",
-      "description": "This loaded breakfast crockpot is Southern comfort in a pot — packed with sausage, bacon, ham, cheesy hashbrowns, and plenty of eggs, all swimming in creamy country gravy with a kick of Cajun spice and hot sauce. Perfect for feeding a crowd on a lazy weekend morning.",
+      "description": "Start your day right with this Complete Breakfast Crockpot that's a hearty mix of breakfast sausage, crisp bacon, and sautéed vegetables like bell peppers and jalapeños. The slow-cooked blend of these savory ingredients creates a comforting and filling dish that's bursting with flavor. Perfect for busy mornings, this breakfast will have everyone rushing to the table for a delicious start.",
       "prep_time": "25 min",
       "cook_time": "6-7 hours on low",
       "servings": 12
@@ -920,7 +905,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_023.txt",
-      "description": "This loaded cheeseburger dip brings all your favorite burger toppings into one creamy, cheesy skillet that'll disappear faster than you can say 'pass the chips.' Perfect for game day or any time you're craving that classic cheeseburger flavor without the bun.",
+      "description": "Indulge in the creamy, cheesy goodness of this Cheeseburger Dip, where ground beef meets a melty blend of Velveeta, cheddar cheese, and cream cheese. The addition of diced onions adds a sweet crunch, making each bite an exciting explosion of flavors. Serve it warm with crispy tortilla chips, and you’ll have a crowd-pleaser that disappears in minutes at any gathering!",
       "prep_time": "15 min",
       "cook_time": "20 min",
       "servings": 8
@@ -954,7 +939,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_024.txt",
-      "description": "This slow cooker lasagna combines rich vodka sauce with layers of tender noodles and creamy cheese for an easy weeknight dinner that tastes like it took all day. Let your crockpot do the work while you get that classic Italian comfort food flavor.",
+      "description": "Dive into the layers of deliciousness in this Crockpot Vodka Sauce Lasagna, featuring zesty Italian sausage, ricotta cheese, and a rich vodka sauce. As it cooks slowly, the flavors meld beautifully, creating a comforting dish that’s both hearty and satisfying. Perfect for a family dinner, this lasagna is sure to be a showstopper that keeps everyone coming back for seconds!",
       "prep_time": "20 min",
       "cook_time": "4-5 hours",
       "servings": 6
@@ -984,7 +969,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_025.txt",
-      "description": "All the comfort of classic lasagna without heating up the oven — this crockpot version layers tender noodles, rich meat sauce, and melty cheese for an easy weeknight dinner that practically cooks itself.",
+      "description": "Crockpot lasagna is a comforting one-pot meal that layers savory ground beef with creamy ricotta cheese and rich marinara sauce. The Italian seasoning and garlic powder elevate the flavors, creating an irresistible aroma as it cooks. This dish combines hearty ingredients that meld together beautifully, making it a perfect, hassle-free dinner that everyone will love!",
       "prep_time": "20 min",
       "cook_time": "4-5 hours",
       "servings": 6
@@ -1023,7 +1008,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_026.txt",
-      "description": "A hearty crockpot enchilada casserole loaded with chicken, chorizo, and all the fixings that'll have everyone coming back for seconds. Just layer everything in the slow cooker and let it do the work while you kick back.",
+      "description": "Indulge in the irresistible flavors of Chicken Enchiladas made in a crockpot, where tender chicken melds with creamy salsa, tangy sour cream, and zesty taco seasoning. The combination of crumbled chorizo and vibrant bell peppers adds a delightful kick, making each bite a fiesta for your taste buds. With the ease of slow cooking, you’ll want to savor this crowd-pleasing dish at every gathering!",
       "prep_time": "20 min",
       "cook_time": "6-7 hours",
       "servings": 8
@@ -1059,7 +1044,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_027.txt",
-      "description": "Tender chicken in a rich, creamy garlic parmesan sauce with roasted tomatoes and veggies, all made easy in the crockpot. Toss it with angel hair pasta for a comforting meal that tastes like it took way more effort than it did.",
+      "description": "Garlic Parmesan Chicken Pasta is a slow-cooked delight that features tender chicken breasts infused with rich butter, aromatic garlic, and fresh rosemary. The juicy cherry tomatoes and colorful red peppers create a vibrant and flavorful sauce that beautifully coats the pasta. This dish is not just a meal; it’s a comforting embrace on a plate that will leave you craving every last bite!",
       "prep_time": "20 min",
       "cook_time": "6 hours",
       "servings": 6
@@ -1097,7 +1082,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_028.txt",
-      "description": "This loaded pizza dip tastes like your favorite pepperoni and sausage pizza in creamy, scoopable form. Packed with spicy Italian sausage, tons of pepperoni, and three kinds of cheese, it's the perfect game day appetizer with toasted garlic bread.",
+      "description": "Pepperoni and Sausage Pizza Dip is a mouthwatering appetizer that combines spicy Italian sausage, pepperoni, and gooey cream cheese for a pizza lover’s dream come true. The addition of marinara sauce and melted Parmesan cheese creates a luscious, savory dip perfect for scooping with crunchy chips. Dive into this cheesy, decadent treat that’s sure to impress at your next party!",
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 10
@@ -1133,7 +1118,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_029.txt",
-      "description": "This loaded queso dip combines smoky pulled pork, crispy bacon, and sweet maple beans with a creamy cheese blend that'll have everyone fighting over the last scoop. Perfect for game day or any gathering where you want to be a hero.",
+      "description": "Pulled Pork BBQ Queso Dip is a creamy, cheesy dip that brings together smoky pulled pork, Velveeta, and pepper jack cheese for an explosion of flavor. The addition of green chilies and sweet corn adds a delightful texture, making it a must-have for any gathering. This dip is perfect for sharing, and once you taste it, you’ll be dreaming of making it again and again!",
       "prep_time": "20 min",
       "cook_time": "25 min",
       "servings": 12
@@ -1164,7 +1149,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_030.txt",
-      "description": "This loaded jalapeño poppers dip brings all the flavor of your favorite appetizer in a hot, creamy, shareable form. Packed with bacon, beef, jalapeños, and three kinds of cheese, it's the kind of dip that disappears fast at parties.",
+      "description": "Dive into the creamy delight of Jalapeño Poppers Dip, a mouthwatering blend of browned ground beef, diced jalapeños, and sweet corn. Infused with a hint of red onion and topped with melted cheese, each bite delivers a spicy, savory punch that will leave your taste buds dancing. Perfect for gatherings, this dip is a crowd-pleaser that brings the heat!",
       "prep_time": "20 min",
       "cook_time": "30 min",
       "servings": 10
@@ -1202,7 +1187,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_031.txt",
-      "description": "A bold, tangy Louisiana-style sauce with serious kick — perfect for fried seafood, po'boys, or as a dipping sauce for just about anything that needs some South in its mouth.",
+      "description": "Elevate your dishes with zesty Remoulade Sauce, combining rich mayonnaise, tangy whole grain mustard, and a kick of horseradish. This creamy concoction is perfectly balanced with fresh herbs, Sriracha, and Worcestershire sauce, bringing a burst of flavor to seafood, fries, or sandwiches. Each dip promises a tantalizing taste sensation that will keep you coming back for more!",
       "prep_time": "15 min",
       "cook_time": "0 min",
       "servings": 8
@@ -1236,7 +1221,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_032.txt",
-      "description": "A rich, savory-sweet peanut sauce with plenty of heat that's perfect for dipping spring rolls, drizzling over noodles, or using as a marinade. This restaurant-quality sauce comes together in minutes and keeps for weeks in the fridge.",
+      "description": "Asian Peanut Sauce is a luxurious blend of creamy peanut butter, sticky honey, and savory soy sauce that creates a rich, irresistible dip or dressing. Enhanced with the bright notes of lime juice, sesame oil, and a kick from sriracha and garlic chili paste, it's the perfect accompaniment for spring rolls, salads, or grilled chicken. This sauce is a flavor explosion that will transport your palate straight to the streets of Asia!",
       "prep_time": "10 min",
       "cook_time": "0 min",
       "servings": 8
@@ -1262,7 +1247,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_033.txt",
-      "description": "A sweet and tangy sauce with a smoky kick that's perfect for dipping chicken tenders, drizzling over grilled pork chops, or glazing meatballs. This crowd-pleaser comes together in minutes and tastes like something you'd get at your favorite takeout spot.",
+      "description": "Polynesian Sauce is a tropical treat featuring a vibrant mix of Catalina dressing, honey, and pineapple juice that’s both sweet and tangy. Enhanced with apple cider vinegar, smoked paprika, and a hint of brown sugar, this sauce brings a delightful balance that enhances grilled meats and salads alike. It's a taste of the islands in every bite, making your meals feel like a mini-vacation!",
       "prep_time": "5 min",
       "cook_time": "0 min",
       "servings": 8
@@ -1297,7 +1282,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_034.txt",
-      "description": "This tangy, smoky sauce takes Chick-fil-A's famous dipping sauce and kicks it up several notches with sautéed vegetables, pickles, and a touch of heat. Perfect for chicken tenders, fries, or as a sandwich spread.",
+      "description": "Better Chick-fil-A Sauce is a game-changer that melds rich mayonnaise, zesty BBQ sauce, and honey mustard into a creamy, irresistible blend. Infused with sautéed onions, jalapeños, and a touch of hot honey, this sauce packs a punch that will elevate your chicken nuggets and fries to new heights. One dip will have you hooked, transforming your meals into a flavorful experience!",
       "prep_time": "15 min",
       "cook_time": "5 min",
       "servings": 12
@@ -1342,7 +1327,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_036.txt",
-      "description": "This ain't your average breakfast burrito — loaded with hot honey pork belly, three kinds of cheese, crispy potatoes, and a smoky chipotle-cilantro cream sauce that'll wake you right up. Fair warning: it's messy, it's indulgent, and it's absolutely worth it.",
+      "description": "The Bussin Breakfast Burrito is a hearty breakfast wrap loaded with crispy pork belly, smoky green chiles, and sweet corn. This incredible combination is drizzled with zesty hot honey, creating a flavor explosion that will make your mornings feel special. Dive into this delightful burrito for a satisfying start to your day!",
       "prep_time": "20 min",
       "cook_time": "25 min",
       "servings": 4
@@ -1350,7 +1335,7 @@
     {
       "title": "Cajun Honey Burger Sauce",
       "slug": "cajun-honey-burger-sauce",
-      "category": "burger-sauces",
+      "category": "sauces",
       "ingredients": [
         "2 tablespoons butter",
         "1 medium yellow onion, finely diced",
@@ -1375,7 +1360,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_037.txt",
-      "description": "A sweet and spicy Cajun-inspired burger sauce with sautéed peppers and onions that adds a bold kick to any burger. The combination of honey and Cajun seasoning creates the perfect balance of heat and sweetness.",
+      "description": "Elevate your burger game with Cajun Honey Burger Sauce, a luscious blend of sautéed onions, garlic, and vibrant red and green peppers. The addition of Worcestershire sauce gives it a savory depth, perfectly balancing the sweet and spicy elements. This sauce will make every bite of your burger sing with flavor, leaving you craving more!",
       "prep_time": "10 min",
       "cook_time": "10 min",
       "servings": 8
@@ -1383,7 +1368,7 @@
     {
       "title": "Cajun Alfredo Wing Sauce",
       "slug": "cajun-alfredo-wing-sauce",
-      "category": "wing-sauces",
+      "category": "sauces",
       "ingredients": [
         "1 cup heavy cream",
         "4 tablespoons butter",
@@ -1411,7 +1396,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_042.txt",
-      "description": "A rich, creamy Cajun-spiced alfredo sauce with roasted garlic, bacon, and a hint of tomato that'll take your wings from good to downright addictive. This isn't your typical wing sauce — it's thick, indulgent, and packed with flavor.",
+      "description": "Cajun Alfredo Wing Sauce is a creamy, luxurious dip that transforms your wings into a decadent feast. Infused with roasted garlic, buttery sautéed onions, and rich heavy cream, this sauce packs a savory punch that is simply irresistible. It's the ultimate indulgence for wing lovers, making your game day even more exciting!",
       "prep_time": "15 min",
       "cook_time": "50 min",
       "servings": 8
@@ -1419,7 +1404,7 @@
     {
       "title": "Pineapple Jalapeno cream cheese bacon jam",
       "slug": "pineapple-jalapeno-cream-cheese-bacon-jam",
-      "category": "jams",
+      "category": "sauces",
       "ingredients": [
         "1 lb bacon, chopped",
         "1 large onion, diced",
@@ -1439,7 +1424,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_044.txt",
-      "description": "A sweet, smoky, and spicy bacon jam loaded with caramelized onions, pineapple, and jalapeños, then swirled with cream cheese for the ultimate party dip or sandwich spread.",
+      "description": "Pineapple Jalapeno Cream Cheese Bacon Jam is a sweet and spicy spread that marries crispy bacon with caramelized onions and vibrant jalapeños. The addition of juicy pineapple creates a delicious contrast, making it an addictive topping for crackers or toast. This jam is a true party starter that will have everyone coming back for more!",
       "prep_time": "15 min",
       "cook_time": "35 min",
       "servings": 12
@@ -1474,7 +1459,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_045.txt",
-      "description": "This crisp, tangy cucumber salad has that perfect balance of sweet, salty, and spicy that'll keep you coming back for more. Great as a cool side dish for grilled meats or just snacking straight out of the bowl.",
+      "description": "Asian Cucumber Salad is a refreshing dish that combines crisp cucumbers, crunchy cabbage, and zesty red onions. Tossed in a tangy dressing made with rice vinegar, soy sauce, and a hint of sweet chili sauce, each bite is a burst of flavor. Perfect as a side or a light meal, this salad will add vibrancy to your table!",
       "prep_time": "15 min",
       "cook_time": "0 min",
       "servings": 6
@@ -1482,7 +1467,7 @@
     {
       "title": "Thai chili bacon jam",
       "slug": "thai-chili-bacon-jam",
-      "category": "jams",
+      "category": "sauces",
       "ingredients": [
         "1 lb thick-cut bacon, diced",
         "3 shallots, finely diced",
@@ -1504,7 +1489,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_046.txt",
-      "description": "A sweet, savory, and spicy bacon jam with Thai flavors that's perfect on crackers, biscuits, or burgers. The crispy bacon combined with garlic, shallots, and Thai chilis creates an addictive spread you'll want to put on everything.",
+      "description": "This Thai chili bacon jam is a savory-sweet condiment that elevates any dish. Featuring crispy bacon, fragrant shallots, fiery Thai chilis, and rich garlic, it delivers an explosion of flavors. The smoky, spicy undertones paired with the sweetness create an addictive topping perfect for burgers, toast, or charcuterie boards!",
       "prep_time": "15 min",
       "cook_time": "45 min",
       "servings": 8
@@ -1512,7 +1497,7 @@
     {
       "title": "Pepperoni Cherry Tomatoe jam",
       "slug": "pepperoni-cherry-tomatoe-jam",
-      "category": "jams",
+      "category": "sauces",
       "ingredients": [
         "1 cup diced pepperoni",
         "3 cups cherry tomatoes, halved",
@@ -1532,7 +1517,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_047.txt",
-      "description": "A savory-sweet jam that's perfect for spreading on crackers or crostini at your next get-together. The pepperoni adds a bold, meaty punch while the tomatoes break down into a thick, spreadable condiment.",
+      "description": "Pepperoni cherry tomato jam is a unique blend of savory and sweet, combining crispy pepperoni and juicy cherry tomatoes. Enhanced by sautéed onions, garlic, and fragrant Italian seasoning, this jam is bursting with flavor. Spread it on crostini or use it as a pizza topping for an unforgettable twist on classic Italian tastes!",
       "prep_time": "10 min",
       "cook_time": "35 min",
       "servings": 8
@@ -1564,7 +1549,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_050.txt",
-      "description": "A sticky-sweet sauce with a kick that's perfect for coating chicken wings, drizzling over stir-fry, or using as a glaze for grilled meats. The honey and garlic combo is addictive, with just enough heat from the red pepper flakes to keep things interesting.",
+      "description": "This honey garlic sauce is a luscious blend that transforms any dish into a delicious masterpiece. With a base of sweet honey, umami-rich soy sauce, and a hint of zesty rice vinegar, it's the perfect balance of sweet and savory. Drizzle it over meats, toss it with veggies, or use it as a dip—once you try it, you'll be hooked!",
       "prep_time": "10 min",
       "cook_time": "8 min",
       "servings": 8
@@ -1598,7 +1583,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_051.txt",
-      "description": "Sweet and sticky sesame chicken with a little kick — way better than takeout and ready in about the same time. Serve it over white rice with extra green onions on top.",
+      "description": "Sesame chicken is a delightful dish that features tender chicken pieces coated in a rich, sticky sauce made of soy sauce, honey, and garlic. The addition of Sriracha brings a subtle heat that perfectly complements the sweetness. It's an irresistible meal that’s quick to make and exploding with flavor—perfect for a weeknight dinner or impressing guests!",
       "prep_time": "10 min",
       "cook_time": "15 min",
       "servings": 4
@@ -1606,7 +1591,7 @@
     {
       "title": "Crispy Honey Lemon Pepper Wing Sauce",
       "slug": "crispy-honey-lemon-pepper-wing-sauce",
-      "category": "wing-sauces",
+      "category": "sauces",
       "ingredients": [
         "1/2 cup hot honey",
         "2 teaspoons sriracha",
@@ -1633,7 +1618,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_052.txt",
-      "description": "A bold, sticky wing sauce that brings serious heat and crunch with layers of spicy honey, bright lemon, and that addictive chili crisp texture. Perfect for tossing with crispy fried wings when you want something way more interesting than plain buffalo.",
+      "description": "Crispy honey lemon pepper wing sauce is a tantalizing blend that brings your wings to a new level of flavor. With a kick from cayenne and a zesty brightness from lemon juice and zest, it's perfectly balanced by the sweetness of hot honey. This sauce delivers a delightful crunch and zing that will have everyone reaching for seconds!",
       "prep_time": "10 min",
       "cook_time": "8 min",
       "servings": 8
@@ -1668,7 +1653,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_053.txt",
-      "description": "A bold, kicked-up ranch dressing with extra garlic, fresh herbs, and a spicy punch from cayenne and red pepper flakes. Perfect for dipping wings, drizzling on salads, or slathering on just about anything that needs some cowboy attitude.",
+      "description": "Cowboy Ranch is a creamy, herbaceous dipping sauce perfect for drizzling over salads or serving with veggies. It features a rich blend of mayonnaise, sour cream, and buttermilk, enhanced with zesty lemon juice and aromatic herbs like parsley and dill. This tangy and flavorful ranch will elevate any dish, making it a must-have for those who crave a burst of freshness!",
       "prep_time": "10 min",
       "cook_time": "0 min",
       "servings": 8
@@ -1676,7 +1661,7 @@
     {
       "title": "Orange Chicken sauce",
       "slug": "orange-chicken-sauce",
-      "category": "mains",
+      "category": "sauces",
       "ingredients": [
         "1 cup orange juice",
         "1/3 cup soy sauce",
@@ -1701,7 +1686,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_054.txt",
-      "description": "A sweet and tangy homemade orange sauce with just the right amount of heat — perfect for coating crispy chicken or tossing with stir-fried vegetables. Way better than takeout and easy to make in one pot.",
+      "description": "Orange Chicken sauce is a vibrant and sticky glaze that transforms ordinary chicken into a savory-sweet sensation. Made with fresh orange juice, soy sauce, and a hint of sesame oil, this sauce is balanced with garlic and ginger pastes, a touch of brown sugar, and zesty orange marmalade. The result is an irresistible, tangy flavor that brings a taste of takeout to your kitchen, perfect for any weeknight dinner!",
       "prep_time": "10 min",
       "cook_time": "10 min",
       "servings": 6
@@ -1735,7 +1720,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_055.txt",
-      "description": "A rich, creamy garlic sauce with tangy Parmesan that's perfect for dipping breadsticks, drizzling over pizza, or tossing with pasta. This Southern Italian-inspired sauce comes together quick and packs serious flavor.",
+      "description": "Garlic Parmesan Sauce is a luscious, creamy dressing that’s all about indulgent flavor and rich texture. Combining melted butter, fragrant minced garlic, and heavy cream creates a dreamy base, while tangy Parmesan cheese adds a delightful umami kick. This sauce is a game changer for pasta, pizza, or even as a dip, ensuring every bite is a heavenly experience!",
       "prep_time": "10 min",
       "cook_time": "8 min",
       "servings": 8
@@ -1772,7 +1757,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_056.txt",
-      "description": "A bold, tangy blue cheese sauce loaded with chunks of dehydrated veggies and tons of black pepper. Perfect for dipping wings, drizzling on burgers, or tossing with salad greens.",
+      "description": "Blue Cheese Crazy Chunky Sauce is a decadent, chunky spread that’s bursting with bold flavors. This unique blend brings together creamy blue cheese, cottage cheese, and mayo, enriched with minced garlic, dill, and crunchy bits of dehydrated cucumber and red bell pepper. Perfect for slathering on burgers or as a dip for veggies, this sauce is a flavor explosion that's sure to impress!",
       "prep_time": "15 min",
       "cook_time": "0 min",
       "servings": 8
@@ -1780,7 +1765,7 @@
     {
       "title": "Bbq buffalo Wing Sauce",
       "slug": "bbq-buffalo-wing-sauce",
-      "category": "wing-sauces",
+      "category": "sauces",
       "ingredients": [
         "1/2 cup butter",
         "1 cup Buffalo sauce",
@@ -1801,7 +1786,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_057.txt",
-      "description": "A tangy, sweet, and spicy sauce that brings together the best of Buffalo and BBQ flavors with a hint of honey and lime. Perfect for coating wings or tossing with chicken tenders.",
+      "description": "BBQ Buffalo Wing Sauce is a fiery, finger-licking blend that takes your wings to the next level. Loaded with tangy Buffalo sauce, sweet honey, and smoky BBQ sauce, it’s elevated with fresh lime juice and a kick of red pepper flakes. This tantalizing sauce is perfect for game day or any gathering, making every bite a deliciously spicy celebration!",
       "prep_time": "5 min",
       "cook_time": "10 min",
       "servings": 8
@@ -1829,7 +1814,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_058.txt",
-      "description": "A sweet and spicy sauce that balances fruity mango with fiery habanero heat. Perfect for glazing grilled chicken, drizzling over tacos, or using as a dipping sauce.",
+      "description": "This Mango Habanero Sauce is a vibrant blend of sweet and spicy, featuring luscious mango puree, fiery minced habaneros, and fragrant garlic. Finished with a squeeze of zesty lime juice and a touch of honey, each dip explodes with flavor. Perfect for adding a kick to grilled meats or as a bold dressing for fresh salads!",
       "prep_time": "10 min",
       "cook_time": "15 min",
       "servings": 8
@@ -1857,7 +1842,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_059.txt",
-      "description": "A sweet and smoky sauce with a kick that'll make any fried chicken sing. Dave knew what he was doing with this one — it's got that perfect balance of heat, tang, and caramelized onion sweetness.",
+      "description": "Dave's Hot Chicken Sauce is a creamy and spicy delight made with rich mayonnaise, smoky chipotle sauce, and a dash of brown sugar for balance. This sauce is exceptionally versatile, enhancing everything from crispy chicken to fries. Its tangy notes from apple cider vinegar and the warmth from sautéed onions will have your taste buds dancing!",
       "prep_time": "10 min",
       "cook_time": "0 min",
       "servings": 8
@@ -1886,7 +1871,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_060.txt",
-      "description": "This bright, creamy sauce packs a punch with roasted jalapeños and garlic, balanced by cool avocado and tangy lime. Perfect for tacos, grilled chicken, or as a zesty dip for chips.",
+      "description": "Creamy Avocado Lime Sauce is a luxurious, zesty dip featuring roasted jalapeños and garlic, blended to perfection. The smokiness from the charred veggies combined with fresh lime creates a refreshingly bold flavor. Drizzle it over tacos, grilled fish, or salads, and watch it elevate any dish to a tropical paradise!",
       "prep_time": "10 min",
       "cook_time": "15 min",
       "servings": 6
@@ -1915,7 +1900,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_061.txt",
-      "description": "A sweet and smoky sauce with a kick — perfect for topping grilled chicken, fish tacos, or as a dipping sauce for fries and sandwiches.",
+      "description": "Pineapple Chipotle Mayo Sauce is a tropical twist on classic mayo, with finely chopped chipotle peppers and sweet pineapple chunks. The adobo sauce complements the honey and cilantro, adding layers of flavor that are smoky, sweet, and tangy. This sauce is an irresistible companion for sandwiches and grilled shrimp that will take your taste buds on a flavorful journey!",
       "prep_time": "10 min",
       "cook_time": "0 min",
       "servings": 8
@@ -1923,7 +1908,7 @@
     {
       "title": "Big Mac Sauce",
       "slug": "big-mac-sauce",
-      "category": "burger-sauces",
+      "category": "sauces",
       "ingredients": [
         "1 cup mayonnaise",
         "2 tablespoons yellow mustard",
@@ -1946,7 +1931,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_062.txt",
-      "description": "This tangy, creamy sauce is a dead-on copycat of the iconic Big Mac special sauce, with sweet pickle relish, caramelized onions, and a hint of roasted garlic that takes it up a notch.",
+      "description": "Big Mac Sauce is the secret ingredient that makes burgers sing! Combining creamy mayo, tangy relish, and sweet caramelized onions, this sauce is a nostalgic nod to the classic. A hint of paprika adds warmth, making it a must-have for your next burger night, ensuring every bite is bursting with savory goodness!",
       "prep_time": "10 min",
       "cook_time": "30 min",
       "servings": 12
@@ -1954,7 +1939,7 @@
     {
       "title": "Dr Pepper BBQ Wing Sauce",
       "slug": "dr-pepper-bbq-wing-sauce",
-      "category": "wing-sauces",
+      "category": "sauces",
       "ingredients": [
         "1 cup Dr Pepper",
         "1 cup ketchup",
@@ -1976,7 +1961,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_063.txt",
-      "description": "A sweet and tangy wing sauce with that classic Dr Pepper flavor — perfect for game day wings with just enough kick to keep things interesting.",
+      "description": "This Dr Pepper BBQ Wing Sauce is a sweet and tangy glaze that elevates your wings to new heights! Key players include Dr Pepper, Worcestershire sauce, and chili powder, creating a rich depth of flavor. The combination of sweetness from the brown sugar and a kick from the cayenne makes every bite irresistible, perfect for your next game day or backyard BBQ.",
       "prep_time": "5 min",
       "cook_time": "25 min",
       "servings": 8
@@ -1984,7 +1969,7 @@
     {
       "title": "Sunkist Buffalo Wing Sauce",
       "slug": "sunkist-buffalo-wing-sauce",
-      "category": "wing-sauces",
+      "category": "sauces",
       "ingredients": [
         "1 cup Frank's RedHot sauce",
         "1/2 cup Sunkist orange soda",
@@ -2004,7 +1989,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_064.txt",
-      "description": "A tangy-sweet buffalo sauce with a citrus twist that'll make your wings stand out at any gathering. The Sunkist orange and hot honey balance the heat from Frank's RedHot for a sauce that's bold but not one-note.",
+      "description": "Dive into the bold flavors of Sunkist Buffalo Wing Sauce, a zesty twist on the classic! This sauce features Frank's RedHot, Sunkist orange soda, and fresh orange zest, giving it a citrusy kick alongside the heat. The delightful balance of sweetness and spiciness makes it a must-try for wing lovers looking to jazz up their appetizer game!",
       "prep_time": "5 min",
       "cook_time": "15 min",
       "servings": 8
@@ -2033,7 +2018,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_065.txt",
-      "description": "A sweet and tangy glaze with a hint of smoke that caramelizes beautifully on burgers, ribs, or chicken. The cola adds a unique depth and helps create that perfect sticky-glossy finish.",
+      "description": "Coca Cola BBQ Glaze is a sticky-sweet sauce that enhances any grilled dish with its unique flavor profile. Combining Coca-Cola, BBQ sauce, and smoked paprika results in a robust, caramelized glaze that's absolutely mouthwatering. Perfect for slathering on ribs or burgers, this glaze will have your taste buds dancing with delight!",
       "prep_time": "5 min",
       "cook_time": "25 min",
       "servings": 8
@@ -2041,7 +2026,7 @@
     {
       "title": "Peach Chutney BBQ Burger Topping",
       "slug": "peach-chutney-bbq-burger-topping",
-      "category": "burger-sauces",
+      "category": "sauces",
       "ingredients": [
         "3 cups ripe peaches, diced (about 4-5 peaches)",
         "1/2 cup sugar",
@@ -2061,7 +2046,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_066.txt",
-      "description": "A sweet and tangy peach chutney with warm spices that turns any burger into something special. The fruit and vinegar balance cuts right through rich beef and melted cheese.",
+      "description": "Transform your burgers with this Peach Chutney BBQ Burger Topping, bursting with fruity and savory goodness! Fresh peaches, minced ginger, and diced onions simmer together for a sweet and tangy complement that takes your grilling game to the next level. This vibrant chutney adds depth and a refreshing twist, making every bite a celebration of summer flavors!",
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 8
@@ -2069,7 +2054,7 @@
     {
       "title": "Ripe peaches",
       "slug": "ripe-peaches",
-      "category": "quick-ideas",
+      "category": "sauces",
       "ingredients": [
         "4 cups diced ripe peaches (about 6-8 peaches)",
         "3/4 cup sugar",
@@ -2088,7 +2073,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_067.txt",
-      "description": "A sweet and tangy peach chutney that's perfect for topping burgers with sharp cheddar or spreading on a Brie-topped baguette. The ginger and cinnamon add just enough warmth to balance the bright peaches.",
+      "description": "Ripe peaches are a versatile delight that can elevate any dish with their juicy sweetness! When diced and simmered, they transform into a jam-like consistency that captures the essence of summer. Perfect for topping pancakes, adding to smoothies, or simply enjoying by the spoonful, these peaches will make your taste buds sing with joy!",
       "prep_time": "15 min",
       "cook_time": "40 min",
       "servings": 8
@@ -2096,7 +2081,7 @@
     {
       "title": "Tomato Jam burger topping",
       "slug": "tomato-jam-burger-topping",
-      "category": "burger-sauces",
+      "category": "sauces",
       "ingredients": [
         "2 lbs Roma tomatoes, chopped",
         "1/2 cup brown sugar",
@@ -2117,7 +2102,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_068.txt",
-      "description": "A sweet and tangy tomato spread with a grown-up kick that'll make you forget all about regular ketchup. Perfect for burgers, but you'll find yourself putting it on everything from grilled cheese to meatloaf.",
+      "description": "This Tomato Jam burger topping is a sweet and savory spread that elevates any burger. Featuring ripe Roma tomatoes, a medley of spices, and a touch of sugar, this jam transforms simple ingredients into a flavor-packed delight. Its thick, rich consistency and tangy sweetness will have you slathering it on everything, ensuring each bite is a burst of deliciousness.",
       "prep_time": "10 min",
       "cook_time": "1 hour",
       "servings": 8
@@ -2125,7 +2110,7 @@
     {
       "title": "Crazy Chicken Sandwiches",
       "slug": "crazy-chicken-sandwiches",
-      "category": "mains",
+      "category": "sandwiches",
       "ingredients": [
         "2 lbs boneless skinless chicken thighs",
         "2 cups all-purpose flour",
@@ -2155,7 +2140,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_069.txt",
-      "description": "This is Ben's ultimate chicken sandwich collection — crispy fried chicken thighs on buttered potato buns with over 100 wild flavor combinations. From classic Buffalo to crazy ideas like Blueberry Bacon Banana PB, there's a Chicksan for every mood.",
+      "description": "Dive into the mouthwatering Crazy Chicken Sandwiches, where crispy fried chicken thighs steal the show! Drenched in a flavorful buttermilk and hot sauce mixture, then coated in a seasoned blend of flour and potato starch, each bite offers a delightful crunch and tender juiciness. Personalize your spice level with curry powder for a Tikka Masala twist or an extra kick of cayenne for Buffalo heat—these sandwiches are sure to satisfy your cravings!",
       "prep_time": "20 min",
       "cook_time": "25 min",
       "servings": 4
@@ -2163,7 +2148,7 @@
     {
       "title": "Brown Sugar Hot Wing Sauce",
       "slug": "brown-sugar-hot-wing-sauce",
-      "category": "wing-sauces",
+      "category": "sauces",
       "ingredients": [
         "1 cup Frank's RedHot sauce",
         "1/2 cup packed brown sugar",
@@ -2178,7 +2163,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_070.txt",
-      "description": "A sweet and spicy wing sauce that hits all the right notes — the tangy kick of Frank's RedHot mellowed out with rich brown sugar and a touch of hot honey for complexity. Perfect for folks who like their wings with a little sweetness to balance the heat.",
+      "description": "Brown Sugar Hot Wing Sauce is a fiery-sweet glaze that takes your wings to the next level. The combination of Frank's RedHot sauce and rich brown sugar creates an irresistible sticky coating that caramelizes beautifully. Finished with a splash of hot honey for an extra layer of flavor, this sauce promises a sweet heat that will keep you coming back for more!",
       "prep_time": "5 min",
       "cook_time": "5 min",
       "servings": 8
@@ -2206,7 +2191,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_071.txt",
-      "description": "A creamy, sweet and spicy Korean-inspired mayo that's perfect for burgers, fries, or drizzling over rice bowls. The caramelized onions add a rich depth that takes this aioli way beyond ordinary.",
+      "description": "Experience the umami explosion of Sweet Gochujang Aioli, a creamy condiment that packs a punch! Combining luscious mayonnaise with the spicy-sweet gochujang paste, fragrant sesame oil, and a hint of rice vinegar, this sauce is a flavor bomb for any dish. Toss in minced garlic and sautéed onions for extra depth, and you'll find yourself drenching everything in this addictive aioli!",
       "prep_time": "10 min",
       "cook_time": "0 min",
       "servings": 8
@@ -2214,7 +2199,7 @@
     {
       "title": "Candied Bacon, Jalapeños, and Apples Burger Topping",
       "slug": "candied-bacon-jalapenos-and-apples-burger-topping",
-      "category": "burger-sauces",
+      "category": "sauces",
       "ingredients": [
         "8 slices thick-cut bacon",
         "3 tablespoons maple syrup",
@@ -2235,7 +2220,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_072.txt",
-      "description": "A sweet and spicy burger topper that brings together candied bacon, quick-pickled jalapeños, and crisp apple chunks. The combination of maple-glazed pork, tangy heat, and fresh crunch takes any burger from ordinary to unforgettable.",
+      "description": "Transform your burger with a heavenly blend of Candied Bacon, Jalapeños, and Apples! Crispy bacon, brushed with maple syrup and raw sugar, becomes a sweet and salty topping that perfectly complements the heat from jalapeños and the crispness of fresh apples. This topping is not just flavorful; it's an exciting textural journey that will elevate your burger game to legendary status!",
       "prep_time": "10 min",
       "cook_time": "25 min",
       "servings": 8
@@ -2243,7 +2228,7 @@
     {
       "title": "Smash Burger Copy Cat Sauce",
       "slug": "smash-burger-copy-cat-sauce",
-      "category": "burger-sauces",
+      "category": "sauces",
       "ingredients": [
         "1 cup mayonnaise",
         "3 tablespoons ketchup",
@@ -2263,7 +2248,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_074.txt",
-      "description": "This tangy, creamy burger sauce brings that classic smash burger shop flavor right to your backyard grill. Perfect balance of heat, sweet, and savory that'll make any burger taste like it came from your favorite burger joint.",
+      "description": "This Smash Burger Copy Cat Sauce is the ultimate topping for any burger lover! Featuring creamy mayonnaise, zesty Sriracha, and tangy Worcestershire sauce, it packs a flavor punch that's irresistible. The sautéed shallots add a sweet depth, making every bite incredibly savory and utterly satisfying.",
       "prep_time": "10 min",
       "cook_time": "5 min",
       "servings": 8
@@ -2271,7 +2256,7 @@
     {
       "title": "Classic Burger Sauce",
       "slug": "classic-burger-sauce",
-      "category": "burger-sauces",
+      "category": "sauces",
       "ingredients": [
         "1/2 cup mayonnaise",
         "1/4 cup ketchup",
@@ -2295,7 +2280,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_075.txt",
-      "description": "This Classic Burger Sauce packs a flavorful punch with creamy mayo, tangy ketchup, and a hint of savory bacon. It’s the perfect topping to elevate your burger game to a whole new level.",
+      "description": "Elevate your burger experience with this Classic Burger Sauce, a creamy blend of mayonnaise, ketchup, and yellow mustard. The diced dill pickles and crispy bacon bits bring a delightful crunch, while the Worcestershire sauce and garlic powder infuse savory notes that are simply mouthwatering. Perfect for slathering on burgers or dipping fries, it’s a condiment you can't live without!",
       "prep_time": "15 min",
       "cook_time": "0 min",
       "servings": 4
@@ -2321,7 +2306,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_076.txt",
-      "description": "This Hot Honey Apple Mayo Sauce combines creamy mayo with a kick of Sriracha and sweet hot honey, perfectly balanced by sautéed onions and crisp red apple for a zesty dip or sandwich spread.",
+      "description": "Transform your dishes with the Hot Honey Apple Mayo Sauce, a sweet and spicy blend that brings the perfect balance of flavors. Made with mayonnaise and a kick of Sriracha, it’s complemented by tangy sautéed onions and crisp red apple for a refreshing bite. This sauce is a game-changer that adds excitement to sandwiches, salads, or as a dip!",
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 4
@@ -2329,7 +2314,7 @@
     {
       "title": "White Whole Grain Burger Sauce",
       "slug": "white-whole-grain-burger-sauce",
-      "category": "burger-sauces",
+      "category": "sauces",
       "ingredients": [
         "1/2 cup mayonnaise",
         "1 tablespoon butter",
@@ -2350,81 +2335,15 @@
       ],
       "youtube_url": null,
       "source_file": "note_077.txt",
-      "description": "This creamy and zesty white whole grain burger sauce brings a delightful twist to your burgers, combining the tang of dill pickles and whole grain mustard with the smoothness of mayo and a hint of spice.",
+      "description": "This White Whole Grain Burger Sauce offers a unique twist with its hearty blend of whole grain mustard and sweet sautéed onions. The creamy mayonnaise, tangy dill pickles, and a touch of paprika provide a flavorful depth that elevates any burger. It’s the perfect combo of textures and tastes that makes your backyard BBQ unforgettable!",
       "prep_time": "15 min",
       "cook_time": "10 min",
       "servings": 4
     },
     {
-      "title": "Hot Honey Apple Mayo Sauce",
-      "slug": "hot-honey-apple-mayo-sauce-078",
-      "category": "sauces",
-      "ingredients": [
-        "1 cup mayonnaise",
-        "2 tablespoons sriracha",
-        "1/4 cup hot honey",
-        "1/2 cup sautéed onions",
-        "1 crisp red apple, finely chopped",
-        "2 cloves roasted garlic, minced"
-      ],
-      "directions": [
-        "In a medium bowl, combine the mayonnaise, sriracha, and hot honey. Mix until smooth.",
-        "Add the sautéed onions, chopped apple, and roasted garlic to the bowl.",
-        "Stir all the ingredients together until well combined.",
-        "Taste and adjust seasoning if necessary, adding more hot honey or sriracha for additional heat.",
-        "Serve immediately, or refrigerate for up to an hour to let the flavors meld."
-      ],
-      "youtube_url": null,
-      "source_file": "note_078.txt",
-      "description": "This Hot Honey Apple Mayo Sauce is a delightful blend of creamy, spicy, and sweet flavors that will elevate any dish. Perfect for dipping or drizzling, it adds a unique twist to your favorite sandwiches and snacks.",
-      "prep_time": "15 min",
-      "cook_time": "0 min",
-      "servings": 4
-    },
-    {
-      "title": "Burger Sauces",
-      "slug": "burger-sauces",
-      "category": "burger-sauces",
-      "ingredients": [
-        "1 cup mayonnaise",
-        "2 tablespoons butter",
-        "2 tablespoons whole grain mustard",
-        "1 cup dill pickles, chopped",
-        "1 cup sweet yellow onions, sautéed",
-        "1 tablespoon Worcestershire sauce",
-        "1 teaspoon garlic powder",
-        "1/2 teaspoon black pepper",
-        "1 teaspoon paprika",
-        "1/2 cup ketchup",
-        "1 tablespoon yellow mustard",
-        "2 tablespoons pickle juice",
-        "1/2 cup hot honey apple mayo",
-        "1 tablespoon sriracha",
-        "1/4 cup hot honey",
-        "1 crisp red apple, diced",
-        "1/4 cup strawberry jam",
-        "1 tablespoon peanut butter",
-        "1/2 teaspoon black pepper (for the jam mixture)"
-      ],
-      "directions": [
-        "In a medium bowl, mix together 1 cup of mayonnaise, 2 tablespoons of butter, 2 tablespoons of whole grain mustard, and 1 tablespoon of Worcestershire sauce until smooth.",
-        "Stir in the chopped dill pickles, sautéed sweet yellow onions, garlic powder, black pepper, and paprika. Adjust seasoning to taste.",
-        "In another bowl, combine 1/2 cup of ketchup, 1 tablespoon of yellow mustard, and 2 tablespoons of pickle juice. Mix well and set aside.",
-        "For the hot honey apple mayo, combine 1/2 cup of mayonnaise, 1 tablespoon of sriracha, 1/4 cup of hot honey, and the diced red apple in a bowl. Mix until well combined.",
-        "Finally, in a small bowl, mix together 1/4 cup of strawberry jam, 1 tablespoon of peanut butter, and 1/2 teaspoon of black pepper until smooth.",
-        "Serve each sauce alongside your favorite burgers, and enjoy the variety!"
-      ],
-      "youtube_url": null,
-      "source_file": "note_079.txt",
-      "description": "These burger sauces are a delicious way to elevate your backyard BBQ. From zesty classic flavors to sweet and spicy options, there's a sauce for every palate!",
-      "prep_time": "15 min",
-      "cook_time": "30 min",
-      "servings": 4
-    },
-    {
       "title": "Butter Chicken Sandwich",
       "slug": "butter-chicken-sandwich",
-      "category": "mains",
+      "category": "sandwiches",
       "ingredients": [
         "1 lb chicken breast, cut into strips",
         "1/2 cup all-purpose flour",
@@ -2449,7 +2368,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_080.txt",
-      "description": "Sink your teeth into this delicious Butter Chicken Sandwich, where crispy fried chicken meets rich and creamy butter chicken sauce, all piled high on soft potato buns with fresh veggies and tangy goat cheese.",
+      "description": "Indulge in the fusion of flavors with this Butter Chicken Sandwich, featuring crispy chicken strips coated in a spiced flour mixture with curry powder that ignites your palate. Pan-fried to golden perfection, the tender chicken is a mouthwatering twist on a classic favorite. This sandwich promises a tantalizing taste experience that will have you craving more!",
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 4
@@ -2478,7 +2397,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_082.txt",
-      "description": "This Cool Cole Slaw is a crunchy, tangy side dish that's perfect for summer barbecues or a picnic. With a blend of vibrant red and green cabbage, fresh carrots, and a creamy dressing, it's sure to be a hit at your next gathering.",
+      "description": "Cool Cole Slaw is a refreshing medley of vibrant red and green cabbage, crunchy carrots, and sweet onions, all tossed in a creamy dressing made with mayonnaise and tangy apple cider vinegar. The addition of celery seed adds a subtle crunch and earthiness that complements the crisp vegetables beautifully. This slaw is not just a side; it’s a crunchy, vibrant delight that perfectly complements any meal!",
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 4
@@ -2486,7 +2405,7 @@
     {
       "title": "Bacon Onion and Roasted Garlic Jam",
       "slug": "bacon-onion-and-roasted-garlic-jam",
-      "category": "jams",
+      "category": "sauces",
       "ingredients": [
         "6 slices bacon, diced",
         "2 large yellow onions, diced",
@@ -2508,7 +2427,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_083.txt",
-      "description": "This Bacon Onion and Roasted Garlic Jam is a sweet and savory spread that takes your breakfast toast or burger to the next level. With crispy bacon, caramelized onions, and a hint of bourbon maple syrup, you won't be able to resist this delicious concoction.",
+      "description": "Transform your dishes with this Bacon Onion and Roasted Garlic Jam, a sweet and savory spread that combines crispy bacon with slowly caramelized onions and rich garlic. The layers of flavor create a symphony on your palate, making it the perfect accompaniment for cheese boards or sandwiches. Once you taste it, you'll be hooked on its irresistible richness!",
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 4
@@ -2539,7 +2458,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_084.txt",
-      "description": "This creamy spinach dish is rich and flavorful, with a perfect blend of buttery garlic and tangy cream cheese that makes it a delightful side for any meal.",
+      "description": "Creamed Spinach is the ultimate indulgent side dish, featuring fresh spinach sautéed with fragrant garlic and enveloped in a silky cream cheese and heavy cream sauce. The combination of flavors makes each bite a comforting delight, perfect for elevating any meal. This creamy, luscious dish is sure to become a favorite at your dinner table!",
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 4
@@ -2575,7 +2494,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_085.txt",
-      "description": "These creamy Greek lemon herb potatoes are bursting with zesty flavor and make the perfect side dish for your favorite chicken. With a blend of fresh herbs and a touch of creaminess, they’re sure to be a hit at the dinner table.",
+      "description": "These Creamy Greek Lemon Herb Potatoes are a delightful side dish featuring Yukon Gold potatoes, infused with zesty fresh lemon juice, aromatic olive oil, and fragrant herbs. The combination of chicken broth and rich olive oil creates a velvety texture that's simply irresistible. Elevate your meals with this creamy, tangy, and herbaceous dish that will have everyone asking for seconds!",
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 4
@@ -2607,7 +2526,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_086.txt",
-      "description": "This creamy Mediterranean white sauce is a flavorful blend of tangy yogurt, zesty lemon, and roasted garlic, perfect for drizzling over grilled meats or veggies.",
+      "description": "This Mediterranean White Sauce is a luscious blend of Greek yogurt, creamy mayonnaise, and zesty lemon juice, combined with refreshing rehydrated cucumber and roasted garlic. Infused with fragrant parsley and za'atar seasoning, it delivers a burst of flavor that’s perfect for drizzling or dipping. This sauce is a must-have accompaniment that will elevate your culinary creations to a whole new level!",
       "prep_time": "15 min",
       "cook_time": "0 min",
       "servings": 4
@@ -2640,7 +2559,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_087.txt",
-      "description": "This creamy Mexican bean sauce is rich and zesty, perfect for drizzling over tacos, nachos, or any of your favorite dishes. With a delightful blend of flavors from creamy beans, tangy sour cream, and a kick of heat, it's sure to be a hit at your next gathering.",
+      "description": "Dive into the vibrant flavors of this Mexican Creamy Bean Sauce, where creamy refried beans meet tangy lime juice, rich sour cream, and spicy Cholula hot sauce. The addition of crumbled Cotija cheese and pickled jalapeños adds layers of texture and zestiness that will tantalize your taste buds. Perfect for tacos or as a dip, this sauce is a fiesta of flavors that will spice up any meal!",
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 4
@@ -2648,7 +2567,7 @@
     {
       "title": "Fresh and Crisp Garden Chicken Wrap",
       "slug": "fresh-and-crisp-garden-chicken-wrap",
-      "category": "mains",
+      "category": "sandwiches",
       "ingredients": [
         "2 cups cold shredded rotisserie chicken",
         "1 red delicious apple, diced",
@@ -2674,7 +2593,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_088.txt",
-      "description": "Wrap up a delicious mix of fresh flavors and textures with this crunchy Garden Chicken Wrap, featuring juicy apples and savory rotisserie chicken, all bundled in a soft tortilla. It's a perfect light meal or snack that’s ready in no time!",
+      "description": "The Fresh and Crisp Garden Chicken Wrap combines tender shredded rotisserie chicken with a medley of diced apples, tangy pickled red onions, and crunchy tortilla chips. Dressed in a creamy mixture of sour cream and In-N-Out sauce, this wrap is a delightful balance of savory and sweet. Enjoy a satisfying, fresh bite that’s perfect for lunch or a light dinner, and experience the joyous crunch in every mouthful!",
       "prep_time": "15 min",
       "cook_time": "0 min",
       "servings": 4
@@ -2682,7 +2601,7 @@
     {
       "title": "Lemon Rosemary Chicken Rice",
       "slug": "lemon-rosemary-chicken-rice",
-      "category": "salads-sides",
+      "category": "mains",
       "ingredients": [
         "1.5 lbs chicken thighs, skin-on",
         "1.5 cups basmati rice",
@@ -2709,7 +2628,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_089.txt",
-      "description": "This Lemon Rosemary Chicken Rice is a hearty and flavorful dish that combines tender chicken thighs with fragrant basmati rice, vibrant vegetables, and fresh herbs, perfect for a cozy family meal.",
+      "description": "Savor the delightful combination of juicy chicken thighs and fragrant basmati rice in this Lemon Rosemary Chicken Rice dish. Infused with fresh lemon juice and seasoned with aromatic rosemary, every bite bursts with flavor, complemented by the richness of chicken stock. It’s a comforting, one-pan meal that promises to impress at your dinner table, making weeknight cooking a breeze!",
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 4
@@ -2742,7 +2661,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_090.txt",
-      "description": "Start your day right with fluffy scrambled eggs mixed with creamy goat cheese, fresh spinach, and vibrant cherry tomatoes, making for a deliciously satisfying breakfast.",
+      "description": "Start your day with a delightful twist on classic scrambled eggs, featuring creamy goat cheese and fresh spinach. The rich goat cheese adds a tangy depth, while sautéed onions and garlic infuse every bite with savory goodness. Perfectly seasoned, this dish is a breakfast dream that will elevate your morning routine!",
       "prep_time": "15 min",
       "cook_time": "15 min",
       "servings": 4
@@ -2750,7 +2669,7 @@
     {
       "title": "Special Italian Sandwich Sauce",
       "slug": "special-italian-sandwich-sauce",
-      "category": "mains",
+      "category": "sauces",
       "ingredients": [
         "1/2 cup pepperoncini juice",
         "1/4 cup red vinegar",
@@ -2776,7 +2695,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_091.txt",
-      "description": "This zesty Italian sandwich sauce packs a punch with a delightful mix of bold flavors, perfect for drizzling over your favorite meats or using as a dip. It combines creamy mayo with tangy peppers and a medley of herbs for a true taste of Italy.",
+      "description": "Transform your sandwiches with this zesty Italian sandwich sauce that bursts with flavor! With roasted garlic, sweet red bell pepper, and a touch of tangy pepperoncini juice, this sauce is a blend of savory and spicy. It brings life to any meal, making your taste buds dance and leaving you craving more!",
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 4
@@ -2801,7 +2720,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_092.txt",
-      "description": "This creamy homemade tallow or butter mayonnaise packs a rich flavor and is perfect for slathering on sandwiches or using as a dip for veggies.",
+      "description": "Elevate your condiment game with this rich and creamy homemade mayonnaise made from tallow or butter. Blending raw eggs with zesty lemon juice and Dijon mustard creates a perfect emulsion that's both luscious and satisfying. Perfect for slathering on sandwiches or as a dip, this mayo offers a delightful twist that will have you obsessed!",
       "prep_time": "10 min",
       "cook_time": "0 min",
       "servings": 8
@@ -2834,7 +2753,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_093.txt",
-      "description": "This vibrant Red Creamy Chimichurri Sauce packs a punch with roasted garlic and red peppers, making it perfect for drizzling over grilled meats or veggies. Its rich and zesty flavor will elevate any dish!",
+      "description": "Dive into a vibrant world of flavors with this red creamy chimichurri sauce, packed with roasted red bell peppers and fresh herbs. The smoky sweetness of the peppers combined with zesty lemon juice and fragrant garlic creates an irresistible dip or marinade. It's a bold accompaniment that will elevate any dish to new culinary heights!",
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 4
@@ -2873,7 +2792,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_094.txt",
-      "description": "This hearty chili combines the rich flavors of ground beef, pork belly, and a medley of veggies for a comforting bowl that'll warm you up from the inside out. Top it off with your favorite garnishes for a delicious finish!",
+      "description": "Warm up with a hearty bowl of chili that's a flavor explosion in every spoonful! Featuring ground beef, diced pork belly, and a medley of fresh vegetables like corn and bell peppers, this dish is both comforting and satisfying. Each bite offers a savory richness, making it the perfect dish for cozy nights or gatherings with friends.",
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 4
@@ -2900,7 +2819,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_095.txt",
-      "description": "This Garlic Herb Butter is a flavor-packed blend of roasted garlic and fresh herbs, perfect for spreading on warm bread or melting over a juicy steak.",
+      "description": "This Garlic Herb Butter is a decadent blend of rich, softened butter infused with roasted garlic and fresh herbs. Key ingredients like aromatic thyme, rosemary, and a splash of lemon juice elevate it to a flavorful experience that’s perfect for spreading on warm bread or melting over grilled steaks. Each bite bursts with a robust, savory flavor that will leave you craving more!",
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 4
@@ -2934,7 +2853,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_096.txt",
-      "description": "This creamy horseradish sauce packs a zesty punch with the perfect balance of heat and tang, making it a delightful addition to your favorite meats or sandwiches.",
+      "description": "Creamy Horseradish Sauce is a zesty condiment combining sour cream and mayonnaise with the bold heat of horseradish. The addition of minced garlic and crisp red onions creates a delightful complexity, while a splash of lemon juice brightens every bite. This sauce adds a fiery kick to any dish, making it an irresistible accompaniment for meats and seafood alike!",
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 4
@@ -2973,7 +2892,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_097.txt",
-      "description": "This colorful Pimping Pasta Salad is a hearty mix of tri-color pasta, zesty cheeses, and fresh veggies, all tossed in a tangy dressing that makes it a perfect side for any picnic or barbecue.",
+      "description": "Pimping Pasta Salad is a vibrant medley that takes your taste buds on a delightful journey with tri-color rigatoni and orzo. Loaded with shredded pepper jack cheese, roasted garlic, and fresh veggies, this dish is dressed in a light yet tangy vinaigrette. The combination of textures and flavors makes it a perfect side or a light meal that’s both refreshing and satisfying!",
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 4
@@ -3012,7 +2931,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_098.txt",
-      "description": "This Fantastic Fried Rice is a colorful, flavorful dish packed with veggies and a punchy garlic kick, making it a perfect side or main for any meal.",
+      "description": "Fantastic Fried Rice is a colorful stir-fry that brings together day-old basmati rice with an array of fresh vegetables like diced red onions, carrots, and bell peppers. Stir-fried in toasted sesame oil, each ingredient harmonizes beautifully, creating a satisfying crunch and umami flavor. This dish is not only a fantastic way to use leftovers, but it also offers a deliciously addictive experience that will have you coming back for seconds!",
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 4
@@ -3048,7 +2967,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_099.txt",
-      "description": "This Perfect Potato Salad is a creamy, cheesy delight packed with flavor from crispy bacon, vibrant veggies, and a hint of sweetness from the relish. It's the perfect side for any BBQ or picnic!",
+      "description": "Perfect Potato Salad combines tender Yukon Gold potatoes boiled in savory chicken stock with a creamy blend of cream cheese, mayonnaise, and honey mustard vinaigrette. The sharpness of Cheddar cheese adds depth, while the smooth dressing ties it all together. This indulgent side dish is perfect for picnics and barbecues, promising a rich, creamy flavor that delights with every bite!",
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 4
@@ -3083,7 +3002,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_100.txt",
-      "description": "This Sexy Street Corn Salad is a zesty and creamy delight, packed with charred corn, fresh veggies, and a kick from jalapeños, perfect for any summer gathering or barbecue.",
+      "description": "This Sexy Street Corn Salad is a vibrant twist on traditional elote, highlighting charred corn. Key ingredients like smoky chorizo, zesty lime juice, and fresh cilantro elevate its flavor profile. The combination of sweet corn and spicy chorizo creates a mouthwatering balance that will have you craving seconds!",
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 4
@@ -3120,7 +3039,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_101.txt",
-      "description": "This Crazy Mac n Cheese is a wild twist on a classic, packed with a medley of cheeses, crispy bacon, and zesty sun-dried tomatoes, topped off with crunchy Doritos for that extra kick. It's the ultimate comfort food that will have everyone coming back for seconds!",
+      "description": "Dive into the creamy indulgence of Crazy Mac n Cheese, a comforting pasta dish loaded with cellentani pasta. Enhanced by rich melted cheddar, savory garlic, and sweet red onion, each bite is a delightful explosion of flavor. This mac and cheese is the ultimate cheesy, gooey experience that will elevate any meal into a feast!",
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 4
@@ -3128,7 +3047,7 @@
     {
       "title": "Crispy Asian Chili Mayo",
       "slug": "crispy-asian-chili-mayo",
-      "category": "soups",
+      "category": "sauces",
       "ingredients": [
         "1/2 cup chili crisp",
         "1 cup mayonnaise",
@@ -3148,7 +3067,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_102.txt",
-      "description": "This Crispy Asian Chili Mayo packs a flavorful punch with a delightful crunch, perfect for dipping or drizzling on your favorite dishes.",
+      "description": "Crispy Asian Chili Mayo is a bold and flavorful condiment that marries creamy mayonnaise with the heat of chili crisp. With minced garlic, chopped shallots, and a touch of sweet Thai chili sauce, this dip packs a punch in every bite. Perfect for drizzling over tacos or as a zesty dip, it’s a must-try for spice lovers!",
       "prep_time": "15 min",
       "cook_time": "0 min",
       "servings": 4
@@ -3182,7 +3101,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_103.txt",
-      "description": "This Better Cowboy Butter packs a punch with creamy goodness and a zesty kick, perfect for slathering on grilled meats or veggies. It's a simple yet scrumptious sauce that will elevate any meal.",
+      "description": "Better Cowboy Butter is a luscious compound butter that combines mayonnaise, Dijon mustard, and roasted garlic for an irresistible dip. Infused with fresh herbs like parsley and thyme, along with a kick of smoked paprika, this sauce adds a savory depth to grilled meats and vegetables. Elevate your BBQ game with this flavor-packed spread!",
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 4
@@ -3209,7 +3128,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_104.txt",
-      "description": "This zesty Cilantro Lime Sauce packs a punch with fresh herbs and tangy lime, perfect for drizzling over tacos, grilled chicken, or simply as a dip for veggies.",
+      "description": "Cilantro Lime Sauce is a zesty and creamy dressing that brings freshness to any dish, featuring a blend of mayonnaise and Greek yogurt. With bright lime juice and fragrant cilantro, it offers a tangy kick that perfectly complements tacos, grilled chicken, or salads. This sauce is a vibrant addition that will awaken your taste buds!",
       "prep_time": "15 min",
       "cook_time": "0 min",
       "servings": 4
@@ -3247,7 +3166,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_105.txt",
-      "description": "This Special Steak Sauce brings together the rich flavors of A1 Sauce, buttery goodness, and fresh herbs for a deliciously zesty kick that will elevate any steak dinner.",
+      "description": "This Special Steak Sauce elevates your favorite cuts with a rich blend of A1 Sauce, roasted garlic, and sautéed shallots. The tangy depth from red bell pepper and onion adds a vibrant kick that complements meat perfectly. Drizzle it on your steak for a mouthwatering explosion of flavors that will leave you craving more!",
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 4
@@ -3278,7 +3197,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_106.txt",
-      "description": "This creamy ranch sauce is the perfect dip for veggies or a zesty dressing for your salads. Packed with flavor and a hint of dill, it’s sure to be a crowd-pleaser at any gathering.",
+      "description": "Ranch Sauce is a creamy, tangy dip made with a luscious mixture of mayonnaise, sour cream, and heavy cream. The addition of ranch seasoning, paprika, and fresh herbs like dill creates an irresistible flavor profile. Perfect for dipping veggies or slathering on sandwiches, this sauce is sure to be a crowd-pleaser at any gathering!",
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 4
@@ -3312,7 +3231,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_107.txt",
-      "description": "This creamy Al Pastor sauce is a zesty and flavorful blend of smoky chilies, tangy pineapple, and rich sour cream, perfect for drizzling over tacos or grilled meats.",
+      "description": "Creamy Al Pastor Sauce is a vibrant, spiced sauce featuring sautéed red onions and garlic, combined with rich guajillo chiles and adobo sauce. The fragrant oregano brings everything together, making it the perfect topping for tacos or grilled meats. Its bold flavors will transport your taste buds straight to a Mexican street food paradise!",
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 4
@@ -3345,7 +3264,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_108.txt",
-      "description": "This Habenareo Pizza Ranch Aioli packs a spicy kick with a creamy blend of mayo and sour cream, perfect for dipping or drizzling on your favorite pizza. With a hint of dill and roasted peppers, it's sure to elevate your meal.",
+      "description": "Get ready for a flavor explosion with Habenareo Pizza Ranch Aoli, a spicy twist on the classic ranch sauce. This zesty concoction combines mayonnaise, sour cream, and minced garlic with the fiery kick of Habenareo pepper and savory pepperoni. Perfect for drizzling over pizza or as a bold dipping sauce, it will ignite your culinary creativity!",
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 4
@@ -3380,7 +3299,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_109.txt",
-      "description": "This creamy and zesty Mexican Street Corn Sauce combines the flavors of charred corn, savory chorizo, and a delightful blend of cheeses, making it the perfect dip or topping for your next fiesta.",
+      "description": "Mexican Street Corn Sauce is a creamy, zesty blend that captures the essence of elote in every bite. With Cotija and Fresco cheese, roasted corn, and a hint of lime juice, this sauce is rich and refreshing. It's the ultimate topping for tacos, grilled meats, or simply as a dip, bringing the street food experience right to your kitchen!",
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 4
@@ -3388,7 +3307,7 @@
     {
       "title": "Marry Me Chicken sauce",
       "slug": "marry-me-chicken-sauce",
-      "category": "mains",
+      "category": "sauces",
       "ingredients": [
         "4 cloves garlic, minced",
         "4 green onions, chopped",
@@ -3420,7 +3339,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_110.txt",
-      "description": "This creamy, savory Marry Me Chicken sauce is bursting with flavor from sun-dried tomatoes, fresh herbs, and a splash of white wine, making it the perfect accompaniment for tender chicken. Serve it over pasta or rice for a meal that’ll have everyone asking for seconds.",
+      "description": "Marry Me Chicken sauce is a luscious blend of flavors that elevates any dish to romantic heights. With sun-dried tomatoes, zesty lemon juice, and a splash of white wine, this sauce tantalizes the palate while the buttery goodness brings it all together. It's a delightful way to impress your loved ones and make every meal feel special!",
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 4
@@ -3457,7 +3376,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_111.txt",
-      "description": "This creamy and spicy goat cheese sauce packs a punch with a blend of chilies and herbs, perfect for drizzling over your favorite dishes or enjoying as a dip with chips.",
+      "description": "This Goat Cheese Chaluah Hot Sauce is a creamy, spicy dip that packs a punch. Infused with robust Chalua hot sauce, roasted garlic, and zesty green chilies, it’s a flavor explosion that enhances everything from tacos to grilled meats. Whip it up for your next gathering and watch it disappear in a flash!",
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 4
@@ -3489,7 +3408,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_112.txt",
-      "description": "This creamy Buffalo chicken sauce is packed with flavor and a kick from the hot sauce, perfect for dipping or drizzling over your favorite dishes.",
+      "description": "The Buffalo Chicken Cream Cheese Sauce is a velvety blend that brings all the classic flavors of buffalo wings to your table. With the kick of Red Hot hot sauce, creamy melted cream cheese, and savory roasted garlic, it's a dip that satisfies cravings in every bite. Perfect for game day or cozy gatherings, it’s an irresistible treat!",
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 4
@@ -3539,7 +3458,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_113.txt",
-      "description": "This Magical Marry Me Chicken is a creamy, flavorful dish that combines tender chicken thighs with savory bacon and sun-dried tomatoes, all topped with a rich parmesan sauce. Serve it over angel hair pasta for a meal that’s sure to impress anyone at the dinner table!",
+      "description": "Magical Marry Me Chicken is a delectable dish that transforms ordinary chicken thighs into culinary magic. Encrusted with a fragrant blend of garlic salt, Italian seasoning, and zesty lemon zest, and sautéed to perfection, each bite is bursting with flavor. This dish is not just a meal; it’s a heartfelt experience that’s sure to win over anyone’s heart!",
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 4
@@ -3569,103 +3488,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_117.txt",
-      "description": "This creamy green chile soup packs a punch with jalapeños and chipotle, while the cream cheese and sour cream create a rich, comforting base. It's perfect for warming up on a chilly day or impressing friends at your next gathering!",
-      "prep_time": "15 min",
-      "cook_time": "30 min",
-      "servings": 4
-    },
-    {
-      "title": "Sauces",
-      "slug": "sauces",
-      "category": "sauces",
-      "ingredients": [
-        "1 cup unsalted butter, softened (for cowboy butter)",
-        "4 cloves garlic, minced (for cowboy butter)",
-        "2 tablespoons fresh herbs (like parsley or chives), chopped (for cowboy butter)",
-        "1 cup unsalted butter, softened (for garlic herb butter)",
-        "1 tablespoon garlic powder (for garlic herb butter)",
-        "1 tablespoon dried herbs (like Italian seasoning) (for garlic herb butter)",
-        "1 cup mayonnaise (for tallow mayo)",
-        "1 tablespoon apple cider vinegar (for tallow mayo)",
-        "1 cup sour cream (for sour cream horseradish sauce)",
-        "2 tablespoons prepared horseradish (for sour cream horseradish sauce)",
-        "1 cup mayonnaise (for sandwich sauce)",
-        "2 tablespoons Dijon mustard (for sandwich sauce)",
-        "1 teaspoon garlic powder (for sandwich sauce)",
-        "1 cup plain yogurt (for yogurt sauce)",
-        "1/4 cup red chimichurri (for yogurt sauce)",
-        "1 tablespoon lemon juice (for yogurt sauce)",
-        "1 apple, diced (for additional sauce option)",
-        "1 onion, diced (for additional sauce option)",
-        "1 cucumber, diced (for additional sauce option)",
-        "1 tablespoon taco seasoning (for additional sauce option)",
-        "1/2 cup cilantro, chopped (for additional sauce option)",
-        "1/2 cup roasted tomatoes (for additional sauce option)",
-        "1/2 cup goat cheese (for another sauce option)",
-        "1-2 tablespoons Cholula hot sauce (for another sauce option)",
-        "1 fresh jalapeño, minced (for another sauce option)",
-        "2 tablespoons lime juice (for another sauce option)",
-        "1 teaspoon tomato bouillon (for another sauce option)",
-        "1 cup buffalo sauce (for buffalo sauce)",
-        "1/2 cup cream cheese (for buffalo sauce)",
-        "2 tablespoons chopped chives (for buffalo sauce)",
-        "1 sweet pepper, diced (for buffalo sauce)",
-        "1 habanero, minced (for buffalo sauce)"
-      ],
-      "directions": [
-        "In a bowl, combine 1 cup softened butter, 4 cloves minced garlic, and 2 tablespoons chopped fresh herbs to make cowboy butter.",
-        "In another bowl, mix 1 cup softened butter with 1 tablespoon garlic powder and 1 tablespoon dried herbs for garlic herb butter.",
-        "For tallow mayo, whisk together 1 cup mayonnaise and 1 tablespoon apple cider vinegar in a bowl.",
-        "To make the sour cream horseradish sauce, combine 1 cup sour cream and 2 tablespoons prepared horseradish in a small bowl.",
-        "For the sandwich sauce, mix 1 cup mayonnaise, 2 tablespoons Dijon mustard, and 1 teaspoon garlic powder in a bowl until smooth.",
-        "In a separate bowl, stir together 1 cup plain yogurt, 1/4 cup red chimichurri, and 1 tablespoon lemon juice for the yogurt sauce.",
-        "For a spicy sauce, combine 1/2 cup goat cheese, 1-2 tablespoons Cholula hot sauce, 1 tablespoon lime juice, and 1 teaspoon tomato bouillon in a small bowl.",
-        "Lastly, for the buffalo sauce, melt 1 cup buffalo sauce with 1/2 cup cream cheese, then stir in 2 tablespoons chopped chives, 1 diced sweet pepper, and 1 minced habanero."
-      ],
-      "youtube_url": null,
-      "source_file": "note_138.txt",
-      "description": "Get ready to elevate your meals with these flavorful sauces that pack a punch! From zesty cowboy butter to creamy horseradish sauce, these recipes are sure to impress.",
-      "prep_time": "15 min",
-      "cook_time": "30 min",
-      "servings": 4
-    },
-    {
-      "title": "Burger Sauces",
-      "slug": "burger-sauces-165",
-      "category": "burger-sauces",
-      "ingredients": [
-        "1/2 cup ketchup",
-        "1/2 cup mayonnaise",
-        "1 tablespoon yellow mustard",
-        "1 tablespoon Worcestershire sauce",
-        "1 teaspoon paprika",
-        "1/2 teaspoon salt",
-        "1/2 teaspoon black pepper",
-        "1/4 cup sweet relish (optional)",
-        "1 tablespoon red wine vinegar (optional)",
-        "1/4 cup yellow mustard",
-        "1/2 cup mayonnaise",
-        "1/2 teaspoon salt",
-        "1/2 teaspoon black pepper",
-        "1 teaspoon paprika",
-        "1 tablespoon honey (optional)",
-        "1/4 cup sweet relish (optional)",
-        "1 tablespoon white or apple cider vinegar (optional)",
-        "1/2 cup BBQ sauce",
-        "1/4 cup Dijon honey mustard",
-        "1 tablespoon sriracha (optional)"
-      ],
-      "directions": [
-        "In a skillet over medium heat, add 2 tablespoons of bacon fat. Sauté 1/2 cup finely chopped sweet onions and 2 cloves minced garlic until slightly crispy, about 5-7 minutes. Optional: Add 1/2 cup diced red bell pepper or poblano pepper and sauté until tender.",
-        "In a bowl, combine the sautéed mixture with the ketchup, mayonnaise, yellow mustard, Worcestershire sauce, paprika, salt, and pepper. Mix well.",
-        "For the yellow sauce, in a separate bowl, combine 1/4 cup yellow mustard, 1/2 cup mayonnaise, salt, pepper, and paprika. If using, add honey and mix thoroughly.",
-        "For the dark red sauce, mix together BBQ sauce, Dijon honey mustard, ketchup, mayonnaise, Worcestershire sauce, paprika, salt, and pepper in another bowl. Optional: Stir in sriracha for heat.",
-        "Chop pickles into small chunks or use dill relish for convenience, then mix them into the respective sauces. Optional: Adjust seasoning with red wine vinegar or sweet relish as desired.",
-        "Serve these sauces alongside your favorite burgers and enjoy!"
-      ],
-      "youtube_url": null,
-      "source_file": "note_165.txt",
-      "description": "These homemade burger sauces add a whole new layer of flavor to your burgers, making every bite a delightful experience! Choose your favorite style or mix and match for a flavor explosion.",
+      "description": "Green Chile soup is a hearty, comforting dish that warms the soul. Featuring flavorful ground beef, spicy jalapeños, and creamy chipotle-infused cream cheese, it melds spicy and savory notes in each spoonful. This soup is a cozy delight that’s perfect for chilly nights or a hearty lunch!",
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 4
@@ -3673,7 +3496,7 @@
     {
       "title": "Chilli oils",
       "slug": "chilli-oils",
-      "category": "quick-ideas",
+      "category": "sauces",
       "ingredients": [
         "1 cup vegetable oil",
         "2 tablespoons red pepper flakes",
@@ -3694,7 +3517,7 @@
       ],
       "youtube_url": "https://youtube.com/shorts/sEjIzULUTzE?si=1cv0Xoyuo31_37Sg",
       "source_file": "note_166.txt",
-      "description": "This homemade chili oil is a game changer for spicing up your favorite dishes, adding a rich, aromatic flavor that’ll make your taste buds dance.",
+      "description": "Transform ordinary meals with this homemade chili oil, a fragrant blend of sizzling vegetable oil infused with red pepper flakes and Sichuan peppercorns. The delightful aroma of minced garlic and ginger brings a warmth that tantalizes the senses. Drizzle this spicy concoction over your dishes for an irresistible heat that will leave everyone craving more!",
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 4
@@ -3702,7 +3525,7 @@
     {
       "title": "Appetizers",
       "slug": "appetizers",
-      "category": "quick-ideas",
+      "category": "salads-sides",
       "ingredients": [
         "2 cups mashed potatoes",
         "1 cup shredded cheddar cheese",
@@ -3731,7 +3554,7 @@
       ],
       "youtube_url": "https://youtube.com/shorts/Aj1pHOYJb_w?si=_MCAn0HBnXqpRscL",
       "source_file": "note_167.txt",
-      "description": "These cheesy potato balls are crispy on the outside and gooey on the inside, making them a perfect finger food for any gathering. Pair them with a side of Southern fried cabbage for a delicious twist on classic comfort food.",
+      "description": "Indulge in these crispy potato balls, where creamy mashed potatoes meet shredded cheddar cheese for an explosion of flavor. Seasoned with garlic and onion powder, each ball is coated in breadcrumbs for a perfectly golden crunch. Perfect as an appetizer or snack, these bites are simply irresistible and will have your guests reaching for more!",
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 4
@@ -3739,7 +3562,7 @@
     {
       "title": "Classic Chicken Sandwich Sauces",
       "slug": "classic-chicken-sandwich-sauces",
-      "category": "mains",
+      "category": "sauces",
       "ingredients": [
         "1 cup mayonnaise",
         "2 tablespoons pickle juice or lemon juice",
@@ -3763,33 +3586,9 @@
       ],
       "youtube_url": null,
       "source_file": "note_168.txt",
-      "description": "This classic chicken sandwich sauce is a creamy, tangy delight that takes your sandwich game to the next level. With a touch of dill and the optional kick of paprika or rosemary, it's a must-try for any chicken lover.",
+      "description": "This classic chicken sandwich sauce combines the savory goodness of crispy sautéed red onions and garlic, harmoniously blended with creamy mayonnaise and tangy pickle juice. Optional red bell peppers add a sweet crunch, enhancing the flavor profile. Elevate your chicken sandwiches to gourmet status with this zesty sauce that brings a burst of flavor to every bite!",
       "prep_time": "15 min",
       "cook_time": "15 min",
-      "servings": 4
-    },
-    {
-      "title": "Crazy Good Sauces",
-      "slug": "crazy-good-sauces",
-      "category": "sauces",
-      "ingredients": [
-        "1 cup mayonnaise",
-        "2 tablespoons chili crisp",
-        "1 teaspoon garlic powder",
-        "1 teaspoon lime juice",
-        "Salt to taste"
-      ],
-      "directions": [
-        "In a medium bowl, combine the mayonnaise, chili crisp, garlic powder, and lime juice.",
-        "Mix well until all ingredients are fully incorporated.",
-        "Taste and add salt as needed to enhance the flavor.",
-        "Serve immediately or refrigerate for up to a week to let the flavors meld."
-      ],
-      "youtube_url": null,
-      "source_file": "note_169.txt",
-      "description": "This Chilli Crisp Mayonnaise packs a punch with its creamy texture and spicy crunch, perfect for dipping or drizzling on your favorite dishes.",
-      "prep_time": "15 min",
-      "cook_time": "0 min",
       "servings": 4
     },
     {
@@ -3824,7 +3623,7 @@
       ],
       "youtube_url": "https://youtu.be/M8W1TXkAZnU?si=YSFS48x9vam1vrND",
       "source_file": "note_170.txt",
-      "description": "Get ready to kick your coleslaw game up a notch with this crazy mix of flavors! Each variety brings a unique twist that'll make your taste buds dance at your next cookout.",
+      "description": "Experience a crunch-tastic combination with this vibrant Crazy Coleslaw featuring crisp green and red cabbage alongside sweet carrots. The dressing, made from creamy mayonnaise, tangy apple cider vinegar, and a hint of honey, perfectly balances with the smoky notes of chipotle and BBQ sauces. This coleslaw is a refreshing hit, ideal for barbecues or as a side that steals the show!",
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 4
@@ -3855,7 +3654,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_171.txt",
-      "description": "This Bangin Broccoli Salad is a delightful mix of crunchy broccoli, savory bacon, and a tangy dressing that will have everyone coming back for seconds. Topped with sharp cheddar and sweet dried fruits, it's the perfect side for any gathering!",
+      "description": "Savor the delightful crunch of Bangin Broccoli Salad, where fresh broccoli meets a medley of shredded cheddar, sweet cranberries, and savory bacon. The creaminess of heavy mayonnaise combined with apple cider vinegar gives this salad a tangy kick that’s utterly addictive. It’s perfect for potlucks or a hearty side, bringing together flavors and textures that will make your taste buds dance!",
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 4
@@ -3891,7 +3690,7 @@
       ],
       "youtube_url": null,
       "source_file": "note_172.txt",
-      "description": "This Timeless Tzatziki Sauce is a refreshing blend of creamy yogurt, crisp cucumbers, and zesty garlic, perfect for dipping or drizzling over your favorite dishes.",
+      "description": "Timeless Tzatziki Sauce is a refreshing Greek classic, starring grated cucumbers and rich Greek yogurt blended with fragrant dill and garlic. The zest of lemon juice and red wine vinegar brightens each bite, while olive oil adds a luxurious finish. This sauce is the ultimate companion for grilled meats or fresh veggies, transforming any dish into a Mediterranean delight!",
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 4
@@ -3939,7 +3738,7 @@
       ],
       "youtube_url": "https://youtu.be/qK15KwDBNBU?si=_8SDQhPd0hE3IYyV",
       "source_file": "note_173.txt",
-      "description": "This Terrific Tomato Soup is a rich and hearty blend of fresh and sun-dried tomatoes, perfectly seasoned with herbs and finished with a splash of cream, making it the ultimate comfort food. Pair it with a grilled cheese for a cozy meal that'll warm your soul.",
+      "description": "Warm your soul with this Terrific Tomato Soup, where roasted cherry, vine, and sun-dried tomatoes create a rich, caramelized base. Infused with sautéed onions and red bell pepper, this soup bursts with flavor and comfort. It’s a cozy dish that pairs perfectly with crusty bread, making it a must-try for any tomato lover!",
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 4
