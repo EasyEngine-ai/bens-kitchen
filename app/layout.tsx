@@ -6,7 +6,6 @@ import SmoothScroll from "@/components/SmoothScroll";
 import EasterEggs from "@/components/EasterEggs";
 import FallingIngredients from "@/components/FallingIngredients";
 import CookingAssistant from "@/components/CookingAssistant";
-import ScrollToTop from "@/components/ScrollToTop";
 import "./globals.css";
 
 const playfair = Playfair_Display({
@@ -43,7 +42,6 @@ export default function RootLayout({
     <html lang="en" className={`${playfair.variable} ${inter.variable}`}>
       <body className="antialiased">
         <SmoothScroll>
-          <ScrollToTop />
           <div className="grain-overlay" />
           <FallingIngredients />
           <Navigation />
