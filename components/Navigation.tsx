@@ -28,7 +28,7 @@ export default function Navigation() {
       >
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
           <Link href="/" className="group flex items-center gap-3">
-            <span className="font-[family-name:var(--font-display)] text-2xl tracking-tight text-text group-hover:text-accent transition-colors duration-300">
+            <span className="font-[family-name:var(--font-display)] text-2xl tracking-tight text-text group-hover:text-accent transition-colors duration-300 [text-shadow:_0_1px_3px_rgb(0_0_0_/_40%)]">
               Ben&apos;s Kitchen
             </span>
           </Link>
@@ -131,7 +131,7 @@ function NavLink({
   return (
     <Link
       href={href}
-      className="relative text-sm uppercase tracking-[0.2em] text-text-muted hover:text-accent transition-colors duration-300 group"
+      className="relative text-sm uppercase tracking-[0.2em] text-text hover:text-accent transition-colors duration-300 group [text-shadow:_0_1px_3px_rgb(0_0_0_/_40%)]"
     >
       {children}
       <span className="absolute -bottom-1 left-0 w-0 h-[1px] bg-accent transition-all duration-300 group-hover:w-full" />

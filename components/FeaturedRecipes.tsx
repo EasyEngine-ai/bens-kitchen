@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import Link from "next/link";
 import { motion, useScroll, useTransform } from "framer-motion";
 import AnimatedText, { AnimatedLine } from "./AnimatedText";
@@ -13,11 +13,17 @@ interface FeaturedRecipe {
   description: string;
 }
 
+function pickRandom(pool: FeaturedRecipe[], count: number): FeaturedRecipe[] {
+  const shuffled = [...pool].sort(() => Math.random() - 0.5);
+  return shuffled.slice(0, count);
+}
+
 export default function FeaturedRecipes({
-  recipes,
+  recipes: pool,
 }: {
   recipes: FeaturedRecipe[];
 }) {
+  const [recipes] = useState(() => pickRandom(pool, 3));
   return (
     <section className="py-24 md:py-32 overflow-hidden">
       <div className="max-w-7xl mx-auto px-6">

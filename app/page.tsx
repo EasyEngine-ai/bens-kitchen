@@ -5,52 +5,22 @@ import FeaturedRecipes from "@/components/FeaturedRecipes";
 import CategoryShowcase from "@/components/CategoryShowcase";
 import { loadAllRecipes, loadCategories } from "@/lib/recipes";
 
-function pickFeatured(recipes: ReturnType<typeof loadAllRecipes>) {
-  const featured = [];
-  const showcaseSlugs = [
-    "buffalo-ranch-chicken-sandwich",
-    "smokey-dr-pepper-bbq-chicken-sandwich",
-    "teriyaki-pineapple-chicken-sandwich",
-    "tikka-masala-chicken-sandwich",
-    "chipotle-lime-chicken-sandwich-smoky-charred",
-    "honey-mustard-aged-gruyere-pear-chicken-sandwich",
-  ];
-
-  for (const slug of showcaseSlugs) {
-    const r = recipes.find((rec) => rec.slug === slug);
-    if (r && r.image) {
-      featured.push({
-        title: r.title,
-        slug: r.slug,
-        image: r.image,
-        category: r.categoryName,
-        description: r.description,
-      });
-    }
-    if (featured.length >= 3) break;
-  }
-
-  if (featured.length < 3) {
-    const personal = recipes.filter((r) => r.source === "personal" && r.image);
-    for (const r of personal) {
-      if (featured.length >= 3) break;
-      featured.push({
-        title: r.title,
-        slug: r.slug,
-        image: r.image!,
-        category: r.categoryName,
-        description: r.description,
-      });
-    }
-  }
-
-  return featured;
+function pickFeaturedPool(recipes: ReturnType<typeof loadAllRecipes>) {
+  return recipes
+    .filter((r) => r.image)
+    .map((r) => ({
+      title: r.title,
+      slug: r.slug,
+      image: r.image!,
+      category: r.categoryName,
+      description: r.description,
+    }));
 }
 
 export default function HomePage() {
   const recipes = loadAllRecipes();
   const categories = loadCategories();
-  const featured = pickFeatured(recipes);
+  const featured = pickFeaturedPool(recipes);
   const personalCategories = categories.filter((c) => c.source === "personal");
 
   return (

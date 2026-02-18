@@ -210,9 +210,11 @@ export default function CookingAssistant() {
 
     let fullTranscript = "";
     let silenceTimer: ReturnType<typeof setTimeout> | null = null;
+    let bargeInTimer: ReturnType<typeof setTimeout> | null = null;
     let hasSpeech = false;
 
     const clearSilence = () => { if (silenceTimer) { clearTimeout(silenceTimer); silenceTimer = null; } };
+    const clearBargeIn = () => { if (bargeInTimer) { clearTimeout(bargeInTimer); bargeInTimer = null; } };
 
     recognition.onresult = (event: SpeechRecognitionEvent) => {
       let final = "";
@@ -226,9 +228,15 @@ export default function CookingAssistant() {
       setLiveTranscript(display);
       if (display) hasSpeech = true;
 
-      // BARGE-IN: if AI is speaking/thinking and user starts talking, interrupt immediately
-      if (hasSpeech && isSpeakingRef.current) {
-        bargeIn();
+      // BARGE-IN: only interrupt if user says something substantial (3+ words)
+      // and sustains speech for 800ms to avoid false triggers from background noise
+      if (isSpeakingRef.current && display.split(/\s+/).length >= 3) {
+        if (!bargeInTimer) {
+          bargeInTimer = setTimeout(() => {
+            bargeInTimer = null;
+            if (isSpeakingRef.current) bargeIn();
+          }, 800);
+        }
       }
 
       clearSilence();
@@ -237,6 +245,7 @@ export default function CookingAssistant() {
           const text = (fullTranscript || display).trim();
           if (text && liveModeRef.current) {
             clearSilence();
+            clearBargeIn();
             hasSpeech = false;
             fullTranscript = "";
             setLiveTranscript("");
@@ -255,12 +264,13 @@ export default function CookingAssistant() {
               }
             });
           }
-        }, 1200); // Faster silence detection
+        }, 1500);
       }
     };
 
     recognition.onerror = (e: Event & { error?: string }) => {
       clearSilence();
+      clearBargeIn();
       if (e.error === "no-speech" || e.error === "aborted") {
         if (liveModeRef.current) {
           setTimeout(() => { if (liveModeRef.current) startLiveListening(); }, 300);
@@ -271,6 +281,7 @@ export default function CookingAssistant() {
 
     recognition.onend = () => {
       clearSilence();
+      clearBargeIn();
       // Always restart in live mode — recognition stays on even during AI speech
       if (liveModeRef.current) {
         setTimeout(() => { if (liveModeRef.current) startLiveListening(); }, 200);
