@@ -38,6 +38,7 @@ export default function Navigation() {
             <NavLink href="/">Home</NavLink>
             <NavLink href="/recipes/">Recipes</NavLink>
             <NavLink href="/pantry/">What Can I Make?</NavLink>
+            <NavLink href="/community/">Community</NavLink>
             <NavLink href="/categories/cookbook/">Chicken Sandwich Cookbook</NavLink>
           </div>
 
@@ -99,9 +100,16 @@ export default function Navigation() {
                 What Can I Make?
               </MobileNavLink>
               <MobileNavLink
-                href="/categories/cookbook/"
+                href="/community/"
                 onClick={() => setMenuOpen(false)}
                 index={3}
+              >
+                Community
+              </MobileNavLink>
+              <MobileNavLink
+                href="/categories/cookbook/"
+                onClick={() => setMenuOpen(false)}
+                index={4}
               >
                 Chicken Sandwich Cookbook
               </MobileNavLink>

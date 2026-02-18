@@ -35,6 +35,12 @@ export default function Footer() {
                 All Recipes
               </Link>
               <Link
+                href="/community/"
+                className="text-sm text-text-dim hover:text-accent transition-colors"
+              >
+                Community
+              </Link>
+              <Link
                 href="/categories/cookbook/"
                 className="text-sm text-text-dim hover:text-accent transition-colors"
               >

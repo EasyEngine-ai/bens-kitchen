@@ -53,6 +53,7 @@ export default async function RecipePage({
   return (
     <RecipeDetail
       title={recipe.title}
+      slug={recipe.slug}
       categoryName={recipe.categoryName}
       description={recipe.description}
       ingredients={recipe.ingredients}

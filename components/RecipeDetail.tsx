@@ -5,6 +5,7 @@ import { motion, useScroll, useTransform, AnimatePresence } from "framer-motion"
 import Link from "next/link";
 import { AnimatedLine } from "./AnimatedText";
 import type { Ingredient } from "@/lib/recipes";
+import ReviewSection from "./ReviewSection";
 
 const TTS_URL =
   "https://n8n-main-instance-production-c69d.up.railway.app/webhook/tts";
@@ -13,12 +14,13 @@ const CHAT_URL =
 
 interface RecipeDetailProps {
   title: string;
+  slug: string;
   categoryName: string;
   description: string;
   ingredients: Ingredient[];
   directions: string[];
   image: string | null;
-  source: string;
+  source: "cookbook" | "personal" | "community";
   difficulty: string;
   cookTime: string;
   servings: number;
@@ -38,6 +40,7 @@ const HEAT_EMOJI = ["", "\u{1F336}", "\u{1F336}\u{1F336}", "\u{1F525}", "\u{1F52
 
 export default function RecipeDetail({
   title,
+  slug,
   categoryName,
   description,
   ingredients,
@@ -773,6 +776,9 @@ Here's the full recipe:\n\n${recipeContext}`,
             )}
           </motion.div>
         </div>
+
+        {/* Reviews */}
+        <ReviewSection recipeSlug={slug} recipeSource={source} />
 
         {/* Related recipes */}
         {relatedRecipes.length > 0 && (
