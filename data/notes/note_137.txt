@@ -1,0 +1,139 @@
+PRQ ideas
+---
+PRQ ideas
+
+Switch from zapier to n8n and host on private server for cheaper costs
+
+Ai agent that calls adjusters to get estimates 
+
+Use respond.io for calls, manual and automated sms in hubspot and for reps in the field
+
+Better sales rep digital card with QR codes to profiles and reviews and learning info with booking link for inspections 
+
+Submitted contract sms with what to expect 
+
+Agent that monitors incoming emails and sms to trigger context based actions
+
+Custom field filled with all coms summary to be used as context reference for ai bots
+
+Automatic referral and reviews automation
+
+Automated post inspection no sig follow up
+
+Better automations for pipeline movement 
+
+Incoming lead inspection scheduling bot
+
+Estimate analysis llm used in LOM scheduling
+
+Video that explains the process in automation 
+
+Video that explains denials in automation 
+
+Advanced roof pro scheduler
+
+Roofing sales llm for training
+
+Ai sales training podcasts
+
+Tutorial wizard for your hubspot
+
+Training courses on systems and sops 
+
+PRQ fights for you radio ads, direct mailers, billboards and meta ads
+
+Way to turn neighborhood guy into sales rep
+
+Affiliate marketing 
+
+Inspection training video
+
+Brand awareness only pays off at the door
+
+New claims card that advertises referrals, requests reviews and has links to process videos and denial videos 
+
+Customer testimonial videos 
+
+Tool that lets you leave notes through voice memos
+
+Forms that can be filled out by speaking to them
+
+Note taker for adjuster meetings that integrates into tasks for later and triggers needed automations
+
+Meta glasses for roof pros
+
+Figure out better calling tools and sms tools that allow automations to run from reps numbers 
+
+Deal status and general info bot with next steps and booking abilities that people can text
+
+Attract high caliber talent with the best support system they have ever seen
+
+Siro recording of one on ones
+
+PRQ news letter for finished clients
+
+Discount for return customers
+
+Geo tracking time clock app that rewards people for time worked and doors knocked per hour, only show the top 3 people not the bottom
+
+New customer omnicences tree
+
+UpSkill trees for support employees for a path to bonuses
+
+Personalized post Lom follow ups with grain recordings as context
+
+Analysis Lom grain recordings to trigger next steps and save account managers time which allows for more meetings 
+
+What to expect in your Lom meeting video
+
+Targeted mailers for non permitted people in neighborhoods that have a lot of permits
+
+Mailers for roofmax in old roof no hail areas with QR code tracking and takes them to a vsl funnel
+
+Flyers in gyms for PRQ hiring, ask them to put something on their desk that you will pay them for every hire that comes through from the ad
+
+Same for churches 
+
+Action needed notifications
+
+Pre One on one forms to fill out before the one on one that are stored and tracked
+
+Phone battery cases branded with PRQ so phones don’t die in the field 
+
+Luxury gift baskets for high ticket homes filled with reasons to work with us. Dedicated support, priority build dates, meeting times, highest quality products and upgrades included 
+
+Dedicated person for working interviews
+
+PRQ recruiting ads
+
+Dan teaches low level systems and first 2 weeks trading on all reps, coaches handle middle level work, Tucker handles high level sales training 
+
+Culture around setters changes, when they hit a milestone and are offered 2 routes closers or setter coach each just as valuable 
+
+Train low earning setters on roof max neighborhoods
+
+Funniest story of the week, pat chooses one to highlight on mondays and people guess who’s story it is for moral boosts
+
+Meta glasses for new reps to help coaches review them when they first leave the nest
+
+Documentation on how all systems function and relate to each other with looms and normal docs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

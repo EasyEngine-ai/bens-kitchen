@@ -1,65 +1,112 @@
-import Image from "next/image";
+import Link from "next/link";
+import Hero from "@/components/Hero";
+import StatsCounter from "@/components/StatsCounter";
+import FeaturedRecipes from "@/components/FeaturedRecipes";
+import CategoryShowcase from "@/components/CategoryShowcase";
+import { loadAllRecipes, loadCategories } from "@/lib/recipes";
 
-export default function Home() {
+function pickFeatured(recipes: ReturnType<typeof loadAllRecipes>) {
+  const featured = [];
+  const showcaseSlugs = [
+    "buffalo-ranch-chicken-sandwich",
+    "smokey-dr-pepper-bbq-chicken-sandwich",
+    "teriyaki-pineapple-chicken-sandwich",
+    "tikka-masala-chicken-sandwich",
+    "chipotle-lime-chicken-sandwich-smoky-charred",
+    "honey-mustard-aged-gruyere-pear-chicken-sandwich",
+  ];
+
+  for (const slug of showcaseSlugs) {
+    const r = recipes.find((rec) => rec.slug === slug);
+    if (r && r.image) {
+      featured.push({
+        title: r.title,
+        slug: r.slug,
+        image: r.image,
+        category: r.categoryName,
+        description: r.description,
+      });
+    }
+    if (featured.length >= 3) break;
+  }
+
+  if (featured.length < 3) {
+    const personal = recipes.filter((r) => r.source === "personal" && r.image);
+    for (const r of personal) {
+      if (featured.length >= 3) break;
+      featured.push({
+        title: r.title,
+        slug: r.slug,
+        image: r.image!,
+        category: r.categoryName,
+        description: r.description,
+      });
+    }
+  }
+
+  return featured;
+}
+
+export default function HomePage() {
+  const recipes = loadAllRecipes();
+  const categories = loadCategories();
+  const featured = pickFeatured(recipes);
+  const personalCategories = categories.filter((c) => c.source === "personal");
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <>
+      <Hero />
+      <StatsCounter />
+      <FeaturedRecipes recipes={featured} />
+      <CategoryShowcase categories={personalCategories} />
+
+      {/* Cookbook callout */}
+      <section className="py-24 md:py-32">
+        <div className="max-w-6xl mx-auto px-6">
+          <div className="relative rounded-2xl overflow-hidden bg-bg-surface border border-border">
+            <div className="absolute inset-0 opacity-30">
+              <img
+                src="/images/cover/cover.webp"
+                alt=""
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="absolute inset-0 bg-gradient-to-r from-bg via-bg/90 to-bg/60" />
+            <div className="relative z-10 p-8 md:p-16 max-w-xl">
+              <p className="text-xs uppercase tracking-[0.3em] text-accent mb-3">
+                The Cookbook
+              </p>
+              <h2 className="font-[family-name:var(--font-display)] text-3xl md:text-5xl mb-4 leading-tight">
+                Crazy Chicken Sandwiches
+              </h2>
+              <p className="text-text-muted leading-relaxed mb-8">
+                97 mind-blowing chicken sandwich recipes across 12 chapters —
+                from Buffalo &amp; Hot Sauce to Mediterranean &amp; Middle
+                Eastern. Each with multiple hand-crafted components.
+              </p>
+              <Link
+                href="/categories/cookbook/"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-accent text-bg font-medium text-sm uppercase tracking-[0.15em] rounded-full hover:shadow-[0_0_30px_rgba(212,165,116,0.3)] transition-all duration-300"
+              >
+                Explore The Cookbook
+                <svg
+                  className="w-4 h-4"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth={2}
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M17 8l4 4m0 0l-4 4m4-4H3"
+                  />
+                </svg>
+              </Link>
+            </div>
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+      </section>
+    </>
   );
 }

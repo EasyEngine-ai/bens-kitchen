@@ -1,0 +1,63 @@
+Below is an exhaustive, copy-ready catalogue of EasyEngine.ai’s products…
+---
+Below is an exhaustive, copy-ready catalogue of EasyEngine.ai’s products and professional services. It’s organized so you—or a designer—can drop sections directly into a modern SaaS website (hero, features grid, product pages, services overview, etc.).
+
+1. Core SaaS Platform
+￼
+2. Pre-Built Automations (Ready Day 1)
+Lead Capture → Nurture: form/landing-page triggers, multichannel drip, auto-task creation.
+Sales Campaigns: cadence templates (cold outbound, re-engagement, win-back).
+Client Onboarding: contract e-sign, project kickoff tasks, welcome emails, kickoff call scheduling.
+Payment Collection: invoice send + reminder + failed-charge rescue.
+Review & Reputation: post-purchase review requests, negative-feedback routing.
+Churn Fighter: at-risk account detection, retention sequence, CS ticket creation.
+
+3. Proprietary AI & Data Products
+￼
+4. Professional & Managed Services
+4.1 CRM & Technical Services
+Custom CRM architecture & field mapping
+Workflow / automation design & testing
+Third-party integrations (Stripe, Slack, HubSpot, etc.)
+Full migration & user onboarding
+4.2 Revenue & GTM Consulting
+Sales playbook creation and enablement
+Lead-nurture funnel design
+Client success process audit & automation
+Pipeline health checks & optimization
+4.3 Marketing & Growth Ops
+High-volume email marketing (10 k–250 k daily) with deliverability management
+AI-driven media buying (Facebook, Google, TikTok, LinkedIn)
+Creative studio: ad concepts, video, UGC, display, copy
+Campaign analytics + ROAS & CAC reporting
+4.4 SEO & Visibility Solutions
+Local Pack Boost: Google Maps ranking acceleration & citation management
+AI-content generation + RankGPT scoring for organic search & AI engines
+Technical SEO audits and schema deployment
+4.5 Data & Audience Engineering
+Custom audience creation (firmographic, technographic, behavioral)
+Search-intent harvesting & look-alike modeling
+Data enrichment & CRM hygiene
+
+5. Supported Industries (Ideal Customers)
+Digital & creative agencies
+B2B/B2C SaaS and e-commerce brands
+Home-service & field-service businesses
+Local franchises and multi-location groups
+Professional services (consultancies, law, finance)
+High-growth startups needing GTM acceleration
+
+6. Engagement Models
+￼
+7. Why Choose EasyEngine.ai?
+All-in-One: Replace ten+ point tools with one platform.
+AI at the Core: Proprietary models + GPT-4o integration across workflows.
+Faster Time-to-Value: Prebuilt automations slash implementation time.
+Scalable: Handles solopreneurs to enterprise user counts.
+Transparent Pricing: Flat monthly tiers, no hidden fees.
+
+Call-to-Action Snippet
+Start your 14-day free trial—no credit card required. Prefer white-glove onboarding? Schedule a demo and we’ll customize a success plan.
+
+Next Steps:
+Want this converted into a polished landing-page wireframe or Webflow/Framer project? Let me know and I can generate the layout or starter code.

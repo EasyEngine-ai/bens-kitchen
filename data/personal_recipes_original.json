@@ -1,0 +1,2752 @@
+{
+  "site_name": "Ben's Kitchen",
+  "categories": [
+    {
+      "id": "sauces",
+      "name": "Sauces & Glazes",
+      "count": 37
+    },
+    {
+      "id": "salads-sides",
+      "name": "Salads & Sides",
+      "count": 21
+    },
+    {
+      "id": "mains",
+      "name": "Main Dishes",
+      "count": 16
+    },
+    {
+      "id": "burger-sauces",
+      "name": "Burger Sauces",
+      "count": 10
+    },
+    {
+      "id": "dips",
+      "name": "Dips & Spreads",
+      "count": 8
+    },
+    {
+      "id": "wing-sauces",
+      "name": "Wing Sauces",
+      "count": 6
+    },
+    {
+      "id": "soups",
+      "name": "Soups & Stews",
+      "count": 5
+    },
+    {
+      "id": "jams",
+      "name": "Jams & Toppings",
+      "count": 4
+    },
+    {
+      "id": "breakfast",
+      "name": "Breakfast",
+      "count": 3
+    },
+    {
+      "id": "quick-ideas",
+      "name": "Quick Ideas",
+      "count": 3
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Beef Pot Pie Crockpot Dip",
+      "slug": "beef-pot-pie-crockpot-dip",
+      "category": "dips",
+      "ingredients": [
+        "Chuck Steak",
+        "Ground Beef",
+        "Stuffing Mix",
+        "Hash Browns",
+        "Mushrooms",
+        "Cabbage",
+        "Carrots",
+        "Peas",
+        "Celery",
+        "Red Peppers",
+        "Red Onions",
+        "Whole Garlic",
+        "Beef Stock",
+        "Extra hot horseradish",
+        "Whole Grain Mustard",
+        "Beef Gravy",
+        "Beef Stroganoff Seasoning",
+        "Au Ju seasoning",
+        "Cream of Mushroom",
+        "Worcestershire sauce",
+        "Butter",
+        "Black pepper",
+        "Thyme",
+        "Rosemary",
+        "Parsley",
+        "Beef Bullion",
+        "Parmesan Cheese"
+      ],
+      "directions": [
+        "Optional: Slices of lemon"
+      ],
+      "youtube_url": null,
+      "source_file": "note_001.txt"
+    },
+    {
+      "title": "BBQ Pork Pot Pie Crockpot Dip",
+      "slug": "bbq-pork-pot-pie-crockpot-dip",
+      "category": "dips",
+      "ingredients": [
+        "Smoked Pork Shoulder",
+        "Jimmy Deans Hot Sausage",
+        "Sweet Baby Rays BBQ Sauce or Devil Spit",
+        "Stuffing Mix",
+        "Corn",
+        "Peas",
+        "Green Beans",
+        "Jalapeños",
+        "Carrots",
+        "Celery",
+        "Red Onions",
+        "Hash Browns",
+        "Cream of Chicken Cans",
+        "Whole Garlic",
+        "Thyme",
+        "Rosemary",
+        "Parsley",
+        "Whole Grain Mustard Seed",
+        "Cream Cheese",
+        "Cheddar Cheese",
+        "Pepper Jack Cheese",
+        "Heavy cream"
+      ],
+      "directions": [
+        "Optional: Cream of Mushroom"
+      ],
+      "youtube_url": null,
+      "source_file": "note_002.txt"
+    },
+    {
+      "title": "Chicken Pot Pie Crockpot Dip",
+      "slug": "chicken-pot-pie-crockpot-dip",
+      "category": "dips",
+      "ingredients": [
+        "Whole shredded rotisserie chicken",
+        "Jimmy dean’s sausage",
+        "Bacon",
+        "Stuffing Mix",
+        "Hash browns",
+        "Green beans",
+        "Corn",
+        "Carrots",
+        "Onions",
+        "Peas",
+        "Whole Garlic",
+        "Celery",
+        "Jalapeños",
+        "Thyme",
+        "Rosemary",
+        "Parsley",
+        "Black pepper",
+        "Chicken bullion",
+        "Butter",
+        "Worcestershire sauce",
+        "Louisiana hot sauce",
+        "Cream Cheese",
+        "Cream of Chicken cans",
+        "Mozzarella",
+        "Cheddar cheese",
+        "Pepper Jack Cheese",
+        "Heavy cream",
+        "Eat with Puff Pastry’s, Biscuits iscuits or Croissants"
+      ],
+      "directions": [
+        "Optional: pork belly or shoulder"
+      ],
+      "youtube_url": null,
+      "source_file": "note_003.txt"
+    },
+    {
+      "title": "Creamy Roasted Tomato Garlic Sauce",
+      "slug": "creamy-roasted-tomato-garlic-sauce",
+      "category": "sauces",
+      "ingredients": [
+        "Lots of Basil",
+        "Italian seasoning",
+        "Black pepper",
+        "Sour cream",
+        "Greek Yogurt",
+        "Whipped Feta",
+        "Parmesan"
+      ],
+      "directions": [
+        "Roast in Oil and Butter:Lots of Cherry Tomatoes, Garlic and Red Onion",
+        "Optional: Cottage Cheese",
+        "Blend together"
+      ],
+      "youtube_url": null,
+      "source_file": "note_005.txt"
+    },
+    {
+      "title": "Creamy Lemon Roasted Garlic Herb Sauce",
+      "slug": "creamy-lemon-roasted-garlic-herb-sauce",
+      "category": "sauces",
+      "ingredients": [
+        "Sour cream",
+        "Greek yogurt",
+        "Feta",
+        "Cottage cheese",
+        "Lots of lemon juice",
+        "Butter",
+        "Parsley",
+        "Cilantro",
+        "Thyme",
+        "Rosemary",
+        "Basil",
+        "Chicken bullion"
+      ],
+      "directions": [
+        "Roasted Garlic"
+      ],
+      "youtube_url": null,
+      "source_file": "note_006.txt"
+    },
+    {
+      "title": "Potato Pesto Goat Cheese Muffins",
+      "slug": "potato-pesto-goat-cheese-muffins",
+      "category": "salads-sides",
+      "ingredients": [],
+      "directions": [
+        "1.Bake medium potatoes then roll them in butter and coat them with salt/flour/cornstarch/baking powder.",
+        "2.Put them in muffin tray and use seasoning jar to smash them into like a pocket of potato",
+        "3.Bake them at high heat to crisp them up and then take them out.",
+        "4.Mix Pesto, Roasted Garlic, Goat Cheese, Greek Yogurt, Cottage Cheese and Feta together in a bowl then pull the now crispy potato pockets out of the oven and fill them with the mixture you just made. Put it back into the oven at 350 for 7 min",
+        "5.Mix Cherry Tomatoes, red onions, cucumbers, corn, cherry peppers, basil, olive oil, red wine vinegar and balsamic glaze in bowl. Sprinkle in crushed crushed ridged kettle chips",
+        "6.Take Potatoes out of the oven and out of the pan then put the tomato salad mixture on top of the Pesto and cheese mixture so it fills the potato Pocket completely"
+      ],
+      "youtube_url": null,
+      "source_file": "note_007.txt"
+    },
+    {
+      "title": "Mediterranean Potato Crunchies",
+      "slug": "mediterranean-potato-crunchies",
+      "category": "salads-sides",
+      "ingredients": [
+        "Mashed Potatoes",
+        "Feta",
+        "Parsley",
+        "Cilantro",
+        "Dill",
+        "Red Onion",
+        "Tomato",
+        "Red peppers"
+      ],
+      "directions": [
+        "Mix into Mashed potatoes with flour/corn starch and bread crumbs. Then flatten and fry until crunchy and serve with spicy Tatzkiki sauce for dipping"
+      ],
+      "youtube_url": null,
+      "source_file": "note_008.txt"
+    },
+    {
+      "title": "Southwest Salad Dressing",
+      "slug": "southwest-salad-dressing",
+      "category": "salads-sides",
+      "ingredients": [
+        "Greek yogurt or mayo and sour cream",
+        "Chipotle peppers in adobo",
+        "Chipotle Chalula hot sauce",
+        "Jalapeño",
+        "Cilantro",
+        "Raw Garlic",
+        "Lime juice",
+        "Splash of Apple Cider Vinegar",
+        "Chili powder",
+        "Garlic powder",
+        "Onion powder",
+        "Cayenne pepper",
+        "Pepper",
+        "Smoked paprika",
+        "Pinch of Cumin",
+        "Apple or Honey for sweet"
+      ],
+      "directions": [],
+      "youtube_url": null,
+      "source_file": "note_009.txt"
+    },
+    {
+      "title": "Tasty Tuna Salad",
+      "slug": "tasty-tuna-salad",
+      "category": "salads-sides",
+      "ingredients": [
+        "Chunky Tuna",
+        "Tri-Color Penni Pasta",
+        "Shredded Cheddar Cheese",
+        "Red Onions",
+        "Cherry Tomatoes",
+        "Orange Bell Peppers",
+        "Cucumbers",
+        "Peas",
+        "White Corn",
+        "Heavy Thick Mayonnaise",
+        "Lemon juice",
+        "Olive Oil",
+        "Italian seasoning",
+        "Crushed kettle chips",
+        "Feta Cheese"
+      ],
+      "directions": [
+        "Optional: Wasabi"
+      ],
+      "youtube_url": null,
+      "source_file": "note_010.txt"
+    },
+    {
+      "title": "Fried Chicken Caesar Salad Pasta Bake",
+      "slug": "fried-chicken-caesar-salad-pasta-bake",
+      "category": "salads-sides",
+      "ingredients": [
+        "Fried Chicken Thighs",
+        "Penni Pasta",
+        "Bacon",
+        "Croutons",
+        "Pepperoni",
+        "Tomatoes",
+        "Red Onions",
+        "Garlic",
+        "Red peppers",
+        "Artichoke Hearts",
+        "Caesar Salad Dressing",
+        "Motserella Cheese",
+        "Parmesan cheese",
+        "Sour Cream",
+        "Butter",
+        "Lemon juice",
+        "Black Pepper"
+      ],
+      "directions": [
+        "Put Romaine Lettuce and feta cheese on top of everything after everything is done baking"
+      ],
+      "youtube_url": null,
+      "source_file": "note_011.txt"
+    },
+    {
+      "title": "Mystic Macaroni Salad",
+      "slug": "mystic-macaroni-salad",
+      "category": "salads-sides",
+      "ingredients": [
+        "Macaroni Pasta",
+        "Bacon",
+        "Chopped Hard Boiled Eggs",
+        "Mayo + Sugar",
+        "Shredded Cheddar Cheese",
+        "Red Onions",
+        "Celery",
+        "Red Pepper",
+        "Shredded Carrots",
+        "Tomato’s",
+        "Corn",
+        "Peas",
+        "Cucumber",
+        "Sweet relish",
+        "Red Pepper flakes",
+        "Smoked Paprika",
+        "Jalapeño Kettle Chips"
+      ],
+      "directions": [
+        "Roasted Chopped Chicken Thighs or Smoked BBQ Pulled Pork",
+        "Optional: Hot Honey"
+      ],
+      "youtube_url": null,
+      "source_file": "note_012.txt"
+    },
+    {
+      "title": "Eggsalant Everything Egg Salad",
+      "slug": "eggsalant-everything-egg-salad",
+      "category": "salads-sides",
+      "ingredients": [
+        "Lots of Chopped Hard Boiled Eggs",
+        "Bacon",
+        "Pickles",
+        "Celery",
+        "Red Onions",
+        "Jalapeños",
+        "Cucumber",
+        "Red Peppers",
+        "Cherry Tomatoes",
+        "Dill",
+        "Parsley",
+        "Thyme",
+        "Mayo",
+        "Yellow mustard or whole grain mustard",
+        "Sour cream",
+        "Goat cheese",
+        "Lemon juice",
+        "Red pepper flakes",
+        "Black pepper"
+      ],
+      "directions": [
+        "Optional: Corn",
+        "Optional: Chopped Croutons",
+        "Optional: Potatoes",
+        "Optional: Avacado"
+      ],
+      "youtube_url": null,
+      "source_file": "note_013.txt"
+    },
+    {
+      "title": "Smoked and Candied BBQ Hotdog Burnt Ends",
+      "slug": "smoked-and-candied-bbq-hotdog-burnt-ends",
+      "category": "mains",
+      "ingredients": [
+        "Use Yellow mustard and honey as binder",
+        "BBQ seasoning, brown sugar, jalapeño seasoning",
+        "Smoke for a while then"
+      ],
+      "directions": [
+        "Beef Hotdogs or cheddar Kielbasas chopped into 1 1/2in slices",
+        "Coat with devil spit bbq sauce and more brown sugar",
+        "Then put in aluminum tin with butter and more sugar and Sweet Baby Ray and cook in the tin at 400 degrees for 30min to an hour"
+      ],
+      "youtube_url": null,
+      "source_file": "note_014.txt"
+    },
+    {
+      "title": "Loaded Brautwurst  Potato Salad",
+      "slug": "loaded-brautwurst-potato-salad",
+      "category": "salads-sides",
+      "ingredients": [
+        "Bacon",
+        "Sourkrout",
+        "Hash Browns or Baked Potatoes",
+        "White, yellow and red onions",
+        "Red peppers",
+        "Pickled jalapeños",
+        "Pickles",
+        "Tomatoes",
+        "Garlic",
+        "Green onions",
+        "Pepperchini peppers",
+        "Shredded Pepper jack cheese",
+        "Mayo",
+        "Whole grain mustard or yellow mustard",
+        "Sour cream",
+        "Worshtershire sauce"
+      ],
+      "directions": [
+        "Fire grilled Beer Brauts, Cheese Brauts, Hot Brauts, Sweet and Spicy Brauts",
+        "Optional: Drizzle hot beer cheese over it"
+      ],
+      "youtube_url": null,
+      "source_file": "note_015.txt"
+    },
+    {
+      "title": "Smoked 5 Cheese Spinach Artichoke Dip",
+      "slug": "smoked-5-cheese-spinach-artichoke-dip",
+      "category": "dips",
+      "ingredients": [
+        "Spinach",
+        "Artichoke hearts",
+        "Pepperoni or salami",
+        "Smoked Gouda cheese",
+        "Smoked Cream cheese",
+        "Parmesan cheese",
+        "Goat cheese",
+        "Feta cheese",
+        "Butter, mayo or heavy cream",
+        "Pepperchini peppers or cherry peppers",
+        "Smoked Paprika",
+        "Black pepper"
+      ],
+      "directions": [
+        "Smoked Chicken Thighs or Smoked BBQ Pork Belly or Bacon or Smoked Pulled BBQ Pork Shoulder",
+        "Sautéed onions, jalapeños, red peppers, chopped and whole garlic",
+        "Optional: hot honey"
+      ],
+      "youtube_url": null,
+      "source_file": "note_016.txt"
+    },
+    {
+      "title": "Sweet Sourkrout Meatballs Crockpot",
+      "slug": "sweet-sourkrout-meatballs-crockpot",
+      "category": "mains",
+      "ingredients": [
+        "Meatballs",
+        "Sourkrout",
+        "Hienz chili",
+        "Grape or apple jelly",
+        "Meatball",
+        "Pork Belly",
+        "Sourkrout",
+        "Sweet onions",
+        "Orange peppers",
+        "Pineapples",
+        "Carrots",
+        "Jalapeños",
+        "Orange Juice",
+        "Sugar",
+        "Black pepper",
+        "Cayenne pepper"
+      ],
+      "directions": [
+        "Chick-fil-aPolynesian sauce (Catalina Dressing) or sweet and sour sauce"
+      ],
+      "youtube_url": null,
+      "source_file": "note_017.txt"
+    },
+    {
+      "title": "Caramelized, Onion and Garlic Asian Fusion Spaghetti",
+      "slug": "caramelized-onion-and-garlic-asian-fusion-spaghetti",
+      "category": "mains",
+      "ingredients": [
+        "Pork belly",
+        "Butter",
+        "Olive oil",
+        "Chili crisp oil",
+        "Little bit of soy sauce",
+        "Heavy cream",
+        "Shit load of Parmesan cheese",
+        "Lemon juice",
+        "Paprika",
+        "Garlic powder",
+        "Italian seasoning",
+        "Black pepper",
+        "Fresh parsley"
+      ],
+      "directions": [
+        "Lots of Caramelized onions and chopped and whole garlic",
+        "Serve on angel hair pasta"
+      ],
+      "youtube_url": null,
+      "source_file": "note_018.txt"
+    },
+    {
+      "title": "Crispy Chili Mayo Salad",
+      "slug": "crispy-chili-mayo-salad",
+      "category": "soups",
+      "ingredients": [
+        "Shredded chicken or pork belly",
+        "Greek yogurt",
+        "Mayo",
+        "Crispy chili oil",
+        "Sesame oil",
+        "Bit of Hoisin Sauce",
+        "Sesame seeds",
+        "Cucumber",
+        "Carrots",
+        "Green onions",
+        "Red onions",
+        "Corn",
+        "Avacado chunks",
+        "Black pepper"
+      ],
+      "directions": [
+        "Optional: serve on top of crunchy flattened potatoes"
+      ],
+      "youtube_url": null,
+      "source_file": "note_019.txt"
+    },
+    {
+      "title": "Peppercorn Steak Sauce",
+      "slug": "peppercorn-steak-sauce",
+      "category": "sauces",
+      "ingredients": [
+        "Parmesan cheese",
+        "Heavy cream",
+        "Mayo/sour cream",
+        "Shit load of black pepper",
+        "Butter",
+        "Steak gravy",
+        "Worcestershire sauce",
+        "Bourbon Whiskey",
+        "Whole grain mustard",
+        "Lemon juice",
+        "Red wine vinegar",
+        "Garlic",
+        "Shallots",
+        "Thyme",
+        "Rosemary",
+        "Parsley",
+        "Salt"
+      ],
+      "directions": [
+        "Blend with French fries or potato’s and some steak"
+      ],
+      "youtube_url": null,
+      "source_file": "note_020.txt"
+    },
+    {
+      "title": "Tomato Pasta Salad",
+      "slug": "tomato-pasta-salad",
+      "category": "salads-sides",
+      "ingredients": [
+        "Rotini pasta",
+        "Pepperoni",
+        "Shredded Rotisserie Chicken",
+        "Cucumber",
+        "Tomato",
+        "Red onion",
+        "Red bell peppers",
+        "Corn",
+        "Parsley",
+        "Feta cheese"
+      ],
+      "directions": [
+        "Optional: pepperchinis",
+        "Sauce: olive oil, Italian dressing , garlic, onions, lots of tomato paste, lemon juice, butter, mayo, sugar, Italian seasoning"
+      ],
+      "youtube_url": null,
+      "source_file": "note_021.txt"
+    },
+    {
+      "title": "Complete Breakfast Crockpot",
+      "slug": "complete-breakfast-crockpot",
+      "category": "breakfast",
+      "ingredients": [
+        "Bag of hashbrowns add Cajun seasoning to it",
+        "Jimmy dean’s breakfast sausages hot or maple style",
+        "Ham",
+        "Bacon",
+        "Lots of scrambled eggs",
+        "White country gravy",
+        "Cheddar cheese",
+        "Cream cheese",
+        "Sour cream",
+        "Butter, mayo or heavy cream",
+        "Some hot sauce",
+        "Rotel tomatoes",
+        "Black pepper",
+        "Paprika"
+      ],
+      "directions": [
+        "Sautéed Onions, whole Garlic, Bell Peppers, Jalapeños, maybe mushrooms if you want"
+      ],
+      "youtube_url": null,
+      "source_file": "note_022.txt"
+    },
+    {
+      "title": "Cheeseburger Dip",
+      "slug": "cheeseburger-dip",
+      "category": "dips",
+      "ingredients": [
+        "Hamburger",
+        "Bacon",
+        "Velveta cheese",
+        "Cheddar cheese",
+        "Cream cheese",
+        "Evaporated milk",
+        "Onions",
+        "Pickles",
+        "Tomato’s",
+        "Bacon onion jam",
+        "Burger sauce",
+        "Thyme"
+      ],
+      "directions": [
+        "Add raw onions, raw tomatoes, crispy bacon and Shredded lettuce on top after cooked"
+      ],
+      "youtube_url": null,
+      "source_file": "note_023.txt"
+    },
+    {
+      "title": "Crockpot Vodka Sauce Lasagna",
+      "slug": "crockpot-vodka-sauce-lasagna",
+      "category": "mains",
+      "ingredients": [
+        "Make lasagna in a crockpot"
+      ],
+      "directions": [],
+      "youtube_url": null,
+      "source_file": "note_024.txt"
+    },
+    {
+      "title": "Crockpot lasagna",
+      "slug": "crockpot-lasagna",
+      "category": "mains",
+      "ingredients": [
+        "Make lasagna in a crockpot"
+      ],
+      "directions": [],
+      "youtube_url": null,
+      "source_file": "note_025.txt"
+    },
+    {
+      "title": "Chicken Enchiladas Crockpot",
+      "slug": "chicken-enchiladas-crockpot",
+      "category": "mains",
+      "ingredients": [
+        "Chicken breast",
+        "Chorizo",
+        "Corn",
+        "Peppers",
+        "Red Onions",
+        "Pickled jalapenos",
+        "Green chilies",
+        "Lots of salsa",
+        "Cream cheese",
+        "Sour scream",
+        "Shit load of Monterey Jack cheese",
+        "Lime juice",
+        "Taco and fajitas seasoning",
+        "Cilantro and parsley"
+      ],
+      "directions": [
+        "Roasted tomatoes",
+        "Slice up a bunch of corn tortillas and throw that shit in there also",
+        "Serve with Spanish rice"
+      ],
+      "youtube_url": null,
+      "source_file": "note_026.txt"
+    },
+    {
+      "title": "Garlic Parmesan Chicken Pasta Crockpot",
+      "slug": "garlic-parmesan-chicken-pasta-crockpot",
+      "category": "mains",
+      "ingredients": [
+        "Chicken breast",
+        "Butter",
+        "Garlic",
+        "Parmesan",
+        "Parsley",
+        "Rosemary",
+        "Onions",
+        "Red peppers",
+        "Cream cheese",
+        "Sour cream",
+        "Lemon juice",
+        "Boiled potatoes"
+      ],
+      "directions": [
+        "Roasted tomatoes",
+        "After chicken done cooking mix everything up then put cooked angel hair pasta in the crockpot mix up and serve"
+      ],
+      "youtube_url": null,
+      "source_file": "note_027.txt"
+    },
+    {
+      "title": "Pepperoni and Sausage Pizza Dip",
+      "slug": "pepperoni-and-sausage-pizza-dip",
+      "category": "dips",
+      "ingredients": [
+        "Lots of pepperoni",
+        "Jimmy dean’s hot Italian",
+        "Parmesan cheese",
+        "Fresh Mozzarella",
+        "Cream cheese",
+        "Sour cream",
+        "Marinara sauce or vodka sauce",
+        "Italian seasoning",
+        "Fresh basil",
+        "Onions",
+        "Garlic",
+        "Peppers",
+        "Pepperchini Pepper",
+        "Pickled jalapeños",
+        "Red pepper flakes",
+        "Ranch seasoning",
+        "Papa John’s garlic sauce over the top",
+        "Hard Garlic bread to dip it in"
+      ],
+      "directions": [],
+      "youtube_url": null,
+      "source_file": "note_028.txt"
+    },
+    {
+      "title": "Pulled Pork BBQ Queso Dip",
+      "slug": "pulled-pork-bbq-queso-dip",
+      "category": "dips",
+      "ingredients": [
+        "Bbq smoked pulled pork",
+        "Bacon",
+        "Maple baked beans",
+        "Cream cheese",
+        "Pepper jack cheese",
+        "Monterey Jack",
+        "Velveta",
+        "Sour Cream",
+        "Green chilies",
+        "Red onions",
+        "Corn",
+        "Devil spit bbq sauce",
+        "Butter",
+        "Black pepper"
+      ],
+      "directions": [],
+      "youtube_url": null,
+      "source_file": "note_029.txt"
+    },
+    {
+      "title": "Jalapeño Poppers Dip",
+      "slug": "jalapeno-poppers-dip",
+      "category": "dips",
+      "ingredients": [
+        "Lots of jalapeño",
+        "Lots of bacon",
+        "Cream cheese",
+        "Pepper jack cheese",
+        "Sour cream",
+        "Ground beef or chopped smoked chicken thighs",
+        "Corn",
+        "Red onions",
+        "Ranch seasoning",
+        "Jalapeño seasoning"
+      ],
+      "directions": [
+        "Top with sharp cheddar"
+      ],
+      "youtube_url": null,
+      "source_file": "note_030.txt"
+    },
+    {
+      "title": "Remoulade Sauce",
+      "slug": "remoulade-sauce",
+      "category": "sauces",
+      "ingredients": [
+        "Mayonnaise",
+        "Sour cream",
+        "Siracha",
+        "Creole seasoning",
+        "Whole grain mustard",
+        "Hot sauce",
+        "Jalapeños",
+        "Shallots",
+        "Dill pickle relish",
+        "Lemon juice",
+        "Horseradish",
+        "Worcestershire sauce",
+        "Garlic",
+        "Paprika",
+        "Cayenne pepper",
+        "Fresh dill",
+        "Thyme",
+        "Parsley"
+      ],
+      "directions": [],
+      "youtube_url": null,
+      "source_file": "note_031.txt"
+    },
+    {
+      "title": "Asian Peanut Sauce",
+      "slug": "asian-peanut-sauce",
+      "category": "sauces",
+      "ingredients": [
+        "Peanut butter",
+        "Honey",
+        "Soy sauce",
+        "Siracha",
+        "Sesame Oil",
+        "Rice vinegar",
+        "Lime juice",
+        "Ginger",
+        "Garlic",
+        "Chili crisp",
+        "Garlic chili paste",
+        "Red chili flakes",
+        "Brown sugar"
+      ],
+      "directions": [],
+      "youtube_url": null,
+      "source_file": "note_032.txt"
+    },
+    {
+      "title": "Polynesian Sauce",
+      "slug": "polynesian-sauce",
+      "category": "sauces",
+      "ingredients": [
+        "∙\t1 cup Catalina dressing",
+        "∙\t2-3 tablespoons honey",
+        "∙\t1-2 tablespoons apple cider vinegar",
+        "∙\t¼ teaspoon smoked paprika",
+        "∙\t¼ teaspoon dried mustard",
+        "∙\t1 tablespoon brown sugar",
+        "∙\t2 tablespoons pineapple juice"
+      ],
+      "directions": [],
+      "youtube_url": null,
+      "source_file": "note_033.txt"
+    },
+    {
+      "title": "Better Chick-fil-A Sauce",
+      "slug": "better-chick-fil-a-sauce",
+      "category": "sauces",
+      "ingredients": [
+        "Mayo",
+        "Bbq sauce",
+        "Honey mustard",
+        "Tomato paste",
+        "Hot honey",
+        "Pickles and pickle juice",
+        "Cherry peppers",
+        "Sautéed onions, peppers, jalapeños, garlic in butter",
+        "Pepper",
+        "Chili powder"
+      ],
+      "directions": [],
+      "youtube_url": null,
+      "source_file": "note_034.txt"
+    },
+    {
+      "title": "Bussin Breakfast Burrito",
+      "slug": "bussin-breakfast-burrito",
+      "category": "breakfast",
+      "ingredients": [
+        "Sautéed onions, peppers, garlic and green chiles, corn",
+        "Pork belly in hot honey",
+        "Goat cheese, pepper jack, and American cheese, chojta"
+      ],
+      "directions": [
+        "Mix 3 eggs, Mayo, butter, jalapenos powder into a bowl, pour onto a plate then put plate into microwave and microwave for 50 seconds.",
+        "Roasted potatoes or crispy fries",
+        "Mix Chalua, chipotle adobo, cilantro and Sour cream to make the sauce",
+        "Cook 3 egg yolks only and cook them until runny then put them on burrito and wrap that shit up",
+        "Optional: salsa and guacamole"
+      ],
+      "youtube_url": null,
+      "source_file": "note_036.txt"
+    },
+    {
+      "title": "Cajun Honey Burger Sauce",
+      "slug": "cajun-honey-burger-sauce",
+      "category": "burger-sauces",
+      "ingredients": [
+        "Mayo",
+        "Tomato paste",
+        "Yellow mustard",
+        "Cajun seasoning",
+        "Honey or hot honey",
+        "Black pepper"
+      ],
+      "directions": [
+        "Sautée onions, garlic, red and green peppers in butter and Worcestershire sauce"
+      ],
+      "youtube_url": null,
+      "source_file": "note_037.txt"
+    },
+    {
+      "title": "Cajun Alfredo Wing Sauce",
+      "slug": "cajun-alfredo-wing-sauce",
+      "category": "wing-sauces",
+      "ingredients": [
+        "Heavy cream",
+        "Butter",
+        "Cream cheese",
+        "Parmesan",
+        "Bacon",
+        "Bit of lemon juice",
+        "Cajun seasoning",
+        "Sautéed onions",
+        "Bit of Tomato paste",
+        "Italian seasoning",
+        "Chicken bullion",
+        "Black pepper",
+        "Shaven Parmesan"
+      ],
+      "directions": [
+        "Roasted garlic"
+      ],
+      "youtube_url": null,
+      "source_file": "note_042.txt"
+    },
+    {
+      "title": "Pineapple Jalapeno cream cheese bacon jam",
+      "slug": "pineapple-jalapeno-cream-cheese-bacon-jam",
+      "category": "jams",
+      "ingredients": [
+        "Bacon",
+        "Jalapeño",
+        "Pineapple",
+        "Chipotle",
+        "Ancote",
+        "Onions",
+        "Sugar"
+      ],
+      "directions": [
+        "Mix in Cream cheese after jam is cool"
+      ],
+      "youtube_url": null,
+      "source_file": "note_044.txt"
+    },
+    {
+      "title": "Asian Cucumber Salad",
+      "slug": "asian-cucumber-salad",
+      "category": "salads-sides",
+      "ingredients": [
+        "∙\tEnglish  cucumbers",
+        "Cabbage",
+        "∙\tRice vinegar",
+        "∙\tSoy sauce",
+        "∙\tToasted sesame oil",
+        "Thai sweet chili",
+        "Crispy chili oil",
+        "∙\tSugar or honey",
+        "∙\tGarlic, minced",
+        "Red onion",
+        "∙\tFresh ginger, grated",
+        "∙\tRed pepper flakes",
+        "∙\tSesame seeds",
+        "∙\tGreen onions",
+        "∙\tCrushed peanuts (optional)"
+      ],
+      "directions": [
+        "Slice cucumbers as thin as possible (mandoline works best). Whisk together rice vinegar, soy sauce, sesame oil, sugar, garlic, ginger, and red pepper flakes until sugar dissolves. Toss cucumbers in the dressing. Refrigerate at least 10–15 min to let flavors meld. Top with sesame seeds, sliced green onions, and crushed peanuts before serving."
+      ],
+      "youtube_url": null,
+      "source_file": "note_045.txt"
+    },
+    {
+      "title": "Thai chili bacon jam",
+      "slug": "thai-chili-bacon-jam",
+      "category": "jams",
+      "ingredients": [
+        "Sweet Thai chili",
+        "Bacon",
+        "Thai chilis",
+        "Soy sauce",
+        "Shallots",
+        "Garlic",
+        "Chicken stock",
+        "Basil",
+        "Sugar",
+        "Lime juice"
+      ],
+      "directions": [],
+      "youtube_url": null,
+      "source_file": "note_046.txt"
+    },
+    {
+      "title": "Pepperoni Cherry Tomatoe jam",
+      "slug": "pepperoni-cherry-tomatoe-jam",
+      "category": "jams",
+      "ingredients": [
+        "Pepperoni",
+        "Cherry Tomatoes",
+        "Sun-dried tomatoes",
+        "Garlic",
+        "Onion",
+        "Sugar",
+        "Italian seasoning"
+      ],
+      "directions": [],
+      "youtube_url": null,
+      "source_file": "note_047.txt"
+    },
+    {
+      "title": "Honey Garlic Sauce",
+      "slug": "honey-garlic-sauce",
+      "category": "sauces",
+      "ingredients": [
+        "Honey",
+        "Garlic",
+        "Bit of ketchup",
+        "Soy sauce",
+        "Rice vinegar",
+        "Brown sugar",
+        "Red pepper flakes",
+        "Shallots",
+        "Sesame Oil",
+        "Sesame Seeds",
+        "Corn starch"
+      ],
+      "directions": [],
+      "youtube_url": null,
+      "source_file": "note_050.txt"
+    },
+    {
+      "title": "Sesame Chicken",
+      "slug": "sesame-chicken",
+      "category": "mains",
+      "ingredients": [
+        "Sesame oil",
+        "Sesame seeds",
+        "Soy sauce",
+        "Honey",
+        "Ketchup",
+        "Red chili flakes",
+        "Rice vinegar",
+        "Garlic",
+        "Raw sugar",
+        "Green onions",
+        "Bit of Siracha",
+        "Corn starch"
+      ],
+      "directions": [],
+      "youtube_url": null,
+      "source_file": "note_051.txt"
+    },
+    {
+      "title": "Crispy Honey Lemon Pepper Wing Sauce",
+      "slug": "crispy-honey-lemon-pepper-wing-sauce",
+      "category": "wing-sauces",
+      "ingredients": [
+        "Hot Honey",
+        "Bit of Siracha",
+        "Lemon juice",
+        "Lemon zest",
+        "Lemon pepper",
+        "Black pepper",
+        "Cayenne pepper",
+        "Chilli Crisp oil",
+        "Garlic",
+        "Butter",
+        "Green onions",
+        "Cornstarch"
+      ],
+      "directions": [
+        "Optional: bit of sour cream"
+      ],
+      "youtube_url": null,
+      "source_file": "note_052.txt"
+    },
+    {
+      "title": "Cowboy Ranch",
+      "slug": "cowboy-ranch",
+      "category": "sauces",
+      "ingredients": [
+        "Mayo",
+        "Sour Cream",
+        "Butter milk",
+        "Garlic",
+        "Dijon mustard",
+        "Lemon juice",
+        "Lemon zest",
+        "Parsley",
+        "Dill chives",
+        "Thyme",
+        "Paprika",
+        "Cayenne",
+        "Red pepper flakes",
+        "Ranch seasoning"
+      ],
+      "directions": [
+        "Optional: cottage cheese"
+      ],
+      "youtube_url": null,
+      "source_file": "note_053.txt"
+    },
+    {
+      "title": "Orange Chicken sauce",
+      "slug": "orange-chicken-sauce",
+      "category": "mains",
+      "ingredients": [
+        "Orange Juice",
+        "Soy sauce",
+        "Sesame Oil",
+        "Sesame Seeds",
+        "Garlic paste",
+        "Ginger paste",
+        "Brown sugar",
+        "Corn starch",
+        "Red chili flakes",
+        "Rice wine vinegar",
+        "Orange zest",
+        "Orange marmalade or jam"
+      ],
+      "directions": [],
+      "youtube_url": null,
+      "source_file": "note_054.txt"
+    },
+    {
+      "title": "Garlic Parmesan Sauce",
+      "slug": "garlic-parmesan-sauce",
+      "category": "sauces",
+      "ingredients": [
+        "Garlic",
+        "Butter",
+        "Mayo/sour cream",
+        "Parmesan",
+        "Heavy cream",
+        "Chives",
+        "Parsley",
+        "Lemon juice",
+        "White vinegar",
+        "Red pepper flakes",
+        "Salt pepper",
+        "Corn starch"
+      ],
+      "directions": [],
+      "youtube_url": null,
+      "source_file": "note_055.txt"
+    },
+    {
+      "title": "Blue Cheese Crazy Chunky Sauce",
+      "slug": "blue-cheese-crazy-chunky-sauce",
+      "category": "sauces",
+      "ingredients": [
+        "Blue Cheese",
+        "Cottage Cheese",
+        "Mayonnaise",
+        "Sour Cream",
+        "Salt & Lots of Course Pepper",
+        "Dill",
+        "Garlic",
+        "Cucumber (Dehydrated)",
+        "Red Onion (Dehydrated)",
+        "Red Bell Pepper (Dehydrated)",
+        "Lemon juice",
+        "Wurshtershire sauce",
+        "Dijon mustard",
+        "Olive oil",
+        "Red wine vinegar"
+      ],
+      "directions": [],
+      "youtube_url": null,
+      "source_file": "note_056.txt"
+    },
+    {
+      "title": "Bbq buffalo Wing Sauce",
+      "slug": "bbq-buffalo-wing-sauce",
+      "category": "wing-sauces",
+      "ingredients": [
+        "Butter",
+        "Buffalo",
+        "Bbq",
+        "Honey",
+        "Lime juice Chunks",
+        "Garlic",
+        "Bbq dry rub",
+        "Red pepper flakes"
+      ],
+      "directions": [],
+      "youtube_url": null,
+      "source_file": "note_057.txt"
+    },
+    {
+      "title": "Mango Habanero Sauce",
+      "slug": "mango-habanero-sauce",
+      "category": "sauces",
+      "ingredients": [
+        "Mango pure",
+        "Habaneros",
+        "Honey",
+        "Garlic",
+        "Lime juice",
+        "Green onions",
+        "Paprika"
+      ],
+      "directions": [],
+      "youtube_url": null,
+      "source_file": "note_058.txt"
+    },
+    {
+      "title": "Dave’s Hot Chicken sauce",
+      "slug": "daves-hot-chicken-sauce",
+      "category": "sauces",
+      "ingredients": [
+        "Mayo",
+        "Chipotle sauce",
+        "Brown Sugar",
+        "Honey",
+        "Sautéed onions",
+        "Garlic salt",
+        "Black pepper",
+        "Apple cider vinegar"
+      ],
+      "directions": [],
+      "youtube_url": null,
+      "source_file": "note_059.txt"
+    },
+    {
+      "title": "Creamy Avocado Lime Sauce",
+      "slug": "creamy-avocado-lime-sauce",
+      "category": "sauces",
+      "ingredients": [
+        "Avacado",
+        "Cilantro",
+        "Lime juice",
+        "Sour cream",
+        "Mayo"
+      ],
+      "directions": [
+        "Roasted and charred Jalapeños",
+        "Roasted garlic"
+      ],
+      "youtube_url": null,
+      "source_file": "note_060.txt"
+    },
+    {
+      "title": "Pineapple Chipotle  Mayo Sauce",
+      "slug": "pineapple-chipotle-mayo-sauce",
+      "category": "sauces",
+      "ingredients": [
+        "Chipotle peppers in adobo sauce",
+        "Pineapple chunks and sauce",
+        "Mayo",
+        "Honey",
+        "Cilantro",
+        "Black pepper",
+        "Garlic powder"
+      ],
+      "directions": [],
+      "youtube_url": null,
+      "source_file": "note_061.txt"
+    },
+    {
+      "title": "Big Mac Sauce",
+      "slug": "big-mac-sauce",
+      "category": "burger-sauces",
+      "ingredients": [
+        "Mayo",
+        "Yellow mustard",
+        "Carmelized onions",
+        "Sweet relish",
+        "Paprika",
+        "Sugar pickle juice",
+        "Onion powder",
+        "Garlic powder",
+        "White vinegar"
+      ],
+      "directions": [
+        "Roasted garlic"
+      ],
+      "youtube_url": null,
+      "source_file": "note_062.txt"
+    },
+    {
+      "title": "Dr Pepper BBQ Wing Sauce",
+      "slug": "dr-pepper-bbq-wing-sauce",
+      "category": "wing-sauces",
+      "ingredients": [
+        "Dr Pepper",
+        "∙\tKetchup",
+        "∙\tBrown sugar",
+        "∙\tApple cider vinegar",
+        "∙\tWorcestershire sauce",
+        "∙\tYellow mustard",
+        "∙\tChili powder",
+        "∙\tGarlic powder",
+        "∙\tOnion powder",
+        "∙\tBlack pepper",
+        "∙\tCayenne"
+      ],
+      "directions": [],
+      "youtube_url": null,
+      "source_file": "note_063.txt"
+    },
+    {
+      "title": "Sunkist Buffalo Wing Sauce",
+      "slug": "sunkist-buffalo-wing-sauce",
+      "category": "wing-sauces",
+      "ingredients": [
+        "Orange Sunkist",
+        "Franks red hot",
+        "Brown sugar",
+        "Butter",
+        "Garlic",
+        "Orange zest",
+        "Red pepper flakes",
+        "Hot honey"
+      ],
+      "directions": [],
+      "youtube_url": null,
+      "source_file": "note_064.txt"
+    },
+    {
+      "title": "Coca Cola BBQ Glaze",
+      "slug": "coca-cola-bbq-glaze",
+      "category": "sauces",
+      "ingredients": [
+        "Cola (not diet)",
+        "Bit of bbq",
+        "∙\tKetchup",
+        "∙\tBrown sugar",
+        "∙\tApple cider vinegar",
+        "∙\tWorcestershire",
+        "∙\tSmoked paprika",
+        "∙\tGarlic powder"
+      ],
+      "directions": [
+        "Simmer all ingredients until reduced to a thick glossy glaze. Brush on patties in the last minute of cooking.​​​​​​​​​​​​​​​​"
+      ],
+      "youtube_url": null,
+      "source_file": "note_065.txt"
+    },
+    {
+      "title": "Peach Chutney BBQ Burger Topping",
+      "slug": "peach-chutney-bbq-burger-topping",
+      "category": "burger-sauces",
+      "ingredients": [
+        "Ripe peaches",
+        "∙\tSugar",
+        "∙\tWhite vinegar",
+        "∙\tOnion",
+        "∙\tRaisins",
+        "∙\tFresh ginger",
+        "∙\tCinnamon"
+      ],
+      "directions": [
+        "Dice peaches and simmer everything together until thick. Pairs with sharp white cheddar or Brie on burgers."
+      ],
+      "youtube_url": null,
+      "source_file": "note_066.txt"
+    },
+    {
+      "title": "Ripe peaches",
+      "slug": "ripe-peaches",
+      "category": "quick-ideas",
+      "ingredients": [
+        "∙\tSugar",
+        "∙\tWhite vinegar",
+        "∙\tOnion",
+        "∙\tRaisins",
+        "∙\tFresh ginger",
+        "∙\tCinnamon"
+      ],
+      "directions": [
+        "Dice peaches and simmer everything together until thick. Pairs with sharp white cheddar or Brie on burgers."
+      ],
+      "youtube_url": null,
+      "source_file": "note_067.txt"
+    },
+    {
+      "title": "Tomato Jam burger topping",
+      "slug": "tomato-jam-burger-topping",
+      "category": "burger-sauces",
+      "ingredients": [
+        "Roma tomatoes",
+        "∙\tBrown sugar",
+        "∙\tApple cider vinegar",
+        "∙\tFresh ginger",
+        "∙\tCumin",
+        "∙\tSmoked paprika",
+        "∙\tCayenne",
+        "∙\tSalt"
+      ],
+      "directions": [
+        "Chop tomatoes and combine everything in a heavy pot. Bring to a boil, reduce heat, and simmer stirring often until thick and jammy. Works as a grown-up ketchup replacement."
+      ],
+      "youtube_url": null,
+      "source_file": "note_068.txt"
+    },
+    {
+      "title": "Crazy Chicken Sandwiches",
+      "slug": "crazy-chicken-sandwiches",
+      "category": "mains",
+      "ingredients": [
+        "for example:   Butter Chicken Sandwich",
+        "Picked red onions super thin",
+        "Tomatoes",
+        "Goat Cheese",
+        "Mint Cucumber Lassi for sauce",
+        "Potato Buns",
+        "The Master List of Chicksans",
+        "* Buffalo Cream Cheese Chicksan",
+        "* Garlic Parmesan Chicksan",
+        "* Wet Lemon Pepper Chicksan",
+        "* Chipotle Lime Chicksan",
+        "* Italian Grinder Chicksan",
+        "* Honey Mustard Vinaigrette Chicksan",
+        "* Smokey BBQ Chicksan",
+        "* Carolina Gold Chicksan",
+        "* Maple Syrup Bacon BBQ Chicksan",
+        "* Alabama White BBQ Sauce Chicksan",
+        "* Buffalo Ranch Chicksan",
+        "* Buffalo Blue Cheese Chicksan",
+        "* Cilantro Lime Chicksan",
+        "* Tikka Masala Chicksan",
+        "* Korma Chicksan",
+        "* Gyro Tzatziki Chicksan",
+        "* Doritos Mac n Cheese Chicksan",
+        "* Dill Pickle Chicksan",
+        "* Southern White Gravy Chicksan",
+        "* Teriyaki Pineapple Chicksan",
+        "* Orange Chicksan",
+        "* Sesame Chicksan",
+        "* Szechuan Chili Chicksan",
+        "* General Tso Chicksan",
+        "* Korean BBQ (Bulgogi-Style) Chicksan",
+        "* Mexican Elote Chili Lime Chicksan",
+        "* Fried Pickle & Tomato BLT Chicksan",
+        "* Chili Crisp Mayo (Lao Gan Ma-Style) Chicksan",
+        "* Hot Honey Chicksan",
+        "* Eggplant Parmesan Chicksan",
+        "* Blueberry Bacon Banana PB Chicksan",
+        "* Strawberry Bacon Banana PB Chicksan",
+        "* Sun-dried Tomato Pesto Chicksan",
+        "* Spinach Artichoke Dip Chicksan",
+        "* Tomato Basil Mozzarella Chicksan",
+        "* Brown Sugar Frank's Hot Chicksan",
+        "* Caribbean Jerk Chicksan",
+        "* Caribbean Curry Chicksan",
+        "* Chicken Fricassee Chicksan",
+        "* Coq Au Vin Chicksan",
+        "* Jalapeno Poppers Chicksan",
+        "* Loaded Nachos Chicksan",
+        "* California Burrito Chicksan",
+        "* BBQ Ranch \"Rodeo\" Chicksan",
+        "* County Breakfast Chicksan",
+        "* Mushroom Alfredo Chicksan",
+        "* Creamy Lemon Rosemary Chicksan",
+        "* Creamy Dijon Rosemary Chicksan",
+        "* Creamy Tuscan Chicksan",
+        "* Creamy Garlic Herb Chicksan",
+        "* Orange Bacon Bourbon Chicksan",
+        "* \"Marry Me\" Chicksan",
+        "* Honey Garlic Chicksan",
+        "* Fiesta Chicksan",
+        "* Coconut Honey Lime Chicksan",
+        "* Coconut Curry Chicksan",
+        "* Pad Thai Peanut Chicksan",
+        "* Chinese Peanut Butter Chicksan",
+        "* Halal White Sauce Chicksan",
+        "* Benji Beef Chicksan",
+        "* Fried Rice Chicksan",
+        "* Spicy Apricot Brie Chicksan",
+        "* BBQ Lime Chicksan",
+        "* Remoulade Calamari Chicksan",
+        "* Chick-fil-A Sauce Chicksan",
+        "* Chili Garlic Peanut Paste Chicksan",
+        "* Sushi Sauce Pickled Ginger Chicksan",
+        "* Harissa Aioli Chicksan",
+        "* Stir Fry Chicksan",
+        "* Miso Ginger Chicksan",
+        "* Sunkist Buffalo Chicksan",
+        "* Balsamic Glaze Chicksan",
+        "* Gochujang Chicksan",
+        "* Jalapeno Cheddar Chicksan",
+        "* Honey PB Green Apple Cinnamon Chicksan",
+        "* Peach Glazed Chicksan",
+        "* Caribbean Jerk w/ Guava Chicksan",
+        "* Dr Pepper BBQ Chicksan",
+        "* Berry Bacon Brie BBQ Chicksan",
+        "* Maple Bourbon \"Rodeo\" Chicksan",
+        "* Peruvian Green Sauce (Ají Verde) Chicksan",
+        "* Peri Peri Chicksan",
+        "* Red Wine Onion Gravy Chicksan",
+        "* Dijon Mascarpone Chicksan",
+        "* Lemon Dill Butter Chicksan",
+        "* Creamy Marsala Chicksan",
+        "* Grilled Chili Mango Lime Chicksan",
+        "* Aji Amarillo Chicksan",
+        "* Chipotle Adobo Crema Chicksan",
+        "* Watermelon Salad Chicksan",
+        "* Enchilada Chicksan",
+        "* Tamale Chicksan",
+        "* Cucumber Salad Chicksan",
+        "* Puerto Rican Chicksan",
+        "* Loaded Beer Brat Chicksan",
+        "* Salt & Vinegar Chips Chicksan",
+        "* Loaded Chili Dog Chicksan",
+        "* Shawarma Chicksan",
+        "* Brown Butter Chicksan",
+        "* Texas Roadhouse Butter Chicksan",
+        "* Sloppy Joe Chicksan",
+        "* Blooming Onion Chicksan",
+        "* Creamed Spinach Chicksan",
+        "* Eggs Benedict Chicksan",
+        "* Cajun Alfredo Chicksan",
+        "* Chinese Chili Oil Chicksan",
+        "* Caesar Salad Chicksan",
+        "* Sambal Mayo Chicksan",
+        "* Spicy Mango Chutney Spread Chicksan",
+        "* Cajun Remoulade Chicksan",
+        "* Jalapeño Maple Mustard Chicksan",
+        "* Chipotle Peach Sauce Chicksan",
+        "* Raspberry Gochujang Sauce Chicksan",
+        "* Spicy Pickle Juice Aioli Chicksan",
+        "* Chamoy Drizzle Chicksan",
+        "* Green Goddess Chicksan",
+        "* Zhug (Yemeni Green Sauce) Chicksan",
+        "* Salsa Verde (Italian-Style) Chicksan",
+        "* Mint Yogurt Sauce Chicksan",
+        "* Lemon-Herb Aioli Chicksan",
+        "* Comeback Sauce Chicksan",
+        "* Whipped Feta Spread Chicksan",
+        "* Toum (Lebanese Garlic Sauce) Chicksan",
+        "* Romesco Chicksan",
+        "* Miso Glaze Chicksan"
+      ],
+      "directions": [
+        "ALL SANDWICHES USE CHICKEN THIGHS AND HAVE THEIR OWN SPECIAL  TOPPINGS that will go well with the theme of the sandwich and also complement the flavors and mesh well with the idea of the sandwich, be creative and think both inside the box for classic or known toppings like coleslaws, pickles, onions, tomatoes, and lettuce and also out side of the box for cool an creative ideas from YouTube chefs and other creative cooks for inspiration.  condiments as well if needed AND ALWAYS FRIED IN TALLOW OR LARD, WET AND DRY BATTER SEASONED WITH CHICKEN BUION AND OTHER SPICES BASED ON EACH SANDWICH ON BUTTERED TOASTED YELLOW POTATO BUNS or Brioche Buns",
+        "Fry Chicken in lard with curry seasoned breading mix of half flour and half potato starch",
+        "Cover it in Butter Chicken sauce Top with:"
+      ],
+      "youtube_url": null,
+      "source_file": "note_069.txt"
+    },
+    {
+      "title": "Brown Sugar Hot Wing Sauce",
+      "slug": "brown-sugar-hot-wing-sauce",
+      "category": "wing-sauces",
+      "ingredients": [
+        "Franks hot sauce",
+        "Lots of brown sugar",
+        "Hot honey"
+      ],
+      "directions": [],
+      "youtube_url": null,
+      "source_file": "note_070.txt"
+    },
+    {
+      "title": "Sweet Gochujang Aoli",
+      "slug": "sweet-gochujang-aoli",
+      "category": "sauces",
+      "ingredients": [
+        "Mayo",
+        "Gochujang Paste",
+        "Sesame oil",
+        "Rice vinegar",
+        "Honey",
+        "Garlic",
+        "Sautéed onions",
+        "Sesame seeds"
+      ],
+      "directions": [],
+      "youtube_url": null,
+      "source_file": "note_071.txt"
+    },
+    {
+      "title": "Candied Bacon, Jalapeños, and Apples Burger Topping",
+      "slug": "candied-bacon-jalapenos-and-apples-burger-topping",
+      "category": "burger-sauces",
+      "ingredients": [
+        "Bacon",
+        "jalapeños",
+        "Red apples",
+        "Raw sugar",
+        "Maple Syrup",
+        "Apple cider vinegar",
+        "Red pepper flakes"
+      ],
+      "directions": [
+        "Method: Bring sugar, vinegar, and pepper flakes to a boil. Add jalapeños and simmer 5 minutes. Cool. Store in a jar. Sweet, spicy, crunchy — the perfect burger topper."
+      ],
+      "youtube_url": null,
+      "source_file": "note_072.txt"
+    },
+    {
+      "title": "Smash Burger Copy Cat Sauce",
+      "slug": "smash-burger-copy-cat-sauce",
+      "category": "burger-sauces",
+      "ingredients": [
+        "Mayo",
+        "Ketchup",
+        "Horseradish",
+        "Worcestershire sauce",
+        "Siracha",
+        "Garlic powder",
+        "Sautéed shallots",
+        "Salt and pepper"
+      ],
+      "directions": [],
+      "youtube_url": null,
+      "source_file": "note_074.txt"
+    },
+    {
+      "title": "Classic Burger Sauce",
+      "slug": "classic-burger-sauce",
+      "category": "burger-sauces",
+      "ingredients": [
+        "Mayo",
+        "Ketchup",
+        "Splash of yellow mustard",
+        "Pickle juice",
+        "Chunks of dill pickles",
+        "Sautéed onions",
+        "Crispy real bacon bits",
+        "Worcestershire sauce",
+        "Garlic powder",
+        "Salt",
+        "Pepper"
+      ],
+      "directions": [],
+      "youtube_url": null,
+      "source_file": "note_075.txt"
+    },
+    {
+      "title": "Hot Honey Apple Mayo Sauce",
+      "slug": "hot-honey-apple-mayo-sauce",
+      "category": "sauces",
+      "ingredients": [
+        "Mayo",
+        "Siracha",
+        "Hot honey",
+        "Sautéed onions",
+        "Crisp red apple"
+      ],
+      "directions": [
+        "Roasted garlic"
+      ],
+      "youtube_url": null,
+      "source_file": "note_076.txt"
+    },
+    {
+      "title": "White Whole Grain Burger Sauce",
+      "slug": "white-whole-grain-burger-sauce",
+      "category": "burger-sauces",
+      "ingredients": [
+        "Mayo",
+        "Bit of butter",
+        "Whole grain mustard",
+        "Chunks of dill pickles",
+        "Sautéed sweet yellow onions",
+        "Worcestershire sauce",
+        "Garlic powder",
+        "Black pepper",
+        "Paprika"
+      ],
+      "directions": [],
+      "youtube_url": null,
+      "source_file": "note_077.txt"
+    },
+    {
+      "title": "Hot Honey Apple Mayo Sauce",
+      "slug": "hot-honey-apple-mayo-sauce-078",
+      "category": "sauces",
+      "ingredients": [
+        "Mayo",
+        "Siracha",
+        "Hot honey",
+        "Sautéed onions",
+        "Crisp red apple"
+      ],
+      "directions": [
+        "Roasted garlic"
+      ],
+      "youtube_url": null,
+      "source_file": "note_078.txt"
+    },
+    {
+      "title": "Burger Sauces",
+      "slug": "burger-sauces",
+      "category": "burger-sauces",
+      "ingredients": [
+        "White sauce",
+        "Mayo",
+        "Bit of butter",
+        "Whole grain mustard",
+        "Chunks of dill pickles",
+        "Sautéed sweet yellow onions",
+        "Worcestershire sauce",
+        "Garlic powder",
+        "Black pepper",
+        "Paprika",
+        "Classic Burger sauce",
+        "Mayo",
+        "Ketchup",
+        "Splash of yellow mustard",
+        "Pickle juice",
+        "Chunks of dill pickles",
+        "Sautéed onions",
+        "Worcestershire sauce",
+        "Garlic powder",
+        "Salt",
+        "Pepper",
+        "Hot Honey Apple Mayo",
+        "Mayo",
+        "Siracha",
+        "Hot honey",
+        "Sautéed onions",
+        "Crisp red apple",
+        "Strawberry jam, honey and peanut butter black pepper"
+      ],
+      "directions": [
+        "Roasted garlic"
+      ],
+      "youtube_url": null,
+      "source_file": "note_079.txt"
+    },
+    {
+      "title": "Butter Chicken Sandwich",
+      "slug": "butter-chicken-sandwich",
+      "category": "mains",
+      "ingredients": [
+        "Red onion super thin",
+        "Tomatoes",
+        "Goat Cheese",
+        "Mint Cucumber Lassi for sauce",
+        "Potato Buns"
+      ],
+      "directions": [
+        "Fry Chicken in lard with half curry seasoned flour and half corn or potato starch",
+        "Cover it in Butter Chicken sauce"
+      ],
+      "youtube_url": null,
+      "source_file": "note_080.txt"
+    },
+    {
+      "title": "Cool Cole Slaw",
+      "slug": "cool-cole-slaw",
+      "category": "salads-sides",
+      "ingredients": [
+        "Red Cabbage",
+        "Green Cabbage",
+        "Carrots",
+        "White Onions",
+        "Celery Seed",
+        "Mayonnaise",
+        "Apple cider vinegar",
+        "Salt and Pepper"
+      ],
+      "directions": [],
+      "youtube_url": null,
+      "source_file": "note_082.txt"
+    },
+    {
+      "title": "Bacon Onion and Roasted Garlic Jam",
+      "slug": "bacon-onion-and-roasted-garlic-jam",
+      "category": "jams",
+      "ingredients": [
+        "Bacon",
+        "Yellow onions",
+        "Garlic",
+        "Brown sugar",
+        "Apple cider vinegar",
+        "Burbon Maple syrup",
+        "Black pepper",
+        "Salt"
+      ],
+      "directions": [
+        "Cook diced bacon until crispy, remove and set aside. In the bacon fat, cook diced onions low and slow until deeply caramelized (about 30–40 minutes). Add minced garlic and cook a couple more minutes. Stir in brown sugar, apple cider vinegar, and maple syrup. Add the bacon back in and simmer on low until it becomes thick and jammy (about 15–20 minutes). Season with salt and pepper. Let it cool slightly — it’ll thicken more as it rests.​​​​​​​​​​​​​​​​"
+      ],
+      "youtube_url": null,
+      "source_file": "note_083.txt"
+    },
+    {
+      "title": "Creamed Spinach",
+      "slug": "creamed-spinach",
+      "category": "salads-sides",
+      "ingredients": [
+        "Fresh spinach",
+        "Butter",
+        "Garlic",
+        "Cream cheese",
+        "Heavy cream",
+        "Parmesan cheese",
+        "Salt",
+        "Black pepper",
+        "Red pepper flakes"
+      ],
+      "directions": [],
+      "youtube_url": null,
+      "source_file": "note_084.txt"
+    },
+    {
+      "title": "Creamy Greek Lemon Herb Potatoes",
+      "slug": "creamy-greek-lemon-herb-potatoes",
+      "category": "salads-sides",
+      "ingredients": [
+        "Olive oil",
+        "Fresh lemon juice lots of it",
+        "Bit of sour cream or Greek yogurt",
+        "Chicken broth",
+        "Garlic",
+        "Red onions",
+        "Rosemary",
+        "Thyme",
+        "Italian seasoning",
+        "Chicken bullion",
+        "Salt",
+        "Black pepper"
+      ],
+      "directions": [
+        "Yukon Gold potatoes (roasted or boiled in chicken stock)",
+        "Optional: Zatar seasoning",
+        "Best: serve as side with chicken thighs and use the fat from the chicken to mix into the potatoes"
+      ],
+      "youtube_url": null,
+      "source_file": "note_085.txt"
+    },
+    {
+      "title": "Mediterranean White Sauce",
+      "slug": "mediterranean-white-sauce",
+      "category": "sauces",
+      "ingredients": [
+        "Full fat Greek yogurt",
+        "Mayo/sour cream",
+        "Olive oil",
+        "Lemon juice",
+        "Skinless Cucumber (dehydrated)",
+        "Garlic",
+        "White onion",
+        "Parsley",
+        "Zatar seasoning",
+        "Black Pepper"
+      ],
+      "directions": [
+        "Roasted garlic",
+        "Optional: Mint"
+      ],
+      "youtube_url": null,
+      "source_file": "note_086.txt"
+    },
+    {
+      "title": "Mexican Creamy Bean Sauce",
+      "slug": "mexican-creamy-bean-sauce",
+      "category": "sauces",
+      "ingredients": [
+        "Full Fat Refried Beans",
+        "Sour Cream",
+        "Mayo",
+        "Cjota cheese or goat cheese",
+        "Green chilies",
+        "Pickled jalapeños",
+        "Chalua hot sauce",
+        "Lime juice",
+        "Bit of taco seasoning",
+        "Black pepper"
+      ],
+      "directions": [
+        "Roasted and charred red peppers, garlic, corn and red onions",
+        "Optional: oregano, Taco Bell sauce"
+      ],
+      "youtube_url": null,
+      "source_file": "note_087.txt"
+    },
+    {
+      "title": "Fresh and Crisp Garden Chicken Wrap",
+      "slug": "fresh-and-crisp-garden-chicken-wrap",
+      "category": "mains",
+      "ingredients": [
+        "Cold shredded rotisserie chicken",
+        "Red delicious apples",
+        "Green apples",
+        "White onions",
+        "Pickled red onions",
+        "Crushed tortillas chips",
+        "Lots of garlic herb seasoning",
+        "Sour cream/ bit of mayo"
+      ],
+      "directions": [
+        "In and out sauce or Ken’s thousand island dressing",
+        "Optional: add some white rice",
+        "Serve cold inside of a tomato basil wrap or big flour tortilla shell"
+      ],
+      "youtube_url": null,
+      "source_file": "note_088.txt"
+    },
+    {
+      "title": "Lemon Rosemary Chicken Rice",
+      "slug": "lemon-rosemary-chicken-rice",
+      "category": "salads-sides",
+      "ingredients": [
+        "• Chicken thighs (skin-on)",
+        "• Basmati rice",
+        "• Chicken stock & Lemon juice",
+        "• Yellow onion, garlic, and red peppers",
+        "• Rosemary, parsley, and mint",
+        "• Lemon pepper"
+      ],
+      "directions": [
+        "• For serving: Sour cream and pickled red onions",
+        "1. Cook Chicken: Sear thighs in a pan until done. Save the chicken grease in a cup.",
+        "2. Cook Rice: Use the chicken grease and lemon juice as the cooking liquid for the Basmati rice.",
+        "3. Prep Chicken: Shred or chop the cooked thighs (keep the skin on).",
+        "4. Deglaze: Pour chicken stock into the chicken pan. Add diced onion, garlic, and red peppers to sauté and deglaze the brown bits.",
+        "5. Combine: Fold the cooked rice and chopped chicken into the pan with the veggies and broth.",
+        "6. Season: Add lemon pepper, extra lemon juice, plenty of rosemary, parsley, and mint.",
+        "7. Finish: Simmer until the broth is absorbed. Serve with sour cream and pickled red onions."
+      ],
+      "youtube_url": null,
+      "source_file": "note_089.txt"
+    },
+    {
+      "title": "Goat Cheese and Spinach Scrambled Eggs",
+      "slug": "goat-cheese-and-spinach-scrambled-eggs",
+      "category": "breakfast",
+      "ingredients": [
+        "Eggs",
+        "Goat cheese",
+        "Butter",
+        "Cherry tomatoes",
+        "Spinach",
+        "Garlic",
+        "Sweet yellow onions"
+      ],
+      "directions": [
+        "Top with pepper jack cheese",
+        "Serve with a side of sour cream and pickled red onions",
+        "Or on a piece of buttered sourdough bread topped with sour cream and pickled red onions"
+      ],
+      "youtube_url": null,
+      "source_file": "note_090.txt"
+    },
+    {
+      "title": "Special Italian Sandwich Sauce",
+      "slug": "special-italian-sandwich-sauce",
+      "category": "mains",
+      "ingredients": [
+        "Pepercini Juice",
+        "Red Vinegar",
+        "Mayonnaise",
+        "Lemon Juice",
+        "Splash of Yellow Mustard",
+        "Lots of Italian Herbs",
+        "Salt & Pepper",
+        "Salami",
+        "Pepperoni",
+        "Sun-Dried Tomatoes",
+        "Pepercini",
+        "Pickled red onions"
+      ],
+      "directions": [
+        "Roasted and charred garlic, red bell peppers and red onion",
+        "(Add More Mayo, vinegar and Pepercini juice if it gets to thick)"
+      ],
+      "youtube_url": null,
+      "source_file": "note_091.txt"
+    },
+    {
+      "title": "Homemade Tallow/Butter Mayonnaise",
+      "slug": "homemade-tallowbutter-mayonnaise",
+      "category": "sauces",
+      "ingredients": [
+        "Raw eggs",
+        "Tallow/butter",
+        "Splash of olive oil",
+        "Lemon juice",
+        "Dijon mustard",
+        "Salt"
+      ],
+      "directions": [
+        "Mix in blender"
+      ],
+      "youtube_url": null,
+      "source_file": "note_092.txt"
+    },
+    {
+      "title": "Red Creamy Chimmichri Sauce",
+      "slug": "red-creamy-chimmichri-sauce",
+      "category": "sauces",
+      "ingredients": [
+        "Parsley",
+        "Cilantro",
+        "Garlic",
+        "Red bell peppers",
+        "Red onions",
+        "Olive oil",
+        "Lemon juice",
+        "Red wine vinegar",
+        "Red pepper flakes",
+        "Salt",
+        "Bit of butter",
+        "Bit of mayo or sour cream"
+      ],
+      "directions": [
+        "Roasted garlic and roasted red peppers"
+      ],
+      "youtube_url": null,
+      "source_file": "note_093.txt"
+    },
+    {
+      "title": "Chili",
+      "slug": "chili",
+      "category": "soups",
+      "ingredients": [
+        "Ground beef",
+        "Pork belly",
+        "Parmesan cheese",
+        "White onion",
+        "Red onion",
+        "Whole garlic",
+        "White corn",
+        "Bell pepper",
+        "Tomato’s",
+        "Sour krout",
+        "Kidney beans",
+        "Chili seasoning",
+        "Tomato paste",
+        "Beef broth"
+      ],
+      "directions": [
+        "Roasted garlic",
+        "Roasted and charred jalapeños",
+        "Serve with sour cream, pepper jack cheese, green onion, and Fritos"
+      ],
+      "youtube_url": null,
+      "source_file": "note_094.txt"
+    },
+    {
+      "title": "Garlic Herb Butter",
+      "slug": "garlic-herb-butter",
+      "category": "sauces",
+      "ingredients": [
+        "Butter",
+        "Parsley",
+        "Garlic",
+        "Thyme",
+        "Rosemary",
+        "Lemon juice"
+      ],
+      "directions": [
+        "Roasted Garlic"
+      ],
+      "youtube_url": null,
+      "source_file": "note_095.txt"
+    },
+    {
+      "title": "Creamy Horseradish Sauce",
+      "slug": "creamy-horseradish-sauce",
+      "category": "sauces",
+      "ingredients": [
+        "Sour Cream",
+        "Mayo",
+        "Lots of extra hot horseradish",
+        "Raw garlic",
+        "Red onions",
+        "Lemon juice",
+        "Red wine vinegar",
+        "Black pepper",
+        "Salt",
+        "Butter"
+      ],
+      "directions": [
+        "Optional: dill",
+        "Optional: raw egg"
+      ],
+      "youtube_url": null,
+      "source_file": "note_096.txt"
+    },
+    {
+      "title": "Pimping Pasta Salad",
+      "slug": "pimping-pasta-salad",
+      "category": "salads-sides",
+      "ingredients": [
+        "Tri-Color Rigatoni",
+        "Tri-Color Orzo Pasta",
+        "Shredded Pepper Jack",
+        "Feta",
+        "Klamata Olives",
+        "Red Onion",
+        "Red Bell Pepper",
+        "Cherry Tomatoes",
+        "Cucumbers",
+        "Pepperoni",
+        "Salami chunks",
+        "Pepperoni",
+        "Fresh Basil",
+        "Italian seasoning",
+        "Italian or Greek Dressing",
+        "Lemon juice",
+        "Black Pepper"
+      ],
+      "directions": [
+        "Roasted Garlic Cloves"
+      ],
+      "youtube_url": null,
+      "source_file": "note_097.txt"
+    },
+    {
+      "title": "Fantastic Fried Rice",
+      "slug": "fantastic-fried-rice",
+      "category": "salads-sides",
+      "ingredients": [
+        "Day Old Basmati Rice",
+        "Peas",
+        "Carrots",
+        "Red Onions",
+        "Green Onions",
+        "Red Bell Peppers",
+        "Orange Bell Peppers",
+        "White Corn",
+        "Cucumbers",
+        "Chicken bullion",
+        "Toasted Sesame Oil",
+        "Soy Sauce",
+        "Lemon Juice",
+        "Chill Garlic Paste",
+        "Crispy chili oil"
+      ],
+      "directions": [
+        "Roasted Garlic Cloves",
+        "Roasted Peanuts"
+      ],
+      "youtube_url": null,
+      "source_file": "note_098.txt"
+    },
+    {
+      "title": "Perfect Potatoe Salad",
+      "slug": "perfect-potatoe-salad",
+      "category": "salads-sides",
+      "ingredients": [
+        "Shredded Cheddar Cheese",
+        "Cream cheese or goat cheese",
+        "Red Onions",
+        "Green Onions",
+        "Hard Boiled Eggs",
+        "Sweet Relish",
+        "Celery",
+        "Crispy Bacon",
+        "Red Bell Peppers",
+        "Honey Mustard Vinaigrette",
+        "Heavy Mayonnaise",
+        "Sour Cream",
+        "Red Pepper Flakes",
+        "Paprika"
+      ],
+      "directions": [
+        "Yukon Gold Potatoes (Boiled in Chicken Stock) or roasted then covered in chicken bullion"
+      ],
+      "youtube_url": null,
+      "source_file": "note_099.txt"
+    },
+    {
+      "title": "Sexy Street Corn Salad",
+      "slug": "sexy-street-corn-salad",
+      "category": "salads-sides",
+      "ingredients": [
+        "White Corn (blacken on pan)",
+        "Red Onion",
+        "Green Onion",
+        "Jalapeno (roasted)",
+        "Clinantro",
+        "Cotija Cheese",
+        "Feta",
+        "Parmesan",
+        "Heavy Mayo",
+        "Sour Cream",
+        "Butter",
+        "Salt And Pepper",
+        "Lime Juice and Pulp",
+        "Chorizo"
+      ],
+      "directions": [
+        "Roasted Garlic Cloves"
+      ],
+      "youtube_url": null,
+      "source_file": "note_100.txt"
+    },
+    {
+      "title": "Crazy Mac n Cheese",
+      "slug": "crazy-mac-n-cheese",
+      "category": "salads-sides",
+      "ingredients": [
+        "Cellentani pasta",
+        "Sharp Cheddar",
+        "Parmesan",
+        "Ricotta",
+        "Pepper Jack",
+        "Goat cheese",
+        "Sun Dried Tomatoes",
+        "Red Bell Pepper",
+        "Butter",
+        "Chives/ Green Onions",
+        "Crispy Mini Pepperoni",
+        "Crispy Bacon"
+      ],
+      "directions": [
+        "(Cheese Melted with Flour and Bacon Grease (or Butter))",
+        "Roasted garlic and charred red onion",
+        "Nacho cheese and cool ranch Doritos placed on top after baking"
+      ],
+      "youtube_url": null,
+      "source_file": "note_101.txt"
+    },
+    {
+      "title": "Crispy Asian Chili Mayo",
+      "slug": "crispy-asian-chili-mayo",
+      "category": "soups",
+      "ingredients": [
+        "Chili crisp",
+        "Mayo",
+        "Garlic",
+        "Shallots",
+        "Green onion",
+        "Black pepper"
+      ],
+      "directions": [
+        "Optional: add some Thai sweet chili"
+      ],
+      "youtube_url": null,
+      "source_file": "note_102.txt"
+    },
+    {
+      "title": "Better Cowboy Butter",
+      "slug": "better-cowboy-butter",
+      "category": "sauces",
+      "ingredients": [
+        "Mayonnaise",
+        "Butter",
+        "Stone Ground Dijon Mustard",
+        "Lemon Juice with Pulp",
+        "Garlic",
+        "Rosted Garlic and red onion",
+        "Parsley",
+        "Thyme",
+        "Rosemary",
+        "Smoked Paprika",
+        "Red & Black Pepper"
+      ],
+      "directions": [],
+      "youtube_url": null,
+      "source_file": "note_103.txt"
+    },
+    {
+      "title": "Cilantro Lime Sauce",
+      "slug": "cilantro-lime-sauce",
+      "category": "sauces",
+      "ingredients": [
+        "Mayonnaise",
+        "Greek Yogurt",
+        "Cilantro",
+        "Raw garlic",
+        "Lime juice with Plup",
+        "Salt & Pepper"
+      ],
+      "directions": [],
+      "youtube_url": null,
+      "source_file": "note_104.txt"
+    },
+    {
+      "title": "Special Steak Sauce",
+      "slug": "special-steak-sauce",
+      "category": "sauces",
+      "ingredients": [
+        "A1 Sauce",
+        "Mayonnaise",
+        "Pepercini Juice",
+        "Lemon Juice",
+        "Gravy and Fat from Cooked Steak",
+        "Butter",
+        "(Option: Dijon Mustard)",
+        "(Option: Horseradish)",
+        "Shallots",
+        "Thyme",
+        "Parsley",
+        "Rosemary",
+        "Beef bullion",
+        "Salt & Lots of Course Black Pepper",
+        "(Option: Jalapeno)"
+      ],
+      "directions": [
+        "Roasted and charred Garlic, Red Bell Pepper, and red onion"
+      ],
+      "youtube_url": null,
+      "source_file": "note_105.txt"
+    },
+    {
+      "title": "Ranch Sauce",
+      "slug": "ranch-sauce",
+      "category": "sauces",
+      "ingredients": [
+        "Ranch seasoning packet",
+        "Mayonnaise",
+        "Sour Cream",
+        "Heavy Cream",
+        "Lots of Dill",
+        "Paprika",
+        "Salt & Pepper",
+        "Grated Garlic",
+        "Minced Red Onion (Dehydrated)",
+        "Cucumber (Dehydrated)"
+      ],
+      "directions": [],
+      "youtube_url": null,
+      "source_file": "note_106.txt"
+    },
+    {
+      "title": "Creamy Al Pastor sauce",
+      "slug": "creamy-al-pastor-sauce",
+      "category": "sauces",
+      "ingredients": [
+        "Sour cream",
+        "Pork builon",
+        "Anchoite paste",
+        "Guajilio chil",
+        "Adobo",
+        "Oregano",
+        "Garlic cloves",
+        "Red onion",
+        "Cilantro",
+        "Cijote cheese",
+        "Pineapple",
+        "Orange",
+        "Butter"
+      ],
+      "directions": [],
+      "youtube_url": null,
+      "source_file": "note_107.txt"
+    },
+    {
+      "title": "Habenareo pizza ranch aloi",
+      "slug": "habenareo-pizza-ranch-aloi",
+      "category": "sauces",
+      "ingredients": [
+        "Mayo",
+        "Sour cream",
+        "Dill",
+        "Ranch seasoning",
+        "Garlic",
+        "Habenareo",
+        "Pepperoni",
+        "Black pepper",
+        "Butter"
+      ],
+      "directions": [
+        "Roasted Orange bell pepper and red onion"
+      ],
+      "youtube_url": null,
+      "source_file": "note_108.txt"
+    },
+    {
+      "title": "Mexican Street Corn Sauce",
+      "slug": "mexican-street-corn-sauce",
+      "category": "sauces",
+      "ingredients": [
+        "Cjota cheese",
+        "Fresco Cheese",
+        "Chorizo",
+        "Mayo",
+        "sour cream",
+        "yogurt",
+        "Lime juice",
+        "Chili lime seasoning or tajen",
+        "Taco seasoning"
+      ],
+      "directions": [
+        "Roasted red peppers, red onion, and garlic Corn",
+        "Roasted and charred corn and jalapeños"
+      ],
+      "youtube_url": null,
+      "source_file": "note_109.txt"
+    },
+    {
+      "title": "Marry Me Chicken sauce",
+      "slug": "marry-me-chicken-sauce",
+      "category": "mains",
+      "ingredients": [
+        "Garlic",
+        "Green onions",
+        "Onions",
+        "Fresh Basil",
+        "Heavy cream",
+        "Chicken stock",
+        "Cayenne pepper",
+        "Sun-dried tomatoes",
+        "Lemon juice",
+        "White wine",
+        "Butter",
+        "Parmesan cheese",
+        "Black pepper",
+        "Italian herbs or seasonings",
+        "Red Bell Pepper",
+        "Chicken bullion",
+        "Smoked paprika"
+      ],
+      "directions": [
+        "Small amount of stone ground mustard or whole grain mustard seed"
+      ],
+      "youtube_url": null,
+      "source_file": "note_110.txt"
+    },
+    {
+      "title": "Goat cheese chalua hot sauce",
+      "slug": "goat-cheese-chalua-hot-sauce",
+      "category": "sauces",
+      "ingredients": [
+        "Goat cheese",
+        "Cream cheese",
+        "Chalua hot sauce",
+        "Green chilies",
+        "Chipotle peppers",
+        "Serrano peppers",
+        "Raw garlic",
+        "Olive oil",
+        "Butter",
+        "Lemon juice",
+        "Thyme, rosemary, oregano",
+        "Black pepper",
+        "Salt"
+      ],
+      "directions": [
+        "Roasted garlic, red onions, red bell peppers"
+      ],
+      "youtube_url": null,
+      "source_file": "note_111.txt"
+    },
+    {
+      "title": "Buffalo chicken cream cheese sauce",
+      "slug": "buffalo-chicken-cream-cheese-sauce",
+      "category": "sauces",
+      "ingredients": [
+        "Red hot hot sauce",
+        "Butter",
+        "Cream cheese",
+        "Chicken tomato bullion",
+        "Cayenne pepper",
+        "Salt",
+        "Black pepper"
+      ],
+      "directions": [
+        "Roasted and some chard garlic, red onion, and red bell peppers"
+      ],
+      "youtube_url": null,
+      "source_file": "note_112.txt"
+    },
+    {
+      "title": "Magical Marry Me chicken",
+      "slug": "magical-marry-me-chicken",
+      "category": "mains",
+      "ingredients": [
+        "MEAT: Boneless Chicken thighs, bacon (optional)",
+        "Garlic",
+        "Green onions",
+        "Onions",
+        "Fresh Basil",
+        "Heavy cream",
+        "Chicken stock",
+        "Cayenne pepper",
+        "Sun-dried tomatoes",
+        "Lemon juice",
+        "White wine",
+        "Butter",
+        "Parmesan cheese",
+        "Black pepper",
+        "Italian herbs or seasonings",
+        "Red Bell Pepper",
+        "Chicken bullion",
+        "Smoked paprika",
+        "Angel hair pasta and Garlic bread"
+      ],
+      "directions": [
+        "Small amount of stone ground mustard or whole grain mustard seed",
+        "CHICKEN THIGH BREADING: eggs, flour, potato or corn starch, cayenne pepper, garlic salt, Italian seasoning, lemon zest, black pepper (fried in butter and avocado oil)"
+      ],
+      "youtube_url": null,
+      "source_file": "note_113.txt"
+    },
+    {
+      "title": "Green chile",
+      "slug": "green-chile",
+      "category": "soups",
+      "ingredients": [
+        "Jalapeño",
+        "Cream Cheese",
+        "Mexican hot sauce",
+        "Corn",
+        "Chipotle",
+        "Sour cream",
+        "Beef stroganoff hamburger helper"
+      ],
+      "directions": [],
+      "youtube_url": null,
+      "source_file": "note_117.txt"
+    },
+    {
+      "title": "Sauces",
+      "slug": "sauces",
+      "category": "sauces",
+      "ingredients": [
+        "Cowboy butter",
+        "Garlic herb butter",
+        "Tallow mayo",
+        "Sour cream horseradish sauce",
+        "Sand which sauce",
+        "Tatkiiki",
+        "Barilla sauce",
+        "Al pastor",
+        "Cesar vinegrete",
+        "Yogurt, red chimmichri, extra lemon"
+      ],
+      "directions": [
+        "Apples, onion, in and out sauce, sour cream, yogurt, cucumber, garlic, herb seasoning",
+        "Mayo, sour cream, yogurt, peppers, onion, garlic, cilantro, spicy peppers and powders, lime, vinegar, chorizo, cjota cheese, taco seasoning, corn, roasted tomatoe",
+        "Goat cheese, mayo, sour cream, yogurt, cholua, sun-dried tomatoes, garlic, cilantro, jalapeño, lime, tomato bullion, corn",
+        "Buffalo sauce, butter, sour cream, or yogurt, chives, sweet pepper, and habanero with lots and lots of cream cheese, chicken and tomato  bullion"
+      ],
+      "youtube_url": null,
+      "source_file": "note_138.txt"
+    },
+    {
+      "title": "Burger Sauces",
+      "slug": "burger-sauces-165",
+      "category": "burger-sauces",
+      "ingredients": [
+        "Red sauce-",
+        "Ketchup",
+        "Mayonnaise",
+        "Small Squirt of Yellow Mustard",
+        "Werstishire",
+        "Paprika",
+        "Salt and Pepper",
+        "(Option: Sweet Relish instead of pickles)",
+        "(Option: Slash of Red Wine Vinegar)",
+        "Yellow Sauce-",
+        "Yellow Mustard",
+        "Mayonnaise",
+        "Salt and Pepper",
+        "Paprika",
+        "(Option: Add Honey)",
+        "(Option: Sweet Relish instead of pickles)",
+        "(Option: Splash of White or Apple Cider Vinegar)",
+        "Dark Red Sauce-",
+        "BBQ",
+        "Dijon Honey Mustard",
+        "(Option: Siracha)",
+        "Ketchup",
+        "Mayonnaise",
+        "Werstishire",
+        "Paprika",
+        "Salt and Pepper",
+        "(Option: Slash of Red Wine Vinegar)",
+        "(Option: Sweet Relish instead of pickles)"
+      ],
+      "directions": [
+        "Saute Garlic Sweet Onions in Bacon Fat Until Slightly Crispy (Option: Add Red Bell Pepper or Poblano Pepper into Saute)",
+        "Chop up pickles into small chunks (or us Dill Relish is lazy) then mix everything together",
+        "Saute Garlic Sweet Onions in Bacon Fat Until Slightly Crispy",
+        "Chop Pickles into small chunks (or us Dill Relish is lazy) then mix everything together",
+        "Saute Garlic Sweet Onions in Bacon Fat Until Slightly Crispy (Option: Add Red Bell Pepper or Poblano Pepper into Saute)",
+        "Chop up pickles into small chunks (or us Dill Relish is lazy) then mix everything together"
+      ],
+      "youtube_url": null,
+      "source_file": "note_165.txt"
+    },
+    {
+      "title": "Chilli oils",
+      "slug": "chilli-oils",
+      "category": "quick-ideas",
+      "ingredients": [
+        "Chinese secret"
+      ],
+      "directions": [],
+      "youtube_url": "https://youtube.com/shorts/sEjIzULUTzE?si=1cv0Xoyuo31_37Sg",
+      "source_file": "note_166.txt"
+    },
+    {
+      "title": "Appetizers",
+      "slug": "appetizers",
+      "category": "quick-ideas",
+      "ingredients": [
+        "Cheesey Potato Balls",
+        "Southern Fried Cabbage",
+        "https://youtube.com/shorts/3akJQKjW0R4?si=YoSu8jQS71rGXBzr",
+        "Jollof Rice",
+        "https://youtube.com/shorts/H61pMuKzIlc?si=FuWGIJiMsEubclpM"
+      ],
+      "directions": [
+        "Brussel Sprouts with Bacon, Feta, Goat Cheese, Onions, Garlic and Balsamic Glaze"
+      ],
+      "youtube_url": "https://youtube.com/shorts/Aj1pHOYJb_w?si=_MCAn0HBnXqpRscL",
+      "source_file": "note_167.txt"
+    },
+    {
+      "title": "Classic Chicken Sandwich Sauces",
+      "slug": "classic-chicken-sandwich-sauces",
+      "category": "mains",
+      "ingredients": [
+        "Standard Sauce-",
+        "Mayonnaise",
+        "Pickle Juice or Lemon Juice",
+        "Salt & Pepper",
+        "Dill",
+        "(Option: Paprika or Rosemary)"
+      ],
+      "directions": [
+        "Saute Garlic and Red Onions in Bacon Fat Until Slightly Crispy (Option: Add Red Bell Pepper or Poblano Pepper into Saute)",
+        "Chop up pickles into small chunks or us Dill Relish if lazy (Option: use banana peppers also) mix everything together"
+      ],
+      "youtube_url": null,
+      "source_file": "note_168.txt"
+    },
+    {
+      "title": "Crazy Good Sauces",
+      "slug": "crazy-good-sauces",
+      "category": "sauces",
+      "ingredients": [
+        "Chilli Crisp Mayonnaise"
+      ],
+      "directions": [],
+      "youtube_url": null,
+      "source_file": "note_169.txt"
+    },
+    {
+      "title": "Crazy Coleslaws",
+      "slug": "crazy-coleslaws",
+      "category": "salads-sides",
+      "ingredients": [
+        "Chipotle Coleslaw",
+        "Honey Mustard Vinaigrette Coleslaw",
+        "Smokey BBQ Coleslaw",
+        "Carolina Gold BBQ Coleslaw",
+        "Buffalo Ranch Coleslaw",
+        "Buffalo Blue Cheese Coleslaw",
+        "Tatsiki Coleslaw",
+        "Creamy Cilantro Lime Coleslaw"
+      ],
+      "directions": [],
+      "youtube_url": "https://youtu.be/M8W1TXkAZnU?si=YSFS48x9vam1vrND",
+      "source_file": "note_170.txt"
+    },
+    {
+      "title": "Bangin Broccoli Salad",
+      "slug": "bangin-broccoli-salad",
+      "category": "salads-sides",
+      "ingredients": [
+        "Broccoli (whole heads)",
+        "Shredded Sharp Cheddar",
+        "Sunflower Seeds",
+        "Dried Cranberries",
+        "Dried Cherries",
+        "Crispy Bacon",
+        "Crispy Pepperoni",
+        "Heavy Thick Mayonnaise",
+        "Little Bit of Apple Cider Vinegar",
+        "Black Pepper"
+      ],
+      "directions": [],
+      "youtube_url": null,
+      "source_file": "note_171.txt"
+    },
+    {
+      "title": "Timeless Tatsiki Sauce",
+      "slug": "timeless-tatsiki-sauce",
+      "category": "sauces",
+      "ingredients": [
+        "Big Greek Yogurt Container",
+        "2 English Cumbers (peeled, grated and Dehydrated)",
+        "Red Onion, White Onion (Dehydrated)",
+        "Lots of Fresh Dill",
+        "Little Bit of Fresh Parsley",
+        "4 Garlic Cloves Minced",
+        "Lemon Juice",
+        "Red Wine Vinegar",
+        "Olive Oil",
+        "Mayonnaise",
+        "Salt & Course Black Pepper",
+        "Red Bell Pepper dehydrated (Optional)",
+        "1 Roasted Garlic Clove minced (Optional)"
+      ],
+      "directions": [],
+      "youtube_url": null,
+      "source_file": "note_172.txt"
+    },
+    {
+      "title": "Terrific Tomato Soup",
+      "slug": "terrific-tomato-soup",
+      "category": "soups",
+      "ingredients": [
+        "Cherry Tomatoes",
+        "Vine Tomatoes",
+        "Sun Dried Tomatoes",
+        "White Onions",
+        "Red Onions",
+        "Red Bell Peppers",
+        "Orange Bell Peppers",
+        "Veggie Stock",
+        "Chicken Stock",
+        "Balsamic",
+        "Fresh Basil",
+        "Fresh Thyme",
+        "Fresh Rosemary",
+        "Dried Oregano",
+        "Tomato Paste",
+        "Butter",
+        "Worsteshire sauce",
+        "Heavy Cream",
+        "Sugar",
+        "Sharp Cheddar",
+        "Mottezarella",
+        "Goat Cheese",
+        "Green Onion",
+        "Fresh Basil",
+        "Salt",
+        "(Cover Sourdough in Mayo before Grilling)"
+      ],
+      "directions": [
+        "Roasted Garlic Cloves",
+        "Option: Sourdough Grilled Cheese"
+      ],
+      "youtube_url": "https://youtu.be/qK15KwDBNBU?si=_8SDQhPd0hE3IYyV",
+      "source_file": "note_173.txt"
+    }
+  ]
+}

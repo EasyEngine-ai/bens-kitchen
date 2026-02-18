@@ -1,0 +1,90 @@
+Tech Stack for Benjamin
+---
+Tech Stack for Benjamin
+Hubspot (crm)
+Zapier (for automated work flows)
+Surfer SEO (for organic traffic.)
+Google Analytics 4 (GA4):
+Printful (for POD)
+Amazon, Etsy, other pod market places, Shopify, every other free pod marketplace (for store locations)
+Adscale.com (for ad automations)
+Activecampaign or Sendpulse (for email and sms services)
+Canva magic studio or Adobe Firefly (graphic/product design)
+Veed.io (video ads)
+Google Sheets
+webhooks(il need them)
+Slack (for workplace coms)
+Loom (video tutorials)
+Something for sales tax calc
+Gamify (reward customers, something extra and unnecessary)
+Referral Candy (for customer referrals)
+Partner Stack (manage affileate sales)
+Chatgpt API (multiple integration uses)
+Intercom (chatbot)
+Stripe (payment collections)
+Quick Books Online (accounting)
+Profit Margin Calculator (help with pricing analytics)
+Google Trends ( Market analytics)
+Segment (customer segmentation, behavior tracking, precision outreaching marketing advice)
+Pictory (Long Form video ads)
+Synthesia (Create AI-powered video avatars for personalized outreach. Send leads personalized video messages thanking them for visiting or encouraging them to book a call.)
+Dynamic Yield (recommend additional products/services based on purchase history.)
+Celtra (Automates creation of personalized ad variations tailored to audience segments.)
+Optimizely (to tailor website content based on visitor data.)
+Mixpanel: Tracks user actions and cohorts with advanced analytics for free.
+Power BI (affordable visualization and reporting).
+Prediictive lead scoring
+Veed.io (video ads
+semrush(seo)
+MarketMuse (AI-powered content research and optimization tool.)
+Lumen5 (Convert blogs and articles into engaging videos.)
+Jasper AI (Writes engaging, SEO-friendly content for blogs and social media.)
+Reddit post SEO
+Opus clips
+Loomly ( hoot suite alternative manages everything social media posts)
+ContentStudio: Content discovery, creation, and social media scheduling.
+Captions ai:
+Audience Lab
+Opus clips
+Blaze.ai
+Creatify
+Trainual
+Reddit post SEO
+Motion.ai
+Eleven labs
+Rasa
+Webcrawler4ai
+Lipsurf
+Voice in
+Lang chain
+Stable diffusion 
+Tortoise tts
+Open bb terminal 
+Sn0int
+Kai kore ai
+Openchat kit
+Bark ai
+Open ai clip
+Mailtrain
+Postal
+Mautic
+Post hog
+Open pipeline
+Misskey
+Lightgbm 
+Metaflow
+Mindsdb 
+Budibase 
+N8n
+Ansible ai
+Openrpa
+Autogpt
+Botpress
+Conversia
+Close bot
+uphex
+Retellai.com
+
+
+
+

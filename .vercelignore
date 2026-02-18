@@ -1,0 +1,6 @@
+data/notes/
+.next/
+out/
+node_modules/
+netlify/
+functions/
