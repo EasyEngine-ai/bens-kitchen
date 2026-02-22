@@ -4,7 +4,6 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import SmoothScroll from "@/components/SmoothScroll";
 import EasterEggs from "@/components/EasterEggs";
-import FallingIngredients from "@/components/FallingIngredients";
 import CookingAssistant from "@/components/CookingAssistant";
 import WebVitals from "@/components/WebVitals";
 import "./globals.css";
@@ -97,8 +96,6 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(siteJsonLd) }}
         />
         <SmoothScroll>
-          <div className="grain-overlay" />
-          <FallingIngredients />
           <Navigation />
           <main className="relative z-[2]">{children}</main>
           <div className="relative z-[2]">
