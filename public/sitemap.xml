@@ -37,6 +37,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://gobigbencookbook.com/categories/mains/</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://gobigbencookbook.com/categories/salads-sides/</loc>
     <lastmod>2026-02-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -55,7 +61,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://gobigbencookbook.com/categories/mains/</loc>
+    <loc>https://gobigbencookbook.com/categories/crazy-fried-chicken-sandwiches/</loc>
     <lastmod>2026-02-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -73,13 +79,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://gobigbencookbook.com/categories/chicken-sandwiches/</loc>
+    <loc>https://gobigbencookbook.com/categories/breakfast/</loc>
     <lastmod>2026-02-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://gobigbencookbook.com/categories/breakfast/</loc>
+    <loc>https://gobigbencookbook.com/categories/sandwiches/</loc>
     <lastmod>2026-02-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1021,12 +1027,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://gobigbencookbook.com/recipes/crazy-chicken-sandwiches/</loc>
-    <lastmod>2026-02-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://gobigbencookbook.com/recipes/brown-sugar-hot-wing-sauce/</loc>
     <lastmod>2026-02-22</lastmod>
     <changefreq>monthly</changefreq>
@@ -1598,6 +1598,198 @@
   </url>
   <url>
     <loc>https://gobigbencookbook.com/recipes/roasted-peppers-and-walnuts-pasta/</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gobigbencookbook.com/recipes/alfs-kitchen-on-youtube-for-all-things-burger-recipes/</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gobigbencookbook.com/recipes/burger-sauces/</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gobigbencookbook.com/recipes/sauces/</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gobigbencookbook.com/recipes/burger-sauces-v2/</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gobigbencookbook.com/recipes/crazy-good-sauces/</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gobigbencookbook.com/recipes/tomato-salami-sandwich/</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gobigbencookbook.com/recipes/egg-salad-sandwich/</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gobigbencookbook.com/recipes/chicken-salad-sandwich/</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gobigbencookbook.com/recipes/creamed-spinach-steak-sandwich/</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gobigbencookbook.com/recipes/cubano-sandwich/</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gobigbencookbook.com/recipes/salmon-cucumber-cream-cheese-sandwich/</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gobigbencookbook.com/recipes/sausage-gravy-breakfast-sandwich/</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gobigbencookbook.com/recipes/turkey-avocado-bacon-garden-salad/</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gobigbencookbook.com/recipes/tuna-salad-melt-sandwich/</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gobigbencookbook.com/recipes/tomato-bacon-mayo-sandwich/</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gobigbencookbook.com/recipes/pepperoni-pizza-bacon-ranch-sandwich/</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gobigbencookbook.com/recipes/turkey-vodka-pesto-sandwich/</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gobigbencookbook.com/recipes/pesto-capressi-pesto-sandwich/</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gobigbencookbook.com/recipes/ruben-sandwich/</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gobigbencookbook.com/recipes/pastrami-swiss-sandwich/</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gobigbencookbook.com/recipes/ham-egg-and-cheese-sandwich/</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gobigbencookbook.com/recipes/bbq-ranch-pulled-pork-sandwich/</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gobigbencookbook.com/recipes/buffalo-chicken-bacon-ranch-sandwich/</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gobigbencookbook.com/recipes/spicy-italian-sandwich/</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gobigbencookbook.com/recipes/steak-sandwich/</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gobigbencookbook.com/recipes/carne-asada-sandwich/</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gobigbencookbook.com/recipes/roast-beef-sandwich/</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gobigbencookbook.com/recipes/fancy-club-sandwich/</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gobigbencookbook.com/recipes/spam-and-eggs-sandwich/</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gobigbencookbook.com/recipes/pork-shoulder-tikka-masala-crockpot/</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gobigbencookbook.com/recipes/salami-cheddar-pickle-sandwich/</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gobigbencookbook.com/recipes/will-ferrels-favorite-sandwich/</loc>
     <lastmod>2026-02-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

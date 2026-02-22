@@ -148,7 +148,10 @@ export default async function CategoryPage({
   const cat = allCategories.find((c) => c.id === category);
   if (!cat) notFound();
 
-  const categoryRecipes = allRecipes.filter((r) => r.category === category);
+  // For crazy-fried-chicken-sandwiches, include all cookbook recipes too
+  const categoryRecipes = category === "crazy-fried-chicken-sandwiches"
+    ? allRecipes.filter((r) => r.category === category || r.source === "cookbook")
+    : allRecipes.filter((r) => r.category === category);
 
   // For sauces: use subcategory as the filter dimension so chips work
   const hasSubcategories = categoryRecipes.some((r) => r.subcategory);

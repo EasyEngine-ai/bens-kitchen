@@ -5,7 +5,7 @@
     <link>https://gobigbencookbook.com</link>
     <description>250+ original recipes — from signature chicken sandwiches to everyday sauces, sides, and everything in between. By Benjamin Larson.</description>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Feb 2026 05:38:18 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 22 Feb 2026 19:37:09 GMT</lastBuildDate>
     <atom:link href="https://gobigbencookbook.com/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Buffalo Ranch Chicken Sandwich</title>
@@ -1100,13 +1100,6 @@
       <category>Sauces</category>
     </item>
     <item>
-      <title>Crazy Chicken Sandwiches</title>
-      <link>https://gobigbencookbook.com/recipes/crazy-chicken-sandwiches/</link>
-      <guid>https://gobigbencookbook.com/recipes/crazy-chicken-sandwiches/</guid>
-      <description>Dive into the mouthwatering Crazy Chicken Sandwiches, where crispy fried chicken thighs steal the show! Drenched in a flavorful buttermilk and hot sauce mixture, then coated in a seasoned blend of flour and potato starch, each bite offers a delightful crunch and tender juiciness. Personalize your spice level with curry powder for a Tikka Masala twist or an extra kick of cayenne for Buffalo heat—these sandwiches are sure to satisfy your cravings!</description>
-      <category>Chicken Sandwiches</category>
-    </item>
-    <item>
       <title>Brown Sugar Hot Wing Sauce</title>
       <link>https://gobigbencookbook.com/recipes/brown-sugar-hot-wing-sauce/</link>
       <guid>https://gobigbencookbook.com/recipes/brown-sugar-hot-wing-sauce/</guid>
@@ -1160,7 +1153,7 @@
       <link>https://gobigbencookbook.com/recipes/butter-chicken-sandwich/</link>
       <guid>https://gobigbencookbook.com/recipes/butter-chicken-sandwich/</guid>
       <description>Indulge in the fusion of flavors with this Butter Chicken Sandwich, featuring crispy chicken strips coated in a spiced flour mixture with curry powder that ignites your palate. Pan-fried to golden perfection, the tender chicken is a mouthwatering twist on a classic favorite. This sandwich promises a tantalizing taste experience that will have you craving more!</description>
-      <category>Chicken Sandwiches</category>
+      <category>Crazy Fried Chicken Sandwiches</category>
     </item>
     <item>
       <title>Cool Cole Slaw</title>
@@ -1209,7 +1202,7 @@
       <link>https://gobigbencookbook.com/recipes/fresh-and-crisp-garden-chicken-wrap/</link>
       <guid>https://gobigbencookbook.com/recipes/fresh-and-crisp-garden-chicken-wrap/</guid>
       <description>The Fresh and Crisp Garden Chicken Wrap combines tender shredded rotisserie chicken with a medley of diced apples, tangy pickled red onions, and crunchy tortilla chips. Dressed in a creamy mixture of sour cream and In-N-Out sauce, this wrap is a delightful balance of savory and sweet. Enjoy a satisfying, fresh bite that’s perfect for lunch or a light dinner, and experience the joyous crunch in every mouthful!</description>
-      <category>Chicken Sandwiches</category>
+      <category>Sandwiches</category>
     </item>
     <item>
       <title>Lemon Rosemary Chicken Rice</title>
@@ -1692,7 +1685,7 @@
       <link>https://gobigbencookbook.com/recipes/tri-tip-steak-sandwich/</link>
       <guid>https://gobigbencookbook.com/recipes/tri-tip-steak-sandwich/</guid>
       <description>A loaded tri-tip sandwich piled high with smoky peppered meat, crispy bacon, sautéed vegetables, and tangy condiments, all served on toasted ciabatta with crispy garlic fries on the side. Every bite gets drizzled with rich peppercorn sauce and comes with extra for dipping.</description>
-      <category>Main Dishes</category>
+      <category>Sandwiches</category>
     </item>
     <item>
       <title>Colorful Rice for Curry</title>
@@ -1777,6 +1770,230 @@
       <guid>https://gobigbencookbook.com/recipes/roasted-peppers-and-walnuts-pasta/</guid>
       <description>A hearty pasta loaded with meats and tossed in a creamy roasted red pepper and walnut sauce that&apos;s rich, savory, and packed with flavor. The blended sauce with roasted garlic and tangy feta makes this dish absolutely irresistible.</description>
       <category>Pasta</category>
+    </item>
+    <item>
+      <title>Alfs kitchen on YouTube for all things burger recipes</title>
+      <link>https://gobigbencookbook.com/recipes/alfs-kitchen-on-youtube-for-all-things-burger-recipes/</link>
+      <guid>https://gobigbencookbook.com/recipes/alfs-kitchen-on-youtube-for-all-things-burger-recipes/</guid>
+      <description>A classic, no-nonsense burger that lets quality beef shine through with just the right seasonings. Perfect for backyard grilling or a quick weeknight dinner.</description>
+      <category>Main Dishes</category>
+    </item>
+    <item>
+      <title>Burger Sauces</title>
+      <link>https://gobigbencookbook.com/recipes/burger-sauces/</link>
+      <guid>https://gobigbencookbook.com/recipes/burger-sauces/</guid>
+      <description>Three killer burger sauces that&apos;ll take your burgers from ordinary to legendary — a tangy white sauce, a classic burger sauce with all the fixings, and a sweet-heat apple mayo that&apos;s pure genius.</description>
+      <category>Sauces</category>
+    </item>
+    <item>
+      <title>Sauces</title>
+      <link>https://gobigbencookbook.com/recipes/sauces/</link>
+      <guid>https://gobigbencookbook.com/recipes/sauces/</guid>
+      <description>A Ben&apos;s Kitchen original sauces recipe.</description>
+      <category>Sauces</category>
+    </item>
+    <item>
+      <title>Burger Sauces</title>
+      <link>https://gobigbencookbook.com/recipes/burger-sauces-v2/</link>
+      <guid>https://gobigbencookbook.com/recipes/burger-sauces-v2/</guid>
+      <description>Three signature burger sauces that&apos;ll take your burgers from ordinary to crave-worthy. Each one&apos;s got its own personality — tangy red, bright yellow mustard, or rich dark BBQ.</description>
+      <category>Sauces</category>
+    </item>
+    <item>
+      <title>Crazy Good Sauces</title>
+      <link>https://gobigbencookbook.com/recipes/crazy-good-sauces/</link>
+      <guid>https://gobigbencookbook.com/recipes/crazy-good-sauces/</guid>
+      <description>A spicy, umami-packed mayo that takes about 30 seconds to make and turns any sandwich, burger, or fry into something special. This is one of those condiments you&apos;ll want to keep in your fridge at all times.</description>
+      <category>Sauces</category>
+    </item>
+    <item>
+      <title>Tomato Salami Sandwich</title>
+      <link>https://gobigbencookbook.com/recipes/tomato-salami-sandwich/</link>
+      <guid>https://gobigbencookbook.com/recipes/tomato-salami-sandwich/</guid>
+      <description>A simple but satisfying sandwich that lets quality ingredients shine — crispy toasted sourdough spread thick with mayo, layers of thinly sliced salami, and fresh tomato slices.</description>
+      <category>Sandwiches</category>
+    </item>
+    <item>
+      <title>Egg Salad Sandwich</title>
+      <link>https://gobigbencookbook.com/recipes/egg-salad-sandwich/</link>
+      <guid>https://gobigbencookbook.com/recipes/egg-salad-sandwich/</guid>
+      <description>A loaded egg salad sandwich piled high with crispy bacon, fresh veggies, and herbs on toasted garlic herb sourdough. This ain&apos;t your grandma&apos;s bland egg salad — it&apos;s got kick, crunch, and flavor in every bite.</description>
+      <category>Sandwiches</category>
+    </item>
+    <item>
+      <title>Chicken Salad Sandwich</title>
+      <link>https://gobigbencookbook.com/recipes/chicken-salad-sandwich/</link>
+      <guid>https://gobigbencookbook.com/recipes/chicken-salad-sandwich/</guid>
+      <description>A loaded chicken salad with crispy bacon, sweet fruit, and crunchy nuts piled high on toasted garlic herb sourdough. The honey-kissed mayo brings everything together for a sandwich that&apos;s way better than anything from the deli.</description>
+      <category>Sandwiches</category>
+    </item>
+    <item>
+      <title>Creamed Spinach Steak Sandwich</title>
+      <link>https://gobigbencookbook.com/recipes/creamed-spinach-steak-sandwich/</link>
+      <guid>https://gobigbencookbook.com/recipes/creamed-spinach-steak-sandwich/</guid>
+      <description>A loaded steak sandwich that takes things up a notch with creamy spinach, crispy bacon, and melted provolone on garlic herb butter sourdough. This ain&apos;t your average sandwich — it&apos;s a knife-and-fork situation.</description>
+      <category>Sandwiches</category>
+    </item>
+    <item>
+      <title>Cubano Sandwich</title>
+      <link>https://gobigbencookbook.com/recipes/cubano-sandwich/</link>
+      <guid>https://gobigbencookbook.com/recipes/cubano-sandwich/</guid>
+      <description>A loaded take on the classic Cuban sandwich with tender mojo pork, ham, and Swiss cheese on garlic herb sourdough, topped with tangy pickles and a kick of adobo mayo. This ain&apos;t your typical pressed sandwich — it&apos;s packed with flavor and a cream cheese spread that makes it unforgettable.</description>
+      <category>Sandwiches</category>
+    </item>
+    <item>
+      <title>Salmon Cucumber Cream Cheese Sandwich</title>
+      <link>https://gobigbencookbook.com/recipes/salmon-cucumber-cream-cheese-sandwich/</link>
+      <guid>https://gobigbencookbook.com/recipes/salmon-cucumber-cream-cheese-sandwich/</guid>
+      <description>A loaded, everything-but-the-kitchen-sink sandwich piled high with smoked salmon, crispy bacon, and all the fresh fixings on garlicky sourdough. It&apos;s rich, smoky, and satisfying enough to be dinner.</description>
+      <category>Sandwiches</category>
+    </item>
+    <item>
+      <title>Sausage Gravy Breakfast Sandwich</title>
+      <link>https://gobigbencookbook.com/recipes/sausage-gravy-breakfast-sandwich/</link>
+      <guid>https://gobigbencookbook.com/recipes/sausage-gravy-breakfast-sandwich/</guid>
+      <description>This isn&apos;t your average breakfast sandwich — it&apos;s a monster of a meal stacked with crispy bacon, ham, fried eggs, caramelized onions, and smothered in rich sausage gravy on toasted garlic herb sourdough. Perfect for when you need a serious Southern-style breakfast that&apos;ll stick with you all morning.</description>
+      <category>Sandwiches</category>
+    </item>
+    <item>
+      <title>Turkey Avocado Bacon Garden Salad</title>
+      <link>https://gobigbencookbook.com/recipes/turkey-avocado-bacon-garden-salad/</link>
+      <guid>https://gobigbencookbook.com/recipes/turkey-avocado-bacon-garden-salad/</guid>
+      <description>A hearty, loaded salad piled high with crispy bacon, tender turkey, fresh veggies, and crunchy apples, all served on toasted garlic herb sourdough with a creamy Thousand Island dressing. Perfect for a satisfying lunch that feels like a feast.</description>
+      <category>Salads &amp; Sides</category>
+    </item>
+    <item>
+      <title>Tuna Salad Melt Sandwich</title>
+      <link>https://gobigbencookbook.com/recipes/tuna-salad-melt-sandwich/</link>
+      <guid>https://gobigbencookbook.com/recipes/tuna-salad-melt-sandwich/</guid>
+      <description>A loaded tuna melt that takes the classic up a notch with cream cheese, sharp cheddar, and a satisfying crunch from jalapeño kettle chips. Perfect for when you want something comforting but with a little kick.</description>
+      <category>Sandwiches</category>
+    </item>
+    <item>
+      <title>Tomato Bacon Mayo Sandwich</title>
+      <link>https://gobigbencookbook.com/recipes/tomato-bacon-mayo-sandwich/</link>
+      <guid>https://gobigbencookbook.com/recipes/tomato-bacon-mayo-sandwich/</guid>
+      <description>A loaded Southern-style BLT with creamy garlic herb butter sourdough, crispy bacon, fresh tomatoes, and a tangy cream cheese mayo spread that takes this classic sandwich to the next level.</description>
+      <category>Sandwiches</category>
+    </item>
+    <item>
+      <title>Pepperoni Pizza Bacon Ranch Sandwich</title>
+      <link>https://gobigbencookbook.com/recipes/pepperoni-pizza-bacon-ranch-sandwich/</link>
+      <guid>https://gobigbencookbook.com/recipes/pepperoni-pizza-bacon-ranch-sandwich/</guid>
+      <description>This loaded sandwich is basically a pizza party between two slices of buttery garlic sourdough — crispy bacon, spicy Italian sausage, pepperoni, and melted mozzarella all brought together with vodka sauce and a tangy pepperoncini ranch.</description>
+      <category>Sandwiches</category>
+    </item>
+    <item>
+      <title>Turkey Vodka Pesto Sandwich</title>
+      <link>https://gobigbencookbook.com/recipes/turkey-vodka-pesto-sandwich/</link>
+      <guid>https://gobigbencookbook.com/recipes/turkey-vodka-pesto-sandwich/</guid>
+      <description>This loaded sandwich takes turkey to the next level with crispy bacon, melted cheddar, and a double hit of Italian flavor from pesto mayo and warm vodka sauce on buttery toasted sourdough. It&apos;s messy, indulgent, and worth every napkin.</description>
+      <category>Sandwiches</category>
+    </item>
+    <item>
+      <title>Pesto Capressi Pesto Sandwich</title>
+      <link>https://gobigbencookbook.com/recipes/pesto-capressi-pesto-sandwich/</link>
+      <guid>https://gobigbencookbook.com/recipes/pesto-capressi-pesto-sandwich/</guid>
+      <description>A loaded Italian-inspired sandwich stacked high with salami, crispy bacon, fried egg, and fresh mozzarella, all held together with pesto mayo on toasted garlic herb sourdough. It&apos;s got everything you want in a sandwich — crispy, creamy, tangy, and rich.</description>
+      <category>Sandwiches</category>
+    </item>
+    <item>
+      <title>Ruben Sandwich</title>
+      <link>https://gobigbencookbook.com/recipes/ruben-sandwich/</link>
+      <guid>https://gobigbencookbook.com/recipes/ruben-sandwich/</guid>
+      <description>This ain&apos;t your deli&apos;s basic Ruben — it&apos;s a monster sandwich piled high with honeyed pastrami, salami, and all the fixings on buttery garlic herb sourdough. Every bite&apos;s got that perfect mix of savory, tangy, and sweet with a satisfying crunch.</description>
+      <category>Sandwiches</category>
+    </item>
+    <item>
+      <title>Pastrami Swiss Sandwich</title>
+      <link>https://gobigbencookbook.com/recipes/pastrami-swiss-sandwich/</link>
+      <guid>https://gobigbencookbook.com/recipes/pastrami-swiss-sandwich/</guid>
+      <description>A loaded deli-style sandwich piled high with tender pastrami, melted cheese, and tangy condiments on buttery garlic herb sourdough. This is the kind of sandwich that requires two hands and plenty of napkins.</description>
+      <category>Sandwiches</category>
+    </item>
+    <item>
+      <title>Ham, Egg and Cheese Sandwich</title>
+      <link>https://gobigbencookbook.com/recipes/ham-egg-and-cheese-sandwich/</link>
+      <guid>https://gobigbencookbook.com/recipes/ham-egg-and-cheese-sandwich/</guid>
+      <description>A loaded breakfast sandwich piled high with crispy bacon, savory ham, a perfectly fried egg, and melted cheddar cheese on buttery garlic herb sourdough. The caramelized onions and pickles add just the right amount of sweet and tangy bite.</description>
+      <category>Sandwiches</category>
+    </item>
+    <item>
+      <title>BBQ Ranch Pulled Pork Sandwich</title>
+      <link>https://gobigbencookbook.com/recipes/bbq-ranch-pulled-pork-sandwich/</link>
+      <guid>https://gobigbencookbook.com/recipes/bbq-ranch-pulled-pork-sandwich/</guid>
+      <description>A loaded Southern-style pulled pork sandwich piled high with all the fixings — smoky BBQ pork topped with pepper jack, spicy cream cheese, pickled onions, candied jalapeños, and crispy onion rings. This ain&apos;t your average sandwich.</description>
+      <category>Sandwiches</category>
+    </item>
+    <item>
+      <title>Buffalo Chicken Bacon Ranch Sandwich</title>
+      <link>https://gobigbencookbook.com/recipes/buffalo-chicken-bacon-ranch-sandwich/</link>
+      <guid>https://gobigbencookbook.com/recipes/buffalo-chicken-bacon-ranch-sandwich/</guid>
+      <description>A loaded, over-the-top sandwich piled high with crispy bacon, tender chicken, and every fixins you can imagine — all brought together with tangy buffalo mayo and creamy ranch on buttery toasted sourdough.</description>
+      <category>Sandwiches</category>
+    </item>
+    <item>
+      <title>Spicy Italian Sandwich</title>
+      <link>https://gobigbencookbook.com/recipes/spicy-italian-sandwich/</link>
+      <guid>https://gobigbencookbook.com/recipes/spicy-italian-sandwich/</guid>
+      <description>A loaded Italian deli sandwich piled high with four kinds of cured meats, crispy bacon, and pepper jack cheese, then topped with pickled peppers, fresh veggies, and a tangy herb vinaigrette on toasted garlic bread. This is the kind of sandwich that requires both hands and a big appetite.</description>
+      <category>Sandwiches</category>
+    </item>
+    <item>
+      <title>Steak Sandwich</title>
+      <link>https://gobigbencookbook.com/recipes/steak-sandwich/</link>
+      <guid>https://gobigbencookbook.com/recipes/steak-sandwich/</guid>
+      <description>A loaded steak sandwich piled high with peppered beef, two different gourmet mayos, caramelized onions, and crispy fried onion strips on buttery garlic herb sourdough. This isn&apos;t your average sandwich — it&apos;s a full-on flavor bomb that eats like a meal.</description>
+      <category>Sandwiches</category>
+    </item>
+    <item>
+      <title>Carne Asada Sandwich</title>
+      <link>https://gobigbencookbook.com/recipes/carne-asada-sandwich/</link>
+      <guid>https://gobigbencookbook.com/recipes/carne-asada-sandwich/</guid>
+      <description>A loaded Southern-style steak sandwich piled high with smoky carne asada, creamy guac, tangy pickled onions, and roasted peppers on buttery toasted sourdough. This isn&apos;t your basic sandwich — it&apos;s a flavor-packed meal that&apos;ll have you coming back for seconds.</description>
+      <category>Sandwiches</category>
+    </item>
+    <item>
+      <title>Roast Beef Sandwich</title>
+      <link>https://gobigbencookbook.com/recipes/roast-beef-sandwich/</link>
+      <guid>https://gobigbencookbook.com/recipes/roast-beef-sandwich/</guid>
+      <description>This loaded roast beef sandwich is stacked high with deli meats, tangy pickles, crisp vegetables, and a fried egg on buttered sourdough. It&apos;s got everything you want in a sandwich — creamy, crunchy, savory, and just a little heat.</description>
+      <category>Sandwiches</category>
+    </item>
+    <item>
+      <title>Fancy Club Sandwich</title>
+      <link>https://gobigbencookbook.com/recipes/fancy-club-sandwich/</link>
+      <guid>https://gobigbencookbook.com/recipes/fancy-club-sandwich/</guid>
+      <description>This isn&apos;t your average club sandwich — it&apos;s a three-decker monster loaded with multiple meats, fried egg, caramelized onion bacon jam, and two different homemade spreads. Stack it high, press it down, and get ready for the best sandwich you&apos;ve ever made.</description>
+      <category>Sandwiches</category>
+    </item>
+    <item>
+      <title>Spam and Eggs Sandwich</title>
+      <link>https://gobigbencookbook.com/recipes/spam-and-eggs-sandwich/</link>
+      <guid>https://gobigbencookbook.com/recipes/spam-and-eggs-sandwich/</guid>
+      <description>A loaded breakfast sandwich that takes things up a notch with crispy spam, bacon, and a tangy herb mayo. It&apos;s got everything you want between two slices of buttery sourdough — perfect for when you&apos;re really hungry.</description>
+      <category>Sandwiches</category>
+    </item>
+    <item>
+      <title>Pork Shoulder Tikka Masala Crockpot</title>
+      <link>https://gobigbencookbook.com/recipes/pork-shoulder-tikka-masala-crockpot/</link>
+      <guid>https://gobigbencookbook.com/recipes/pork-shoulder-tikka-masala-crockpot/</guid>
+      <description>A Southern twist on the Indian classic, this slow-cooked pork shoulder gets fall-apart tender in a rich, creamy tomato-based sauce loaded with warm spices. Serve it over white rice for a comforting dinner that&apos;ll have everyone coming back for seconds.</description>
+      <category>Crockpot</category>
+    </item>
+    <item>
+      <title>Salami Cheddar Pickle Sandwich</title>
+      <link>https://gobigbencookbook.com/recipes/salami-cheddar-pickle-sandwich/</link>
+      <guid>https://gobigbencookbook.com/recipes/salami-cheddar-pickle-sandwich/</guid>
+      <description>A satisfying deli-style sandwich with thin-sliced salami, sharp cheddar, and tangy pickles on garlic herb butter sourdough. Perfect for a quick lunch that&apos;s got way more flavor than your average cold sandwich.</description>
+      <category>Sandwiches</category>
+    </item>
+    <item>
+      <title>Will Ferrel’s Favorite Sandwich</title>
+      <link>https://gobigbencookbook.com/recipes/will-ferrels-favorite-sandwich/</link>
+      <guid>https://gobigbencookbook.com/recipes/will-ferrels-favorite-sandwich/</guid>
+      <description>This quirky sandwich hits all the right notes with salty salami, tangy grapefruit, and rich garlic butter toast. It&apos;s weird, it&apos;s wonderful, and it actually works.</description>
+      <category>Sandwiches</category>
     </item>
   </channel>
 </rss>

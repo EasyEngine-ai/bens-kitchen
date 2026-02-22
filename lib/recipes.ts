@@ -258,6 +258,13 @@ export function loadCategories(): Category[] {
     }
   }
 
+  // Add cookbook recipe count to crazy-fried-chicken-sandwiches
+  const friedCat = catMap.get("crazy-fried-chicken-sandwiches");
+  if (friedCat) {
+    const cookbookCount = recipes.filter((r) => r.source === "cookbook").length;
+    friedCat.count += cookbookCount;
+  }
+
   const categories: Category[] = [];
   for (const [id, data] of catMap) {
     let image: string | null = null;
