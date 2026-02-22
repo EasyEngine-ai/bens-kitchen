@@ -5573,34 +5573,6 @@
       "servings": 8
     },
     {
-      "title": "Alfs kitchen on YouTube for all things burger recipes",
-      "slug": "alfs-kitchen-on-youtube-for-all-things-burger-recipes",
-      "category": "mains",
-      "ingredients": [
-        "2 lbs ground beef (80/20 blend)",
-        "2 teaspoons kosher salt",
-        "1 teaspoon black pepper",
-        "1 teaspoon garlic powder",
-        "1 teaspoon onion powder",
-        "6 burger buns",
-        "6 slices cheese (optional)",
-        "Lettuce, tomato, onion for toppings (optional)"
-      ],
-      "directions": [
-        "Gently mix ground beef with salt, pepper, garlic powder, and onion powder in a large bowl. Don't overwork the meat.",
-        "Divide meat into 6 equal portions and form into patties about 3/4-inch thick. Make a small indent in the center of each patty with your thumb to prevent bulging.",
-        "Heat grill or cast iron skillet over medium-high heat. Cook patties 4-5 minutes per side for medium doneness, flipping only once.",
-        "If using cheese, add slices during the last minute of cooking and cover to melt. Toast buns on the grill during this time.",
-        "Assemble burgers with desired toppings and serve immediately."
-      ],
-      "youtube_url": null,
-      "source_file": "note_049.txt",
-      "description": "A classic, no-nonsense burger that lets quality beef shine through with just the right seasonings. Perfect for backyard grilling or a quick weeknight dinner.",
-      "prep_time": "10 min",
-      "cook_time": "10 min",
-      "servings": 6
-    },
-    {
       "title": "Burger Sauces",
       "slug": "burger-sauces",
       "category": "sauces",
