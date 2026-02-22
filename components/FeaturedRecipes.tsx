@@ -4,6 +4,8 @@ import { useRef, useState } from "react";
 import Link from "next/link";
 import { motion, useScroll, useTransform } from "framer-motion";
 import AnimatedText, { AnimatedLine } from "./AnimatedText";
+import BlurImage from "./BlurImage";
+import { getSrcSet } from "@/lib/imageUtils";
 
 interface FeaturedRecipe {
   title: string;
@@ -89,7 +91,7 @@ function FeaturedCard({
       <Link href={`/recipes/${recipe.slug}/`} className="group block">
         <div className="relative aspect-[3/4] rounded-lg overflow-hidden bg-bg-surface">
           <motion.div className="absolute inset-0" style={{ y }}>
-            <img
+            <BlurImage
               src={recipe.image}
               alt={recipe.title}
               className="w-full h-[120%] object-cover transition-transform duration-700 group-hover:scale-105"
@@ -97,6 +99,8 @@ function FeaturedCard({
               decoding="async"
               width={1024}
               height={1024}
+              srcSet={getSrcSet(recipe.image)}
+              sizes="(max-width:768px) 100vw, 33vw"
             />
           </motion.div>
 

@@ -89,8 +89,25 @@ export default async function CategoryPage({
       ([id, data]) => ({ id, name: data.name, count: data.count })
     );
 
+    const cookbookJsonLd = {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      name: "Crazy Chicken Sandwiches — The Cookbook",
+      numberOfItems: cookbookRecipes.length,
+      itemListElement: cookbookRecipes.map((r, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        url: `https://gobigbencookbook.com/recipes/${r.slug}/`,
+        name: r.title,
+      })),
+    };
+
     return (
       <div className="min-h-screen pt-28 pb-16">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(cookbookJsonLd) }}
+        />
         <div className="max-w-7xl mx-auto px-6">
           <div className="relative rounded-2xl overflow-hidden mb-12 h-64 md:h-80">
             <img
@@ -165,8 +182,25 @@ export default async function CategoryPage({
       .sort((a, b) => b.count - a.count);
   }
 
+  const categoryJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: `${cat.name} — Ben's Kitchen`,
+    numberOfItems: categoryRecipes.length,
+    itemListElement: categoryRecipes.map((r, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      url: `https://gobigbencookbook.com/recipes/${r.slug}/`,
+      name: r.title,
+    })),
+  };
+
   return (
     <div className="min-h-screen pt-28 pb-16">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(categoryJsonLd) }}
+      />
       <div className="max-w-7xl mx-auto px-6">
         {/* Header */}
         <div className="mb-12">

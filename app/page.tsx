@@ -4,6 +4,8 @@ import StatsCounter from "@/components/StatsCounter";
 import FeaturedRecipes from "@/components/FeaturedRecipes";
 import CategoryShowcase from "@/components/CategoryShowcase";
 import { loadAllRecipes, loadCategories } from "@/lib/recipes";
+import BlurImage from "@/components/BlurImage";
+import { getSrcSet } from "@/lib/imageUtils";
 
 function pickFeaturedPool(recipes: ReturnType<typeof loadAllRecipes>) {
   return recipes
@@ -35,7 +37,7 @@ export default function HomePage() {
         <div className="max-w-6xl mx-auto px-6">
           <div className="relative rounded-2xl overflow-hidden bg-bg-surface border border-border">
             <div className="absolute inset-0 opacity-30">
-              <img
+              <BlurImage
                 src="/images/recipes/recipe-73.webp"
                 alt=""
                 className="w-full h-full object-cover"
@@ -43,6 +45,8 @@ export default function HomePage() {
                 decoding="async"
                 width={1024}
                 height={1024}
+                srcSet={getSrcSet("/images/recipes/recipe-73.webp")}
+                sizes="100vw"
               />
             </div>
             <div className="absolute inset-0 bg-gradient-to-r from-bg via-bg/90 to-bg/60" />

@@ -6,6 +6,7 @@ import SmoothScroll from "@/components/SmoothScroll";
 import EasterEggs from "@/components/EasterEggs";
 import FallingIngredients from "@/components/FallingIngredients";
 import CookingAssistant from "@/components/CookingAssistant";
+import WebVitals from "@/components/WebVitals";
 import "./globals.css";
 
 const playfair = Playfair_Display({
@@ -105,6 +106,7 @@ export default function RootLayout({
           </div>
           <EasterEggs />
           <CookingAssistant />
+          <WebVitals />
         </SmoothScroll>
       </body>
     </html>

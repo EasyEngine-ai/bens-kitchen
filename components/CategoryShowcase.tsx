@@ -4,6 +4,8 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import AnimatedText, { AnimatedLine } from "./AnimatedText";
 import { staggerContainer, staggerItem } from "@/lib/animations";
+import BlurImage from "./BlurImage";
+import { getSrcSet } from "@/lib/imageUtils";
 
 interface CategoryData {
   id: string;
@@ -60,7 +62,7 @@ export default function CategoryShowcase({
               >
                 {cat.image ? (
                   <div className="aspect-[3/2] overflow-hidden">
-                    <img
+                    <BlurImage
                       src={cat.image}
                       alt={cat.name}
                       className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-60 group-hover:opacity-80"
@@ -68,6 +70,8 @@ export default function CategoryShowcase({
                       decoding="async"
                       width={1024}
                       height={1024}
+                      srcSet={getSrcSet(cat.image)}
+                      sizes="(max-width:640px) 50vw, 25vw"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-bg-elevated via-bg-elevated/60 to-transparent" />
                   </div>

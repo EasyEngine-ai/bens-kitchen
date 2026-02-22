@@ -67,8 +67,25 @@ export default function RecipesPage() {
     })),
   ];
 
+  const itemListJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "All Recipes — Ben's Kitchen",
+    numberOfItems: recipes.length,
+    itemListElement: recipes.map((r, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      url: `https://gobigbencookbook.com/recipes/${r.slug}/`,
+      name: r.title,
+    })),
+  };
+
   return (
     <div className="min-h-screen pt-28 pb-16">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }}
+      />
       <div className="max-w-7xl mx-auto px-6">
         {/* Header */}
         <div className="mb-12">

@@ -179,9 +179,10 @@ html.lenis, html.lenis body {
     color: black !important;
   }
 
-  /* Hide AI buttons, guide, related recipes on print */
+  /* Hide AI buttons, guide, print/share, related recipes on print */
   [class*="from-purple"], [class*="from-emerald"],
-  [class*="More Like This"] {
+  [class*="More Like This"],
+  .print-hide {
     display: none !important;
   }
 

@@ -6,6 +6,8 @@ import Link from "next/link";
 import { AnimatedLine } from "./AnimatedText";
 import type { Ingredient } from "@/lib/recipes";
 import ReviewSection from "./ReviewSection";
+import BlurImage from "./BlurImage";
+import { getSrcSet } from "@/lib/imageUtils";
 
 const TTS_URL =
   process.env.NEXT_PUBLIC_N8N_TTS_URL || "https://n8n-main-instance-production-c69d.up.railway.app/webhook/tts";
@@ -64,6 +66,9 @@ export default function RecipeDetail({
   const [summaryOpen, setSummaryOpen] = useState(false);
   const [summaryText, setSummaryText] = useState("");
   const [summaryLoading, setSummaryLoading] = useState(false);
+
+  // Share state
+  const [copied, setCopied] = useState(false);
 
   // Step-by-Step Guide state
   const [guideActive, setGuideActive] = useState(false);
@@ -358,13 +363,15 @@ Here's the full recipe:\n\n${recipeContext}`,
               className="absolute inset-0"
               style={{ y: imageY, scale: imageScale }}
             >
-              <img
+              <BlurImage
                 src={image}
                 alt={title}
                 className="w-full h-full object-cover"
                 width={1024}
                 height={1024}
                 fetchPriority="high"
+                srcSet={getSrcSet(image)}
+                sizes="100vw"
               />
             </motion.div>
             <div className="absolute inset-0 bg-gradient-to-t from-bg via-bg/50 to-bg/20" />
@@ -569,6 +576,42 @@ Here's the full recipe:\n\n${recipeContext}`,
                 </button>
               </div>
             )}
+
+            {/* Print Button */}
+            <button
+              onClick={() => window.print()}
+              className="print-hide group flex items-center gap-2.5 px-5 py-3 bg-gradient-to-r from-slate-600/20 to-gray-600/20 border border-slate-500/30 rounded-xl hover:border-slate-400/50 hover:shadow-[0_0_20px_rgba(148,163,184,0.15)] transition-all duration-300"
+            >
+              <svg className="w-5 h-5 text-slate-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M6.72 13.829c-.24.03-.48.062-.72.096m.72-.096a42.415 42.415 0 0110.56 0m-10.56 0L6.34 18m10.94-4.171c.24.03.48.062.72.096m-.72-.096L17.66 18m0 0l.229 2.523a1.125 1.125 0 01-1.12 1.227H7.231c-.662 0-1.18-.568-1.12-1.227L6.34 18m11.318 0h1.091A2.25 2.25 0 0021 15.75V9.456c0-1.081-.768-2.015-1.837-2.175a48.055 48.055 0 00-1.913-.247M6.34 18H5.25A2.25 2.25 0 013 15.75V9.456c0-1.081.768-2.015 1.837-2.175a48.041 48.041 0 011.913-.247m10.5 0a48.536 48.536 0 00-10.5 0m10.5 0V3.375c0-.621-.504-1.125-1.125-1.125h-8.25c-.621 0-1.125.504-1.125 1.125v3.659M18.25 7.034l.009 0" />
+              </svg>
+              <span className="text-sm font-medium text-slate-300 group-hover:text-slate-200 transition-colors">
+                Print
+              </span>
+            </button>
+
+            {/* Share Button */}
+            <button
+              onClick={async () => {
+                const url = window.location.href;
+                const shareData = { title, text: description, url };
+                if (navigator.share) {
+                  try { await navigator.share(shareData); } catch {}
+                } else {
+                  await navigator.clipboard.writeText(url);
+                  setCopied(true);
+                  setTimeout(() => setCopied(false), 2000);
+                }
+              }}
+              className="print-hide group flex items-center gap-2.5 px-5 py-3 bg-gradient-to-r from-sky-600/20 to-blue-600/20 border border-sky-500/30 rounded-xl hover:border-sky-400/50 hover:shadow-[0_0_20px_rgba(56,189,248,0.15)] transition-all duration-300"
+            >
+              <svg className="w-5 h-5 text-sky-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M7.217 10.907a2.25 2.25 0 100 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186l9.566-5.314m-9.566 7.5l9.566 5.314m0 0a2.25 2.25 0 103.935 2.186 2.25 2.25 0 00-3.935-2.186zm0-12.814a2.25 2.25 0 103.933-2.185 2.25 2.25 0 00-3.933 2.185z" />
+              </svg>
+              <span className="text-sm font-medium text-sky-300 group-hover:text-sky-200 transition-colors">
+                {copied ? "Copied!" : "Share"}
+              </span>
+            </button>
           </div>
 
           {/* AI Summary Panel */}
@@ -803,7 +846,7 @@ Here's the full recipe:\n\n${recipeContext}`,
                 >
                   <div className="aspect-square rounded-lg overflow-hidden bg-bg-surface mb-2">
                     {r.image ? (
-                      <img
+                      <BlurImage
                         src={r.image}
                         alt={r.title}
                         className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
@@ -811,6 +854,8 @@ Here's the full recipe:\n\n${recipeContext}`,
                         decoding="async"
                         width={1024}
                         height={1024}
+                        srcSet={getSrcSet(r.image)}
+                        sizes="(max-width:640px) 50vw, 25vw"
                       />
                     ) : (
                       <div className="w-full h-full bg-gradient-to-br from-bg-elevated to-bg-surface flex items-center justify-center">

@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "prebuild": "node scripts/generate-recipe-knowledge.mjs && node scripts/generate-sitemap.mjs && node scripts/generate-rss.mjs",
+    "prebuild": "node scripts/generate-responsive-images.mjs && node scripts/generate-recipe-knowledge.mjs && node scripts/generate-sitemap.mjs && node scripts/generate-rss.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"
@@ -15,7 +15,8 @@
     "lenis": "^1.3.17",
     "next": "16.1.6",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "web-vitals": "^5.1.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

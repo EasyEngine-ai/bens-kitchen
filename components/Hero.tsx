@@ -4,6 +4,8 @@ import { useRef } from "react";
 import Link from "next/link";
 import { motion, useScroll, useTransform } from "framer-motion";
 import AnimatedText, { AnimatedLine } from "./AnimatedText";
+import BlurImage from "./BlurImage";
+import { getSrcSet } from "@/lib/imageUtils";
 
 export default function Hero() {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -24,13 +26,15 @@ export default function Hero() {
     >
       {/* Parallax background image */}
       <motion.div className="absolute inset-0" style={{ y: imageY, scale: imageScale }}>
-        <img
+        <BlurImage
           src="/images/recipes/recipe-73.webp"
           alt="Ben's Kitchen"
           className="w-full h-full object-cover"
           width={1024}
           height={1024}
           fetchPriority="high"
+          srcSet={getSrcSet("/images/recipes/recipe-73.webp")}
+          sizes="100vw"
         />
       </motion.div>
 

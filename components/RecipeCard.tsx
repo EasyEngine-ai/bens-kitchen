@@ -3,6 +3,8 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { staggerItem } from "@/lib/animations";
+import BlurImage from "./BlurImage";
+import { getSrcSet } from "@/lib/imageUtils";
 
 interface RecipeCardProps {
   title: string;
@@ -58,7 +60,7 @@ export default function RecipeCard({
           {/* Image */}
           <div className="relative aspect-[4/3] overflow-hidden">
             {image ? (
-              <img
+              <BlurImage
                 src={image}
                 alt={title}
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
@@ -66,6 +68,8 @@ export default function RecipeCard({
                 decoding="async"
                 width={1024}
                 height={1024}
+                srcSet={getSrcSet(image)}
+                sizes="(max-width:640px) 100vw, (max-width:1024px) 50vw, 25vw"
               />
             ) : (
               <div
