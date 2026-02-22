@@ -4,9 +4,9 @@ import { useState, useRef, useEffect, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const TTS_URL =
-  "https://n8n-main-instance-production-c69d.up.railway.app/webhook/tts";
+  process.env.NEXT_PUBLIC_N8N_TTS_URL || "https://n8n-main-instance-production-c69d.up.railway.app/webhook/tts";
 const CHAT_URL =
-  "https://n8n-main-instance-production-c69d.up.railway.app/webhook/chat";
+  process.env.NEXT_PUBLIC_N8N_CHAT_URL || "https://n8n-main-instance-production-c69d.up.railway.app/webhook/chat";
 
 interface Message {
   role: "user" | "assistant";
@@ -641,7 +641,10 @@ function AssistantMessage({ content }: { content: string }) {
         const cleanLine = isBullet ? line.replace(/^\s*[-\u2022*]\s/, "") : line;
         const processed = cleanLine
           .replace(/\*\*(.+?)\*\*/g, '<strong class="font-semibold">$1</strong>')
-          .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" class="text-accent underline underline-offset-2 hover:text-accent-light">$1</a>');
+          .replace(/\[([^\]]+)\]\(([^)]+)\)/g, (_, text, url) => {
+            const safe = /^(https?:\/\/|\/)/i.test(url) ? url : '#';
+            return `<a href="${safe}" class="text-accent underline underline-offset-2 hover:text-accent-light">${text}</a>`;
+          });
         return (
           <div key={i} className={isBullet ? "flex gap-1.5 items-start" : ""}>
             {isBullet && <span className="text-accent mt-0.5 flex-shrink-0">&bull;</span>}

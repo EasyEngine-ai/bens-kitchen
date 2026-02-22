@@ -24,6 +24,7 @@ export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
   maximumScale: 5,
+  themeColor: "#D4A574",
 };
 
 export const metadata: Metadata = {
@@ -73,6 +74,9 @@ export default function RootLayout({
           type="image/webp"
         />
         <link rel="manifest" href="/manifest.json" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="preconnect" href="https://www.googletagmanager.com" />
+        <link rel="dns-prefetch" href="https://dkcprcoysvxrghddbngx.supabase.co" />
         <link
           rel="alternate"
           type="application/rss+xml"

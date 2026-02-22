@@ -47,6 +47,7 @@ export default function Navigation() {
             onClick={() => setMenuOpen(!menuOpen)}
             className="md:hidden relative w-10 h-10 flex items-center justify-center"
             aria-label="Toggle menu"
+            aria-expanded={menuOpen}
           >
             <span
               className={`absolute w-6 h-[1.5px] bg-text transition-all duration-300 ${

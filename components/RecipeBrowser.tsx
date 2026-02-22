@@ -180,6 +180,7 @@ export default function RecipeBrowser({
             value={search}
             onChange={(e) => setSearch(e.target.value)}
             placeholder="Search recipes, ingredients..."
+            aria-label="Search recipes"
             className="w-full bg-bg-surface border border-border rounded-xl px-5 py-4 pl-12 text-text placeholder:text-text-dim focus:outline-none focus:border-accent/50 focus:shadow-[0_0_20px_rgba(212,165,116,0.1)] transition-all duration-300"
           />
           <svg
@@ -214,6 +215,7 @@ export default function RecipeBrowser({
         <div className="flex items-center gap-4">
           <button
             onClick={() => setShowFilters(!showFilters)}
+            aria-expanded={showFilters}
             className={`flex items-center gap-2 text-sm uppercase tracking-[0.15em] transition-colors duration-300 ${
               showFilters ? "text-accent" : "text-text-muted hover:text-text"
             }`}

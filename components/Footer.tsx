@@ -1,6 +1,10 @@
 import Link from "next/link";
+import { loadAllRecipes, loadCategories } from "@/lib/recipes";
 
 export default function Footer() {
+  const recipes = loadAllRecipes();
+  const categories = loadCategories();
+  const imageCount = recipes.filter((r) => r.image).length;
   return (
     <footer className="border-t border-border mt-32">
       <div className="max-w-7xl mx-auto px-6 py-16">
@@ -55,9 +59,9 @@ export default function Footer() {
               By The Numbers
             </h4>
             <div className="flex flex-col gap-2.5 text-sm text-text-dim">
-              <span>250+ Original Recipes</span>
-              <span>9 Categories</span>
-              <span>698 Food Photos</span>
+              <span>{recipes.length}+ Original Recipes</span>
+              <span>{categories.length} Categories</span>
+              <span>{imageCount} Food Photos</span>
               <span>Made with love in New Mexico</span>
             </div>
           </div>

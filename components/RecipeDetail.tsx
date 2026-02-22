@@ -8,9 +8,9 @@ import type { Ingredient } from "@/lib/recipes";
 import ReviewSection from "./ReviewSection";
 
 const TTS_URL =
-  "https://n8n-main-instance-production-c69d.up.railway.app/webhook/tts";
+  process.env.NEXT_PUBLIC_N8N_TTS_URL || "https://n8n-main-instance-production-c69d.up.railway.app/webhook/tts";
 const CHAT_URL =
-  "https://n8n-main-instance-production-c69d.up.railway.app/webhook/chat";
+  process.env.NEXT_PUBLIC_N8N_CHAT_URL || "https://n8n-main-instance-production-c69d.up.railway.app/webhook/chat";
 
 interface RecipeDetailProps {
   title: string;
@@ -561,6 +561,7 @@ Here's the full recipe:\n\n${recipeContext}`,
                   onClick={stopGuide}
                   className="px-3 py-3 bg-red-500/20 border border-red-500/30 rounded-xl hover:bg-red-500/30 transition-all"
                   title="Stop guide"
+                  aria-label="Stop guide"
                 >
                   <svg className="w-4 h-4 text-red-400" fill="currentColor" viewBox="0 0 24 24">
                     <rect x="6" y="6" width="12" height="12" rx="1" />
@@ -642,6 +643,8 @@ Here's the full recipe:\n\n${recipeContext}`,
                     <li key={ing.originalIndex}>
                       <button
                         onClick={() => toggleIngredient(ing.originalIndex)}
+                        role="checkbox"
+                        aria-checked={checked.has(ing.originalIndex)}
                         className={`flex items-start gap-3 w-full text-left group transition-all duration-200 ${
                           checked.has(ing.originalIndex)
                             ? "opacity-40"
@@ -710,6 +713,8 @@ Here's the full recipe:\n\n${recipeContext}`,
                   <li key={i}>
                     <button
                       onClick={() => toggleStep(i)}
+                      role="checkbox"
+                      aria-checked={completedSteps.has(i)}
                       className={`flex items-start gap-4 w-full text-left group transition-all duration-300 ${
                         completedSteps.has(i) ? "opacity-40" : ""
                       }`}

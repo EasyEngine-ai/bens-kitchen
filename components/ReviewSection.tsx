@@ -272,6 +272,7 @@ export default function ReviewSection({ recipeSlug, recipeSource }: ReviewSectio
 
                   <button
                     onClick={() => toggleLike(review.id)}
+                    aria-label={likedIds.has(review.id) ? "Unlike review" : "Like review"}
                     className={`flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-xs transition-all ${
                       likedIds.has(review.id)
                         ? "bg-accent/15 text-accent border border-accent/30"

@@ -6,7 +6,7 @@ import { supabase } from "@/lib/supabase";
 import { getUser, setUser } from "@/lib/user";
 
 const PARSE_URL =
-  "https://n8n-main-instance-production-c69d.up.railway.app/webhook/parse-recipe";
+  process.env.NEXT_PUBLIC_N8N_PARSE_URL || "https://n8n-main-instance-production-c69d.up.railway.app/webhook/parse-recipe";
 
 function slugify(text: string): string {
   return text
