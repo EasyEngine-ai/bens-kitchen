@@ -7,6 +7,13 @@ export const metadata = {
   title: "All Recipes — Ben's Kitchen",
   description:
     "Browse 250+ original recipes — chicken sandwiches, sauces, pasta, crockpot meals, sides, and more.",
+  openGraph: {
+    title: "All Recipes — Ben's Kitchen",
+    description: "Browse 250+ original recipes — chicken sandwiches, sauces, pasta, crockpot meals, sides, and more.",
+  },
+  alternates: {
+    canonical: "https://gobigbencookbook.com/recipes/",
+  },
 };
 
 export default function RecipesPage() {

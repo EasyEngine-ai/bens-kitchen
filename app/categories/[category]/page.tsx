@@ -28,6 +28,13 @@ export async function generateMetadata({
       title: "Crazy Chicken Sandwiches — The Cookbook — Ben's Kitchen",
       description:
         "97 mind-blowing chicken sandwich recipes across 12 chapters.",
+      openGraph: {
+        title: "Crazy Chicken Sandwiches — The Cookbook",
+        description: "97 mind-blowing chicken sandwich recipes across 12 chapters.",
+      },
+      alternates: {
+        canonical: "https://gobigbencookbook.com/categories/cookbook/",
+      },
     };
   }
   const categories = loadCategories();
@@ -36,6 +43,13 @@ export async function generateMetadata({
   return {
     title: `${cat.name} — Ben's Kitchen`,
     description: `${cat.count} original ${cat.name.toLowerCase()} recipes from Ben's Kitchen.`,
+    openGraph: {
+      title: `${cat.name} — Ben's Kitchen`,
+      description: `${cat.count} original ${cat.name.toLowerCase()} recipes from Ben's Kitchen.`,
+    },
+    alternates: {
+      canonical: `https://gobigbencookbook.com/categories/${category}/`,
+    },
   };
 }
 

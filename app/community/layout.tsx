@@ -8,6 +8,9 @@ export const metadata: Metadata = {
     title: "Community Recipes — Ben's Kitchen",
     description: "Share your own recipes and discover creations from the community.",
   },
+  alternates: {
+    canonical: "https://gobigbencookbook.com/community/",
+  },
 };
 
 export default function CommunityLayout({

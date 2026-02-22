@@ -33,6 +33,9 @@ export async function generateMetadata({
       description: recipe.description,
       images: recipe.image ? [recipe.image] : undefined,
     },
+    alternates: {
+      canonical: `https://gobigbencookbook.com/recipes/${slug}/`,
+    },
   };
 }
 
@@ -102,11 +105,25 @@ export default async function RecipePage({
 
   const jsonLd = buildRecipeJsonLd(recipe);
 
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://gobigbencookbook.com/" },
+      { "@type": "ListItem", position: 2, name: "Recipes", item: "https://gobigbencookbook.com/recipes/" },
+      { "@type": "ListItem", position: 3, name: recipe.title },
+    ],
+  };
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
       <RecipeDetail
         title={recipe.title}

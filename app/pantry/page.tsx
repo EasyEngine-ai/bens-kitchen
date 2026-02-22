@@ -6,6 +6,13 @@ export const metadata = {
   title: "What Can I Make? — Ben's Kitchen",
   description:
     "Enter ingredients you have on hand and find matching recipes from 250+ originals.",
+  openGraph: {
+    title: "What Can I Make? — Ben's Kitchen",
+    description: "Enter ingredients you have on hand and find matching recipes from 250+ originals.",
+  },
+  alternates: {
+    canonical: "https://gobigbencookbook.com/pantry/",
+  },
 };
 
 export default function PantryPage() {
