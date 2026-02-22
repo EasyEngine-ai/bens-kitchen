@@ -74,8 +74,16 @@ const personal = JSON.parse(
 const catNames = {};
 for (const c of personal.categories) catNames[c.id] = c.name;
 
+const SUBCAT_NAMES = {
+  "burger-sauces": "Burger Sauces",
+  "wing-sauces": "Wing Sauces",
+  "dressings": "Dressings & Ranch",
+  "jams-toppings": "Jams & Toppings",
+  "general": "Sauces & Glazes",
+};
+
 for (const r of personal.recipes) {
-  recipes.push({
+  const entry = {
     title: r.title,
     slug: r.slug,
     category: catNames[r.category] || r.category,
@@ -85,34 +93,54 @@ for (const r of personal.recipes) {
       `A Ben's Kitchen original ${(catNames[r.category] || "").toLowerCase()} recipe.`,
     ingredients: r.ingredients || [],
     directions: r.directions || [],
-  });
+  };
+  if (r.subcategory) entry.subcategory = SUBCAT_NAMES[r.subcategory] || r.subcategory;
+  recipes.push(entry);
 }
 
 // --- Full knowledge base (for client-side lookup) ---
-const knowledge = recipes.map((r) => ({
-  t: r.title,
-  s: r.slug,
-  c: r.category,
-  src: r.source,
-  d: r.description,
-  i: r.ingredients,
-  dir: r.directions,
-}));
+const knowledge = recipes.map((r) => {
+  const entry = {
+    t: r.title,
+    s: r.slug,
+    c: r.category,
+    src: r.source,
+    d: r.description,
+    i: r.ingredients,
+    dir: r.directions,
+  };
+  if (r.subcategory) entry.sc = r.subcategory;
+  return entry;
+});
 const fullPath = path.join(publicDir, "recipe-knowledge.json");
 fs.writeFileSync(fullPath, JSON.stringify(knowledge));
 const fullKB = (Buffer.byteLength(JSON.stringify(knowledge)) / 1024).toFixed(1);
 
 // --- Compact catalog for AI system prompt (~15KB) ---
-// Group by category, just names
+// Group by category (with subcategory grouping for sauces)
 const byCategory = {};
 for (const r of recipes) {
   const cat = r.category;
-  if (!byCategory[cat]) byCategory[cat] = [];
-  byCategory[cat].push(r.title);
+  if (!byCategory[cat]) byCategory[cat] = {};
+  const sub = r.subcategory || "_default";
+  if (!byCategory[cat][sub]) byCategory[cat][sub] = [];
+  byCategory[cat][sub].push(r.title);
 }
-const catalog = Object.entries(byCategory)
-  .map(([cat, titles]) => `${cat}: ${titles.join("; ")}`)
-  .join("\n");
+const catalogLines = [];
+for (const [cat, subs] of Object.entries(byCategory)) {
+  const subKeys = Object.keys(subs);
+  if (subKeys.length === 1 && subKeys[0] === "_default") {
+    catalogLines.push(`${cat}: ${subs._default.join("; ")}`);
+  } else {
+    const parts = [];
+    for (const [sub, titles] of Object.entries(subs)) {
+      if (sub === "_default") parts.push(titles.join("; "));
+      else parts.push(`[${sub}] ${titles.join("; ")}`);
+    }
+    catalogLines.push(`${cat}: ${parts.join(" | ")}`);
+  }
+}
+const catalog = catalogLines.join("\n");
 
 const catalogPath = path.join(publicDir, "recipe-catalog.txt");
 fs.writeFileSync(catalogPath, catalog);

@@ -118,12 +118,15 @@ export default async function CategoryPage({
   if (!cat) notFound();
 
   const categoryRecipes = allRecipes.filter((r) => r.category === category);
+
+  // For sauces: use subcategory as the filter dimension so chips work
+  const hasSubcategories = categoryRecipes.some((r) => r.subcategory);
   const browserRecipes = categoryRecipes.map((r) => ({
     id: r.id,
     title: r.title,
     slug: r.slug,
-    category: r.category,
-    categoryName: r.categoryName,
+    category: hasSubcategories ? (r.subcategory || r.category) : r.category,
+    categoryName: hasSubcategories ? (r.subcategoryName || r.categoryName) : r.categoryName,
     image: r.image,
     difficulty: r.difficulty,
     cookTime: r.cookTime,
@@ -131,6 +134,22 @@ export default async function CategoryPage({
     source: r.source,
     ingredients: r.ingredients.map((i) => ({ item: i.item })),
   }));
+
+  // Build subcategory chips if applicable
+  let subcategoryOptions: { id: string; name: string; count: number }[] = [];
+  if (hasSubcategories) {
+    const subcatMap = new Map<string, { name: string; count: number }>();
+    for (const r of categoryRecipes) {
+      const scId = r.subcategory || r.category;
+      const scName = r.subcategoryName || r.categoryName;
+      const existing = subcatMap.get(scId);
+      if (existing) existing.count++;
+      else subcatMap.set(scId, { name: scName, count: 1 });
+    }
+    subcategoryOptions = Array.from(subcatMap.entries())
+      .map(([id, data]) => ({ id, name: data.name, count: data.count }))
+      .sort((a, b) => b.count - a.count);
+  }
 
   return (
     <div className="min-h-screen pt-28 pb-16">
@@ -185,7 +204,11 @@ export default async function CategoryPage({
           )}
         </div>
 
-        <RecipeBrowser recipes={browserRecipes} categories={[]} />
+        <RecipeBrowser
+          recipes={browserRecipes}
+          categories={subcategoryOptions}
+          showCategoryChips={hasSubcategories}
+        />
       </div>
     </div>
   );

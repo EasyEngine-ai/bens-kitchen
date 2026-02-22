@@ -29,6 +29,8 @@ export interface Recipe {
   heatLevel: number; // 0-5
   youtubeUrl?: string;
   componentCount?: number;
+  subcategory?: string;
+  subcategoryName?: string;
 }
 
 export interface Category {
@@ -210,6 +212,14 @@ export function loadAllRecipes(): Recipe[] {
       path.join(process.cwd(), "..", `images/personal/recipes/${r.slug}.webp`)
     );
 
+    const SUBCAT_NAMES: Record<string, string> = {
+      "burger-sauces": "Burger Sauces",
+      "wing-sauces": "Wing Sauces",
+      "dressings": "Dressings & Ranch",
+      "jams-toppings": "Jams & Toppings",
+      "general": "Sauces & Glazes",
+    };
+
     personalRecipes.push({
       id: `personal-${r.slug}`,
       title: r.title,
@@ -226,6 +236,8 @@ export function loadAllRecipes(): Recipe[] {
       servings: r.servings || 4,
       heatLevel: inferHeatLevel(r.title, r.description || ""),
       youtubeUrl: r.youtube_url || undefined,
+      subcategory: r.subcategory || undefined,
+      subcategoryName: r.subcategory ? (SUBCAT_NAMES[r.subcategory] || r.subcategory) : undefined,
     });
   }
 

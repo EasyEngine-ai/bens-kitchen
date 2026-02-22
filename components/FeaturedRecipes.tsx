@@ -94,6 +94,9 @@ function FeaturedCard({
               alt={recipe.title}
               className="w-full h-[120%] object-cover transition-transform duration-700 group-hover:scale-105"
               loading="lazy"
+              decoding="async"
+              width={1024}
+              height={1024}
             />
           </motion.div>
 

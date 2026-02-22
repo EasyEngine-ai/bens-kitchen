@@ -39,6 +39,10 @@ export default function HomePage() {
                 src="/images/recipes/recipe-73.webp"
                 alt=""
                 className="w-full h-full object-cover"
+                loading="lazy"
+                decoding="async"
+                width={1024}
+                height={1024}
               />
             </div>
             <div className="absolute inset-0 bg-gradient-to-r from-bg via-bg/90 to-bg/60" />

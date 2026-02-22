@@ -362,6 +362,9 @@ Here's the full recipe:\n\n${recipeContext}`,
                 src={image}
                 alt={title}
                 className="w-full h-full object-cover"
+                width={1024}
+                height={1024}
+                fetchPriority="high"
               />
             </motion.div>
             <div className="absolute inset-0 bg-gradient-to-t from-bg via-bg/50 to-bg/20" />
@@ -800,6 +803,9 @@ Here's the full recipe:\n\n${recipeContext}`,
                         alt={r.title}
                         className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                         loading="lazy"
+                        decoding="async"
+                        width={1024}
+                        height={1024}
                       />
                     ) : (
                       <div className="w-full h-full bg-gradient-to-br from-bg-elevated to-bg-surface flex items-center justify-center">

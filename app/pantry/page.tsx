@@ -5,7 +5,7 @@ import AnimatedText, { AnimatedLine } from "@/components/AnimatedText";
 export const metadata = {
   title: "What Can I Make? — Ben's Kitchen",
   description:
-    "Enter ingredients you have on hand and find matching recipes from 210+ originals.",
+    "Enter ingredients you have on hand and find matching recipes from 250+ originals.",
 };
 
 export default function PantryPage() {
@@ -43,7 +43,7 @@ export default function PantryPage() {
           <AnimatedLine delay={0.3}>
             <p className="text-text-muted max-w-xl">
               Add ingredients you have on hand and we&apos;ll match them against
-              all 210+ recipes, ranked by how many ingredients you already have.
+              all 250+ recipes, ranked by how many ingredients you already have.
             </p>
           </AnimatedLine>
         </div>

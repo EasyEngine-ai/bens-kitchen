@@ -23,7 +23,7 @@ const CONSOLE_ART = `
 | |_) |  __/ | | | \\__ \\ | . \\| | || (__| | | |  __/ | | |
 |____/ \\___|_| |_| |___/ |_|\\_\\_|\\__\\___|_| |_|\\___|_| |_|
 
-%c🍗 210+ recipes crafted with obsessive attention to flavor
+%c🍗 250+ recipes crafted with obsessive attention to flavor
 %c🔥 Built by Benjamin Larson in New Mexico
 %c💛 If you're reading this, you're a real one.
 `;

@@ -55,9 +55,9 @@ export default function Footer() {
               By The Numbers
             </h4>
             <div className="flex flex-col gap-2.5 text-sm text-text-dim">
-              <span>210+ Original Recipes</span>
-              <span>22 Categories</span>
-              <span>661 Food Photos</span>
+              <span>250+ Original Recipes</span>
+              <span>9 Categories</span>
+              <span>698 Food Photos</span>
               <span>Made with love in New Mexico</span>
             </div>
           </div>

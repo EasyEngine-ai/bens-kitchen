@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Playfair_Display, Inter } from "next/font/google";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
@@ -20,17 +20,42 @@ const inter = Inter({
   display: "swap",
 });
 
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 5,
+};
+
 export const metadata: Metadata = {
   metadataBase: new URL("https://gobigbencookbook.com"),
   title: "Ben's Kitchen — Original Recipes & The Cookbook",
   description:
-    "A personal collection of 210+ original recipes — from signature chicken sandwiches to everyday sauces, sides, and everything in between. By Benjamin Larson.",
+    "A personal collection of 250+ original recipes — from signature chicken sandwiches to everyday sauces, sides, and everything in between. By Benjamin Larson.",
   openGraph: {
     title: "Ben's Kitchen",
-    description: "210+ original recipes crafted with obsessive attention to flavor.",
+    description: "250+ original recipes crafted with obsessive attention to flavor.",
     type: "website",
+    siteName: "Ben's Kitchen",
     images: [{ url: "/images/recipes/recipe-73.webp", width: 1024, height: 1024, alt: "Country Breakfast Chicken Sandwich — Ben's Kitchen" }],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Ben's Kitchen — Original Recipes & The Cookbook",
+    description: "250+ original recipes crafted with obsessive attention to flavor.",
+    images: ["/images/recipes/recipe-73.webp"],
+  },
+  alternates: {
+    canonical: "https://gobigbencookbook.com",
+  },
+};
+
+const siteJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "Ben's Kitchen",
+  url: "https://gobigbencookbook.com",
+  description: "A personal collection of 250+ original recipes by Benjamin Larson.",
+  author: { "@type": "Person", name: "Benjamin Larson" },
 };
 
 export default function RootLayout({
@@ -40,7 +65,19 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${playfair.variable} ${inter.variable}`}>
+      <head>
+        <link
+          rel="preload"
+          href="/images/recipes/recipe-73.webp"
+          as="image"
+          type="image/webp"
+        />
+      </head>
       <body className="antialiased">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(siteJsonLd) }}
+        />
         <SmoothScroll>
           <div className="grain-overlay" />
           <FallingIngredients />

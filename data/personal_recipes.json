@@ -4,36 +4,46 @@
     {
       "id": "sauces",
       "name": "Sauces",
-      "count": 60
+      "count": 64
     },
     {
       "id": "salads-sides",
       "name": "Salads & Sides",
-      "count": 20
+      "count": 30
+    },
+    {
+      "id": "crockpot",
+      "name": "Crockpot",
+      "count": 22
+    },
+    {
+      "id": "pasta",
+      "name": "Pasta",
+      "count": 12
     },
     {
       "id": "mains",
       "name": "Main Dishes",
-      "count": 11
-    },
-    {
-      "id": "sandwiches",
-      "name": "Sandwiches & Wraps",
-      "count": 3
-    },
-    {
-      "id": "dips",
-      "name": "Dips & Spreads",
-      "count": 8
-    },
-    {
-      "id": "breakfast",
-      "name": "Breakfast",
-      "count": 3
+      "count": 12
     },
     {
       "id": "soups",
       "name": "Soups & Stews",
+      "count": 5
+    },
+    {
+      "id": "dips",
+      "name": "Dips & Spreads",
+      "count": 5
+    },
+    {
+      "id": "chicken-sandwiches",
+      "name": "Chicken Sandwiches",
+      "count": 3
+    },
+    {
+      "id": "breakfast",
+      "name": "Breakfast",
       "count": 3
     }
   ],
@@ -41,7 +51,7 @@
     {
       "title": "Beef Pot Pie Crockpot Dip",
       "slug": "beef-pot-pie-crockpot-dip",
-      "category": "dips",
+      "category": "crockpot",
       "ingredients": [
         "1 lb chuck steak, cut into 1/2-inch cubes",
         "1 lb ground beef",
@@ -91,7 +101,7 @@
     {
       "title": "BBQ Pork Pot Pie Crockpot Dip",
       "slug": "bbq-pork-pot-pie-crockpot-dip",
-      "category": "dips",
+      "category": "crockpot",
       "ingredients": [
         "2 lbs smoked pork shoulder, shredded",
         "1 lb Jimmy Dean's Hot Sausage",
@@ -136,7 +146,7 @@
     {
       "title": "Chicken Pot Pie Crockpot Dip",
       "slug": "chicken-pot-pie-crockpot-dip",
-      "category": "dips",
+      "category": "crockpot",
       "ingredients": [
         "1 whole rotisserie chicken, shredded (about 4 cups)",
         "1 lb Jimmy Dean's sausage",
@@ -216,7 +226,8 @@
       "description": "Dive into this luscious creamy roasted tomato garlic sauce, where vibrant cherry tomatoes and sweet, caramelized garlic take center stage. With a drizzle of extra virgin olive oil and a pat of butter, this sauce bursts with flavor from the oven-roasted goodness. Perfect for pasta, it's a comforting delight that elevates any dish with its rich, tangy depth.",
       "prep_time": "10 min",
       "cook_time": "35 min",
-      "servings": 6
+      "servings": 6,
+      "subcategory": "general"
     },
     {
       "title": "Creamy Lemon Roasted Garlic Herb Sauce",
@@ -251,7 +262,8 @@
       "description": "This creamy lemon roasted garlic herb sauce is a delightful blend of soft, caramelized garlic infused with zesty lemon and fresh herbs. The melted butter creates a velvety base that captures the buttery sweetness of the roasted garlic. Ideal for drizzling over grilled chicken or veggies, this sauce will awaken your taste buds and add a fresh, herbaceous twist to your meals.",
       "prep_time": "10 min",
       "cook_time": "45 min",
-      "servings": 8
+      "servings": 8,
+      "subcategory": "general"
     },
     {
       "title": "Potato Pesto Goat Cheese Muffins",
@@ -368,8 +380,9 @@
       "source_file": "note_009.txt",
       "description": "Elevate your salads with this zesty Southwest salad dressing, bursting with flavor from creamy Greek yogurt, smoky chipotle peppers, and tangy lime juice. Each spoonful is a harmonious blend of spices, including chili powder and garlic powder, creating a deliciously bold kick that's perfect for drizzling over crisp greens. It's not just a dressing; it's a flavor explosion that will transform your salads into something truly unforgettable!",
       "prep_time": "10 min",
-      "cook_time": "0 min",
-      "servings": 8
+      "cook_time": "5 min",
+      "servings": 8,
+      "subcategory": "dressings"
     },
     {
       "title": "Tasty Tuna Salad",
@@ -411,7 +424,7 @@
     {
       "title": "Fried Chicken Caesar Salad Pasta Bake",
       "slug": "fried-chicken-caesar-salad-pasta-bake",
-      "category": "mains",
+      "category": "pasta",
       "ingredients": [
         "4 fried chicken thighs, chopped into bite-sized pieces",
         "1 lb penne pasta",
@@ -530,7 +543,7 @@
       "source_file": "note_013.txt",
       "description": "Eggsalant Everything Egg Salad takes classic egg salad to new heights with hard-boiled eggs, crispy bacon, and a medley of vibrant veggies like jalapeños and cherry tomatoes. The creamy blend of mayo, mustard, and a kick of red pepper flakes creates an addictive flavor profile. It's a fantastic spread for sandwiches or can be enjoyed right out of the bowl!",
       "prep_time": "25 min",
-      "cook_time": "0 min",
+      "cook_time": "5 min",
       "servings": 8
     },
     {
@@ -566,7 +579,7 @@
       "servings": 8
     },
     {
-      "title": "Loaded Brautwurst  Potato Salad",
+      "title": "Loaded Bratwurst Potato Salad",
       "slug": "loaded-brautwurst-potato-salad",
       "category": "salads-sides",
       "ingredients": [
@@ -646,9 +659,9 @@
       "servings": 10
     },
     {
-      "title": "Sweet Sourkrout Meatballs Crockpot",
+      "title": "Sweet Sauerkraut Meatballs Crockpot",
       "slug": "sweet-sourkrout-meatballs-crockpot",
-      "category": "mains",
+      "category": "crockpot",
       "ingredients": [
         "2 lbs frozen meatballs",
         "1 lb pork belly, cut into 1-inch cubes",
@@ -684,7 +697,7 @@
     {
       "title": "Caramelized, Onion and Garlic Asian Fusion Spaghetti",
       "slug": "caramelized-onion-and-garlic-asian-fusion-spaghetti",
-      "category": "mains",
+      "category": "pasta",
       "ingredients": [
         "1 lb pork belly, cut into 1/2-inch cubes",
         "2 large yellow onions, thinly sliced",
@@ -753,7 +766,7 @@
       "source_file": "note_019.txt",
       "description": "Crispy Chili Mayo Salad is a vibrant and zesty dish that tantalizes the taste buds with its combination of Greek yogurt, crispy chili oil, and Hoisin sauce. Shredded chicken or pork belly join forces with fresh veggies like cucumber and carrots, creating a refreshing crunch that contrasts beautifully with the creamy dressing. This salad is not just a side; it’s a flavor-packed experience that transforms any meal!",
       "prep_time": "15 min",
-      "cook_time": "0 min",
+      "cook_time": "5 min",
       "servings": 4
     },
     {
@@ -792,7 +805,8 @@
       "description": "This Peppercorn Steak Sauce is a luxurious condiment perfect for elevating your steak. The rich combination of bourbon, heavy cream, and cracked black pepper creates a velvety sauce bursting with flavor. Its creamy texture and depth make every bite of steak irresistible, enticing anyone to whip this up for a gourmet meal at home.",
       "prep_time": "10 min",
       "cook_time": "15 min",
-      "servings": 6
+      "servings": 6,
+      "subcategory": "general"
     },
     {
       "title": "Tomato Pasta Salad",
@@ -838,7 +852,7 @@
     {
       "title": "Complete Breakfast Crockpot",
       "slug": "complete-breakfast-crockpot",
-      "category": "breakfast",
+      "category": "crockpot",
       "ingredients": [
         "1 (30 oz) bag frozen hashbrowns",
         "2 tablespoons Cajun seasoning",
@@ -913,7 +927,7 @@
     {
       "title": "Crockpot Vodka Sauce Lasagna",
       "slug": "crockpot-vodka-sauce-lasagna",
-      "category": "mains",
+      "category": "crockpot",
       "ingredients": [
         "1 lb ground Italian sausage",
         "1 small onion, diced",
@@ -945,9 +959,9 @@
       "servings": 6
     },
     {
-      "title": "Crockpot lasagna",
+      "title": "Crockpot Lasagna",
       "slug": "crockpot-lasagna",
-      "category": "mains",
+      "category": "crockpot",
       "ingredients": [
         "1 lb ground beef",
         "1 jar (24 oz) marinara sauce",
@@ -977,7 +991,7 @@
     {
       "title": "Chicken Enchiladas Crockpot",
       "slug": "chicken-enchiladas-crockpot",
-      "category": "mains",
+      "category": "crockpot",
       "ingredients": [
         "2 lbs chicken breast, diced",
         "1 lb chorizo, crumbled",
@@ -1016,7 +1030,7 @@
     {
       "title": "Garlic Parmesan Chicken Pasta Crockpot",
       "slug": "garlic-parmesan-chicken-pasta-crockpot",
-      "category": "mains",
+      "category": "crockpot",
       "ingredients": [
         "2 lbs chicken breast",
         "4 tablespoons butter",
@@ -1189,8 +1203,9 @@
       "source_file": "note_031.txt",
       "description": "Elevate your dishes with zesty Remoulade Sauce, combining rich mayonnaise, tangy whole grain mustard, and a kick of horseradish. This creamy concoction is perfectly balanced with fresh herbs, Sriracha, and Worcestershire sauce, bringing a burst of flavor to seafood, fries, or sandwiches. Each dip promises a tantalizing taste sensation that will keep you coming back for more!",
       "prep_time": "15 min",
-      "cook_time": "0 min",
-      "servings": 8
+      "cook_time": "5 min",
+      "servings": 8,
+      "subcategory": "general"
     },
     {
       "title": "Asian Peanut Sauce",
@@ -1223,8 +1238,9 @@
       "source_file": "note_032.txt",
       "description": "Asian Peanut Sauce is a luxurious blend of creamy peanut butter, sticky honey, and savory soy sauce that creates a rich, irresistible dip or dressing. Enhanced with the bright notes of lime juice, sesame oil, and a kick from sriracha and garlic chili paste, it's the perfect accompaniment for spring rolls, salads, or grilled chicken. This sauce is a flavor explosion that will transport your palate straight to the streets of Asia!",
       "prep_time": "10 min",
-      "cook_time": "0 min",
-      "servings": 8
+      "cook_time": "5 min",
+      "servings": 8,
+      "subcategory": "general"
     },
     {
       "title": "Polynesian Sauce",
@@ -1249,8 +1265,9 @@
       "source_file": "note_033.txt",
       "description": "Polynesian Sauce is a tropical treat featuring a vibrant mix of Catalina dressing, honey, and pineapple juice that’s both sweet and tangy. Enhanced with apple cider vinegar, smoked paprika, and a hint of brown sugar, this sauce brings a delightful balance that enhances grilled meats and salads alike. It's a taste of the islands in every bite, making your meals feel like a mini-vacation!",
       "prep_time": "5 min",
-      "cook_time": "0 min",
-      "servings": 8
+      "cook_time": "5 min",
+      "servings": 8,
+      "subcategory": "general"
     },
     {
       "title": "Better Chick-fil-A Sauce",
@@ -1285,7 +1302,8 @@
       "description": "Better Chick-fil-A Sauce is a game-changer that melds rich mayonnaise, zesty BBQ sauce, and honey mustard into a creamy, irresistible blend. Infused with sautéed onions, jalapeños, and a touch of hot honey, this sauce packs a punch that will elevate your chicken nuggets and fries to new heights. One dip will have you hooked, transforming your meals into a flavorful experience!",
       "prep_time": "15 min",
       "cook_time": "5 min",
-      "servings": 12
+      "servings": 12,
+      "subcategory": "general"
     },
     {
       "title": "Bussin Breakfast Burrito",
@@ -1363,7 +1381,8 @@
       "description": "Elevate your burger game with Cajun Honey Burger Sauce, a luscious blend of sautéed onions, garlic, and vibrant red and green peppers. The addition of Worcestershire sauce gives it a savory depth, perfectly balancing the sweet and spicy elements. This sauce will make every bite of your burger sing with flavor, leaving you craving more!",
       "prep_time": "10 min",
       "cook_time": "10 min",
-      "servings": 8
+      "servings": 8,
+      "subcategory": "burger-sauces"
     },
     {
       "title": "Cajun Alfredo Wing Sauce",
@@ -1399,10 +1418,11 @@
       "description": "Cajun Alfredo Wing Sauce is a creamy, luxurious dip that transforms your wings into a decadent feast. Infused with roasted garlic, buttery sautéed onions, and rich heavy cream, this sauce packs a savory punch that is simply irresistible. It's the ultimate indulgence for wing lovers, making your game day even more exciting!",
       "prep_time": "15 min",
       "cook_time": "50 min",
-      "servings": 8
+      "servings": 8,
+      "subcategory": "wing-sauces"
     },
     {
-      "title": "Pineapple Jalapeno cream cheese bacon jam",
+      "title": "Pineapple Jalapeño Cream Cheese Bacon Jam",
       "slug": "pineapple-jalapeno-cream-cheese-bacon-jam",
       "category": "sauces",
       "ingredients": [
@@ -1427,7 +1447,8 @@
       "description": "Pineapple Jalapeno Cream Cheese Bacon Jam is a sweet and spicy spread that marries crispy bacon with caramelized onions and vibrant jalapeños. The addition of juicy pineapple creates a delicious contrast, making it an addictive topping for crackers or toast. This jam is a true party starter that will have everyone coming back for more!",
       "prep_time": "15 min",
       "cook_time": "35 min",
-      "servings": 12
+      "servings": 12,
+      "subcategory": "jams-toppings"
     },
     {
       "title": "Asian Cucumber Salad",
@@ -1461,11 +1482,11 @@
       "source_file": "note_045.txt",
       "description": "Asian Cucumber Salad is a refreshing dish that combines crisp cucumbers, crunchy cabbage, and zesty red onions. Tossed in a tangy dressing made with rice vinegar, soy sauce, and a hint of sweet chili sauce, each bite is a burst of flavor. Perfect as a side or a light meal, this salad will add vibrancy to your table!",
       "prep_time": "15 min",
-      "cook_time": "0 min",
+      "cook_time": "5 min",
       "servings": 6
     },
     {
-      "title": "Thai chili bacon jam",
+      "title": "Thai Chili Bacon Jam",
       "slug": "thai-chili-bacon-jam",
       "category": "sauces",
       "ingredients": [
@@ -1492,10 +1513,11 @@
       "description": "This Thai chili bacon jam is a savory-sweet condiment that elevates any dish. Featuring crispy bacon, fragrant shallots, fiery Thai chilis, and rich garlic, it delivers an explosion of flavors. The smoky, spicy undertones paired with the sweetness create an addictive topping perfect for burgers, toast, or charcuterie boards!",
       "prep_time": "15 min",
       "cook_time": "45 min",
-      "servings": 8
+      "servings": 8,
+      "subcategory": "jams-toppings"
     },
     {
-      "title": "Pepperoni Cherry Tomatoe jam",
+      "title": "Pepperoni Cherry Tomato Jam",
       "slug": "pepperoni-cherry-tomatoe-jam",
       "category": "sauces",
       "ingredients": [
@@ -1520,7 +1542,8 @@
       "description": "Pepperoni cherry tomato jam is a unique blend of savory and sweet, combining crispy pepperoni and juicy cherry tomatoes. Enhanced by sautéed onions, garlic, and fragrant Italian seasoning, this jam is bursting with flavor. Spread it on crostini or use it as a pizza topping for an unforgettable twist on classic Italian tastes!",
       "prep_time": "10 min",
       "cook_time": "35 min",
-      "servings": 8
+      "servings": 8,
+      "subcategory": "jams-toppings"
     },
     {
       "title": "Honey Garlic Sauce",
@@ -1552,7 +1575,8 @@
       "description": "This honey garlic sauce is a luscious blend that transforms any dish into a delicious masterpiece. With a base of sweet honey, umami-rich soy sauce, and a hint of zesty rice vinegar, it's the perfect balance of sweet and savory. Drizzle it over meats, toss it with veggies, or use it as a dip—once you try it, you'll be hooked!",
       "prep_time": "10 min",
       "cook_time": "8 min",
-      "servings": 8
+      "servings": 8,
+      "subcategory": "general"
     },
     {
       "title": "Sesame Chicken",
@@ -1621,7 +1645,8 @@
       "description": "Crispy honey lemon pepper wing sauce is a tantalizing blend that brings your wings to a new level of flavor. With a kick from cayenne and a zesty brightness from lemon juice and zest, it's perfectly balanced by the sweetness of hot honey. This sauce delivers a delightful crunch and zing that will have everyone reaching for seconds!",
       "prep_time": "10 min",
       "cook_time": "8 min",
-      "servings": 8
+      "servings": 8,
+      "subcategory": "wing-sauces"
     },
     {
       "title": "Cowboy Ranch",
@@ -1655,11 +1680,12 @@
       "source_file": "note_053.txt",
       "description": "Cowboy Ranch is a creamy, herbaceous dipping sauce perfect for drizzling over salads or serving with veggies. It features a rich blend of mayonnaise, sour cream, and buttermilk, enhanced with zesty lemon juice and aromatic herbs like parsley and dill. This tangy and flavorful ranch will elevate any dish, making it a must-have for those who crave a burst of freshness!",
       "prep_time": "10 min",
-      "cook_time": "0 min",
-      "servings": 8
+      "cook_time": "5 min",
+      "servings": 8,
+      "subcategory": "dressings"
     },
     {
-      "title": "Orange Chicken sauce",
+      "title": "Orange Chicken Sauce",
       "slug": "orange-chicken-sauce",
       "category": "sauces",
       "ingredients": [
@@ -1689,7 +1715,8 @@
       "description": "Orange Chicken sauce is a vibrant and sticky glaze that transforms ordinary chicken into a savory-sweet sensation. Made with fresh orange juice, soy sauce, and a hint of sesame oil, this sauce is balanced with garlic and ginger pastes, a touch of brown sugar, and zesty orange marmalade. The result is an irresistible, tangy flavor that brings a taste of takeout to your kitchen, perfect for any weeknight dinner!",
       "prep_time": "10 min",
       "cook_time": "10 min",
-      "servings": 6
+      "servings": 6,
+      "subcategory": "general"
     },
     {
       "title": "Garlic Parmesan Sauce",
@@ -1723,7 +1750,8 @@
       "description": "Garlic Parmesan Sauce is a luscious, creamy dressing that’s all about indulgent flavor and rich texture. Combining melted butter, fragrant minced garlic, and heavy cream creates a dreamy base, while tangy Parmesan cheese adds a delightful umami kick. This sauce is a game changer for pasta, pizza, or even as a dip, ensuring every bite is a heavenly experience!",
       "prep_time": "10 min",
       "cook_time": "8 min",
-      "servings": 8
+      "servings": 8,
+      "subcategory": "general"
     },
     {
       "title": "Blue Cheese Crazy Chunky Sauce",
@@ -1759,11 +1787,12 @@
       "source_file": "note_056.txt",
       "description": "Blue Cheese Crazy Chunky Sauce is a decadent, chunky spread that’s bursting with bold flavors. This unique blend brings together creamy blue cheese, cottage cheese, and mayo, enriched with minced garlic, dill, and crunchy bits of dehydrated cucumber and red bell pepper. Perfect for slathering on burgers or as a dip for veggies, this sauce is a flavor explosion that's sure to impress!",
       "prep_time": "15 min",
-      "cook_time": "0 min",
-      "servings": 8
+      "cook_time": "5 min",
+      "servings": 8,
+      "subcategory": "general"
     },
     {
-      "title": "Bbq buffalo Wing Sauce",
+      "title": "BBQ Buffalo Wing Sauce",
       "slug": "bbq-buffalo-wing-sauce",
       "category": "sauces",
       "ingredients": [
@@ -1789,7 +1818,8 @@
       "description": "BBQ Buffalo Wing Sauce is a fiery, finger-licking blend that takes your wings to the next level. Loaded with tangy Buffalo sauce, sweet honey, and smoky BBQ sauce, it’s elevated with fresh lime juice and a kick of red pepper flakes. This tantalizing sauce is perfect for game day or any gathering, making every bite a deliciously spicy celebration!",
       "prep_time": "5 min",
       "cook_time": "10 min",
-      "servings": 8
+      "servings": 8,
+      "subcategory": "wing-sauces"
     },
     {
       "title": "Mango Habanero Sauce",
@@ -1817,7 +1847,8 @@
       "description": "This Mango Habanero Sauce is a vibrant blend of sweet and spicy, featuring luscious mango puree, fiery minced habaneros, and fragrant garlic. Finished with a squeeze of zesty lime juice and a touch of honey, each dip explodes with flavor. Perfect for adding a kick to grilled meats or as a bold dressing for fresh salads!",
       "prep_time": "10 min",
       "cook_time": "15 min",
-      "servings": 8
+      "servings": 8,
+      "subcategory": "general"
     },
     {
       "title": "Dave’s Hot Chicken sauce",
@@ -1844,8 +1875,9 @@
       "source_file": "note_059.txt",
       "description": "Dave's Hot Chicken Sauce is a creamy and spicy delight made with rich mayonnaise, smoky chipotle sauce, and a dash of brown sugar for balance. This sauce is exceptionally versatile, enhancing everything from crispy chicken to fries. Its tangy notes from apple cider vinegar and the warmth from sautéed onions will have your taste buds dancing!",
       "prep_time": "10 min",
-      "cook_time": "0 min",
-      "servings": 8
+      "cook_time": "5 min",
+      "servings": 8,
+      "subcategory": "general"
     },
     {
       "title": "Creamy Avocado Lime Sauce",
@@ -1874,10 +1906,11 @@
       "description": "Creamy Avocado Lime Sauce is a luxurious, zesty dip featuring roasted jalapeños and garlic, blended to perfection. The smokiness from the charred veggies combined with fresh lime creates a refreshingly bold flavor. Drizzle it over tacos, grilled fish, or salads, and watch it elevate any dish to a tropical paradise!",
       "prep_time": "10 min",
       "cook_time": "15 min",
-      "servings": 6
+      "servings": 6,
+      "subcategory": "general"
     },
     {
-      "title": "Pineapple Chipotle  Mayo Sauce",
+      "title": "Pineapple Chipotle Mayo Sauce",
       "slug": "pineapple-chipotle-mayo-sauce",
       "category": "sauces",
       "ingredients": [
@@ -1902,8 +1935,9 @@
       "source_file": "note_061.txt",
       "description": "Pineapple Chipotle Mayo Sauce is a tropical twist on classic mayo, with finely chopped chipotle peppers and sweet pineapple chunks. The adobo sauce complements the honey and cilantro, adding layers of flavor that are smoky, sweet, and tangy. This sauce is an irresistible companion for sandwiches and grilled shrimp that will take your taste buds on a flavorful journey!",
       "prep_time": "10 min",
-      "cook_time": "0 min",
-      "servings": 8
+      "cook_time": "5 min",
+      "servings": 8,
+      "subcategory": "general"
     },
     {
       "title": "Big Mac Sauce",
@@ -1934,7 +1968,8 @@
       "description": "Big Mac Sauce is the secret ingredient that makes burgers sing! Combining creamy mayo, tangy relish, and sweet caramelized onions, this sauce is a nostalgic nod to the classic. A hint of paprika adds warmth, making it a must-have for your next burger night, ensuring every bite is bursting with savory goodness!",
       "prep_time": "10 min",
       "cook_time": "30 min",
-      "servings": 12
+      "servings": 12,
+      "subcategory": "burger-sauces"
     },
     {
       "title": "Dr Pepper BBQ Wing Sauce",
@@ -1964,7 +1999,8 @@
       "description": "This Dr Pepper BBQ Wing Sauce is a sweet and tangy glaze that elevates your wings to new heights! Key players include Dr Pepper, Worcestershire sauce, and chili powder, creating a rich depth of flavor. The combination of sweetness from the brown sugar and a kick from the cayenne makes every bite irresistible, perfect for your next game day or backyard BBQ.",
       "prep_time": "5 min",
       "cook_time": "25 min",
-      "servings": 8
+      "servings": 8,
+      "subcategory": "wing-sauces"
     },
     {
       "title": "Sunkist Buffalo Wing Sauce",
@@ -1992,7 +2028,8 @@
       "description": "Dive into the bold flavors of Sunkist Buffalo Wing Sauce, a zesty twist on the classic! This sauce features Frank's RedHot, Sunkist orange soda, and fresh orange zest, giving it a citrusy kick alongside the heat. The delightful balance of sweetness and spiciness makes it a must-try for wing lovers looking to jazz up their appetizer game!",
       "prep_time": "5 min",
       "cook_time": "15 min",
-      "servings": 8
+      "servings": 8,
+      "subcategory": "wing-sauces"
     },
     {
       "title": "Coca Cola BBQ Glaze",
@@ -2021,7 +2058,8 @@
       "description": "Coca Cola BBQ Glaze is a sticky-sweet sauce that enhances any grilled dish with its unique flavor profile. Combining Coca-Cola, BBQ sauce, and smoked paprika results in a robust, caramelized glaze that's absolutely mouthwatering. Perfect for slathering on ribs or burgers, this glaze will have your taste buds dancing with delight!",
       "prep_time": "5 min",
       "cook_time": "25 min",
-      "servings": 8
+      "servings": 8,
+      "subcategory": "general"
     },
     {
       "title": "Peach Chutney BBQ Burger Topping",
@@ -2049,12 +2087,13 @@
       "description": "Transform your burgers with this Peach Chutney BBQ Burger Topping, bursting with fruity and savory goodness! Fresh peaches, minced ginger, and diced onions simmer together for a sweet and tangy complement that takes your grilling game to the next level. This vibrant chutney adds depth and a refreshing twist, making every bite a celebration of summer flavors!",
       "prep_time": "15 min",
       "cook_time": "30 min",
-      "servings": 8
+      "servings": 8,
+      "subcategory": "burger-sauces"
     },
     {
-      "title": "Ripe peaches",
+      "title": "Peach Chutney Compote",
       "slug": "ripe-peaches",
-      "category": "sauces",
+      "category": "mains",
       "ingredients": [
         "4 cups diced ripe peaches (about 6-8 peaches)",
         "3/4 cup sugar",
@@ -2079,7 +2118,7 @@
       "servings": 8
     },
     {
-      "title": "Tomato Jam burger topping",
+      "title": "Tomato Jam Burger Topping",
       "slug": "tomato-jam-burger-topping",
       "category": "sauces",
       "ingredients": [
@@ -2105,12 +2144,13 @@
       "description": "This Tomato Jam burger topping is a sweet and savory spread that elevates any burger. Featuring ripe Roma tomatoes, a medley of spices, and a touch of sugar, this jam transforms simple ingredients into a flavor-packed delight. Its thick, rich consistency and tangy sweetness will have you slathering it on everything, ensuring each bite is a burst of deliciousness.",
       "prep_time": "10 min",
       "cook_time": "1 hour",
-      "servings": 8
+      "servings": 8,
+      "subcategory": "burger-sauces"
     },
     {
       "title": "Crazy Chicken Sandwiches",
       "slug": "crazy-chicken-sandwiches",
-      "category": "sandwiches",
+      "category": "chicken-sandwiches",
       "ingredients": [
         "2 lbs boneless skinless chicken thighs",
         "2 cups all-purpose flour",
@@ -2166,10 +2206,11 @@
       "description": "Brown Sugar Hot Wing Sauce is a fiery-sweet glaze that takes your wings to the next level. The combination of Frank's RedHot sauce and rich brown sugar creates an irresistible sticky coating that caramelizes beautifully. Finished with a splash of hot honey for an extra layer of flavor, this sauce promises a sweet heat that will keep you coming back for more!",
       "prep_time": "5 min",
       "cook_time": "5 min",
-      "servings": 8
+      "servings": 8,
+      "subcategory": "wing-sauces"
     },
     {
-      "title": "Sweet Gochujang Aoli",
+      "title": "Sweet Gochujang Aioli",
       "slug": "sweet-gochujang-aoli",
       "category": "sauces",
       "ingredients": [
@@ -2193,8 +2234,9 @@
       "source_file": "note_071.txt",
       "description": "Experience the umami explosion of Sweet Gochujang Aioli, a creamy condiment that packs a punch! Combining luscious mayonnaise with the spicy-sweet gochujang paste, fragrant sesame oil, and a hint of rice vinegar, this sauce is a flavor bomb for any dish. Toss in minced garlic and sautéed onions for extra depth, and you'll find yourself drenching everything in this addictive aioli!",
       "prep_time": "10 min",
-      "cook_time": "0 min",
-      "servings": 8
+      "cook_time": "5 min",
+      "servings": 8,
+      "subcategory": "general"
     },
     {
       "title": "Candied Bacon, Jalapeños, and Apples Burger Topping",
@@ -2223,10 +2265,11 @@
       "description": "Transform your burger with a heavenly blend of Candied Bacon, Jalapeños, and Apples! Crispy bacon, brushed with maple syrup and raw sugar, becomes a sweet and salty topping that perfectly complements the heat from jalapeños and the crispness of fresh apples. This topping is not just flavorful; it's an exciting textural journey that will elevate your burger game to legendary status!",
       "prep_time": "10 min",
       "cook_time": "25 min",
-      "servings": 8
+      "servings": 8,
+      "subcategory": "burger-sauces"
     },
     {
-      "title": "Smash Burger Copy Cat Sauce",
+      "title": "Smash Burger Copycat Sauce",
       "slug": "smash-burger-copy-cat-sauce",
       "category": "sauces",
       "ingredients": [
@@ -2251,7 +2294,8 @@
       "description": "This Smash Burger Copy Cat Sauce is the ultimate topping for any burger lover! Featuring creamy mayonnaise, zesty Sriracha, and tangy Worcestershire sauce, it packs a flavor punch that's irresistible. The sautéed shallots add a sweet depth, making every bite incredibly savory and utterly satisfying.",
       "prep_time": "10 min",
       "cook_time": "5 min",
-      "servings": 8
+      "servings": 8,
+      "subcategory": "burger-sauces"
     },
     {
       "title": "Classic Burger Sauce",
@@ -2282,8 +2326,9 @@
       "source_file": "note_075.txt",
       "description": "Elevate your burger experience with this Classic Burger Sauce, a creamy blend of mayonnaise, ketchup, and yellow mustard. The diced dill pickles and crispy bacon bits bring a delightful crunch, while the Worcestershire sauce and garlic powder infuse savory notes that are simply mouthwatering. Perfect for slathering on burgers or dipping fries, it’s a condiment you can't live without!",
       "prep_time": "15 min",
-      "cook_time": "0 min",
-      "servings": 4
+      "cook_time": "5 min",
+      "servings": 4,
+      "subcategory": "burger-sauces"
     },
     {
       "title": "Hot Honey Apple Mayo Sauce",
@@ -2309,7 +2354,8 @@
       "description": "Transform your dishes with the Hot Honey Apple Mayo Sauce, a sweet and spicy blend that brings the perfect balance of flavors. Made with mayonnaise and a kick of Sriracha, it’s complemented by tangy sautéed onions and crisp red apple for a refreshing bite. This sauce is a game-changer that adds excitement to sandwiches, salads, or as a dip!",
       "prep_time": "15 min",
       "cook_time": "30 min",
-      "servings": 4
+      "servings": 4,
+      "subcategory": "general"
     },
     {
       "title": "White Whole Grain Burger Sauce",
@@ -2338,12 +2384,13 @@
       "description": "This White Whole Grain Burger Sauce offers a unique twist with its hearty blend of whole grain mustard and sweet sautéed onions. The creamy mayonnaise, tangy dill pickles, and a touch of paprika provide a flavorful depth that elevates any burger. It’s the perfect combo of textures and tastes that makes your backyard BBQ unforgettable!",
       "prep_time": "15 min",
       "cook_time": "10 min",
-      "servings": 4
+      "servings": 4,
+      "subcategory": "burger-sauces"
     },
     {
       "title": "Butter Chicken Sandwich",
       "slug": "butter-chicken-sandwich",
-      "category": "sandwiches",
+      "category": "chicken-sandwiches",
       "ingredients": [
         "1 lb chicken breast, cut into strips",
         "1/2 cup all-purpose flour",
@@ -2430,7 +2477,8 @@
       "description": "Transform your dishes with this Bacon Onion and Roasted Garlic Jam, a sweet and savory spread that combines crispy bacon with slowly caramelized onions and rich garlic. The layers of flavor create a symphony on your palate, making it the perfect accompaniment for cheese boards or sandwiches. Once you taste it, you'll be hooked on its irresistible richness!",
       "prep_time": "15 min",
       "cook_time": "30 min",
-      "servings": 4
+      "servings": 4,
+      "subcategory": "jams-toppings"
     },
     {
       "title": "Creamed Spinach",
@@ -2528,8 +2576,9 @@
       "source_file": "note_086.txt",
       "description": "This Mediterranean White Sauce is a luscious blend of Greek yogurt, creamy mayonnaise, and zesty lemon juice, combined with refreshing rehydrated cucumber and roasted garlic. Infused with fragrant parsley and za'atar seasoning, it delivers a burst of flavor that’s perfect for drizzling or dipping. This sauce is a must-have accompaniment that will elevate your culinary creations to a whole new level!",
       "prep_time": "15 min",
-      "cook_time": "0 min",
-      "servings": 4
+      "cook_time": "5 min",
+      "servings": 4,
+      "subcategory": "general"
     },
     {
       "title": "Mexican Creamy Bean Sauce",
@@ -2562,12 +2611,13 @@
       "description": "Dive into the vibrant flavors of this Mexican Creamy Bean Sauce, where creamy refried beans meet tangy lime juice, rich sour cream, and spicy Cholula hot sauce. The addition of crumbled Cotija cheese and pickled jalapeños adds layers of texture and zestiness that will tantalize your taste buds. Perfect for tacos or as a dip, this sauce is a fiesta of flavors that will spice up any meal!",
       "prep_time": "15 min",
       "cook_time": "30 min",
-      "servings": 4
+      "servings": 4,
+      "subcategory": "general"
     },
     {
       "title": "Fresh and Crisp Garden Chicken Wrap",
       "slug": "fresh-and-crisp-garden-chicken-wrap",
-      "category": "sandwiches",
+      "category": "chicken-sandwiches",
       "ingredients": [
         "2 cups cold shredded rotisserie chicken",
         "1 red delicious apple, diced",
@@ -2595,7 +2645,7 @@
       "source_file": "note_088.txt",
       "description": "The Fresh and Crisp Garden Chicken Wrap combines tender shredded rotisserie chicken with a medley of diced apples, tangy pickled red onions, and crunchy tortilla chips. Dressed in a creamy mixture of sour cream and In-N-Out sauce, this wrap is a delightful balance of savory and sweet. Enjoy a satisfying, fresh bite that’s perfect for lunch or a light dinner, and experience the joyous crunch in every mouthful!",
       "prep_time": "15 min",
-      "cook_time": "0 min",
+      "cook_time": "5 min",
       "servings": 4
     },
     {
@@ -2698,7 +2748,8 @@
       "description": "Transform your sandwiches with this zesty Italian sandwich sauce that bursts with flavor! With roasted garlic, sweet red bell pepper, and a touch of tangy pepperoncini juice, this sauce is a blend of savory and spicy. It brings life to any meal, making your taste buds dance and leaving you craving more!",
       "prep_time": "15 min",
       "cook_time": "30 min",
-      "servings": 4
+      "servings": 4,
+      "subcategory": "general"
     },
     {
       "title": "Homemade Tallow/Butter Mayonnaise",
@@ -2722,11 +2773,12 @@
       "source_file": "note_092.txt",
       "description": "Elevate your condiment game with this rich and creamy homemade mayonnaise made from tallow or butter. Blending raw eggs with zesty lemon juice and Dijon mustard creates a perfect emulsion that's both luscious and satisfying. Perfect for slathering on sandwiches or as a dip, this mayo offers a delightful twist that will have you obsessed!",
       "prep_time": "10 min",
-      "cook_time": "0 min",
-      "servings": 8
+      "cook_time": "5 min",
+      "servings": 8,
+      "subcategory": "general"
     },
     {
-      "title": "Red Creamy Chimmichri Sauce",
+      "title": "Red Creamy Chimichurri Sauce",
       "slug": "red-creamy-chimmichri-sauce",
       "category": "sauces",
       "ingredients": [
@@ -2756,10 +2808,11 @@
       "description": "Dive into a vibrant world of flavors with this red creamy chimichurri sauce, packed with roasted red bell peppers and fresh herbs. The smoky sweetness of the peppers combined with zesty lemon juice and fragrant garlic creates an irresistible dip or marinade. It's a bold accompaniment that will elevate any dish to new culinary heights!",
       "prep_time": "15 min",
       "cook_time": "30 min",
-      "servings": 4
+      "servings": 4,
+      "subcategory": "general"
     },
     {
-      "title": "Chili",
+      "title": "Classic Chili",
       "slug": "chili",
       "category": "soups",
       "ingredients": [
@@ -2822,7 +2875,8 @@
       "description": "This Garlic Herb Butter is a decadent blend of rich, softened butter infused with roasted garlic and fresh herbs. Key ingredients like aromatic thyme, rosemary, and a splash of lemon juice elevate it to a flavorful experience that’s perfect for spreading on warm bread or melting over grilled steaks. Each bite bursts with a robust, savory flavor that will leave you craving more!",
       "prep_time": "15 min",
       "cook_time": "30 min",
-      "servings": 4
+      "servings": 4,
+      "subcategory": "general"
     },
     {
       "title": "Creamy Horseradish Sauce",
@@ -2856,7 +2910,8 @@
       "description": "Creamy Horseradish Sauce is a zesty condiment combining sour cream and mayonnaise with the bold heat of horseradish. The addition of minced garlic and crisp red onions creates a delightful complexity, while a splash of lemon juice brightens every bite. This sauce adds a fiery kick to any dish, making it an irresistible accompaniment for meats and seafood alike!",
       "prep_time": "15 min",
       "cook_time": "30 min",
-      "servings": 4
+      "servings": 4,
+      "subcategory": "general"
     },
     {
       "title": "Pimping Pasta Salad",
@@ -2937,7 +2992,7 @@
       "servings": 4
     },
     {
-      "title": "Perfect Potatoe Salad",
+      "title": "Perfect Potato Salad",
       "slug": "perfect-potatoe-salad",
       "category": "salads-sides",
       "ingredients": [
@@ -3069,8 +3124,9 @@
       "source_file": "note_102.txt",
       "description": "Crispy Asian Chili Mayo is a bold and flavorful condiment that marries creamy mayonnaise with the heat of chili crisp. With minced garlic, chopped shallots, and a touch of sweet Thai chili sauce, this dip packs a punch in every bite. Perfect for drizzling over tacos or as a zesty dip, it’s a must-try for spice lovers!",
       "prep_time": "15 min",
-      "cook_time": "0 min",
-      "servings": 4
+      "cook_time": "5 min",
+      "servings": 4,
+      "subcategory": "general"
     },
     {
       "title": "Better Cowboy Butter",
@@ -3104,7 +3160,8 @@
       "description": "Better Cowboy Butter is a luscious compound butter that combines mayonnaise, Dijon mustard, and roasted garlic for an irresistible dip. Infused with fresh herbs like parsley and thyme, along with a kick of smoked paprika, this sauce adds a savory depth to grilled meats and vegetables. Elevate your BBQ game with this flavor-packed spread!",
       "prep_time": "15 min",
       "cook_time": "30 min",
-      "servings": 4
+      "servings": 4,
+      "subcategory": "general"
     },
     {
       "title": "Cilantro Lime Sauce",
@@ -3130,8 +3187,9 @@
       "source_file": "note_104.txt",
       "description": "Cilantro Lime Sauce is a zesty and creamy dressing that brings freshness to any dish, featuring a blend of mayonnaise and Greek yogurt. With bright lime juice and fragrant cilantro, it offers a tangy kick that perfectly complements tacos, grilled chicken, or salads. This sauce is a vibrant addition that will awaken your taste buds!",
       "prep_time": "15 min",
-      "cook_time": "0 min",
-      "servings": 4
+      "cook_time": "5 min",
+      "servings": 4,
+      "subcategory": "general"
     },
     {
       "title": "Special Steak Sauce",
@@ -3169,7 +3227,8 @@
       "description": "This Special Steak Sauce elevates your favorite cuts with a rich blend of A1 Sauce, roasted garlic, and sautéed shallots. The tangy depth from red bell pepper and onion adds a vibrant kick that complements meat perfectly. Drizzle it on your steak for a mouthwatering explosion of flavors that will leave you craving more!",
       "prep_time": "15 min",
       "cook_time": "30 min",
-      "servings": 4
+      "servings": 4,
+      "subcategory": "general"
     },
     {
       "title": "Ranch Sauce",
@@ -3200,10 +3259,11 @@
       "description": "Ranch Sauce is a creamy, tangy dip made with a luscious mixture of mayonnaise, sour cream, and heavy cream. The addition of ranch seasoning, paprika, and fresh herbs like dill creates an irresistible flavor profile. Perfect for dipping veggies or slathering on sandwiches, this sauce is sure to be a crowd-pleaser at any gathering!",
       "prep_time": "15 min",
       "cook_time": "30 min",
-      "servings": 4
+      "servings": 4,
+      "subcategory": "dressings"
     },
     {
-      "title": "Creamy Al Pastor sauce",
+      "title": "Creamy Al Pastor Sauce",
       "slug": "creamy-al-pastor-sauce",
       "category": "sauces",
       "ingredients": [
@@ -3234,10 +3294,11 @@
       "description": "Creamy Al Pastor Sauce is a vibrant, spiced sauce featuring sautéed red onions and garlic, combined with rich guajillo chiles and adobo sauce. The fragrant oregano brings everything together, making it the perfect topping for tacos or grilled meats. Its bold flavors will transport your taste buds straight to a Mexican street food paradise!",
       "prep_time": "15 min",
       "cook_time": "30 min",
-      "servings": 4
+      "servings": 4,
+      "subcategory": "general"
     },
     {
-      "title": "Habenareo pizza ranch aloi",
+      "title": "Habanero Pizza Ranch Aioli",
       "slug": "habenareo-pizza-ranch-aloi",
       "category": "sauces",
       "ingredients": [
@@ -3267,7 +3328,8 @@
       "description": "Get ready for a flavor explosion with Habenareo Pizza Ranch Aoli, a spicy twist on the classic ranch sauce. This zesty concoction combines mayonnaise, sour cream, and minced garlic with the fiery kick of Habenareo pepper and savory pepperoni. Perfect for drizzling over pizza or as a bold dipping sauce, it will ignite your culinary creativity!",
       "prep_time": "15 min",
       "cook_time": "30 min",
-      "servings": 4
+      "servings": 4,
+      "subcategory": "dressings"
     },
     {
       "title": "Mexican Street Corn Sauce",
@@ -3302,10 +3364,11 @@
       "description": "Mexican Street Corn Sauce is a creamy, zesty blend that captures the essence of elote in every bite. With Cotija and Fresco cheese, roasted corn, and a hint of lime juice, this sauce is rich and refreshing. It's the ultimate topping for tacos, grilled meats, or simply as a dip, bringing the street food experience right to your kitchen!",
       "prep_time": "15 min",
       "cook_time": "30 min",
-      "servings": 4
+      "servings": 4,
+      "subcategory": "general"
     },
     {
-      "title": "Marry Me Chicken sauce",
+      "title": "Marry Me Chicken Sauce",
       "slug": "marry-me-chicken-sauce",
       "category": "sauces",
       "ingredients": [
@@ -3342,10 +3405,11 @@
       "description": "Marry Me Chicken sauce is a luscious blend of flavors that elevates any dish to romantic heights. With sun-dried tomatoes, zesty lemon juice, and a splash of white wine, this sauce tantalizes the palate while the buttery goodness brings it all together. It's a delightful way to impress your loved ones and make every meal feel special!",
       "prep_time": "15 min",
       "cook_time": "30 min",
-      "servings": 4
+      "servings": 4,
+      "subcategory": "general"
     },
     {
-      "title": "Goat cheese chalua hot sauce",
+      "title": "Goat Cheese Kahlua Hot Sauce",
       "slug": "goat-cheese-chalua-hot-sauce",
       "category": "sauces",
       "ingredients": [
@@ -3379,10 +3443,11 @@
       "description": "This Goat Cheese Chaluah Hot Sauce is a creamy, spicy dip that packs a punch. Infused with robust Chalua hot sauce, roasted garlic, and zesty green chilies, it’s a flavor explosion that enhances everything from tacos to grilled meats. Whip it up for your next gathering and watch it disappear in a flash!",
       "prep_time": "15 min",
       "cook_time": "30 min",
-      "servings": 4
+      "servings": 4,
+      "subcategory": "general"
     },
     {
-      "title": "Buffalo chicken cream cheese sauce",
+      "title": "Buffalo Chicken Cream Cheese Sauce",
       "slug": "buffalo-chicken-cream-cheese-sauce",
       "category": "sauces",
       "ingredients": [
@@ -3411,10 +3476,11 @@
       "description": "The Buffalo Chicken Cream Cheese Sauce is a velvety blend that brings all the classic flavors of buffalo wings to your table. With the kick of Red Hot hot sauce, creamy melted cream cheese, and savory roasted garlic, it's a dip that satisfies cravings in every bite. Perfect for game day or cozy gatherings, it’s an irresistible treat!",
       "prep_time": "15 min",
       "cook_time": "30 min",
-      "servings": 4
+      "servings": 4,
+      "subcategory": "general"
     },
     {
-      "title": "Magical Marry Me chicken",
+      "title": "Magical Marry Me Chicken",
       "slug": "magical-marry-me-chicken",
       "category": "mains",
       "ingredients": [
@@ -3464,7 +3530,7 @@
       "servings": 4
     },
     {
-      "title": "Green chile",
+      "title": "Green Chile Stew",
       "slug": "green-chile",
       "category": "soups",
       "ingredients": [
@@ -3494,7 +3560,7 @@
       "servings": 4
     },
     {
-      "title": "Chilli oils",
+      "title": "Chili Oils",
       "slug": "chilli-oils",
       "category": "sauces",
       "ingredients": [
@@ -3520,10 +3586,11 @@
       "description": "Transform ordinary meals with this homemade chili oil, a fragrant blend of sizzling vegetable oil infused with red pepper flakes and Sichuan peppercorns. The delightful aroma of minced garlic and ginger brings a warmth that tantalizes the senses. Drizzle this spicy concoction over your dishes for an irresistible heat that will leave everyone craving more!",
       "prep_time": "15 min",
       "cook_time": "30 min",
-      "servings": 4
+      "servings": 4,
+      "subcategory": "general"
     },
     {
-      "title": "Appetizers",
+      "title": "Cheesy Potato Bites",
       "slug": "appetizers",
       "category": "salads-sides",
       "ingredients": [
@@ -3589,7 +3656,8 @@
       "description": "This classic chicken sandwich sauce combines the savory goodness of crispy sautéed red onions and garlic, harmoniously blended with creamy mayonnaise and tangy pickle juice. Optional red bell peppers add a sweet crunch, enhancing the flavor profile. Elevate your chicken sandwiches to gourmet status with this zesty sauce that brings a burst of flavor to every bite!",
       "prep_time": "15 min",
       "cook_time": "15 min",
-      "servings": 4
+      "servings": 4,
+      "subcategory": "general"
     },
     {
       "title": "Crazy Coleslaws",
@@ -3660,7 +3728,7 @@
       "servings": 4
     },
     {
-      "title": "Timeless Tatsiki Sauce",
+      "title": "Timeless Tzatziki Sauce",
       "slug": "timeless-tatsiki-sauce",
       "category": "sauces",
       "ingredients": [
@@ -3693,7 +3761,8 @@
       "description": "Timeless Tzatziki Sauce is a refreshing Greek classic, starring grated cucumbers and rich Greek yogurt blended with fragrant dill and garlic. The zest of lemon juice and red wine vinegar brightens each bite, while olive oil adds a luxurious finish. This sauce is the ultimate companion for grilled meats or fresh veggies, transforming any dish into a Mediterranean delight!",
       "prep_time": "15 min",
       "cook_time": "30 min",
-      "servings": 4
+      "servings": 4,
+      "subcategory": "general"
     },
     {
       "title": "Terrific Tomato Soup",
@@ -3742,6 +3811,1800 @@
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 4
+    },
+    {
+      "title": "Blended Green Olives and Feta Sauce",
+      "slug": "blended-green-olives-and-feta-sauce",
+      "category": "sauces",
+      "ingredients": [
+        "1 head garlic",
+        "1 1/2 cups green olives, pitted",
+        "1/2 cup crumbled feta cheese",
+        "1/4 cup grated Parmesan cheese",
+        "1/2 cup olive oil",
+        "2 tablespoons butter",
+        "1 teaspoon Italian seasoning",
+        "2 tablespoons fresh basil, chopped",
+        "2 tablespoons lemon juice",
+        "1/2 teaspoon red pepper flakes"
+      ],
+      "directions": [
+        "Preheat oven to 400°F. Cut the top off the garlic head, drizzle with a bit of olive oil, wrap in foil, and roast for 35-40 minutes until soft and golden. Let cool, then squeeze out the roasted cloves.",
+        "In a food processor or blender, combine the green olives, roasted garlic cloves, feta, Parmesan, Italian seasoning, and basil. Pulse until roughly chopped.",
+        "With the processor running, slowly drizzle in the olive oil until the mixture reaches your desired consistency — smooth or slightly chunky.",
+        "Transfer to a saucepan over medium-low heat. Stir in the butter, lemon juice, and red pepper flakes. Cook for 3-4 minutes, stirring occasionally, until heated through.",
+        "Taste and adjust seasoning — add more lemon juice for brightness or red pepper flakes for heat. Serve warm or at room temperature."
+      ],
+      "youtube_url": null,
+      "source_file": "note_174.txt",
+      "description": "A bold, tangy sauce that combines briny green olives with creamy feta and roasted garlic. Perfect for tossing with pasta, spreading on grilled chicken, or using as a dip for crusty bread.",
+      "prep_time": "10 min",
+      "cook_time": "45 min",
+      "servings": 8,
+      "subcategory": "general"
+    },
+    {
+      "title": "Baconase Burger Sauce",
+      "slug": "baconase-burger-sauce",
+      "category": "sauces",
+      "ingredients": [
+        "6 strips crispy bacon, finely chopped",
+        "1 cup mayonnaise",
+        "2 tablespoons yellow mustard or whole grain mustard",
+        "3 tablespoons ketchup",
+        "1 tablespoon bbq sauce",
+        "1/2 cup sautéed onions, finely chopped",
+        "3 cloves garlic, minced and sautéed",
+        "1/4 cup dill pickles, finely chopped",
+        "1 tablespoon lemon juice",
+        "2 tablespoons pickle juice",
+        "1 teaspoon Worcestershire sauce",
+        "1/4 teaspoon cayenne pepper",
+        "1 tablespoon fresh parsley, chopped",
+        "1/2 teaspoon dried thyme",
+        "1/2 teaspoon black pepper",
+        "1 tablespoon honey"
+      ],
+      "directions": [
+        "Cook bacon until crispy, then finely chop. Sauté onions and garlic in a bit of bacon fat until soft and golden, about 5 minutes. Let cool.",
+        "In a medium bowl, combine mayo, mustard, ketchup, bbq sauce, lemon juice, pickle juice, and Worcestershire sauce. Mix well.",
+        "Stir in the cooled bacon, sautéed onions and garlic, chopped pickles, parsley, thyme, cayenne, and black pepper.",
+        "Add honey and mix until everything is well combined. Taste and adjust seasoning if needed.",
+        "Cover and refrigerate for at least 30 minutes to let the flavors meld together. Serve on burgers, fries, or anything that needs a flavor boost."
+      ],
+      "youtube_url": null,
+      "source_file": "note_175.txt",
+      "description": "A smoky, tangy burger sauce that's got everything — crispy bacon, sautéed onions, pickles, and a perfect balance of sweet and heat. Slather this on any burger and watch it disappear.",
+      "prep_time": "15 min",
+      "cook_time": "10 min",
+      "servings": 8,
+      "subcategory": "burger-sauces"
+    },
+    {
+      "title": "Hot Honey Asian Crunch Ranch",
+      "slug": "hot-honey-asian-crunch-ranch",
+      "category": "sauces",
+      "ingredients": [
+        "1 cup homemade ranch dressing",
+        "3 tablespoons hot honey",
+        "2 tablespoons crispy chili oil",
+        "2 serrano peppers, finely diced",
+        "1/2 cup corn kernels (fresh, frozen, or canned)",
+        "1/3 cup crushed honey roasted peanuts"
+      ],
+      "directions": [
+        "If using fresh or frozen corn, sauté in a dry skillet over medium-high heat until lightly charred, about 3-4 minutes. Let cool. If using canned, drain well.",
+        "In a medium bowl, whisk together the ranch dressing, hot honey, and crispy chili oil until smooth and well combined.",
+        "Fold in the diced serrano peppers and cooled corn kernels.",
+        "Transfer to a serving bowl and top with crushed honey roasted peanuts just before serving.",
+        "Taste and adjust heat level by adding more hot honey or chili oil if desired. Serve immediately or refrigerate up to 3 days."
+      ],
+      "youtube_url": null,
+      "source_file": "note_176.txt",
+      "description": "A bold, sweet-heat ranch dip loaded with crispy chili oil, fresh serrano peppers, sweet corn, and crunchy honey roasted peanuts. Perfect for drizzling over fried chicken, dipping veggies, or tossing with wings.",
+      "prep_time": "10 min",
+      "cook_time": "5 min",
+      "servings": 6,
+      "subcategory": "dressings"
+    },
+    {
+      "title": "Chimichurri Ranch",
+      "slug": "chimichurri-ranch",
+      "category": "sauces",
+      "ingredients": [
+        "1/2 cup mayo or Greek yogurt",
+        "1/4 cup sour cream",
+        "2 tablespoons heavy cream",
+        "1 tablespoon ranch seasoning",
+        "2 tablespoons fresh dill, chopped",
+        "4 cloves garlic, minced",
+        "2 tablespoons red onion, finely diced",
+        "1/4 cup fresh parsley, chopped",
+        "1/4 cup fresh cilantro, chopped",
+        "2 tablespoons red wine vinegar",
+        "1 tablespoon lemon juice",
+        "2 tablespoons olive oil",
+        "1/2 teaspoon red pepper flakes",
+        "1/2 teaspoon cracked black pepper"
+      ],
+      "directions": [
+        "Finely chop the fresh dill, parsley, and cilantro. Mince the garlic and dice the red onion as small as possible.",
+        "In a medium bowl, combine the mayo (or Greek yogurt), sour cream, heavy cream, and ranch seasoning. Whisk until smooth.",
+        "Add all the fresh herbs, garlic, red onion, red wine vinegar, lemon juice, and olive oil. Stir well to combine.",
+        "Season with red pepper flakes and cracked black pepper. Taste and adjust seasoning as needed.",
+        "Cover and refrigerate for at least 30 minutes to let the flavors meld together before serving."
+      ],
+      "youtube_url": null,
+      "source_file": "note_177.txt",
+      "description": "A bright, herby twist on classic ranch that combines cooling dill with punchy chimichurri flavors. Perfect for drizzling on tacos, dipping veggies, or slathering on grilled chicken.",
+      "prep_time": "10 min",
+      "cook_time": "5 min",
+      "servings": 8,
+      "subcategory": "dressings"
+    },
+    {
+      "title": "Feta Ground Beef Pesto Pasta",
+      "slug": "feta-ground-beef-pesto-pasta",
+      "category": "pasta",
+      "ingredients": [
+        "1 lb protein rotini pasta",
+        "1 lb ground beef",
+        "1/2 lb hot Italian sausage, casings removed",
+        "1 cup chunks of salami or pepperoni, roughly chopped",
+        "1 1/2 cups crumbled feta cheese",
+        "1 cup shredded mozzarella cheese",
+        "4 oz goat cheese, crumbled",
+        "1 cup pesto",
+        "8 cloves garlic, minced",
+        "2 yellow onions, diced",
+        "2 red bell peppers, diced",
+        "1/2 cup sun dried tomatoes, chopped",
+        "1/4 cup sliced jalapeños or pepperoncini peppers",
+        "3 tablespoons butter",
+        "2 tablespoons olive oil",
+        "1 teaspoon red pepper flakes",
+        "1/2 cup crushed croutons"
+      ],
+      "directions": [
+        "Cook the rotini pasta according to package directions until al dente. Drain and set aside.",
+        "In a large skillet or Dutch oven, heat olive oil and butter over medium-high heat. Add ground beef and Italian sausage, breaking up with a wooden spoon, and cook until browned, about 8-10 minutes. Drain excess fat if needed.",
+        "Add onions, red peppers, and garlic to the meat. Cook until vegetables are softened, about 5 minutes. Stir in salami, sun dried tomatoes, jalapeños, and red pepper flakes.",
+        "Add the cooked pasta and pesto to the skillet, tossing everything together until well combined. Stir in feta, mozzarella, and goat cheese, allowing the cheeses to melt slightly.",
+        "Taste and adjust seasoning as needed. Serve hot, topped with crushed croutons for crunch."
+      ],
+      "youtube_url": null,
+      "source_file": "note_178.txt",
+      "description": "A hearty, loaded pasta dish that brings together ground beef, spicy Italian sausage, and three kinds of cheese with plenty of pesto and garlic. This is comfort food that packs a flavorful punch with every bite.",
+      "prep_time": "20 min",
+      "cook_time": "25 min",
+      "servings": 6
+    },
+    {
+      "title": "Cold Lemon Pepper Chicken Tzatziki Rice",
+      "slug": "cold-lemon-pepper-chicken-taziki-rice",
+      "category": "mains",
+      "ingredients": [
+        "2 lbs boneless skinless chicken breasts",
+        "3 tablespoons lemon pepper seasoning, divided",
+        "2 cups white rice",
+        "4 cups chicken broth",
+        "2 tablespoons fresh parsley, chopped",
+        "8 slices bacon",
+        "1 cup pickled red onions",
+        "1 white onion, diced",
+        "2 red bell peppers, diced",
+        "2 cucumbers, diced",
+        "2 jalapeños, sliced",
+        "1½ cups corn kernels (fresh or frozen)",
+        "2 cups cherry tomatoes, halved",
+        "4 cups romaine lettuce, chopped",
+        "¼ cup fresh lemon juice",
+        "1 cup cottage cheese",
+        "1 cup crumbled feta cheese",
+        "1½ cups crushed pita chips",
+        "2 cups tzatziki sauce",
+        "1 teaspoon black pepper",
+        "4 medium potatoes, cubed",
+        "2 tablespoons olive oil"
+      ],
+      "directions": [
+        "Season chicken breasts with 2 tablespoons lemon pepper and bake at 375°F for 25-30 minutes until cooked through. Let cool, then dice into bite-sized pieces and refrigerate.",
+        "Cook rice in chicken broth according to package directions. Once cooked, stir in remaining 1 tablespoon lemon pepper, parsley, and lemon juice. Let cool completely and refrigerate.",
+        "Cook bacon until crispy, crumble and set aside. Toss cubed potatoes with olive oil, salt, and pepper, then roast at 425°F for 25-30 minutes until golden and crunchy. Let cool.",
+        "Prep all vegetables: dice white onion, red peppers, cucumbers, tomatoes; slice jalapeños; and chop romaine lettuce.",
+        "To assemble bowls, start with a base of lemon pepper rice, then layer with romaine lettuce and all the prepped vegetables and corn.",
+        "Top each bowl with diced lemon pepper chicken, crumbled bacon, roasted potatoes, cottage cheese, and feta cheese.",
+        "Drizzle generously with tzatziki sauce (about ½ cup per bowl), add a squeeze of lemon juice, and finish with crushed pita chips and black pepper to taste. Serve cold."
+      ],
+      "youtube_url": null,
+      "source_file": "note_179.txt",
+      "description": "A loaded Mediterranean-inspired rice bowl with tangy lemon pepper chicken, crispy bacon, fresh vegetables, and plenty of cooling tzatziki sauce. This cold, refreshing dish is perfect for meal prep or a light summer dinner.",
+      "prep_time": "25 min",
+      "cook_time": "35 min",
+      "servings": 6
+    },
+    {
+      "title": "Cold Chicken Salad",
+      "slug": "cold-chicken-salad",
+      "category": "salads-sides",
+      "ingredients": [
+        "3 cups shredded cooked chicken",
+        "6 slices bacon, cooked crispy and crumbled",
+        "1 cup crumbled feta cheese",
+        "1 red apple, diced",
+        "1 green apple, diced",
+        "1 cup red grapes, halved",
+        "1/2 cup chopped walnuts",
+        "1/2 cup chopped almonds",
+        "1/2 cup diced red onion",
+        "1 cup diced celery",
+        "2 cups kettle cooked potato chips, roughly crushed",
+        "3/4 cup mayo",
+        "1/4 cup sour cream",
+        "2 tablespoons honey"
+      ],
+      "directions": [
+        "In a large mixing bowl, combine the shredded chicken, bacon, feta, diced apples, grapes, walnuts, almonds, red onion, and celery.",
+        "In a small bowl, whisk together the mayo, sour cream, and honey until smooth.",
+        "Pour the dressing over the chicken mixture and toss everything together until well coated.",
+        "Cover and refrigerate for at least 30 minutes to let the flavors come together.",
+        "Right before serving, top with the crushed potato chips so they stay crunchy."
+      ],
+      "youtube_url": null,
+      "source_file": "note_180.txt",
+      "description": "This loaded chicken salad has everything going on — crispy bacon, crunchy apples and nuts, sweet grapes, and tangy feta all tossed in a honey-kissed dressing. The crushed potato chips on top add an addictive crunch that makes this way more than your average chicken salad.",
+      "prep_time": "20 min",
+      "cook_time": "5 min",
+      "servings": 6
+    },
+    {
+      "title": "Cold Mexican Chicken Salad",
+      "slug": "cold-mexican-chicken-salad",
+      "category": "salads-sides",
+      "ingredients": [
+        "3 cups shredded cooked chicken",
+        "2 medium red apples, diced",
+        "1 1/2 cups corn (fresh, frozen, or canned and drained)",
+        "2 stalks celery, diced",
+        "1 red bell pepper, diced",
+        "1 large tomato, diced",
+        "1/2 cup fresh cilantro, chopped",
+        "1 can (15 oz) black beans, drained and rinsed",
+        "1 cup crumbled feta cheese",
+        "1/2 cup mayonnaise",
+        "1/2 cup sour cream",
+        "2 tablespoons chipotle sauce",
+        "1 1/2 cups crushed tortilla chips"
+      ],
+      "directions": [
+        "In a large bowl, combine the shredded chicken, diced apples, corn, celery, red pepper, tomato, cilantro, black beans, and feta cheese.",
+        "In a small bowl, whisk together the mayonnaise, sour cream, and chipotle sauce until smooth.",
+        "Pour the dressing over the chicken mixture and toss everything together until well coated.",
+        "Cover and refrigerate for at least 30 minutes to let the flavors come together.",
+        "Just before serving, fold in the crushed tortilla chips so they stay crunchy, or sprinkle them on top of individual servings."
+      ],
+      "youtube_url": null,
+      "source_file": "note_181.txt",
+      "description": "A fresh, crunchy salad loaded with tender chicken, crisp vegetables, and sweet apple chunks, all tossed in a creamy chipotle dressing. Perfect for potlucks or a light lunch that's got just enough kick to keep things interesting.",
+      "prep_time": "20 min",
+      "cook_time": "5 min",
+      "servings": 6
+    },
+    {
+      "title": "Philly Cheese Steak Crockpot Dip",
+      "slug": "philly-cheese-steak-crockpot-dip",
+      "category": "crockpot",
+      "ingredients": [
+        "1 lb shaved steak, chopped into bite-sized pieces",
+        "1 lb ground beef",
+        "8 oz salami, diced",
+        "8 slices bacon, cooked and crumbled",
+        "1 cup beef stock",
+        "2 packets Au Jus gravy mix",
+        "2 green bell peppers, diced",
+        "2 red bell peppers, diced",
+        "2 yellow bell peppers, diced",
+        "3 large yellow onions, diced",
+        "6 jalapeños, seeded and diced",
+        "2 cans (10 oz each) Rotel tomatoes with green chiles",
+        "1 can (15 oz) corn, drained",
+        "8 cloves garlic, minced",
+        "1 tablespoon black pepper",
+        "16 oz cream cheese, softened and cubed",
+        "2 cups shredded pepper jack cheese",
+        "2 cups shredded cheddar cheese",
+        "16 oz Velveeta cheese, cubed",
+        "1 box (6 oz) stuffing mix"
+      ],
+      "directions": [
+        "In a large skillet over medium-high heat, brown the ground beef and shaved steak with the garlic and black pepper. Drain excess fat and transfer to a 6-quart crockpot.",
+        "Add the diced salami, crumbled bacon, all the peppers, onions, jalapeños, Rotel tomatoes, corn, beef stock, and Au Jus packets to the crockpot. Stir to combine.",
+        "Cover and cook on low for 4-5 hours, stirring occasionally, until vegetables are tender and flavors have melded.",
+        "Add the cream cheese, pepper jack, cheddar, and Velveeta to the crockpot. Stir until all cheeses are melted and fully incorporated, about 15-20 minutes.",
+        "Prepare stuffing mix according to package directions. Spread the prepared stuffing over the top of the dip in the crockpot.",
+        "Cover and cook on low for an additional 30 minutes until the stuffing is heated through and slightly crispy on top. Serve hot with tortilla chips, bread, or crackers."
+      ],
+      "youtube_url": null,
+      "source_file": "note_182.txt",
+      "description": "This loaded crockpot dip brings all the flavors of a Philly cheese steak to your party table, with layers of seasoned meats, colorful peppers, and a rich, melty cheese blend. Perfect for game day with tortilla chips or crusty bread.",
+      "prep_time": "25 min",
+      "cook_time": "5 hours",
+      "servings": 20
+    },
+    {
+      "title": "Salmon Feta Tomato Spinach Crockpot Pasta",
+      "slug": "salmon-feta-tomato-spinach-crockpot-pasta",
+      "category": "crockpot",
+      "ingredients": [
+        "12 oz smoked salmon, flaked into chunks",
+        "1½ cups crumbled feta cheese",
+        "¼ cup olive oil",
+        "3 tablespoons butter",
+        "2 jalapeños, sliced",
+        "3 cups cherry tomatoes",
+        "8 cloves garlic, peeled and smashed",
+        "2 red bell peppers, diced",
+        "½ cup pickled red onions",
+        "4 cups fresh spinach",
+        "1 teaspoon black pepper",
+        "¼ cup fresh basil, chopped",
+        "2 teaspoons Italian seasoning",
+        "2 tablespoons honey",
+        "1 lb protein rotini pasta",
+        "2 cups water or vegetable broth"
+      ],
+      "directions": [
+        "Add olive oil, butter, cherry tomatoes, garlic cloves, red peppers, jalapeños, Italian seasoning, black pepper, and honey to the crockpot. Stir to combine.",
+        "Cover and cook on low for 3-4 hours or high for 2 hours, until tomatoes are bursting and garlic is soft.",
+        "Mash some of the tomatoes and garlic with the back of a spoon to create a chunky sauce. Add the dry pasta and water or broth, stirring to submerge the pasta.",
+        "Cover and cook on high for 30-45 minutes, stirring occasionally, until pasta is tender.",
+        "Stir in the spinach and let it wilt for 5 minutes, then gently fold in the smoked salmon, feta, pickled red onions, and fresh basil.",
+        "Let stand for 5 minutes before serving. Adjust seasoning with salt and pepper if needed."
+      ],
+      "youtube_url": null,
+      "source_file": "note_183.txt",
+      "description": "This crockpot pasta brings together flaky smoked salmon, tangy feta, and burst cherry tomatoes in a rich, Mediterranean-inspired sauce that practically cooks itself. The pickled onions and jalapeños add just the right kick to balance all that creamy goodness.",
+      "prep_time": "15 min",
+      "cook_time": "3 hours 30 min",
+      "servings": 6
+    },
+    {
+      "title": "Creamy Beef Horseradish Pot Roast",
+      "slug": "creamy-beef-horseradish-pot-roast",
+      "category": "mains",
+      "ingredients": [
+        "3 lbs chuck steak, cut into 2-inch chunks",
+        "6 slices bacon, chopped",
+        "1 large red onion, roughly chopped",
+        "8 cloves garlic, peeled and smashed",
+        "2 red bell peppers, seeded and cut into chunks",
+        "3 stalks celery, cut into 2-inch pieces",
+        "4 large carrots, peeled and cut into 2-inch pieces",
+        "1½ lbs potatoes, quartered",
+        "2 sprigs fresh rosemary",
+        "4 sprigs fresh thyme",
+        "3 cups beef stock",
+        "2 packets au jus mix",
+        "8 oz cream cheese, softened",
+        "1 cup sour cream",
+        "¼ cup prepared horseradish",
+        "2 tablespoons black pepper"
+      ],
+      "directions": [
+        "In a large skillet over medium-high heat, cook the chopped bacon until crispy. Remove bacon and set aside, leaving the drippings in the pan. Season chuck steak chunks generously with salt and half the black pepper, then brown them in the bacon fat in batches. Transfer browned beef to a slow cooker.",
+        "Add the red onion, garlic, red peppers, celery, carrots, and potatoes to the slow cooker with the beef. Tuck in the rosemary and thyme sprigs. Whisk together the beef stock and au jus packets, then pour over everything. Scatter the cooked bacon on top.",
+        "Cover and cook on low for 7-8 hours or high for 4-5 hours, until the beef is fork-tender and the vegetables are cooked through.",
+        "About 30 minutes before serving, remove about 1 cup of the cooking liquid and whisk it together with the cream cheese, sour cream, horseradish, and remaining black pepper in a bowl until smooth. Stir this mixture back into the slow cooker and let it heat through. Taste and adjust seasoning, adding more horseradish or pepper if you want more kick."
+      ],
+      "youtube_url": null,
+      "source_file": "note_184.txt",
+      "description": "This hearty pot roast takes comfort food up a notch with a tangy, creamy horseradish sauce that cuts right through the rich beef and vegetables. Perfect for a Sunday dinner when you want something that practically cooks itself.",
+      "prep_time": "20 min",
+      "cook_time": "7-8 hours",
+      "servings": 6
+    },
+    {
+      "title": "Pork and Chicken Hummus Crockpot",
+      "slug": "pork-and-chicken-hummus-crockpot",
+      "category": "crockpot",
+      "ingredients": [
+        "2 lbs pork shoulder, chopped into 1-inch pieces",
+        "1.5 lbs chicken thighs, shredded",
+        "3 tablespoons shawarma spice blend (divided)",
+        "2 cups hummus",
+        "3 tablespoons olive oil",
+        "3 tablespoons lemon juice",
+        "1 cup pickled red onions",
+        "1 cup kalamata olives, pitted and halved",
+        "1 medium red onion, diced",
+        "2 cucumbers, diced",
+        "2 red bell peppers, diced",
+        "2 medium tomatoes, diced",
+        "1 whole head garlic, roasted",
+        "1/2 cup fresh parsley, chopped",
+        "1 cup crumbled feta cheese",
+        "2 cups crushed pita chips",
+        "3 lbs baby potatoes for roasting",
+        "1 cup tzatziki sauce",
+        "4 fried eggs (optional)"
+      ],
+      "directions": [
+        "Season the pork shoulder with 2 tablespoons shawarma spice and place in the bottom of a 6-quart crockpot. Season the shredded chicken with remaining 1 tablespoon shawarma spice and layer on top of the pork.",
+        "Spread the hummus over the meat, drizzle with olive oil and lemon juice, then squeeze the roasted garlic cloves over everything. Cover and cook on low for 6-7 hours or high for 3-4 hours until pork is tender.",
+        "About 45 minutes before serving, toss the baby potatoes with olive oil, salt, and pepper, and roast at 425°F until golden and crispy.",
+        "When ready to serve, give the crockpot a gentle stir to mix the hummus with the meat juices. Top with pickled red onions, kalamata olives, fresh red onions, cucumbers, red peppers, tomatoes, and parsley.",
+        "Sprinkle feta cheese and crushed pita chips over the top. Serve family-style over the roasted potatoes with tzatziki sauce drizzled generously over everything. Top individual portions with a fried egg if desired."
+      ],
+      "youtube_url": null,
+      "source_file": "note_185.txt",
+      "description": "A Mediterranean-inspired crockpot feast loaded with shawarma-spiced pork and chicken nestled in creamy hummus, then piled high with fresh veggies, feta, and crispy pita chips. Drizzle it all with tangy tzatziki and serve over roasted potatoes for a dinner that'll make everyone fight over seconds.",
+      "prep_time": "20 min",
+      "cook_time": "6-7 hours",
+      "servings": 6
+    },
+    {
+      "title": "Spicy Peanut Pork on Glass Noodles",
+      "slug": "spicy-peanut-pork-on-glass-noodles",
+      "category": "pasta",
+      "ingredients": [
+        "2 lbs pork shoulder, cut into 1-inch cubes",
+        "1 lb hot sausage, sliced into rounds",
+        "4-6 Thai chilis, thinly sliced",
+        "2 tablespoons chili garlic paste",
+        "3 tablespoons sriracha",
+        "2 tablespoons crispy chili oil",
+        "1 cup honey roasted peanuts, roughly chopped",
+        "2 large yellow onions, diced",
+        "2 red bell peppers, cut into strips",
+        "2 green bell peppers, cut into strips",
+        "8 cloves garlic, minced",
+        "1 cup corn kernels (fresh or frozen)",
+        "1 red apple, cored and diced",
+        "1 green apple, cored and diced",
+        "2 tablespoons sesame seeds",
+        "1/2 cup peanut butter",
+        "3 tablespoons toasted sesame oil",
+        "1/4 cup soy sauce",
+        "2 tablespoons fresh ginger, minced",
+        "3 tablespoons honey",
+        "1 teaspoon black pepper",
+        "Glass noodles or ginger rice for serving",
+        "4 oz cream cheese, cubed (optional)"
+      ],
+      "directions": [
+        "In a large skillet or wok over medium-high heat, brown the pork shoulder cubes and hot sausage slices until cooked through, about 8-10 minutes. Remove and set aside.",
+        "In the same pan, add sesame oil and sauté the onions, bell peppers, garlic, ginger, and Thai chilis until softened, about 5-6 minutes. Add the corn and cook 2 minutes more.",
+        "In a bowl, whisk together peanut butter, soy sauce, honey, sriracha, chili garlic paste, and black pepper until smooth. Add a splash of water if needed to thin the sauce.",
+        "Return the pork and sausage to the pan, then pour in the peanut sauce and toss to coat everything. Add the diced apples and cook for 3-4 minutes until apples soften slightly.",
+        "Stir in the crispy chili oil and half the peanuts. If using cream cheese, add it now and stir until melted and incorporated into the sauce.",
+        "Serve over prepared glass noodles or ginger rice, topped with remaining peanuts and sesame seeds."
+      ],
+      "youtube_url": null,
+      "source_file": "note_186.txt",
+      "description": "A bold, sweet-and-spicy pork dish loaded with peppers, apples, and crunchy peanuts, all tossed in a rich peanut-sesame sauce. Serve it over glass noodles or ginger rice for a satisfying meal with serious heat.",
+      "prep_time": "20 min",
+      "cook_time": "25 min",
+      "servings": 6
+    },
+    {
+      "title": "BBQ Sweet Potato Beef and Pork Shoulder",
+      "slug": "bbq-sweet-potato-beef-and-pork-shoulder",
+      "category": "mains",
+      "ingredients": [
+        "1 lb ground beef",
+        "2 cups smoked pork shoulder, chopped",
+        "2 large sweet potatoes, peeled and diced (about 4 cups)",
+        "6 slices bacon, chopped",
+        "1 cup corn kernels (fresh or frozen)",
+        "2 red bell peppers, diced",
+        "2 jalapeños, seeded and diced",
+        "2 yellow onions, diced",
+        "6 cloves garlic, minced",
+        "3 tablespoons hot honey",
+        "1 cup BBQ sauce",
+        "3 tablespoons butter",
+        "1 teaspoon black pepper",
+        "1 can (15 oz) baked beans"
+      ],
+      "directions": [
+        "In a large Dutch oven or heavy pot over medium-high heat, cook the chopped bacon until crispy, about 5-6 minutes. Remove bacon and set aside, leaving the drippings in the pot.",
+        "Add ground beef to the pot and cook until browned, breaking it up as it cooks, about 6-8 minutes. Season with black pepper. Add the onions, red peppers, jalapeños, and garlic, cooking until softened, about 5 minutes.",
+        "Stir in the diced sweet potatoes, corn, chopped pork shoulder, and cooked bacon. Add the butter and stir until melted.",
+        "Pour in the BBQ sauce, hot honey, and baked beans. Stir everything together and bring to a simmer.",
+        "Reduce heat to medium-low, cover, and cook for 25-30 minutes, stirring occasionally, until sweet potatoes are fork-tender.",
+        "Taste and adjust seasoning with more hot honey for sweetness, BBQ sauce for tang, or black pepper for heat. Serve hot."
+      ],
+      "youtube_url": null,
+      "source_file": "note_187.txt",
+      "description": "A hearty, smoky one-pot meal that combines seasoned ground beef and pulled pork shoulder with sweet potatoes, bacon, and peppers, all brought together with tangy BBQ sauce and a kick of hot honey. Perfect for feeding a crowd or meal prepping for the week.",
+      "prep_time": "20 min",
+      "cook_time": "45 min",
+      "servings": 8
+    },
+    {
+      "title": "Creamy Steak and Sauerkraut Hot Sauce Pasta",
+      "slug": "creamy-steak-and-sourkrout-hot-sauce-pasta",
+      "category": "pasta",
+      "ingredients": [
+        "1 lb steak cubes",
+        "1 lb ground beef",
+        "3 bratwurst links, sliced",
+        "2 cups sauerkraut, drained",
+        "1 large onion, diced",
+        "2 medium tomatoes, diced",
+        "8 cloves garlic, minced",
+        "2 jalapeños, diced",
+        "1 red bell pepper, diced",
+        "4 green onions, sliced",
+        "1 cup corn (fresh or frozen)",
+        "1 can (4 oz) diced green chiles",
+        "1 cup sour cream",
+        "8 oz cream cheese or cottage cheese",
+        "1 teaspoon dried thyme",
+        "1 teaspoon dried rosemary",
+        "3 tablespoons Worcestershire sauce",
+        "2 tablespoons prepared horseradish",
+        "1/4 cup Frank's RedHot sauce",
+        "1 lb protein rotini pasta"
+      ],
+      "directions": [
+        "Cook pasta according to package directions, drain and set aside.",
+        "In a large skillet or Dutch oven over medium-high heat, brown the steak cubes, ground beef, and sliced bratwurst. Drain excess fat if needed.",
+        "Add onion, garlic, jalapeños, red pepper, and cook until vegetables are softened, about 5 minutes. Stir in tomatoes, corn, sauerkraut, and green chiles.",
+        "Reduce heat to medium-low. Add sour cream, cream cheese, thyme, rosemary, Worcestershire sauce, horseradish, and Frank's RedHot. Stir until cheese melts and sauce is creamy.",
+        "Fold in cooked pasta and heat through for 2-3 minutes. Top with sliced green onions and serve hot."
+      ],
+      "youtube_url": null,
+      "source_file": "note_188.txt",
+      "description": "A hearty, tangy pasta that brings together meats, sauerkraut, and a kick of hot sauce in a creamy sauce. This is comfort food with attitude — perfect for when you want something filling and bold.",
+      "prep_time": "20 min",
+      "cook_time": "25 min",
+      "servings": 8
+    },
+    {
+      "title": "Buffalo Chicken Bacon Ranch Pasta",
+      "slug": "buffalo-chicken-bacon-ranch-pasta",
+      "category": "pasta",
+      "ingredients": [
+        "1 lb protein rotini pasta",
+        "3 cups cooked shredded chicken",
+        "1 lb hot Italian sausage, casings removed",
+        "8 slices bacon, chopped",
+        "1 medium red onion, diced",
+        "2 red bell peppers, diced",
+        "2 medium tomatoes, diced",
+        "2 jalapeños, seeded and diced",
+        "2 medium carrots, diced",
+        "3 stalks celery, diced",
+        "1 cup tomato purée",
+        "1/2 cup Frank's RedHot sauce",
+        "1 cup homemade ranch dressing",
+        "1 cup blue cheese crumbles",
+        "8 oz cream cheese, softened",
+        "2 cups shredded cheddar cheese"
+      ],
+      "directions": [
+        "Cook pasta according to package directions, drain and set aside. Meanwhile, cook chopped bacon in a large skillet until crispy, remove and set aside, leaving drippings in pan.",
+        "In the same skillet, brown the hot sausage over medium-high heat, breaking it into crumbles. Add red onion, red peppers, carrots, and celery, cooking until vegetables are tender, about 8 minutes.",
+        "Stir in diced tomatoes, jalapeños, tomato purée, and Frank's RedHot. Add cream cheese in chunks, stirring until melted and combined with the sauce.",
+        "Add shredded chicken and cooked bacon to the skillet, then fold in the cooked pasta. Stir in ranch dressing and half the cheddar cheese until everything is well coated.",
+        "Top with remaining cheddar cheese and blue cheese crumbles. Cover and let sit for 2-3 minutes until cheese melts, or transfer to a baking dish and broil for 3-4 minutes until bubbly and golden."
+      ],
+      "youtube_url": null,
+      "source_file": "note_189.txt",
+      "description": "This loaded pasta brings together everything you love about buffalo chicken wings with the comfort of a creamy, hearty pasta dish. Packed with spicy sausage, crispy bacon, and plenty of vegetables, it's a crowd-pleaser that hits all the right notes.",
+      "prep_time": "20 min",
+      "cook_time": "25 min",
+      "servings": 8
+    },
+    {
+      "title": "Chicken Bacon Ranch Chipotle Rice And Potatoes",
+      "slug": "chicken-bacon-ranch-chipotle-rice-and-potatoes",
+      "category": "mains",
+      "ingredients": [
+        "3 cups shredded cooked chicken",
+        "8 slices bacon, cooked and crumbled",
+        "1 lb baby potatoes, quartered",
+        "3 cups cooked Spanish rice",
+        "1 red onion, diced",
+        "1 can (4 oz) diced green chilies",
+        "1 red bell pepper, diced",
+        "1/2 cup pickled jalapeños",
+        "1/2 cup pickled red onions",
+        "2 tomatoes, diced",
+        "1/2 cup fresh cilantro, chopped",
+        "2 limes, cut into wedges",
+        "2 tablespoons chili lime seasoning",
+        "2 tablespoons fajita seasoning",
+        "1 tablespoon adobo seasoning",
+        "2 tablespoons ranch seasoning",
+        "1/2 cup chipotle peppers in adobo sauce, chopped",
+        "1 cup homemade ranch dressing",
+        "Chalula hot sauce, to taste",
+        "2 cups shredded Mexican cheese blend",
+        "1 cup crumbled feta cheese",
+        "1 cup cottage cheese",
+        "2 tablespoons olive oil"
+      ],
+      "directions": [
+        "Preheat oven to 425°F. Toss quartered potatoes with olive oil, chili lime seasoning, and a pinch of salt. Spread on a baking sheet and roast for 25-30 minutes until crispy and golden.",
+        "While potatoes roast, cook bacon until crispy, then crumble and set aside. In the same pan, sauté diced red onion and red bell pepper until softened, about 5 minutes.",
+        "In a large bowl, combine shredded chicken with fajita seasoning, adobo seasoning, ranch seasoning, and chopped chipotle peppers in adobo sauce. Mix in the sautéed peppers and onions, green chilies, and half the crumbled bacon.",
+        "Warm the Spanish rice and season with a squeeze of lime if needed. Set up your bowls with a base of Spanish rice, then add the roasted potatoes and chipotle chicken mixture.",
+        "Top each bowl generously with Mexican cheese, feta cheese, a dollop of cottage cheese, and drizzle with homemade ranch. Add diced tomatoes, pickled jalapeños, pickled red onions, remaining bacon, and fresh cilantro.",
+        "Serve with lime wedges and Chalula hot sauce on the side for everyone to customize their heat level."
+      ],
+      "youtube_url": null,
+      "source_file": "note_190.txt",
+      "description": "A loaded Tex-Mex bowl that's got everything going on — smoky chipotle chicken, crispy bacon, roasted potatoes, and Spanish rice all topped with ranch, cheese, and plenty of pickled heat. This is the kind of dinner that makes everyone come back for seconds.",
+      "prep_time": "20 min",
+      "cook_time": "30 min",
+      "servings": 6
+    },
+    {
+      "title": "Dill Chicken Bacon Ranch Pasta",
+      "slug": "dill-chicken-bacon-ranch-pasta",
+      "category": "pasta",
+      "ingredients": [
+        "1 lb protein rigatoni pasta",
+        "3 cups shredded cooked chicken",
+        "1 lb bacon, cooked crispy and chopped",
+        "1 medium red onion, diced",
+        "1 cup diced dill pickles",
+        "2 medium tomatoes, diced",
+        "2-3 jalapeños, seeded and diced",
+        "8 oz cream cheese, softened",
+        "2 cups shredded cheddar cheese",
+        "1 cup homemade ranch dressing",
+        "2 cups shredded iceberg lettuce"
+      ],
+      "directions": [
+        "Cook the rigatoni according to package directions, drain, and set aside.",
+        "In a large skillet or pot over medium heat, combine the softened cream cheese and ranch dressing, stirring until smooth and creamy.",
+        "Add the shredded chicken, cooked bacon, red onion, pickles, tomatoes, and jalapeños to the cream cheese mixture. Stir well and cook for 3-4 minutes until heated through.",
+        "Toss in the cooked pasta and cheddar cheese, stirring until the cheese melts and everything is well combined.",
+        "Remove from heat and top each serving with fresh shredded iceberg lettuce before serving."
+      ],
+      "youtube_url": null,
+      "source_file": "note_191.txt",
+      "description": "A loaded pasta dish that tastes like a bacon ranch salad met creamy comfort food — packed with crispy bacon, tangy pickles, and a kick of jalapeños that'll make you forget this is supposed to be healthy.",
+      "prep_time": "20 min",
+      "cook_time": "25 min",
+      "servings": 6
+    },
+    {
+      "title": "Meat Lovers Pizza Pasta Crockpot",
+      "slug": "meat-lovers-pizza-pasta-crockpot",
+      "category": "crockpot",
+      "ingredients": [
+        "1 lb ground beef",
+        "1 lb Jimmy Dean's hot sausage",
+        "8 slices bacon, chopped",
+        "1 cup diced ham",
+        "1 cup sliced pepperoni",
+        "1 medium red onion, diced",
+        "1 red bell pepper, diced",
+        "8 cloves garlic, minced",
+        "2 jalapeños, sliced",
+        "1/2 cup sliced pepperoncini peppers",
+        "2 tablespoons Italian seasoning",
+        "1 tablespoon dried basil",
+        "24 oz vodka sauce or marinara sauce",
+        "8 oz cream cheese, softened",
+        "2 cups shredded mozzarella cheese",
+        "1/2 cup grated Parmesan cheese",
+        "1 lb protein rigatoni",
+        "1 packet ranch seasoning (optional)",
+        "Hot sauce or hot honey to taste (optional)",
+        "1 cup cottage cheese (optional)"
+      ],
+      "directions": [
+        "In a large skillet over medium-high heat, brown the ground beef and hot sausage together, breaking up the meat as it cooks. Drain excess fat and transfer to crockpot.",
+        "In the same skillet, cook the chopped bacon until crispy. Add the red onion, red pepper, garlic, jalapeños, and pepperoncini. Sauté for 3-4 minutes until vegetables soften, then transfer everything to the crockpot.",
+        "Add the ham, pepperoni, Italian seasoning, basil, vodka sauce, cream cheese (cut into chunks), and ranch packet if using to the crockpot. Stir to combine. Cover and cook on low for 4-5 hours or high for 2-3 hours.",
+        "About 30 minutes before serving, cook the rigatoni according to package directions until al dente. Drain and add to the crockpot along with cottage cheese if using.",
+        "Stir in the mozzarella and Parmesan cheese until melted and creamy. Let sit for 10 minutes to thicken. Adjust seasoning with hot sauce or drizzle with hot honey if desired, and serve hot."
+      ],
+      "youtube_url": null,
+      "source_file": "note_192.txt",
+      "description": "This hearty crockpot pasta is loaded with every meat you could want — bacon, sausage, pepperoni, ham, and beef — all swimming in a creamy, cheesy sauce with a kick. It's like your favorite meat lovers pizza decided to become comfort food.",
+      "prep_time": "20 min",
+      "cook_time": "4 hours",
+      "servings": 8
+    },
+    {
+      "title": "Italian Creamy Chicken Pasta Kinda Soup",
+      "slug": "italian-creamy-chicken-pasta-kinda-soup",
+      "category": "soups",
+      "ingredients": [
+        "1 lb boneless skinless chicken breasts, diced",
+        "1 cup orzo pasta (or 2 cups diced potatoes)",
+        "4 oz pepperoni, sliced",
+        "4 oz salami, diced",
+        "1 lb Italian sausage, casings removed",
+        "1/2 cup sun-dried tomatoes, chopped",
+        "1 large red onion, diced",
+        "2 red bell peppers, diced",
+        "8 cloves garlic, minced",
+        "4 cups fresh spinach",
+        "1/2 cup pepperoncini peppers, sliced (or cherry peppers)",
+        "1 can (15 oz) tomato puree",
+        "6 cups chicken stock",
+        "2 tablespoons chicken bouillon",
+        "2 tablespoons Italian seasoning",
+        "1/4 cup fresh parsley, chopped",
+        "1/4 cup fresh basil, chopped",
+        "1 cup heavy cream",
+        "1 cup grated Parmesan cheese, plus more for serving"
+      ],
+      "directions": [
+        "In a large pot or Dutch oven over medium-high heat, brown the Italian sausage, breaking it up with a spoon. Add the diced chicken and cook until no longer pink, about 5-6 minutes.",
+        "Add the pepperoni, salami, red onion, red peppers, and garlic to the pot. Cook until vegetables soften, about 5 minutes.",
+        "Stir in the sun-dried tomatoes, tomato puree, chicken stock, chicken bouillon, and Italian seasoning. Bring to a boil, then reduce heat and simmer for 15 minutes.",
+        "Add the orzo pasta (or potatoes if using) and cook until tender, about 8-10 minutes for orzo or 15 minutes for potatoes.",
+        "Stir in the spinach, pepperoncini peppers, parsley, and basil. Cook until spinach wilts, about 2 minutes.",
+        "Reduce heat to low and stir in the heavy cream and Parmesan cheese. Simmer for 5 minutes, stirring occasionally, until heated through and creamy.",
+        "Taste and adjust seasoning with salt and pepper as needed. Serve hot with extra Parmesan cheese on top."
+      ],
+      "youtube_url": null,
+      "source_file": "note_193.txt",
+      "description": "This hearty Italian-inspired soup is loaded with meats, vegetables, and pasta in a creamy tomato broth that'll warm you up from the inside out. It's like your favorite Italian sub sandwich decided to become a comforting bowl of soup.",
+      "prep_time": "20 min",
+      "cook_time": "45 min",
+      "servings": 8
+    },
+    {
+      "title": "BBQ Ground Beef and Potato Crockpot",
+      "slug": "bbq-ground-beef-and-potato-crockpot",
+      "category": "crockpot",
+      "ingredients": [
+        "1½ lbs ground beef",
+        "6 strips bacon, chopped",
+        "1 large onion, diced",
+        "2 red bell peppers, diced",
+        "6 cloves garlic, minced",
+        "1 cup frozen or canned corn, drained",
+        "1 can (14.5 oz) diced tomatoes, drained",
+        "1 cup BBQ sauce",
+        "1 teaspoon dried thyme",
+        "1 teaspoon dried rosemary",
+        "1½ lbs small red or yellow potatoes, roasted",
+        "2 cups shredded cheddar or pepper jack cheese",
+        "Salt and pepper to taste"
+      ],
+      "directions": [
+        "In a large skillet over medium-high heat, brown the ground beef with the chopped bacon until the beef is cooked through and bacon is crispy, about 8-10 minutes. Drain excess fat.",
+        "Transfer the beef and bacon to your crockpot. Add the diced onion, red peppers, garlic, corn, tomatoes, BBQ sauce, thyme, and rosemary. Stir everything together and season with salt and pepper.",
+        "Cover and cook on low for 6-7 hours or high for 3-4 hours, stirring occasionally if possible.",
+        "While the crockpot is cooking, roast the small potatoes: toss with olive oil, salt, and pepper, then roast at 400°F for 25-30 minutes until tender and golden.",
+        "About 30 minutes before serving, add the roasted potatoes to the crockpot and gently stir them in.",
+        "Top with shredded cheese, cover, and let it melt for 5-10 minutes before serving."
+      ],
+      "youtube_url": null,
+      "source_file": "note_194.txt",
+      "description": "A hearty crockpot meal that's like a loaded BBQ baked potato meets a cowboy casserole. Smoky, cheesy, and packed with flavor — perfect for a busy weeknight when you want comfort food waiting for you.",
+      "prep_time": "20 min",
+      "cook_time": "6-7 hours",
+      "servings": 6
+    },
+    {
+      "title": "Baked Beans and Sausage Crockpot",
+      "slug": "baked-beans-and-sausage-crockpot",
+      "category": "crockpot",
+      "ingredients": [
+        "4 (28 oz) cans baked beans",
+        "1 lb bratwurst, sliced into 1-inch pieces",
+        "1 lb Lil Smokies sausages",
+        "8 strips bacon, chopped",
+        "1 whole head garlic, cloves peeled and smashed",
+        "2 medium yellow onions, diced",
+        "2 red bell peppers, diced",
+        "2 jalapeños, seeded and diced",
+        "3 cups small diced potatoes (about 1 lb)",
+        "3 tablespoons tomato paste",
+        "2 teaspoons dried thyme",
+        "2 tablespoons fresh parsley, chopped",
+        "3 tablespoons Worcestershire sauce",
+        "1 cup chicken stock",
+        "1/4 cup BBQ sauce",
+        "1 teaspoon black pepper"
+      ],
+      "directions": [
+        "In a large skillet over medium heat, cook the chopped bacon until crispy, then remove and set aside, leaving drippings in the pan.",
+        "In the same skillet, brown the sliced bratwurst for 3-4 minutes, then transfer to the crockpot along with the Lil Smokies.",
+        "Add the baked beans, diced potatoes, onions, red peppers, jalapeños, garlic cloves, and cooked bacon to the crockpot.",
+        "Stir in the tomato paste, thyme, Worcestershire sauce, chicken stock, BBQ sauce, and black pepper until everything is well combined.",
+        "Cover and cook on low for 6-7 hours or high for 3-4 hours, until potatoes are tender and flavors have melded together.",
+        "About 15 minutes before serving, stir in the fresh parsley and adjust seasoning with additional salt, pepper, or BBQ sauce to taste."
+      ],
+      "youtube_url": null,
+      "source_file": "note_195.txt",
+      "description": "A hearty, smoky crockpot meal packed with beans, sausages, and bacon that's perfect for feeding a crowd or meal prepping for the week. Everything slow-cooks together into a rich, savory comfort dish that's basically a Southern BBQ party in a pot.",
+      "prep_time": "20 min",
+      "cook_time": "6 hours",
+      "servings": 10
+    },
+    {
+      "title": "Cajun Chicken, Shrimp and Sausage Crockpot",
+      "slug": "cajun-chicken-shrimp-and-sausage-crockpot",
+      "category": "crockpot",
+      "ingredients": [
+        "2 lbs boneless skinless chicken breasts, shredded",
+        "1 lb andouille or smoked sausage, sliced into rounds",
+        "1 lb large shrimp, peeled and deveined",
+        "2 medium yellow onions, diced",
+        "8 cloves garlic, minced",
+        "2 cups corn kernels (fresh or frozen)",
+        "2 red bell peppers, diced",
+        "1 can (14.5 oz) diced tomatoes",
+        "2 cups uncooked Spanish rice",
+        "4 cups chicken stock",
+        "2 tablespoons chicken bouillon",
+        "1/4 cup Cajun seasoning",
+        "1 cup shredded cheddar cheese or grated Parmesan",
+        "1/2 cup heavy cream"
+      ],
+      "directions": [
+        "Add shredded chicken, sliced sausage, onions, garlic, corn, red peppers, and diced tomatoes to the crockpot.",
+        "Stir in the uncooked Spanish rice, chicken stock, bouillon, and Cajun seasoning until well combined.",
+        "Cover and cook on low for 5-6 hours or high for 3-4 hours, until rice is tender and liquid is absorbed.",
+        "About 20 minutes before serving, stir in the shrimp and heavy cream. Cover and cook until shrimp are pink and cooked through.",
+        "Turn off heat, stir in cheese until melted, adjust seasoning with more Cajun spice if needed, and serve hot."
+      ],
+      "youtube_url": null,
+      "source_file": "note_196.txt",
+      "description": "A hearty, spice-filled crockpot meal that brings together tender chicken, smoky sausage, and plump shrimp in a creamy Cajun-seasoned rice. Perfect for feeding a crowd without much fuss.",
+      "prep_time": "20 min",
+      "cook_time": "5 hours",
+      "servings": 8
+    },
+    {
+      "title": "Lil Smokies Cheese Stew Crockpot",
+      "slug": "lil-smokies-cheese-stew-crockpot",
+      "category": "crockpot",
+      "ingredients": [
+        "2 lbs Lil Smokies sausages",
+        "1½ lbs russet potatoes, diced into ½-inch cubes",
+        "3 large carrots, peeled and sliced into ½-inch rounds",
+        "2 medium yellow onions, diced",
+        "8 cloves garlic, minced",
+        "2 jalapeños, seeded and diced",
+        "2 cups frozen or canned corn",
+        "1 tablespoon fresh thyme (or 1 teaspoon dried)",
+        "1 tablespoon fresh rosemary, chopped (or 1 teaspoon dried)",
+        "4 cups beef stock",
+        "2 tablespoons beef bouillon",
+        "½ cup grated Parmesan cheese",
+        "8 oz cream cheese, cubed",
+        "2 cups shredded sharp cheddar cheese",
+        "1 teaspoon black pepper"
+      ],
+      "directions": [
+        "Add potatoes, carrots, onions, garlic, jalapeños, and corn to a 6-quart crockpot.",
+        "Place Lil Smokies on top of the vegetables, then sprinkle with thyme, rosemary, and black pepper.",
+        "Pour beef stock over everything and stir in beef bouillon.",
+        "Cover and cook on low for 6-7 hours or high for 3-4 hours, until potatoes and carrots are tender.",
+        "About 30 minutes before serving, stir in cream cheese cubes until melted.",
+        "Add Parmesan and cheddar cheese, stirring until fully melted and creamy.",
+        "Taste and adjust seasoning with additional black pepper or salt if needed, then serve hot."
+      ],
+      "youtube_url": null,
+      "source_file": "note_197.txt",
+      "description": "A hearty, cheesy crockpot stew loaded with smoky little sausages, tender vegetables, and three kinds of cheese. Perfect for a cold day when you want something rich and comforting without much fuss.",
+      "prep_time": "20 min",
+      "cook_time": "6-7 hours",
+      "servings": 8
+    },
+    {
+      "title": "Beef Stroganoff Crockpot",
+      "slug": "beef-stroganoff-crockpot",
+      "category": "crockpot",
+      "ingredients": [
+        "2 lbs chuck steak, cut into 1-inch cubes, or 2 lbs ground beef",
+        "1 lb Jimmy Dean's Hot Sausage",
+        "2 cups beef broth",
+        "3 tablespoons butter",
+        "1 large yellow onion, diced",
+        "2 red bell peppers, diced",
+        "8 cloves garlic, minced",
+        "2 jalapeños, seeded and diced",
+        "1 cup frozen corn",
+        "3 large carrots, peeled and sliced",
+        "8 oz cream cheese, softened",
+        "1 cup heavy cream",
+        "2 packets beef stroganoff seasoning mix",
+        "16 oz egg noodles",
+        "1 teaspoon black pepper",
+        "1 teaspoon dried thyme",
+        "1 teaspoon dried rosemary",
+        "1 cup diced tomatoes (optional)"
+      ],
+      "directions": [
+        "In a large skillet over medium-high heat, brown the chuck steak (or ground beef) and Jimmy Dean's sausage together, breaking up the sausage as it cooks. Drain excess fat and transfer meat to crockpot.",
+        "Add butter, onion, red peppers, garlic, jalapeños, corn, carrots, beef broth, stroganoff seasoning packets, black pepper, thyme, and rosemary to the crockpot. Stir to combine with the meat.",
+        "Cover and cook on low for 6-8 hours or high for 3-4 hours, until beef is tender and vegetables are cooked through.",
+        "About 30 minutes before serving, cook egg noodles according to package directions and drain. Cut cream cheese into cubes and add to crockpot along with heavy cream and optional tomatoes if using.",
+        "Stir until cream cheese is fully melted and sauce is smooth and creamy. Taste and adjust seasoning if needed.",
+        "Serve stroganoff over egg noodles or stir noodles directly into the crockpot before serving."
+      ],
+      "youtube_url": null,
+      "source_file": "note_198.txt",
+      "description": "This hearty crockpot stroganoff is loaded with tender beef, spicy sausage, and plenty of vegetables in a rich, creamy sauce that'll warm you right up. Perfect for a busy weeknight when you want comfort food waiting for you at home.",
+      "prep_time": "20 min",
+      "cook_time": "6-8 hours",
+      "servings": 8
+    },
+    {
+      "title": "Frito Pie Crockpot Dip",
+      "slug": "frito-pie-crockpot-dip",
+      "category": "crockpot",
+      "ingredients": [
+        "1 lb ground beef",
+        "2 cups shredded chicken",
+        "6 strips bacon, cooked and crumbled",
+        "1/2 cup pickled jalapeños, chopped",
+        "1 medium red onion, diced",
+        "1 cup corn (frozen or canned, drained)",
+        "8 cloves garlic, minced",
+        "1 can (4 oz) green chilies",
+        "1/4 cup fresh cilantro, chopped",
+        "2 tablespoons lime juice",
+        "1 can (15 oz) black beans, drained and rinsed",
+        "1 can (16 oz) refried beans",
+        "2 cups cooked Spanish rice",
+        "1/2 cup chipotle sauce",
+        "2 cups sour cream",
+        "8 oz cream cheese, softened",
+        "3 cups shredded cheddar cheese",
+        "2 cups salsa",
+        "1/4 cup Cholula hot sauce",
+        "1/4 cup Taco Bell sauce",
+        "1 lb carne asada, cooked and chopped",
+        "1 large bag (13 oz) Fritos",
+        "4 cups shredded iceberg lettuce",
+        "Southwestern salad dressing, for serving"
+      ],
+      "directions": [
+        "In a large skillet over medium-high heat, brown the ground beef with minced garlic until fully cooked; drain excess fat and transfer to a 6-quart crockpot.",
+        "Add the shredded chicken, carne asada, bacon, black beans, refried beans, Spanish rice, corn, green chilies, red onion, pickled jalapeños, and cilantro to the crockpot.",
+        "Stir in the sour cream, cream cheese, 2 cups of the cheddar cheese, salsa, chipotle sauce, Cholula, Taco Bell sauce, and lime juice until well combined.",
+        "Cover and cook on low for 3-4 hours or high for 2 hours, stirring occasionally, until hot and bubbly throughout.",
+        "About 15 minutes before serving, top with the remaining 1 cup cheddar cheese, cover, and let melt.",
+        "Serve the dip in a large bowl surrounded by shredded iceberg lettuce, drizzled with southwestern dressing, with plenty of Fritos for dipping."
+      ],
+      "youtube_url": null,
+      "source_file": "note_199.txt",
+      "description": "This loaded crockpot dip is everything you love about Frito pie turned into the ultimate party dip — packed with seasoned meats, beans, cheese, and all the fixings, served in a bowl with crispy lettuce and plenty of Fritos for scooping.",
+      "prep_time": "25 min",
+      "cook_time": "3 hours",
+      "servings": 12
+    },
+    {
+      "title": "Dorthy Lynch Lil Smokey’s",
+      "slug": "dorthy-lynch-lil-smokeys",
+      "category": "mains",
+      "ingredients": [
+        "2 lbs lil smokies (cocktail sausages)",
+        "1 lb bacon, strips cut in half",
+        "8 oz cream cheese, softened",
+        "4-6 jalapeños, seeded and diced",
+        "8 oz pepper jack cheese, cut into small cubes",
+        "1 cup Dorothy Lynch dressing"
+      ],
+      "directions": [
+        "Preheat oven to 375°F and line a baking sheet with parchment paper or foil.",
+        "In a bowl, mix together the softened cream cheese and diced jalapeños until well combined.",
+        "Slice each lil smokie lengthwise (not all the way through) and stuff with a small dollop of the jalapeño cream cheese mixture and a cube of pepper jack cheese.",
+        "Wrap each stuffed smokie with half a strip of bacon and secure with a toothpick.",
+        "Arrange wrapped smokies on the prepared baking sheet and brush generously with Dorothy Lynch dressing.",
+        "Bake for 25-30 minutes until bacon is crispy, brushing with more Dorothy Lynch halfway through.",
+        "Let cool for 5 minutes before serving with extra Dorothy Lynch dressing for dipping."
+      ],
+      "youtube_url": null,
+      "source_file": "note_200.txt",
+      "description": "Bacon-wrapped lil smokies stuffed with cream cheese, pepper jack, and jalapeños, then glazed with tangy Dorothy Lynch dressing. These crowd-pleasing bites are smoky, creamy, spicy, and downright addictive.",
+      "prep_time": "25 min",
+      "cook_time": "30 min",
+      "servings": 12
+    },
+    {
+      "title": "Dorothy Lynch Crockpot Dip",
+      "slug": "dorthy-lynch-crockpot-dip",
+      "category": "crockpot",
+      "ingredients": [
+        "2 cups smoked and shredded chicken",
+        "2 cups smoked and shredded pork shoulder",
+        "1 cup Dorothy Lynch dressing",
+        "1 cup beef broth",
+        "8 oz cream cheese, softened and cubed",
+        "2 cups shredded cheddar cheese",
+        "1 medium red onion, diced",
+        "1 red bell pepper, diced",
+        "2 stalks celery, diced",
+        "1 cup corn (fresh or frozen)",
+        "1 cup carrots, diced",
+        "2 jalapeños, seeded and diced",
+        "1 red apple, cored and diced",
+        "1 green apple, cored and diced",
+        "1 teaspoon black pepper"
+      ],
+      "directions": [
+        "Add the shredded chicken and pork shoulder to a 6-quart slow cooker.",
+        "Pour in the Dorothy Lynch dressing and beef broth, then add the cream cheese cubes and half of the cheddar cheese. Stir to combine.",
+        "Add the red onion, red pepper, celery, corn, carrots, and jalapeños. Season with black pepper and stir everything together.",
+        "Cover and cook on low for 3-4 hours, stirring occasionally to help the cream cheese melt and incorporate.",
+        "About 30 minutes before serving, stir in the diced apples and remaining cheddar cheese.",
+        "Continue cooking until the cheese is fully melted and the dip is hot throughout. Adjust seasoning with additional black pepper if needed.",
+        "Serve warm with tortilla chips, crackers, or toasted baguette slices."
+      ],
+      "youtube_url": null,
+      "source_file": "note_201.txt",
+      "description": "A hearty slow cooker dip loaded with smoky meats, crisp vegetables, and sweet apple chunks, all brought together with tangy Dorothy Lynch dressing and melty cheese. Perfect for game day or any gathering where you need a crowd-pleasing appetizer.",
+      "prep_time": "20 min",
+      "cook_time": "4 hours",
+      "servings": 12
+    },
+    {
+      "title": "Yellow Potato Salad",
+      "slug": "yellow-potato-salad",
+      "category": "salads-sides",
+      "ingredients": [
+        "3 lbs Yukon Gold potatoes, cut into 3/4-inch cubes",
+        "4 cups chicken stock",
+        "8 strips thick-cut bacon",
+        "6 hard boiled eggs",
+        "1 cup shredded sharp cheddar cheese",
+        "1/2 cup sweet relish",
+        "1/2 cup diced red onion",
+        "1/2 cup diced celery",
+        "1/2 cup diced red bell pepper",
+        "1/2 cup diced cucumber",
+        "1/4 cup chopped fresh chives",
+        "2 tablespoons yellow mustard",
+        "2 tablespoons whole grain mustard",
+        "3 tablespoons honey mustard vinaigrette",
+        "1 cup heavy mayonnaise",
+        "1/2 cup sour cream",
+        "4 oz cream cheese or goat cheese, softened",
+        "1/2 teaspoon red pepper flakes",
+        "1 teaspoon paprika",
+        "2 tablespoons chopped fresh dill",
+        "1 teaspoon dried thyme",
+        "1 teaspoon garlic powder",
+        "Salt and black pepper to taste",
+        "2 cups crushed Cool Ranch Doritos (for topping)"
+      ],
+      "directions": [
+        "Boil the cubed potatoes in chicken stock until fork-tender, about 12-15 minutes. Drain and let cool completely. Meanwhile, cook bacon until crispy, then crumble.",
+        "Peel the hard boiled eggs and separate the yolks from the whites. Chop the egg whites and set aside. Mash the yolks in a large bowl.",
+        "Add mayonnaise, sour cream, cream cheese, both mustards, honey mustard vinaigrette, paprika, red pepper flakes, garlic powder, thyme, and dill to the mashed yolks. Mix until smooth and creamy. Season with salt and pepper.",
+        "Add the cooled potatoes, chopped egg whites, bacon, cheddar cheese, relish, red onion, celery, bell pepper, cucumber, and chives to the bowl. Gently fold everything together until well coated.",
+        "Cover and refrigerate for at least 2 hours to let flavors meld. Just before serving, top with crushed Cool Ranch Doritos."
+      ],
+      "youtube_url": null,
+      "source_file": "note_202.txt",
+      "description": "A loaded Southern-style potato salad that's rich, tangy, and packed with bacon, cheese, and fresh veggies. The secret is boiling the potatoes in chicken stock and finishing with crushed Cool Ranch Doritos for an unexpected crunch.",
+      "prep_time": "30 min",
+      "cook_time": "15 min",
+      "servings": 10
+    },
+    {
+      "title": "Italian Pasta Salad",
+      "slug": "italian-pasta-salad",
+      "category": "salads-sides",
+      "ingredients": [
+        "1 lb tri-color rigatoni pasta",
+        "8 oz pepperoni, cut into chunks",
+        "8 oz salami, cut into chunks",
+        "2 cups shredded rotisserie chicken",
+        "8 oz mozzarella cheese, cubed",
+        "1 cup croutons, crushed",
+        "1 cup crumbled feta cheese",
+        "1 small red onion, thinly sliced",
+        "1 cup pepperoncini peppers, sliced",
+        "1 large red bell pepper, diced",
+        "2 cups cherry tomatoes, halved",
+        "1 large cucumber, diced",
+        "3 stalks celery, sliced",
+        "2 cups fresh arugula",
+        "1/2 cup fresh basil, chopped",
+        "2 teaspoons Italian seasoning",
+        "1 teaspoon dried thyme",
+        "2 tablespoons fresh parsley, chopped",
+        "1/4 cup mayonnaise or Greek yogurt",
+        "1 1/2 cups Italian dressing",
+        "3 tablespoons fresh lemon juice",
+        "1 teaspoon black pepper",
+        "1/2 teaspoon red pepper flakes",
+        "8 cloves garlic, roasted",
+        "1 cup olives, sliced (optional)"
+      ],
+      "directions": [
+        "Cook the rigatoni according to package directions until al dente. Drain, rinse with cold water, and transfer to a large mixing bowl.",
+        "Add the pepperoni, salami, chicken, mozzarella, crushed croutons, feta, red onion, pepperoncini, bell pepper, cherry tomatoes, cucumber, celery, arugula, basil, and olives if using to the pasta.",
+        "In a small bowl, mash the roasted garlic cloves and whisk together with the mayo or Greek yogurt, Italian dressing, lemon juice, Italian seasoning, thyme, parsley, black pepper, and red pepper flakes.",
+        "Pour the dressing over the pasta salad and toss everything together until well combined. Refrigerate for at least 1 hour before serving to let the flavors meld together."
+      ],
+      "youtube_url": null,
+      "source_file": "note_203.txt",
+      "description": "A loaded Italian pasta salad packed with meats, cheeses, and fresh vegetables, all tossed in a zesty Italian dressing. Perfect for potlucks, picnics, or a hearty side dish that eats like a meal.",
+      "prep_time": "25 min",
+      "cook_time": "12 min",
+      "servings": 12
+    },
+    {
+      "title": "Pork Belly Chicharron with Guacamole",
+      "slug": "pork-belly-chicharron-with-guacamole",
+      "category": "salads-sides",
+      "ingredients": [
+        "2 lbs pork belly",
+        "1/4 cup buffalo sauce",
+        "3 tablespoons BBQ rub",
+        "2 cups lard (for frying)",
+        "2 tablespoons chili lime seasoning or carne asada seasoning",
+        "3 ripe avocados",
+        "1 medium tomato, diced",
+        "1/4 cup red onion, finely diced",
+        "1/4 cup fresh cilantro, chopped",
+        "1 teaspoon garlic salt",
+        "1/2 teaspoon black pepper",
+        "2 tablespoons lime juice",
+        "1 tablespoon lemon juice"
+      ],
+      "directions": [
+        "Coat pork belly generously with buffalo sauce and BBQ rub. Slice into 4-inch sections, then cut slits halfway through the belly every inch (like an accordion). Smoke at 225°F for 2 hours until tender.",
+        "While pork is smoking, make the guacamole: mash avocados in a bowl, then mix in diced tomato, red onion, cilantro, garlic salt, black pepper, lime juice, and lemon juice. Adjust seasoning to taste and refrigerate until ready to serve.",
+        "After smoking, heat lard in a large, deep skillet or Dutch oven to 375°F. Carefully add pork belly sections and fry for 8-10 minutes, turning occasionally, until deeply golden and crispy on all sides.",
+        "Remove chicharrones from lard and drain briefly on paper towels. While still hot, sprinkle generously with chili lime or carne asada seasoning. Serve immediately with the fresh guacamole for dipping."
+      ],
+      "youtube_url": null,
+      "source_file": "note_204.txt",
+      "description": "Crispy, smoky pork belly chicharrones with a spicy kick, served alongside fresh, zesty guacamole. This indulgent dish combines the crunch of twice-cooked pork with cool, creamy avocado for the perfect flavor contrast.",
+      "prep_time": "20 min",
+      "cook_time": "2 hours 30 min",
+      "servings": 6
+    },
+    {
+      "title": "Tuna Salad (no pasta)",
+      "slug": "tuna-salad-no-pasta",
+      "category": "salads-sides",
+      "ingredients": [
+        "3 (5-ounce) cans chunky tuna, drained",
+        "6 strips bacon, cooked crispy and crumbled",
+        "1 cup shredded cheddar cheese",
+        "1/2 cup chopped dill pickles",
+        "1/2 cup diced red onion",
+        "1 cup diced bell peppers (any color)",
+        "1 cup diced cucumber",
+        "2 jalapeños, seeded and diced",
+        "3 stalks celery, diced",
+        "1 cup frozen peas, thawed",
+        "1 cup white corn (canned or frozen, thawed)",
+        "3/4 cup heavy thick mayonnaise",
+        "2 tablespoons lemon juice",
+        "1 tablespoon Worcestershire sauce",
+        "1 cup crushed jalapeño kettle chips",
+        "1/2 cup crumbled feta cheese",
+        "2 teaspoons black pepper",
+        "1 teaspoon red pepper flakes",
+        "1 teaspoon dried thyme",
+        "1 tablespoon whole grain mustard (optional)",
+        "1 teaspoon wasabi paste (optional)"
+      ],
+      "directions": [
+        "Cook bacon until crispy, then crumble and set aside. Prep all vegetables by dicing them into small, uniform pieces.",
+        "In a large mixing bowl, combine tuna, bacon, cheddar cheese, pickles, red onion, bell peppers, cucumber, jalapeños, celery, peas, and corn.",
+        "In a separate small bowl, whisk together mayonnaise, lemon juice, Worcestershire sauce, black pepper, red pepper flakes, thyme, and optional mustard and wasabi if using.",
+        "Pour dressing over tuna mixture and gently fold everything together until well combined.",
+        "Fold in feta cheese, then top with crushed jalapeño chips right before serving. Serve chilled or at room temperature."
+      ],
+      "youtube_url": null,
+      "source_file": "note_205.txt",
+      "description": "A loaded, protein-packed tuna salad with bacon, crunchy veggies, and a creamy, tangy dressing — plus crushed jalapeño chips for that perfect salty crunch. This ain't your mama's boring tuna salad.",
+      "prep_time": "20 min",
+      "cook_time": "10 min",
+      "servings": 6
+    },
+    {
+      "title": "Tuna Pasta Salad",
+      "slug": "tuna-pasta-salad",
+      "category": "salads-sides",
+      "ingredients": [
+        "1 lb tri-color penne pasta",
+        "3 (5 oz) cans chunky tuna, drained",
+        "1½ cups shredded cheddar cheese",
+        "½ cup crumbled feta cheese",
+        "½ medium red onion, diced",
+        "1 cup cherry tomatoes, halved",
+        "1 orange bell pepper, diced",
+        "1 cup cucumber, diced",
+        "1 cup frozen peas, thawed",
+        "1 cup white corn (canned or frozen, thawed)",
+        "1 cup heavy mayonnaise",
+        "3 tablespoons fresh lemon juice",
+        "2 tablespoons olive oil",
+        "2 teaspoons Italian seasoning",
+        "1 cup crushed kettle chips",
+        "Salt and pepper to taste",
+        "Wasabi (optional, to taste)"
+      ],
+      "directions": [
+        "Cook penne pasta according to package directions until al dente. Drain and rinse under cold water to cool completely.",
+        "In a large bowl, combine the cooled pasta, tuna, cheddar cheese, red onion, cherry tomatoes, bell pepper, cucumber, peas, and corn.",
+        "In a small bowl, whisk together mayonnaise, lemon juice, olive oil, Italian seasoning, salt, and pepper. If using wasabi, add ¼-½ teaspoon to the dressing and mix well.",
+        "Pour dressing over pasta mixture and toss until everything is well coated. Refrigerate for at least 1 hour to let flavors blend.",
+        "Just before serving, top with crumbled feta cheese and crushed kettle chips for crunch."
+      ],
+      "youtube_url": null,
+      "source_file": "note_206.txt",
+      "description": "A colorful, hearty pasta salad loaded with chunky tuna, crisp veggies, and a creamy lemon-mayo dressing. The crushed kettle chips on top add an unexpected crunch that takes this potluck favorite to the next level.",
+      "prep_time": "20 min",
+      "cook_time": "12 min",
+      "servings": 8
+    },
+    {
+      "title": "Everything Egg Salad",
+      "slug": "everything-egg-salad",
+      "category": "salads-sides",
+      "ingredients": [
+        "12 large hard boiled eggs, chopped",
+        "8 strips bacon, cooked crispy and crumbled",
+        "1/2 cup dill pickles, finely diced",
+        "1/2 cup celery, finely diced",
+        "1/4 cup red onion, finely diced",
+        "2 jalapeños, seeded and finely diced",
+        "1/2 cup cucumber, diced",
+        "1/2 cup red bell pepper, finely diced",
+        "1 cup cherry tomatoes, halved",
+        "2 tablespoons everything bagel seasoning",
+        "2 tablespoons fresh dill, chopped",
+        "2 tablespoons fresh parsley, chopped",
+        "1 tablespoon fresh thyme, chopped",
+        "3/4 cup mayonnaise",
+        "2 tablespoons yellow mustard or whole grain mustard",
+        "1/4 cup sour cream",
+        "4 oz goat cheese, crumbled",
+        "2 tablespoons fresh lemon juice",
+        "1/2 teaspoon red pepper flakes",
+        "1/2 teaspoon black pepper",
+        "Optional: 1 cup corn kernels (fresh or canned, drained)",
+        "Optional: 1 cup chopped croutons",
+        "Optional: 1 cup crispy hashbrowns"
+      ],
+      "directions": [
+        "In a large mixing bowl, combine the chopped hard boiled eggs, bacon, pickles, celery, red onion, jalapeños, cucumber, red peppers, and cherry tomatoes.",
+        "In a separate bowl, whisk together the mayo, mustard, sour cream, lemon juice, red pepper flakes, and black pepper until smooth.",
+        "Pour the dressing over the egg mixture and gently fold everything together until well combined.",
+        "Add the goat cheese, fresh dill, parsley, thyme, and everything bagel seasoning. Gently fold again, being careful not to mash the eggs too much.",
+        "If using optional ingredients (corn, croutons, or hashbrowns), fold them in now.",
+        "Cover and refrigerate for at least 30 minutes to let the flavors come together. Taste and adjust seasoning with more everything bagel seasoning, salt, or pepper if needed.",
+        "Serve cold on its own, over greens, or piled on toasted bread or bagels."
+      ],
+      "youtube_url": null,
+      "source_file": "note_207.txt",
+      "description": "This isn't your mama's egg salad — it's loaded with everything but the kitchen sink. Crunchy veggies, crispy bacon, fresh herbs, and tangy goat cheese make this a hearty salad that can stand on its own or pile high on a sandwich.",
+      "prep_time": "25 min",
+      "cook_time": "5 min",
+      "servings": 8
+    },
+    {
+      "title": "White Potato Salad",
+      "slug": "white-potato-salad",
+      "category": "salads-sides",
+      "ingredients": [
+        "3 lbs red potatoes, cut into bite-sized chunks",
+        "4 cups chicken stock",
+        "8 slices bacon",
+        "1½ cups shredded white cheddar cheese",
+        "½ cup diced red onions",
+        "½ cup diced celery",
+        "½ cup diced red bell peppers",
+        "½ cup diced cucumber",
+        "¼ cup chopped fresh chives",
+        "1 cup mayonnaise",
+        "½ cup sour cream",
+        "4 oz cream cheese or goat cheese, softened",
+        "2 tablespoons fresh lemon juice",
+        "1 tablespoon white vinegar",
+        "1 tablespoon honey",
+        "½ teaspoon red pepper flakes",
+        "1 teaspoon paprika",
+        "2 tablespoons chopped fresh dill",
+        "1 teaspoon dried thyme",
+        "1 teaspoon garlic powder",
+        "Salt and black pepper to taste"
+      ],
+      "directions": [
+        "Boil the potatoes in chicken stock until fork-tender, about 15-20 minutes. Drain and let cool completely in the refrigerator.",
+        "While potatoes cool, cook bacon until crispy, then crumble. Dice all the vegetables and set aside.",
+        "In a large bowl, whisk together mayonnaise, sour cream, cream cheese, lemon juice, vinegar, and honey until smooth. Stir in red pepper flakes, paprika, dill, thyme, and garlic powder.",
+        "Add the cooled potatoes, crumbled bacon, shredded cheddar, red onions, celery, bell peppers, and cucumber to the dressing. Fold everything together gently.",
+        "Season with salt and black pepper to taste. Fold in the fresh chives.",
+        "Cover and refrigerate for at least 2 hours before serving to let the flavors come together."
+      ],
+      "youtube_url": null,
+      "source_file": "note_208.txt",
+      "description": "A loaded potato salad packed with crispy bacon, sharp white cheddar, and plenty of fresh veggies, all tossed in a creamy, tangy dressing. This ain't your grandma's potato salad — it's got more flavor and crunch in every bite.",
+      "prep_time": "20 min",
+      "cook_time": "20 min",
+      "servings": 8
+    },
+    {
+      "title": "Tri Tip Steak Sandwich",
+      "slug": "tri-tip-steak-sandwich",
+      "category": "mains",
+      "ingredients": [
+        "1½ lbs smoked tri-tip steak, sliced thin (rubbed with 2 tbsp black pepper and 1 tbsp sugar before smoking)",
+        "1 large yellow onion, sliced",
+        "6 cloves garlic, minced",
+        "1 red bell pepper, sliced",
+        "8 strips bacon",
+        "½ cup candied jalapeños",
+        "½ cup pickled red onions",
+        "½ cup crumbled feta cheese or shaved parmesan",
+        "2 cups fresh arugula",
+        "4 ciabatta rolls, split and toasted",
+        "½ cup chimichurri sauce",
+        "4 oz goat cheese, softened",
+        "1 cup peppercorn sauce",
+        "1 lb frozen french fries",
+        "3 tbsp olive oil",
+        "¼ cup grated parmesan",
+        "2 tsp garlic powder"
+      ],
+      "directions": [
+        "Cook bacon until crispy, then drain on paper towels and set aside. In the same pan, sauté onions, garlic, and red peppers in bacon fat over medium heat until softened and caramelized, about 8-10 minutes.",
+        "Prepare garlic parmesan fries according to package directions, then toss hot fries with olive oil, garlic powder, and grated parmesan while still hot.",
+        "Mix softened goat cheese with chimichurri sauce and spread generously on the bottom half of each toasted ciabatta roll.",
+        "Layer each sandwich: start with sliced tri-tip, then sautéed vegetables, bacon, candied jalapeños, pickled red onions, feta or parmesan, and fresh arugula on top.",
+        "Drizzle peppercorn sauce generously over the entire sandwich, place the top bun on, and serve with crispy garlic fries and extra peppercorn sauce on the side for dipping."
+      ],
+      "youtube_url": null,
+      "source_file": "note_209.txt",
+      "description": "A loaded tri-tip sandwich piled high with smoky peppered meat, crispy bacon, sautéed vegetables, and tangy condiments, all served on toasted ciabatta with crispy garlic fries on the side. Every bite gets drizzled with rich peppercorn sauce and comes with extra for dipping.",
+      "prep_time": "20 min",
+      "cook_time": "25 min",
+      "servings": 4
+    },
+    {
+      "title": "Colorful Rice for Curry",
+      "slug": "colorful-rice-for-curry",
+      "category": "salads-sides",
+      "ingredients": [
+        "1 cup beet rice (red/pink colored)",
+        "1 cup blue lotus rice (blue colored)",
+        "1 cup pomegranate rice (deep red colored)",
+        "1 cup spirulina rice (green colored)",
+        "1 cup tomato rice (orange/red colored)",
+        "1 cup charcoal rice (black colored)",
+        "Water for cooking (as needed per rice package directions)",
+        "Salt to taste"
+      ],
+      "directions": [
+        "Cook each colored rice variety separately according to package directions, adding a pinch of salt to each pot.",
+        "While rice is cooking, prepare serving platter or individual plates.",
+        "Once all rice varieties are cooked and fluffy, let them cool slightly for easier handling.",
+        "Arrange the different colored rices side by side on a large serving platter in rainbow order, or layer them in sections for a dramatic presentation.",
+        "Serve warm alongside your favorite curry, allowing guests to scoop a colorful mix of rice onto their plates."
+      ],
+      "youtube_url": null,
+      "source_file": "note_210.txt",
+      "description": "A stunning rainbow of naturally colored rice varieties that makes the perfect colorful bed for any curry. Each grain brings its own subtle flavor and creates a beautiful presentation that'll have everyone reaching for seconds.",
+      "prep_time": "10 min",
+      "cook_time": "25 min",
+      "servings": 8
+    },
+    {
+      "title": "Marry Me Chicken Gnocchi Soup",
+      "slug": "marry-me-chicken-gnocchi-soup",
+      "category": "soups",
+      "ingredients": [
+        "2 tablespoons olive oil",
+        "1 lb chicken breasts, cut into bite-sized pieces",
+        "Salt and black pepper to taste",
+        "4 cloves garlic, minced",
+        "1 teaspoon Italian seasoning",
+        "1/2 teaspoon red pepper flakes",
+        "1/2 cup sun-dried tomatoes, chopped",
+        "4 cups chicken broth",
+        "1 cup heavy cream",
+        "1 lb gnocchi",
+        "3 cups fresh spinach",
+        "1/2 cup grated Parmesan cheese",
+        "Fresh basil for garnish (optional)"
+      ],
+      "directions": [
+        "Heat olive oil in a large pot over medium-high heat. Season chicken with salt and pepper, then cook until golden brown, about 5-6 minutes. Remove chicken and set aside.",
+        "In the same pot, sauté garlic, Italian seasoning, and red pepper flakes for about 1 minute until fragrant. Add sun-dried tomatoes and stir.",
+        "Pour in chicken broth and heavy cream, then bring to a simmer. Add gnocchi and cook according to package directions, usually 3-4 minutes until they float.",
+        "Return chicken to the pot along with spinach. Stir until spinach wilts, about 2 minutes.",
+        "Remove from heat and stir in Parmesan cheese. Taste and adjust seasoning with additional salt and pepper if needed. Garnish with fresh basil before serving."
+      ],
+      "youtube_url": null,
+      "source_file": "note_048.txt",
+      "description": "A creamy, indulgent soup with tender gnocchi, sun-dried tomatoes, and Italian herbs that'll have everyone asking for seconds. Rich enough to make any weeknight feel special.",
+      "prep_time": "10 min",
+      "cook_time": "20 min",
+      "servings": 6
+    },
+    {
+      "title": "Raisin Cane’s Copy Cat Sauce",
+      "slug": "raisin-canes-copy-cat-sauce",
+      "category": "sauces",
+      "ingredients": [
+        "1 cup mayonnaise",
+        "¼ cup ketchup",
+        "1 teaspoon garlic powder",
+        "1 teaspoon Worcestershire sauce",
+        "½ teaspoon black pepper",
+        "¼ teaspoon paprika (optional)"
+      ],
+      "directions": [
+        "In a medium bowl, combine mayonnaise and ketchup until well blended.",
+        "Add garlic powder, Worcestershire sauce, black pepper, and paprika if using.",
+        "Whisk everything together until smooth and well combined.",
+        "Cover and refrigerate for at least 30 minutes to let the flavors meld together before serving."
+      ],
+      "youtube_url": null,
+      "source_file": "note_073.txt",
+      "description": "That tangy, slightly sweet sauce that makes Raising Cane's chicken fingers so addictive. Perfect for dipping chicken tenders, fries, or just about anything that needs a flavor boost.",
+      "prep_time": "5 min",
+      "cook_time": "5 min",
+      "servings": 8,
+      "subcategory": "general"
+    },
+    {
+      "title": "Crispy Chili Sweet and Sour Pork Shoulder Crockpot",
+      "slug": "crispy-chili-sweet-and-sour-pork-shoulder-crockpot",
+      "category": "crockpot",
+      "ingredients": [
+        "3 lbs pork shoulder, cut into 2-inch chunks",
+        "1 lb smoked sausage, sliced into 1-inch pieces",
+        "1½ cups sweet and sour sauce",
+        "¼ cup crispy chili oil",
+        "1 cup pineapple juice",
+        "1½ cups pineapple chunks (fresh or canned)",
+        "1 red apple, cored and diced",
+        "1 green apple, cored and diced",
+        "1 large yellow onion, diced",
+        "1 large red onion, diced",
+        "1 red bell pepper, diced",
+        "1 yellow bell pepper, diced",
+        "1 green bell pepper, diced",
+        "2 cups shredded cabbage",
+        "1 cup sauerkraut, drained",
+        "2 jalapeños, sliced",
+        "½ cup honey roasted peanuts",
+        "2 tablespoons Szechuan chilies",
+        "10 cloves garlic, peeled and smashed",
+        "2 tablespoons sesame seeds",
+        "1 teaspoon black pepper",
+        "Cooked rice or glass noodles, for serving",
+        "Roasted potatoes, for serving"
+      ],
+      "directions": [
+        "Add pork shoulder, sausage, yellow onion, red onion, and smashed garlic to the crockpot.",
+        "Pour in sweet and sour sauce, crispy chili oil, and pineapple juice. Add pineapple chunks, apples, all three bell peppers, cabbage, sauerkraut, jalapeños, and Szechuan chilies. Season with black pepper and stir to combine.",
+        "Cover and cook on low for 7-8 hours or high for 4-5 hours, until pork is tender and shreds easily with a fork.",
+        "About 30 minutes before serving, shred the pork chunks with two forks right in the crockpot and stir everything together. Taste and adjust seasoning with more chili oil or black pepper if desired.",
+        "Serve over rice or glass noodles, topped with honey roasted peanuts and sesame seeds, with roasted potatoes on the side."
+      ],
+      "youtube_url": null,
+      "source_file": "note_211.txt",
+      "description": "A bold, sweet-and-tangy slow cooker pork loaded with crispy chili oil, pineapple, peppers, and cabbage. Serve it over rice or glass noodles with roasted potatoes on the side for a hearty meal with serious flavor.",
+      "prep_time": "25 min",
+      "cook_time": "7-8 hours",
+      "servings": 8
+    },
+    {
+      "title": "BBQ Candied Party Ribs",
+      "slug": "bbq-candied-party-ribs",
+      "category": "mains",
+      "ingredients": [
+        "2 racks baby back ribs, cut into individual bones",
+        "1/4 cup yellow mustard",
+        "2 tablespoons hot sauce",
+        "1/4 cup BBQ rub",
+        "1 1/2 cups BBQ sauce, divided",
+        "1 cup brown sugar, divided",
+        "4 tablespoons butter, sliced",
+        "2 jalapeños, sliced",
+        "1 cup diced pineapple or apples",
+        "2 cups crushed jalapeño kettle chips"
+      ],
+      "directions": [
+        "Prepare smoker to 225°F. Coat individual rib bones all over with yellow mustard and hot sauce, then generously season with BBQ rub.",
+        "Smoke ribs for 3 hours until meat is tender and pulling back from the bones.",
+        "Remove ribs from smoker and place in a large aluminum roasting pan. Pour 3/4 cup BBQ sauce over ribs, then sprinkle with 1/2 cup brown sugar. Add butter slices, jalapeños, and pineapple or apples around the ribs.",
+        "Drizzle remaining 3/4 cup BBQ sauce and remaining 1/2 cup brown sugar over everything. Cover pan tightly with foil and return to smoker for 2 hours.",
+        "Remove from smoker, uncover, and generously coat the top of the ribs with crushed jalapeño kettle chips. Serve immediately while chips are still crunchy."
+      ],
+      "youtube_url": null,
+      "source_file": "note_212.txt",
+      "description": "These fall-off-the-bone baby back ribs get smoked low and slow, then finished in a sweet and spicy bath of BBQ sauce, brown sugar, and jalapeños before getting crowned with crunchy kettle chip coating. They're sticky, smoky, and absolutely addictive — perfect for a party.",
+      "prep_time": "20 min",
+      "cook_time": "5 hours",
+      "servings": 8
+    },
+    {
+      "title": "Cajun Shrimp, Chicken and Bacon Scampi Pasta",
+      "slug": "cajun-shrimp-chicken-and-bacon-scampi-pasta",
+      "category": "pasta",
+      "ingredients": [
+        "1 lb protein rotini pasta",
+        "1 lb large shrimp, peeled and deveined",
+        "2 chicken breasts (about 1 lb), cooked and shredded",
+        "8 oz pork belly, diced",
+        "8 strips bacon, chopped",
+        "1 stick (8 tablespoons) butter",
+        "8 cloves garlic, minced",
+        "4 cloves garlic, thinly sliced",
+        "3 tablespoons olive oil",
+        "1 cup heavy cream",
+        "1½ cups grated Parmesan cheese",
+        "¼ cup fresh parsley, chopped",
+        "3 tablespoons Cajun seasoning, divided",
+        "2 tablespoons Frank's RedHot",
+        "1 large yellow onion, diced",
+        "2 red bell peppers, diced",
+        "1 teaspoon black pepper",
+        "½ teaspoon cayenne powder"
+      ],
+      "directions": [
+        "Cook pasta according to package directions, drain and set aside. Season shrimp generously with 1 tablespoon Cajun seasoning and set aside.",
+        "In a large skillet or Dutch oven over medium-high heat, cook chopped bacon until crispy. Remove and set aside. Add diced pork belly to the same pan and cook until crispy and rendered, about 6-8 minutes. Remove and set aside with bacon.",
+        "In the same pan with the bacon fat, add olive oil and sauté onions and red peppers until softened, about 5 minutes. Add both minced and sliced garlic and cook until fragrant, about 1 minute. Push vegetables to the side and add seasoned shrimp, cooking 2-3 minutes per side until pink and cooked through.",
+        "Reduce heat to medium and add butter, letting it melt completely. Stir in heavy cream, remaining 2 tablespoons Cajun seasoning, Frank's RedHot, black pepper, and cayenne powder. Bring to a gentle simmer.",
+        "Add the cooked pasta, shredded chicken, crispy bacon, and pork belly to the sauce. Toss everything together and let simmer for 2-3 minutes to combine flavors.",
+        "Remove from heat and stir in Parmesan cheese until melted and creamy. Garnish with fresh parsley and serve immediately with extra Parmesan on the side."
+      ],
+      "youtube_url": null,
+      "source_file": "note_213.txt",
+      "description": "This loaded Cajun scampi pasta packs serious flavor with three proteins swimming in a buttery, garlicky cream sauce with just enough kick to keep things interesting. It's indulgent comfort food that'll make you forget about whatever diet you were planning to start tomorrow.",
+      "prep_time": "20 min",
+      "cook_time": "35 min",
+      "servings": 6
+    },
+    {
+      "title": "Creamy Crispy Chili Oil Chicken Bacon Pasta",
+      "slug": "creamy-crispy-chili-oil-chicken-bacon-pasta",
+      "category": "pasta",
+      "ingredients": [
+        "1 lb protein rotini pasta",
+        "3 cups shredded cooked chicken",
+        "6 oz candied pork belly, diced",
+        "6 strips bacon, chopped",
+        "1/2 cup crispy chili oil (plus more to taste)",
+        "2 large red onions, thinly sliced",
+        "8 cloves garlic, minced",
+        "2 red bell peppers, diced",
+        "2-3 serrano peppers, thinly sliced",
+        "1 tablespoon black pepper",
+        "1 cup honey roasted peanuts, roughly chopped",
+        "1 cup tomato purée",
+        "1 cup sour cream",
+        "8 oz cream cheese, softened",
+        "1 cup heavy cream",
+        "1 cup grated parmesan cheese",
+        "1/4 cup fresh parsley, chopped",
+        "4 green onions, sliced"
+      ],
+      "directions": [
+        "Cook pasta according to package directions until al dente. Drain and set aside.",
+        "In a large skillet over medium heat, cook bacon until crispy, then remove and set aside. In the same pan, cook candied pork belly until crispy, remove and set aside.",
+        "In the bacon fat, add red onions and cook 15-20 minutes until deeply caramelized. Add garlic, bell peppers, and serrano peppers, cooking 5 minutes more. Stir in crispy chili oil and black pepper.",
+        "Reduce heat to medium-low and add tomato purée, sour cream, cream cheese, and heavy cream. Whisk until smooth and creamy, then fold in parmesan cheese until melted.",
+        "Add shredded chicken, cooked bacon, and candied pork belly to the sauce. Stir to combine and heat through.",
+        "Toss the cooked pasta into the sauce until well coated. Adjust seasoning with more chili oil if desired.",
+        "Serve topped with honey roasted peanuts, fresh parsley, and green onions."
+      ],
+      "youtube_url": null,
+      "source_file": "note_214.txt",
+      "description": "A rich and indulgent pasta dish that brings serious heat with crispy chili oil, balanced by creamy cheese and sour cream, with candied pork belly and bacon adding sweet-savory depth. The honey roasted peanuts on top give it an unexpected crunch that'll keep you coming back for more.",
+      "prep_time": "20 min",
+      "cook_time": "40 min",
+      "servings": 6
+    },
+    {
+      "title": "Creamy Cajun Cabbage and Sausage Crockpot",
+      "slug": "creamy-cajun-cabbage-and-sausage-crockpot",
+      "category": "crockpot",
+      "ingredients": [
+        "1 lb ground beef",
+        "1 lb smoked sausage, sliced",
+        "6 strips bacon, chopped",
+        "1 medium head cabbage, chopped (about 6 cups)",
+        "1 cup sauerkraut, drained",
+        "2 yellow onions, diced",
+        "2 red bell peppers, diced",
+        "8 cloves garlic, minced",
+        "3 carrots, peeled and sliced",
+        "1 cup corn (frozen or canned)",
+        "2 jalapeños, diced",
+        "2 cups shredded pepper jack cheese",
+        "4 tablespoons butter",
+        "3 tablespoons Cajun seasoning",
+        "1/4 cup Frank's RedHot sauce",
+        "1 cup sour cream",
+        "1 teaspoon red pepper flakes",
+        "1 teaspoon black pepper"
+      ],
+      "directions": [
+        "In a large skillet over medium-high heat, cook the bacon until crispy, then remove and set aside. Brown the ground beef and sausage in the bacon fat, breaking up the beef as it cooks. Drain excess grease and transfer meat to the crockpot.",
+        "Add the cabbage, sauerkraut, onions, red peppers, garlic, carrots, corn, and jalapeños to the crockpot. Stir in the Cajun seasoning, red pepper flakes, black pepper, butter, and Frank's RedHot. Mix everything together well.",
+        "Cover and cook on low for 6-7 hours or high for 3-4 hours, until the cabbage and vegetables are tender.",
+        "About 15 minutes before serving, stir in the sour cream and pepper jack cheese until melted and creamy. Top with the reserved crispy bacon. Serve over roasted potatoes or Cajun rice."
+      ],
+      "youtube_url": null,
+      "source_file": "note_215.txt",
+      "description": "This hearty crockpot dish loads up smoky meats with tender cabbage and tangy sauerkraut, all swimming in a creamy, spicy Cajun sauce. Serve it over roasted potatoes or Cajun rice for a comforting meal that'll warm you right up.",
+      "prep_time": "20 min",
+      "cook_time": "6-7 hours",
+      "servings": 8
+    },
+    {
+      "title": "Eggs Benedict Casserole",
+      "slug": "eggs-benedict-casserole",
+      "category": "breakfast",
+      "ingredients": [
+        "2 lbs Yukon gold potatoes, diced into 1/2-inch cubes",
+        "12 large eggs",
+        "1 lb smoked ham, diced",
+        "8 oz candied pork belly, diced",
+        "1 lb breakfast sausage",
+        "1 lb bacon, cooked crispy and crumbled",
+        "2 cups shredded cheddar cheese",
+        "1 large yellow onion, diced",
+        "2 red bell peppers, diced",
+        "1 whole head garlic, cloves peeled and minced",
+        "4 green onions, sliced",
+        "1/4 cup fresh parsley, chopped",
+        "1 cup sour cream",
+        "4 cups sourdough bread, torn into chunks",
+        "2 cups hollandaise sauce (store-bought or homemade)",
+        "1 teaspoon red pepper flakes",
+        "3 tablespoons olive oil",
+        "Salt and black pepper to taste"
+      ],
+      "directions": [
+        "Preheat oven to 425°F. Toss diced potatoes with 2 tablespoons olive oil, salt, and pepper, spread on a baking sheet, and roast for 25-30 minutes until golden and crispy, stirring halfway through.",
+        "While potatoes roast, cook breakfast sausage in a large skillet over medium-high heat, breaking it up as it cooks. Remove and set aside. In the same skillet, cook bacon until crispy, then crumble. Set aside.",
+        "In remaining tablespoon of olive oil, sauté yellow onion, red peppers, and minced garlic until softened, about 5-6 minutes. Reduce oven temperature to 375°F.",
+        "In a large bowl, whisk together eggs and sour cream until well combined. Stir in cooked sausage, ham, candied pork belly, half the bacon, roasted potatoes, sautéed vegetables, sourdough chunks, 1 1/2 cups cheddar cheese, half the green onions, and red pepper flakes. Season with salt and pepper.",
+        "Pour mixture into a greased 9x13-inch baking dish. Top with remaining cheddar cheese and bacon.",
+        "Bake for 35-40 minutes until eggs are set and top is golden brown. Let rest 5 minutes.",
+        "Drizzle generously with hollandaise sauce and garnish with remaining green onions and fresh parsley before serving."
+      ],
+      "youtube_url": null,
+      "source_file": "note_216.txt",
+      "description": "This loaded breakfast casserole takes everything you love about Eggs Benedict and turns it into a hearty, crowd-pleasing dish packed with crispy meats, roasted potatoes, and plenty of rich hollandaise sauce. Perfect for feeding a hungry crew on weekend mornings.",
+      "prep_time": "25 min",
+      "cook_time": "45 min",
+      "servings": 10
+    },
+    {
+      "title": "Cajun Tuscan Salmon Pasta",
+      "slug": "cajun-tuscan-salmon-pasta",
+      "category": "pasta",
+      "ingredients": [
+        "1 lb protein rotini pasta",
+        "8 oz smoked salmon, flaked into pieces",
+        "1 lb large shrimp, peeled and deveined",
+        "6 strips bacon, chopped",
+        "1 cup sun-dried tomatoes in oil, drained and chopped",
+        "1 large yellow onion, diced",
+        "8 cloves garlic, minced",
+        "2 red bell peppers, diced",
+        "1 cup cherry tomatoes, halved",
+        "2 jalapeños, seeded and minced",
+        "4 cups fresh spinach",
+        "1/4 cup fresh basil, chopped",
+        "1/4 cup fresh parsley, chopped",
+        "1 tablespoon dried oregano",
+        "3 tablespoons lemon juice",
+        "4 tablespoons butter",
+        "1 cup grated Parmesan cheese",
+        "8 oz cream cheese, softened",
+        "1 1/2 cups heavy cream",
+        "3 tablespoons blackened Cajun seasoning",
+        "1 teaspoon red pepper flakes"
+      ],
+      "directions": [
+        "Cook pasta according to package directions until al dente. Drain and set aside. Meanwhile, cook bacon in a large deep skillet over medium heat until crispy, then remove and set aside, leaving 2 tablespoons of bacon fat in the pan.",
+        "In the same skillet with bacon fat, sauté onions and bell peppers for 4-5 minutes until softened. Add garlic and jalapeños, cook 1 minute more until fragrant.",
+        "Add butter to the skillet and let melt. Stir in sun-dried tomatoes, cherry tomatoes, oregano, Cajun seasoning, and red pepper flakes. Cook for 2-3 minutes, then add shrimp and cook until pink and just cooked through, about 3-4 minutes.",
+        "Reduce heat to medium-low and add cream cheese, heavy cream, and Parmesan cheese, stirring until smooth and creamy. Add spinach and cook until wilted, about 2 minutes.",
+        "Gently fold in the cooked pasta, flaked smoked salmon, crispy bacon, basil, and parsley. Drizzle with lemon juice and toss everything together until well coated. Taste and adjust seasoning with more Cajun spice or salt if needed. Serve immediately with extra Parmesan on top."
+      ],
+      "youtube_url": null,
+      "source_file": "note_217.txt",
+      "description": "A bold, creamy pasta loaded with smoky salmon, plump shrimp, and crispy bacon in a rich Cajun-spiced Tuscan sauce. This one-pan wonder brings together sun-dried tomatoes, fresh veggies, and plenty of herbs for a restaurant-quality dinner that's ready in under an hour.",
+      "prep_time": "20 min",
+      "cook_time": "30 min",
+      "servings": 6
+    },
+    {
+      "title": "Spicy Pink Sauce Angel Hair Pasta",
+      "slug": "spicy-pink-sauce-angel-hair-pasta",
+      "category": "pasta",
+      "ingredients": [
+        "1 lb angel hair pasta",
+        "2 cups cooked shredded chicken",
+        "1 lb hot Italian sausage, casings removed",
+        "8 strips bacon, chopped",
+        "1 head roasted garlic, cloves squeezed out",
+        "2 red bell peppers, diced",
+        "1 large red onion, diced",
+        "4 cups fresh spinach",
+        "1 cup ricotta cheese",
+        "1 teaspoon red pepper flakes",
+        "1/4 cup fresh parsley, chopped",
+        "3 tablespoons olive oil",
+        "3 tablespoons butter",
+        "4 shallots, minced",
+        "8 cloves garlic, minced",
+        "3 serrano peppers, seeded and minced",
+        "2 cups tomato purée",
+        "1 1/2 cups heavy cream",
+        "1 cup grated Parmesan cheese",
+        "2 teaspoons Italian seasoning",
+        "Salt and black pepper to taste"
+      ],
+      "directions": [
+        "Cook angel hair pasta according to package directions until al dente. Drain and set aside.",
+        "In a large skillet over medium-high heat, cook bacon until crispy. Remove and set aside. In the same pan, brown the Italian sausage, breaking it into crumbles. Set aside with bacon.",
+        "Heat olive oil and butter in the skillet over medium heat. Sauté shallots, minced garlic, and serrano peppers for 3-4 minutes until softened. Add red peppers and red onion, cooking until tender, about 5 minutes.",
+        "Stir in tomato purée, roasted garlic cloves, Italian seasoning, and red pepper flakes. Simmer for 5 minutes, then reduce heat to low and stir in heavy cream and ricotta cheese until smooth.",
+        "Add the cooked sausage, bacon, and shredded chicken to the sauce. Fold in spinach until just wilted, about 2 minutes.",
+        "Toss the cooked pasta with the sauce until well coated. Stir in half the Parmesan cheese and adjust seasoning with salt and pepper.",
+        "Serve topped with remaining Parmesan cheese and fresh parsley."
+      ],
+      "youtube_url": null,
+      "source_file": "note_218.txt",
+      "description": "A rich and creamy pink sauce loaded with spicy Italian sausage, bacon, and tender chicken tossed with angel hair pasta. This indulgent dish gets its kick from serrano peppers and red pepper flakes, balanced by sweet roasted garlic and fresh spinach.",
+      "prep_time": "25 min",
+      "cook_time": "35 min",
+      "servings": 6
+    },
+    {
+      "title": "Roasted Peppers and Walnuts Pasta",
+      "slug": "roasted-peppers-and-walnuts-pasta",
+      "category": "pasta",
+      "ingredients": [
+        "1 lb protein rotini pasta",
+        "2 cups shredded chicken",
+        "1 lb hot Italian sausage, casings removed",
+        "1 cup salami, cut into chunks",
+        "1 yellow onion, diced",
+        "1 red bell pepper, diced",
+        "1 whole head garlic",
+        "1/4 cup fresh basil, chopped",
+        "1 cup ricotta cheese",
+        "1 cup grated Parmesan cheese",
+        "3 tablespoons butter",
+        "2 cups roasted red peppers (jarred or fresh)",
+        "3 tablespoons tomato paste",
+        "1 cup crumbled feta cheese",
+        "1/4 cup fresh parsley, chopped",
+        "1/2 red onion, diced",
+        "3/4 cup walnuts",
+        "2 teaspoons Italian seasoning",
+        "1/4 cup olive oil",
+        "1/2 cup Greek yogurt"
+      ],
+      "directions": [
+        "Preheat oven to 400°F. Cut the top off the head of garlic, drizzle with olive oil, wrap in foil, and roast for 35-40 minutes until soft and golden. Let cool, then squeeze out the cloves.",
+        "Cook pasta according to package directions. While pasta cooks, brown the Italian sausage in a large skillet over medium-high heat, breaking it up as it cooks. Add yellow onion and red bell pepper, cooking until softened, about 5 minutes. Stir in shredded chicken, salami chunks, and Italian seasoning. Set aside.",
+        "In a blender or food processor, combine roasted garlic cloves, roasted red peppers, walnuts, feta cheese, tomato paste, Greek yogurt, and half the Parmesan. Blend until smooth and creamy.",
+        "Drain pasta and return to pot. Add butter and toss until melted. Pour in the roasted pepper sauce and stir to coat. Add the meat mixture and ricotta cheese, stirring gently to combine.",
+        "Transfer to a large serving bowl and top with remaining Parmesan, fresh basil, parsley, and diced red onion. Serve hot."
+      ],
+      "youtube_url": null,
+      "source_file": "note_219.txt",
+      "description": "A hearty pasta loaded with meats and tossed in a creamy roasted red pepper and walnut sauce that's rich, savory, and packed with flavor. The blended sauce with roasted garlic and tangy feta makes this dish absolutely irresistible.",
+      "prep_time": "20 min",
+      "cook_time": "45 min",
+      "servings": 8
     }
   ]
 }

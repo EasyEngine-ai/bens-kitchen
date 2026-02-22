@@ -54,7 +54,7 @@ export default function CategoryShowcase({
                 href={
                   cat.id.startsWith("chapter-")
                     ? `/categories/cookbook/`
-                    : `/recipes/?category=${cat.id}`
+                    : `/categories/${cat.id}/`
                 }
                 className="group block relative overflow-hidden rounded-lg bg-bg-elevated border border-border hover:border-border-light transition-all duration-500 glow-hover"
               >
@@ -65,6 +65,9 @@ export default function CategoryShowcase({
                       alt={cat.name}
                       className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-60 group-hover:opacity-80"
                       loading="lazy"
+                      decoding="async"
+                      width={1024}
+                      height={1024}
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-bg-elevated via-bg-elevated/60 to-transparent" />
                   </div>

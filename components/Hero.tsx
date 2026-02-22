@@ -28,6 +28,9 @@ export default function Hero() {
           src="/images/recipes/recipe-73.webp"
           alt="Ben's Kitchen"
           className="w-full h-full object-cover"
+          width={1024}
+          height={1024}
+          fetchPriority="high"
         />
       </motion.div>
 
@@ -60,7 +63,7 @@ export default function Hero() {
 
         <AnimatedLine delay={0.8}>
           <p className="mt-8 text-lg md:text-xl text-text-muted max-w-2xl mx-auto leading-relaxed">
-            210+ original recipes — from{" "}
+            250+ original recipes — from{" "}
             <span className="text-accent">signature chicken sandwiches</span> to
             everyday sauces, sides, and everything in between.
           </p>

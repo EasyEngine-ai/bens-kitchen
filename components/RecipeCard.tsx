@@ -63,6 +63,9 @@ export default function RecipeCard({
                 alt={title}
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 loading="lazy"
+                decoding="async"
+                width={1024}
+                height={1024}
               />
             ) : (
               <div

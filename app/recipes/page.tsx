@@ -6,7 +6,7 @@ import AnimatedText, { AnimatedLine } from "@/components/AnimatedText";
 export const metadata = {
   title: "All Recipes — Ben's Kitchen",
   description:
-    "Browse 210+ original recipes — chicken sandwiches, sauces, sides, mains, and more.",
+    "Browse 250+ original recipes — chicken sandwiches, sauces, pasta, crockpot meals, sides, and more.",
 };
 
 export default function RecipesPage() {
@@ -78,7 +78,7 @@ export default function RecipesPage() {
           <AnimatedLine delay={0.3}>
             <p className="text-text-muted max-w-xl">
               Explore the full collection — from 97 signature chicken sandwiches
-              to 113 personal recipes spanning sauces, sides, mains, and more.
+              to 156 personal recipes spanning sauces, pasta, crockpot meals, sides, and more.
             </p>
           </AnimatedLine>
         </div>

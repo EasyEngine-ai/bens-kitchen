@@ -14,7 +14,7 @@ interface Message {
 }
 
 interface RecipeKnowledge {
-  t: string; s: string; c: string; src: string; d: string; i: string[]; dir: string[];
+  t: string; s: string; c: string; src: string; d: string; i: string[]; dir: string[]; sc?: string;
 }
 
 type LiveState = "idle" | "listening" | "thinking" | "speaking";
@@ -79,7 +79,8 @@ export default function CookingAssistant() {
     }).filter((x) => x.score > 0).sort((a, b) => b.score - a.score).slice(0, 5);
     if (!scored.length) return "";
     return scored.map(({ recipe: rec }) => {
-      const lines = [`**${rec.t}** [${rec.c}] (${rec.src})`, `Description: ${rec.d}`, `Ingredients: ${rec.i.join("; ")}`];
+      const catLabel = rec.sc ? `${rec.c} > ${rec.sc}` : rec.c;
+      const lines = [`**${rec.t}** [${catLabel}] (${rec.src})`, `Description: ${rec.d}`, `Ingredients: ${rec.i.join("; ")}`];
       if (rec.dir.length) lines.push(`Directions: ${rec.dir.map((d, i) => `${i + 1}. ${d}`).join(" ")}`);
       return lines.join("\n");
     }).join("\n\n");
@@ -554,10 +555,10 @@ export default function CookingAssistant() {
                 <div className="text-center py-8">
                   <div className="text-4xl mb-3">{"\u{1F468}\u{200D}\u{1F373}"}</div>
                   <p className="text-sm text-text-muted mb-4">
-                    Hey! I know all 210+ recipes in Ben&apos;s Kitchen. Ask me anything — recipes, cooking tips, substitutions, or just chat about food.
+                    Hey! I know all 250+ recipes in Ben&apos;s Kitchen. Ask me anything — recipes, cooking tips, substitutions, or just chat about food.
                   </p>
                   <div className="space-y-2">
-                    {["What's a good spicy chicken sandwich?", "How do I make buffalo sauce?", "What can I make with bacon and cheese?"].map((q) => (
+                    {["What's an easy crockpot recipe?", "What burger sauces do you have?", "What can I make with bacon and cheese?"].map((q) => (
                       <button key={q} onClick={() => handleSendText(q)} className="block w-full text-left text-xs text-text-dim bg-bg-surface border border-border rounded-lg px-3 py-2 hover:border-accent/30 hover:text-accent transition-all">{q}</button>
                     ))}
                   </div>

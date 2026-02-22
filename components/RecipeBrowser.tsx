@@ -136,7 +136,7 @@ export default function RecipeBrowser({
           className="mb-8"
         >
           <p className="text-xs uppercase tracking-[0.2em] text-text-muted mb-3">
-            Browse by Chapter
+            Browse by Type
           </p>
           <div className="flex flex-wrap gap-2">
             <button
@@ -147,7 +147,7 @@ export default function RecipeBrowser({
                   : "bg-bg-surface text-text-muted border border-border hover:border-accent/50 hover:text-text"
               }`}
             >
-              All Chapters
+              All
             </button>
             {categories.map((cat) => (
               <button

@@ -23,8 +23,58 @@ export async function generateMetadata({
     openGraph: {
       title: recipe.title,
       description: recipe.description,
+      images: recipe.image
+        ? [{ url: recipe.image, width: 1024, height: 1024, alt: recipe.title }]
+        : undefined,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: recipe.title,
+      description: recipe.description,
       images: recipe.image ? [recipe.image] : undefined,
     },
+  };
+}
+
+function parseCookTime(cookTime: string): string {
+  const match = cookTime.match(/(\d+)\s*min/);
+  if (!match) return "PT30M";
+  return `PT${match[1]}M`;
+}
+
+function buildRecipeJsonLd(recipe: {
+  title: string;
+  slug: string;
+  description: string;
+  ingredients: { item: string; amount?: string }[];
+  directions: string[];
+  image: string | null;
+  cookTime: string;
+  servings: number;
+  categoryName: string;
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    name: recipe.title,
+    description: recipe.description,
+    image: recipe.image
+      ? [`https://gobigbencookbook.com${recipe.image}`]
+      : undefined,
+    author: { "@type": "Person", name: "Benjamin Larson" },
+    url: `https://gobigbencookbook.com/recipes/${recipe.slug}/`,
+    cookTime: parseCookTime(recipe.cookTime),
+    totalTime: parseCookTime(recipe.cookTime),
+    recipeYield: `${recipe.servings} servings`,
+    recipeCategory: recipe.categoryName,
+    recipeIngredient: recipe.ingredients.map((ing) =>
+      ing.amount ? `${ing.amount} ${ing.item}` : ing.item
+    ),
+    recipeInstructions: recipe.directions.map((step, i) => ({
+      "@type": "HowToStep",
+      position: i + 1,
+      text: step,
+    })),
   };
 }
 
@@ -50,23 +100,31 @@ export default async function RecipePage({
       categoryName: r.categoryName,
     }));
 
+  const jsonLd = buildRecipeJsonLd(recipe);
+
   return (
-    <RecipeDetail
-      title={recipe.title}
-      slug={recipe.slug}
-      categoryName={recipe.categoryName}
-      description={recipe.description}
-      ingredients={recipe.ingredients}
-      directions={recipe.directions}
-      image={recipe.image}
-      source={recipe.source}
-      difficulty={recipe.difficulty}
-      cookTime={recipe.cookTime}
-      servings={recipe.servings}
-      heatLevel={recipe.heatLevel}
-      youtubeUrl={recipe.youtubeUrl}
-      componentCount={recipe.componentCount}
-      relatedRecipes={related}
-    />
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <RecipeDetail
+        title={recipe.title}
+        slug={recipe.slug}
+        categoryName={recipe.categoryName}
+        description={recipe.description}
+        ingredients={recipe.ingredients}
+        directions={recipe.directions}
+        image={recipe.image}
+        source={recipe.source}
+        difficulty={recipe.difficulty}
+        cookTime={recipe.cookTime}
+        servings={recipe.servings}
+        heatLevel={recipe.heatLevel}
+        youtubeUrl={recipe.youtubeUrl}
+        componentCount={recipe.componentCount}
+        relatedRecipes={related}
+      />
+    </>
   );
 }

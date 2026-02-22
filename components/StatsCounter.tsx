@@ -54,17 +54,15 @@ function StatItem({ value, suffix = "", label, delay = 0 }: StatItemProps) {
 }
 
 const CATEGORIES = [
-  { label: "Chicken Sandwiches", count: 97 },
-  { label: "Sauces & Glazes", count: 37 },
-  { label: "Salads & Sides", count: 21 },
-  { label: "Main Dishes", count: 16 },
-  { label: "Burger Sauces", count: 10 },
-  { label: "Dips & Spreads", count: 8 },
-  { label: "Wing Sauces", count: 6 },
+  { label: "Chicken Sandwiches", count: 100 },
+  { label: "Sauces", count: 64 },
+  { label: "Salads & Sides", count: 30 },
+  { label: "Crockpot", count: 22 },
+  { label: "Pasta", count: 12 },
+  { label: "Main Dishes", count: 12 },
   { label: "Soups & Stews", count: 5 },
-  { label: "Jams & Toppings", count: 4 },
+  { label: "Dips & Spreads", count: 5 },
   { label: "Breakfast", count: 3 },
-  { label: "Quick Ideas", count: 3 },
 ];
 
 export default function StatsCounter() {
@@ -83,7 +81,7 @@ export default function StatsCounter() {
         {/* Top stats: Recipes + Components */}
         <div className="grid grid-cols-2 gap-8 mb-14 max-w-md mx-auto">
           <StatItem
-            value={200}
+            value={250}
             suffix="+"
             label="Original Recipes"
             delay={0}
