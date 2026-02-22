@@ -111,3 +111,89 @@ html.lenis, html.lenis body {
 .counter-value {
   font-variant-numeric: tabular-nums;
 }
+
+/* Print styles for recipe pages */
+@media print {
+  /* Reset to print-friendly colors */
+  body {
+    background: white !important;
+    color: black !important;
+    font-size: 12pt;
+  }
+
+  /* Hide non-recipe elements */
+  nav, footer, .grain-overlay, .glow-hover,
+  [data-falling-ingredients],
+  [data-cooking-assistant],
+  [data-easter-eggs] {
+    display: none !important;
+  }
+
+  /* Hide interactive/decorative elements on recipe pages */
+  button, .group-hover\:scale-105,
+  [data-lenis-prevent] {
+    break-inside: avoid;
+  }
+
+  /* Make links print-friendly */
+  a { color: black !important; text-decoration: none !important; }
+
+  /* Recipe hero: show image reasonably sized */
+  [class*="h-[60vh]"] {
+    height: auto !important;
+    min-height: 0 !important;
+    position: relative !important;
+    overflow: visible !important;
+  }
+  [class*="h-[60vh]"] img {
+    position: relative !important;
+    max-height: 250px;
+    width: auto;
+    margin: 0 auto;
+    display: block;
+    border-radius: 8px;
+  }
+  [class*="h-[60vh]"] [class*="bg-gradient"] {
+    display: none !important;
+  }
+
+  /* Ensure text is readable */
+  h1, h2, h3, h4 {
+    color: black !important;
+    break-after: avoid;
+  }
+  p, li, span, label {
+    color: #333 !important;
+  }
+
+  /* Ingredient checkboxes: show as bullet list */
+  [class*="accent"] span[class*="font-semibold"] {
+    color: black !important;
+    font-weight: bold;
+  }
+
+  /* Step numbers */
+  [class*="rounded-full"][class*="flex-shrink-0"] {
+    border: 1px solid #999 !important;
+    background: transparent !important;
+    color: black !important;
+  }
+
+  /* Hide AI buttons, guide, related recipes on print */
+  [class*="from-purple"], [class*="from-emerald"],
+  [class*="More Like This"] {
+    display: none !important;
+  }
+
+  /* Page breaks */
+  h2 { break-before: auto; }
+  li { break-inside: avoid; }
+
+  /* Remove dark backgrounds */
+  [class*="bg-bg"], [class*="bg-bg-surface"], [class*="bg-bg-elevated"] {
+    background: transparent !important;
+  }
+  [class*="border-border"] {
+    border-color: #ddd !important;
+  }
+}

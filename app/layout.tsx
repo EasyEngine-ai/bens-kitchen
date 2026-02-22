@@ -72,6 +72,12 @@ export default function RootLayout({
           as="image"
           type="image/webp"
         />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-7HTSGG8DG0" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-7HTSGG8DG0');`,
+          }}
+        />
       </head>
       <body className="antialiased">
         <script
