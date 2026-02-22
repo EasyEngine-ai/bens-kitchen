@@ -72,6 +72,13 @@ export default function RootLayout({
           as="image"
           type="image/webp"
         />
+        <link rel="manifest" href="/manifest.json" />
+        <link
+          rel="alternate"
+          type="application/rss+xml"
+          title="Ben's Kitchen"
+          href="/feed.xml"
+        />
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-7HTSGG8DG0" />
         <script
           dangerouslySetInnerHTML={{
