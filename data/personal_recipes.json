@@ -4,7 +4,7 @@
     {
       "id": "sauces",
       "name": "Sauces",
-      "count": 68
+      "count": 69
     },
     {
       "id": "salads-sides",
@@ -8167,6 +8167,32 @@
       "servings": 2,
       "enhanced": true,
       "image": "/images/personal/fried-chicken-gravy-and-french-fries-burrito.webp"
+    },
+    {
+      "title": "Sauces",
+      "slug": "sauces",
+      "category": "sauces",
+      "ingredients": [
+        "Cowboy butter",
+        "Garlic herb butter",
+        "Tallow mayo",
+        "Sour cream horseradish sauce",
+        "Sand which sauce",
+        "Tatkiiki",
+        "Barilla sauce",
+        "Al pastor",
+        "Cesar vinegrete",
+        "Yogurt, red chimmichri, extra lemon"
+      ],
+      "directions": [
+        "Apples, onion, in and out sauce, sour cream, yogurt, cucumber, garlic, herb seasoning",
+        "Mayo, sour cream, yogurt, peppers, onion, garlic, cilantro, spicy peppers and powders, lime, vinegar, chorizo, cjota cheese, taco seasoning, corn, roasted tomatoe",
+        "Goat cheese, mayo, sour cream, yogurt, cholua, sun-dried tomatoes, garlic, cilantro, jalapeño, lime, tomato bullion, corn",
+        "Buffalo sauce, butter, sour cream, or yogurt, chives, sweet pepper, and habanero with lots and lots of cream cheese, chicken and tomato  bullion"
+      ],
+      "youtube_url": null,
+      "source_file": "note_138.txt",
+      "subcategory": "general"
     }
   ]
 }
