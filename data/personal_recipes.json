@@ -112,7 +112,7 @@
       "prep_time": "20 min",
       "cook_time": "6-7 hours",
       "servings": 12,
-      "image": "images/personal/recipes/beef-pot-pie-crockpot-dip.webp",
+      "image": "/images/personal/beef-pot-pie-crockpot-dip.webp",
       "enhanced": true
     },
     {
@@ -159,7 +159,7 @@
       "prep_time": "25 min",
       "cook_time": "4-5 hours",
       "servings": 16,
-      "image": "images/personal/recipes/bbq-pork-pot-pie-crockpot-dip.webp",
+      "image": "/images/personal/bbq-pork-pot-pie-crockpot-dip.webp",
       "enhanced": true
     },
     {
@@ -212,7 +212,7 @@
       "prep_time": "25 min",
       "cook_time": "4 hours",
       "servings": 16,
-      "image": "images/personal/recipes/chicken-pot-pie-crockpot-dip.webp",
+      "image": "/images/personal/chicken-pot-pie-crockpot-dip.webp",
       "enhanced": true
     },
     {
@@ -249,7 +249,7 @@
       "cook_time": "35 min",
       "servings": 6,
       "subcategory": "general",
-      "image": "images/personal/recipes/creamy-roasted-tomato-garlic-sauce.webp",
+      "image": "/images/personal/creamy-roasted-tomato-garlic-sauce.webp",
       "enhanced": true
     },
     {
@@ -287,7 +287,7 @@
       "cook_time": "45 min",
       "servings": 8,
       "subcategory": "general",
-      "image": "images/personal/recipes/creamy-lemon-roasted-garlic-herb-sauce.webp",
+      "image": "/images/personal/creamy-lemon-roasted-garlic-herb-sauce.webp",
       "enhanced": true
     },
     {
@@ -332,7 +332,7 @@
       "prep_time": "20 min",
       "cook_time": "1 hr 15 min",
       "servings": 6,
-      "image": "images/personal/recipes/potato-pesto-goat-cheese-muffins.webp",
+      "image": "/images/personal/potato-pesto-goat-cheese-muffins.webp",
       "enhanced": true
     },
     {
@@ -371,7 +371,7 @@
       "prep_time": "20 min",
       "cook_time": "20 min",
       "servings": 6,
-      "image": "images/personal/recipes/mediterranean-potato-crunchies.webp",
+      "image": "/images/personal/mediterranean-potato-crunchies.webp",
       "enhanced": true
     },
     {
@@ -412,7 +412,7 @@
       "cook_time": "5 min",
       "servings": 8,
       "subcategory": "dressings",
-      "image": "images/personal/recipes/southwest-salad-dressing.webp",
+      "image": "/images/personal/southwest-salad-dressing.webp",
       "enhanced": true
     },
     {
@@ -451,7 +451,7 @@
       "prep_time": "20 min",
       "cook_time": "12 min",
       "servings": 8,
-      "image": "images/personal/recipes/tasty-tuna-salad.webp",
+      "image": "/images/personal/tasty-tuna-salad.webp",
       "enhanced": true
     },
     {
@@ -493,7 +493,7 @@
       "prep_time": "25 min",
       "cook_time": "30 min",
       "servings": 8,
-      "image": "images/personal/recipes/fried-chicken-caesar-salad-pasta-bake.webp",
+      "image": "/images/personal/fried-chicken-caesar-salad-pasta-bake.webp",
       "enhanced": true
     },
     {
@@ -535,7 +535,7 @@
       "prep_time": "30 min",
       "cook_time": "15 min",
       "servings": 10,
-      "image": "images/personal/recipes/mystic-macaroni-salad.webp",
+      "image": "/images/personal/mystic-macaroni-salad.webp",
       "enhanced": true
     },
     {
@@ -582,7 +582,7 @@
       "prep_time": "25 min",
       "cook_time": "5 min",
       "servings": 8,
-      "image": "images/personal/recipes/eggsalant-everything-egg-salad.webp",
+      "image": "/images/personal/eggsalant-everything-egg-salad.webp",
       "enhanced": true
     },
     {
@@ -616,7 +616,7 @@
       "prep_time": "15 min",
       "cook_time": "2.5 hours",
       "servings": 8,
-      "image": "images/personal/recipes/smoked-and-candied-bbq-hotdog-burnt-ends.webp",
+      "image": "/images/personal/smoked-and-candied-bbq-hotdog-burnt-ends.webp",
       "enhanced": true
     },
     {
@@ -660,7 +660,7 @@
       "prep_time": "25 min",
       "cook_time": "35 min",
       "servings": 12,
-      "image": "images/personal/recipes/loaded-brautwurst-potato-salad.webp",
+      "image": "/images/personal/loaded-brautwurst-potato-salad.webp",
       "enhanced": true
     },
     {
@@ -700,7 +700,7 @@
       "prep_time": "20 min",
       "cook_time": "45 min",
       "servings": 10,
-      "image": "images/personal/recipes/smoked-5-cheese-spinach-artichoke-dip.webp",
+      "image": "/images/personal/smoked-5-cheese-spinach-artichoke-dip.webp",
       "enhanced": true
     },
     {
@@ -738,7 +738,7 @@
       "prep_time": "20 min",
       "cook_time": "6-7 hours",
       "servings": 8,
-      "image": "images/personal/recipes/sweet-sourkrout-meatballs-crockpot.webp",
+      "image": "/images/personal/sweet-sourkrout-meatballs-crockpot.webp",
       "enhanced": true
     },
     {
@@ -779,7 +779,7 @@
       "prep_time": "15 min",
       "cook_time": "45 min",
       "servings": 4,
-      "image": "images/personal/recipes/caramelized-onion-and-garlic-asian-fusion-spaghetti.webp",
+      "image": "/images/personal/caramelized-onion-and-garlic-asian-fusion-spaghetti.webp",
       "enhanced": true
     },
     {
@@ -817,7 +817,7 @@
       "prep_time": "15 min",
       "cook_time": "5 min",
       "servings": 4,
-      "image": "images/personal/recipes/crispy-chili-mayo-salad.webp",
+      "image": "/images/personal/crispy-chili-mayo-salad.webp",
       "enhanced": true
     },
     {
@@ -858,7 +858,7 @@
       "cook_time": "15 min",
       "servings": 6,
       "subcategory": "general",
-      "image": "images/personal/recipes/peppercorn-steak-sauce.webp",
+      "image": "/images/personal/peppercorn-steak-sauce.webp",
       "enhanced": true
     },
     {
@@ -901,7 +901,7 @@
       "prep_time": "20 min",
       "cook_time": "15 min",
       "servings": 8,
-      "image": "images/personal/recipes/tomato-pasta-salad.webp",
+      "image": "/images/personal/tomato-pasta-salad.webp",
       "enhanced": true
     },
     {
@@ -946,7 +946,7 @@
       "prep_time": "25 min",
       "cook_time": "6-7 hours on low",
       "servings": 12,
-      "image": "images/personal/recipes/complete-breakfast-crockpot.webp",
+      "image": "/images/personal/complete-breakfast-crockpot.webp",
       "enhanced": true
     },
     {
@@ -980,7 +980,7 @@
       "prep_time": "15 min",
       "cook_time": "20 min",
       "servings": 8,
-      "image": "images/personal/recipes/cheeseburger-dip.webp",
+      "image": "/images/personal/cheeseburger-dip.webp",
       "enhanced": true
     },
     {
@@ -1016,7 +1016,7 @@
       "prep_time": "20 min",
       "cook_time": "4-5 hours",
       "servings": 6,
-      "image": "images/personal/recipes/crockpot-vodka-sauce-lasagna.webp",
+      "image": "/images/personal/crockpot-vodka-sauce-lasagna.webp",
       "enhanced": true
     },
     {
@@ -1048,7 +1048,7 @@
       "prep_time": "20 min",
       "cook_time": "4-5 hours",
       "servings": 6,
-      "image": "images/personal/recipes/crockpot-lasagna.webp",
+      "image": "/images/personal/crockpot-lasagna.webp",
       "enhanced": true
     },
     {
@@ -1089,7 +1089,7 @@
       "prep_time": "20 min",
       "cook_time": "6-7 hours",
       "servings": 8,
-      "image": "images/personal/recipes/chicken-enchiladas-crockpot.webp",
+      "image": "/images/personal/chicken-enchiladas-crockpot.webp",
       "enhanced": true
     },
     {
@@ -1127,7 +1127,7 @@
       "prep_time": "20 min",
       "cook_time": "6 hours",
       "servings": 6,
-      "image": "images/personal/recipes/garlic-parmesan-chicken-pasta-crockpot.webp",
+      "image": "/images/personal/garlic-parmesan-chicken-pasta-crockpot.webp",
       "enhanced": true
     },
     {
@@ -1167,7 +1167,7 @@
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 10,
-      "image": "images/personal/recipes/pepperoni-and-sausage-pizza-dip.webp",
+      "image": "/images/personal/pepperoni-and-sausage-pizza-dip.webp",
       "enhanced": true
     },
     {
@@ -1205,7 +1205,7 @@
       "prep_time": "20 min",
       "cook_time": "25 min",
       "servings": 12,
-      "image": "images/personal/recipes/pulled-pork-bbq-queso-dip.webp",
+      "image": "/images/personal/pulled-pork-bbq-queso-dip.webp",
       "enhanced": true
     },
     {
@@ -1238,7 +1238,7 @@
       "prep_time": "20 min",
       "cook_time": "30 min",
       "servings": 10,
-      "image": "images/personal/recipes/jalapeno-poppers-dip.webp",
+      "image": "/images/personal/jalapeno-poppers-dip.webp",
       "enhanced": true
     },
     {
@@ -1279,7 +1279,7 @@
       "cook_time": "5 min",
       "servings": 8,
       "subcategory": "general",
-      "image": "images/personal/recipes/remoulade-sauce.webp",
+      "image": "/images/personal/remoulade-sauce.webp",
       "enhanced": true
     },
     {
@@ -1316,7 +1316,7 @@
       "cook_time": "5 min",
       "servings": 8,
       "subcategory": "general",
-      "image": "images/personal/recipes/asian-peanut-sauce.webp",
+      "image": "/images/personal/asian-peanut-sauce.webp",
       "enhanced": true
     },
     {
@@ -1345,7 +1345,7 @@
       "cook_time": "5 min",
       "servings": 8,
       "subcategory": "general",
-      "image": "images/personal/recipes/polynesian-sauce.webp",
+      "image": "/images/personal/polynesian-sauce.webp",
       "enhanced": true
     },
     {
@@ -1383,7 +1383,7 @@
       "cook_time": "5 min",
       "servings": 12,
       "subcategory": "general",
-      "image": "images/personal/recipes/better-chick-fil-a-sauce.webp",
+      "image": "/images/personal/better-chick-fil-a-sauce.webp",
       "enhanced": true
     },
     {
@@ -1430,7 +1430,7 @@
       "prep_time": "20 min",
       "cook_time": "25 min",
       "servings": 4,
-      "image": "images/personal/recipes/bussin-breakfast-burrito.webp",
+      "image": "/images/personal/bussin-breakfast-burrito.webp",
       "enhanced": true
     },
     {
@@ -1466,7 +1466,7 @@
       "cook_time": "10 min",
       "servings": 8,
       "subcategory": "burger-sauces",
-      "image": "images/personal/recipes/cajun-honey-burger-sauce.webp",
+      "image": "/images/personal/cajun-honey-burger-sauce.webp",
       "enhanced": true
     },
     {
@@ -1505,7 +1505,7 @@
       "cook_time": "50 min",
       "servings": 8,
       "subcategory": "wing-sauces",
-      "image": "images/personal/recipes/cajun-alfredo-wing-sauce.webp",
+      "image": "/images/personal/cajun-alfredo-wing-sauce.webp",
       "enhanced": true
     },
     {
@@ -1536,7 +1536,7 @@
       "cook_time": "35 min",
       "servings": 12,
       "subcategory": "jams-toppings",
-      "image": "images/personal/recipes/pineapple-jalapeno-cream-cheese-bacon-jam.webp",
+      "image": "/images/personal/pineapple-jalapeno-cream-cheese-bacon-jam.webp",
       "enhanced": true
     },
     {
@@ -1573,7 +1573,7 @@
       "prep_time": "15 min",
       "cook_time": "5 min",
       "servings": 6,
-      "image": "images/personal/recipes/asian-cucumber-salad.webp",
+      "image": "/images/personal/asian-cucumber-salad.webp",
       "enhanced": true
     },
     {
@@ -1606,7 +1606,7 @@
       "cook_time": "45 min",
       "servings": 8,
       "subcategory": "jams-toppings",
-      "image": "images/personal/recipes/thai-chili-bacon-jam.webp",
+      "image": "/images/personal/thai-chili-bacon-jam.webp",
       "enhanced": true
     },
     {
@@ -1637,7 +1637,7 @@
       "cook_time": "35 min",
       "servings": 8,
       "subcategory": "jams-toppings",
-      "image": "images/personal/recipes/pepperoni-cherry-tomatoe-jam.webp",
+      "image": "/images/personal/pepperoni-cherry-tomatoe-jam.webp",
       "enhanced": true
     },
     {
@@ -1672,7 +1672,7 @@
       "cook_time": "8 min",
       "servings": 8,
       "subcategory": "general",
-      "image": "images/personal/recipes/honey-garlic-sauce.webp",
+      "image": "/images/personal/honey-garlic-sauce.webp",
       "enhanced": true
     },
     {
@@ -1708,7 +1708,7 @@
       "prep_time": "10 min",
       "cook_time": "15 min",
       "servings": 4,
-      "image": "images/personal/recipes/sesame-chicken.webp",
+      "image": "/images/personal/sesame-chicken.webp",
       "enhanced": true
     },
     {
@@ -1746,7 +1746,7 @@
       "cook_time": "8 min",
       "servings": 8,
       "subcategory": "wing-sauces",
-      "image": "images/personal/recipes/crispy-honey-lemon-pepper-wing-sauce.webp",
+      "image": "/images/personal/crispy-honey-lemon-pepper-wing-sauce.webp",
       "enhanced": true
     },
     {
@@ -1784,7 +1784,7 @@
       "cook_time": "5 min",
       "servings": 8,
       "subcategory": "dressings",
-      "image": "images/personal/recipes/cowboy-ranch.webp",
+      "image": "/images/personal/cowboy-ranch.webp",
       "enhanced": true
     },
     {
@@ -1820,7 +1820,7 @@
       "cook_time": "10 min",
       "servings": 6,
       "subcategory": "general",
-      "image": "images/personal/recipes/orange-chicken-sauce.webp",
+      "image": "/images/personal/orange-chicken-sauce.webp",
       "enhanced": true
     },
     {
@@ -1857,7 +1857,7 @@
       "cook_time": "8 min",
       "servings": 8,
       "subcategory": "general",
-      "image": "images/personal/recipes/garlic-parmesan-sauce.webp",
+      "image": "/images/personal/garlic-parmesan-sauce.webp",
       "enhanced": true
     },
     {
@@ -1897,7 +1897,7 @@
       "cook_time": "5 min",
       "servings": 8,
       "subcategory": "general",
-      "image": "images/personal/recipes/blue-cheese-crazy-chunky-sauce.webp",
+      "image": "/images/personal/blue-cheese-crazy-chunky-sauce.webp",
       "enhanced": true
     },
     {
@@ -1929,7 +1929,7 @@
       "cook_time": "10 min",
       "servings": 8,
       "subcategory": "wing-sauces",
-      "image": "images/personal/recipes/bbq-buffalo-wing-sauce.webp",
+      "image": "/images/personal/bbq-buffalo-wing-sauce.webp",
       "enhanced": true
     },
     {
@@ -1960,7 +1960,7 @@
       "cook_time": "15 min",
       "servings": 8,
       "subcategory": "general",
-      "image": "images/personal/recipes/mango-habanero-sauce.webp",
+      "image": "/images/personal/mango-habanero-sauce.webp",
       "enhanced": true
     },
     {
@@ -1991,7 +1991,7 @@
       "cook_time": "5 min",
       "servings": 8,
       "subcategory": "general",
-      "image": "images/personal/recipes/daves-hot-chicken-sauce.webp",
+      "image": "/images/personal/daves-hot-chicken-sauce.webp",
       "enhanced": true
     },
     {
@@ -2023,7 +2023,7 @@
       "cook_time": "15 min",
       "servings": 6,
       "subcategory": "general",
-      "image": "images/personal/recipes/creamy-avocado-lime-sauce.webp",
+      "image": "/images/personal/creamy-avocado-lime-sauce.webp",
       "enhanced": true
     },
     {
@@ -2055,7 +2055,7 @@
       "cook_time": "5 min",
       "servings": 8,
       "subcategory": "general",
-      "image": "images/personal/recipes/pineapple-chipotle-mayo-sauce.webp",
+      "image": "/images/personal/pineapple-chipotle-mayo-sauce.webp",
       "enhanced": true
     },
     {
@@ -2089,7 +2089,7 @@
       "cook_time": "30 min",
       "servings": 12,
       "subcategory": "burger-sauces",
-      "image": "images/personal/recipes/big-mac-sauce.webp",
+      "image": "/images/personal/big-mac-sauce.webp",
       "enhanced": true
     },
     {
@@ -2122,7 +2122,7 @@
       "cook_time": "25 min",
       "servings": 8,
       "subcategory": "wing-sauces",
-      "image": "images/personal/recipes/dr-pepper-bbq-wing-sauce.webp",
+      "image": "/images/personal/dr-pepper-bbq-wing-sauce.webp",
       "enhanced": true
     },
     {
@@ -2153,7 +2153,7 @@
       "cook_time": "15 min",
       "servings": 8,
       "subcategory": "wing-sauces",
-      "image": "images/personal/recipes/sunkist-buffalo-wing-sauce.webp",
+      "image": "/images/personal/sunkist-buffalo-wing-sauce.webp",
       "enhanced": true
     },
     {
@@ -2185,7 +2185,7 @@
       "cook_time": "25 min",
       "servings": 8,
       "subcategory": "general",
-      "image": "images/personal/recipes/coca-cola-bbq-glaze.webp",
+      "image": "/images/personal/coca-cola-bbq-glaze.webp",
       "enhanced": true
     },
     {
@@ -2216,7 +2216,7 @@
       "cook_time": "30 min",
       "servings": 8,
       "subcategory": "burger-sauces",
-      "image": "images/personal/recipes/peach-chutney-bbq-burger-topping.webp",
+      "image": "/images/personal/peach-chutney-bbq-burger-topping.webp",
       "enhanced": true
     },
     {
@@ -2245,7 +2245,7 @@
       "prep_time": "15 min",
       "cook_time": "40 min",
       "servings": 8,
-      "image": "images/personal/recipes/ripe-peaches.webp",
+      "image": "/images/personal/ripe-peaches.webp",
       "enhanced": true
     },
     {
@@ -2277,7 +2277,7 @@
       "cook_time": "1 hour",
       "servings": 8,
       "subcategory": "burger-sauces",
-      "image": "images/personal/recipes/tomato-jam-burger-topping.webp",
+      "image": "/images/personal/tomato-jam-burger-topping.webp",
       "enhanced": true
     },
     {
@@ -2303,7 +2303,7 @@
       "cook_time": "5 min",
       "servings": 8,
       "subcategory": "wing-sauces",
-      "image": "images/personal/recipes/brown-sugar-hot-wing-sauce.webp",
+      "image": "/images/personal/brown-sugar-hot-wing-sauce.webp",
       "enhanced": true
     },
     {
@@ -2334,7 +2334,7 @@
       "cook_time": "5 min",
       "servings": 8,
       "subcategory": "general",
-      "image": "images/personal/recipes/sweet-gochujang-aoli.webp",
+      "image": "/images/personal/sweet-gochujang-aoli.webp",
       "enhanced": true
     },
     {
@@ -2366,7 +2366,7 @@
       "cook_time": "25 min",
       "servings": 8,
       "subcategory": "burger-sauces",
-      "image": "images/personal/recipes/candied-bacon-jalapenos-and-apples-burger-topping.webp",
+      "image": "/images/personal/candied-bacon-jalapenos-and-apples-burger-topping.webp",
       "enhanced": true
     },
     {
@@ -2397,7 +2397,7 @@
       "cook_time": "5 min",
       "servings": 8,
       "subcategory": "burger-sauces",
-      "image": "images/personal/recipes/smash-burger-copy-cat-sauce.webp",
+      "image": "/images/personal/smash-burger-copy-cat-sauce.webp",
       "enhanced": true
     },
     {
@@ -2432,7 +2432,7 @@
       "cook_time": "5 min",
       "servings": 4,
       "subcategory": "burger-sauces",
-      "image": "images/personal/recipes/classic-burger-sauce.webp",
+      "image": "/images/personal/classic-burger-sauce.webp",
       "enhanced": true
     },
     {
@@ -2461,7 +2461,7 @@
       "cook_time": "30 min",
       "servings": 4,
       "subcategory": "general",
-      "image": "images/personal/recipes/hot-honey-apple-mayo-sauce.webp",
+      "image": "/images/personal/hot-honey-apple-mayo-sauce.webp",
       "enhanced": true
     },
     {
@@ -2493,7 +2493,7 @@
       "cook_time": "10 min",
       "servings": 4,
       "subcategory": "burger-sauces",
-      "image": "images/personal/recipes/white-whole-grain-burger-sauce.webp",
+      "image": "/images/personal/white-whole-grain-burger-sauce.webp",
       "enhanced": true
     },
     {
@@ -2528,7 +2528,7 @@
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 4,
-      "image": "images/personal/recipes/butter-chicken-sandwich.webp",
+      "image": "/images/personal/butter-chicken-sandwich.webp",
       "enhanced": true
     },
     {
@@ -2559,7 +2559,7 @@
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 4,
-      "image": "images/personal/recipes/cool-cole-slaw.webp",
+      "image": "/images/personal/cool-cole-slaw.webp",
       "enhanced": true
     },
     {
@@ -2592,7 +2592,7 @@
       "cook_time": "30 min",
       "servings": 4,
       "subcategory": "jams-toppings",
-      "image": "images/personal/recipes/bacon-onion-and-roasted-garlic-jam.webp",
+      "image": "/images/personal/bacon-onion-and-roasted-garlic-jam.webp",
       "enhanced": true
     },
     {
@@ -2625,7 +2625,7 @@
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 4,
-      "image": "images/personal/recipes/creamed-spinach.webp",
+      "image": "/images/personal/creamed-spinach.webp",
       "enhanced": true
     },
     {
@@ -2663,7 +2663,7 @@
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 4,
-      "image": "images/personal/recipes/creamy-greek-lemon-herb-potatoes.webp",
+      "image": "/images/personal/creamy-greek-lemon-herb-potatoes.webp",
       "enhanced": true
     },
     {
@@ -2698,7 +2698,7 @@
       "cook_time": "5 min",
       "servings": 4,
       "subcategory": "general",
-      "image": "images/personal/recipes/mediterranean-white-sauce.webp",
+      "image": "/images/personal/mediterranean-white-sauce.webp",
       "enhanced": true
     },
     {
@@ -2734,7 +2734,7 @@
       "cook_time": "30 min",
       "servings": 4,
       "subcategory": "general",
-      "image": "images/personal/recipes/mexican-creamy-bean-sauce.webp",
+      "image": "/images/personal/mexican-creamy-bean-sauce.webp",
       "enhanced": true
     },
     {
@@ -2770,7 +2770,7 @@
       "prep_time": "15 min",
       "cook_time": "5 min",
       "servings": 4,
-      "image": "images/personal/recipes/fresh-and-crisp-garden-chicken-wrap.webp",
+      "image": "/images/personal/fresh-and-crisp-garden-chicken-wrap.webp",
       "enhanced": true
     },
     {
@@ -2807,7 +2807,7 @@
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 4,
-      "image": "images/personal/recipes/lemon-rosemary-chicken-rice.webp",
+      "image": "/images/personal/lemon-rosemary-chicken-rice.webp",
       "enhanced": true
     },
     {
@@ -2842,7 +2842,7 @@
       "prep_time": "15 min",
       "cook_time": "15 min",
       "servings": 4,
-      "image": "images/personal/recipes/goat-cheese-and-spinach-scrambled-eggs.webp",
+      "image": "/images/personal/goat-cheese-and-spinach-scrambled-eggs.webp",
       "enhanced": true
     },
     {
@@ -2879,7 +2879,7 @@
       "cook_time": "30 min",
       "servings": 4,
       "subcategory": "general",
-      "image": "images/personal/recipes/special-italian-sandwich-sauce.webp",
+      "image": "/images/personal/special-italian-sandwich-sauce.webp",
       "enhanced": true
     },
     {
@@ -2907,7 +2907,7 @@
       "cook_time": "5 min",
       "servings": 8,
       "subcategory": "general",
-      "image": "images/personal/recipes/homemade-tallowbutter-mayonnaise.webp",
+      "image": "/images/personal/homemade-tallowbutter-mayonnaise.webp",
       "enhanced": true
     },
     {
@@ -2943,7 +2943,7 @@
       "cook_time": "30 min",
       "servings": 4,
       "subcategory": "general",
-      "image": "images/personal/recipes/red-creamy-chimmichri-sauce.webp",
+      "image": "/images/personal/red-creamy-chimmichri-sauce.webp",
       "enhanced": true
     },
     {
@@ -2984,7 +2984,7 @@
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 4,
-      "image": "images/personal/recipes/chili.webp",
+      "image": "/images/personal/chili.webp",
       "enhanced": true
     },
     {
@@ -3014,7 +3014,7 @@
       "cook_time": "30 min",
       "servings": 4,
       "subcategory": "general",
-      "image": "images/personal/recipes/garlic-herb-butter.webp",
+      "image": "/images/personal/garlic-herb-butter.webp",
       "enhanced": true
     },
     {
@@ -3051,7 +3051,7 @@
       "cook_time": "30 min",
       "servings": 4,
       "subcategory": "general",
-      "image": "images/personal/recipes/creamy-horseradish-sauce.webp",
+      "image": "/images/personal/creamy-horseradish-sauce.webp",
       "enhanced": true
     },
     {
@@ -3092,7 +3092,7 @@
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 4,
-      "image": "images/personal/recipes/pimping-pasta-salad.webp",
+      "image": "/images/personal/pimping-pasta-salad.webp",
       "enhanced": true
     },
     {
@@ -3133,7 +3133,7 @@
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 4,
-      "image": "images/personal/recipes/fantastic-fried-rice.webp",
+      "image": "/images/personal/fantastic-fried-rice.webp",
       "enhanced": true
     },
     {
@@ -3171,7 +3171,7 @@
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 4,
-      "image": "images/personal/recipes/perfect-potatoe-salad.webp",
+      "image": "/images/personal/perfect-potatoe-salad.webp",
       "enhanced": true
     },
     {
@@ -3208,7 +3208,7 @@
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 4,
-      "image": "images/personal/recipes/sexy-street-corn-salad.webp",
+      "image": "/images/personal/sexy-street-corn-salad.webp",
       "enhanced": true
     },
     {
@@ -3247,7 +3247,7 @@
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 4,
-      "image": "images/personal/recipes/crazy-mac-n-cheese.webp",
+      "image": "/images/personal/crazy-mac-n-cheese.webp",
       "enhanced": true
     },
     {
@@ -3278,7 +3278,7 @@
       "cook_time": "5 min",
       "servings": 4,
       "subcategory": "general",
-      "image": "images/personal/recipes/crispy-asian-chili-mayo.webp",
+      "image": "/images/personal/crispy-asian-chili-mayo.webp",
       "enhanced": true
     },
     {
@@ -3315,7 +3315,7 @@
       "cook_time": "30 min",
       "servings": 4,
       "subcategory": "general",
-      "image": "images/personal/recipes/better-cowboy-butter.webp",
+      "image": "/images/personal/better-cowboy-butter.webp",
       "enhanced": true
     },
     {
@@ -3345,7 +3345,7 @@
       "cook_time": "5 min",
       "servings": 4,
       "subcategory": "general",
-      "image": "images/personal/recipes/cilantro-lime-sauce.webp",
+      "image": "/images/personal/cilantro-lime-sauce.webp",
       "enhanced": true
     },
     {
@@ -3386,7 +3386,7 @@
       "cook_time": "30 min",
       "servings": 4,
       "subcategory": "general",
-      "image": "images/personal/recipes/special-steak-sauce.webp",
+      "image": "/images/personal/special-steak-sauce.webp",
       "enhanced": true
     },
     {
@@ -3420,7 +3420,7 @@
       "cook_time": "30 min",
       "servings": 4,
       "subcategory": "dressings",
-      "image": "images/personal/recipes/ranch-sauce.webp",
+      "image": "/images/personal/ranch-sauce.webp",
       "enhanced": true
     },
     {
@@ -3457,7 +3457,7 @@
       "cook_time": "30 min",
       "servings": 4,
       "subcategory": "general",
-      "image": "images/personal/recipes/creamy-al-pastor-sauce.webp",
+      "image": "/images/personal/creamy-al-pastor-sauce.webp",
       "enhanced": true
     },
     {
@@ -3493,7 +3493,7 @@
       "cook_time": "30 min",
       "servings": 4,
       "subcategory": "dressings",
-      "image": "images/personal/recipes/habenareo-pizza-ranch-aloi.webp",
+      "image": "/images/personal/habenareo-pizza-ranch-aloi.webp",
       "enhanced": true
     },
     {
@@ -3531,7 +3531,7 @@
       "cook_time": "30 min",
       "servings": 4,
       "subcategory": "general",
-      "image": "images/personal/recipes/mexican-street-corn-sauce.webp",
+      "image": "/images/personal/mexican-street-corn-sauce.webp",
       "enhanced": true
     },
     {
@@ -3574,7 +3574,7 @@
       "cook_time": "30 min",
       "servings": 4,
       "subcategory": "general",
-      "image": "images/personal/recipes/marry-me-chicken-sauce.webp",
+      "image": "/images/personal/marry-me-chicken-sauce.webp",
       "enhanced": true
     },
     {
@@ -3614,7 +3614,7 @@
       "cook_time": "30 min",
       "servings": 4,
       "subcategory": "general",
-      "image": "images/personal/recipes/goat-cheese-chalua-hot-sauce.webp",
+      "image": "/images/personal/goat-cheese-chalua-hot-sauce.webp",
       "enhanced": true
     },
     {
@@ -3649,7 +3649,7 @@
       "cook_time": "30 min",
       "servings": 4,
       "subcategory": "general",
-      "image": "images/personal/recipes/buffalo-chicken-cream-cheese-sauce.webp",
+      "image": "/images/personal/buffalo-chicken-cream-cheese-sauce.webp",
       "enhanced": true
     },
     {
@@ -3701,7 +3701,7 @@
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 4,
-      "image": "images/personal/recipes/magical-marry-me-chicken.webp",
+      "image": "/images/personal/magical-marry-me-chicken.webp",
       "enhanced": true
     },
     {
@@ -3733,7 +3733,7 @@
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 4,
-      "image": "images/personal/recipes/green-chile.webp",
+      "image": "/images/personal/green-chile.webp",
       "enhanced": true
     },
     {
@@ -3765,7 +3765,7 @@
       "cook_time": "30 min",
       "servings": 4,
       "subcategory": "general",
-      "image": "images/personal/recipes/chilli-oils.webp",
+      "image": "/images/personal/chilli-oils.webp",
       "enhanced": true
     },
     {
@@ -3804,7 +3804,7 @@
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 4,
-      "image": "images/personal/recipes/appetizers.webp",
+      "image": "/images/personal/appetizers.webp",
       "enhanced": true
     },
     {
@@ -3839,7 +3839,7 @@
       "cook_time": "15 min",
       "servings": 4,
       "subcategory": "general",
-      "image": "images/personal/recipes/classic-chicken-sandwich-sauces.webp",
+      "image": "/images/personal/classic-chicken-sandwich-sauces.webp",
       "enhanced": true
     },
     {
@@ -3878,7 +3878,7 @@
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 4,
-      "image": "images/personal/recipes/crazy-coleslaws.webp",
+      "image": "/images/personal/crazy-coleslaws.webp",
       "enhanced": true
     },
     {
@@ -3911,7 +3911,7 @@
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 4,
-      "image": "images/personal/recipes/bangin-broccoli-salad.webp",
+      "image": "/images/personal/bangin-broccoli-salad.webp",
       "enhanced": true
     },
     {
@@ -3950,7 +3950,7 @@
       "cook_time": "30 min",
       "servings": 4,
       "subcategory": "general",
-      "image": "images/personal/recipes/timeless-tatsiki-sauce.webp",
+      "image": "/images/personal/timeless-tatsiki-sauce.webp",
       "enhanced": true
     },
     {
@@ -4000,7 +4000,7 @@
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 4,
-      "image": "images/personal/recipes/terrific-tomato-soup.webp",
+      "image": "/images/personal/terrific-tomato-soup.webp",
       "enhanced": true
     },
     {
@@ -4033,7 +4033,7 @@
       "cook_time": "45 min",
       "servings": 8,
       "subcategory": "general",
-      "image": "images/personal/recipes/blended-green-olives-and-feta-sauce.webp",
+      "image": "/images/personal/blended-green-olives-and-feta-sauce.webp",
       "enhanced": true
     },
     {
@@ -4072,7 +4072,7 @@
       "cook_time": "10 min",
       "servings": 8,
       "subcategory": "burger-sauces",
-      "image": "images/personal/recipes/baconase-burger-sauce.webp",
+      "image": "/images/personal/baconase-burger-sauce.webp",
       "enhanced": true
     },
     {
@@ -4101,7 +4101,7 @@
       "cook_time": "5 min",
       "servings": 6,
       "subcategory": "dressings",
-      "image": "images/personal/recipes/hot-honey-asian-crunch-ranch.webp",
+      "image": "/images/personal/hot-honey-asian-crunch-ranch.webp",
       "enhanced": true
     },
     {
@@ -4138,7 +4138,7 @@
       "cook_time": "5 min",
       "servings": 8,
       "subcategory": "dressings",
-      "image": "images/personal/recipes/chimichurri-ranch.webp",
+      "image": "/images/personal/chimichurri-ranch.webp",
       "enhanced": true
     },
     {
@@ -4177,7 +4177,7 @@
       "prep_time": "20 min",
       "cook_time": "25 min",
       "servings": 6,
-      "image": "images/personal/recipes/feta-ground-beef-pesto-pasta.webp",
+      "image": "/images/personal/feta-ground-beef-pesto-pasta.webp",
       "enhanced": true
     },
     {
@@ -4223,7 +4223,7 @@
       "prep_time": "25 min",
       "cook_time": "35 min",
       "servings": 6,
-      "image": "images/personal/recipes/cold-lemon-pepper-chicken-taziki-rice.webp",
+      "image": "/images/personal/cold-lemon-pepper-chicken-taziki-rice.webp",
       "enhanced": true
     },
     {
@@ -4259,7 +4259,7 @@
       "prep_time": "20 min",
       "cook_time": "5 min",
       "servings": 6,
-      "image": "images/personal/recipes/cold-chicken-salad.webp",
+      "image": "/images/personal/cold-chicken-salad.webp",
       "enhanced": true
     },
     {
@@ -4294,7 +4294,7 @@
       "prep_time": "20 min",
       "cook_time": "5 min",
       "servings": 6,
-      "image": "images/personal/recipes/cold-mexican-chicken-salad.webp",
+      "image": "/images/personal/cold-mexican-chicken-salad.webp",
       "enhanced": true
     },
     {
@@ -4337,7 +4337,7 @@
       "prep_time": "25 min",
       "cook_time": "5 hours",
       "servings": 20,
-      "image": "images/personal/recipes/philly-cheese-steak-crockpot-dip.webp",
+      "image": "/images/personal/philly-cheese-steak-crockpot-dip.webp",
       "enhanced": true
     },
     {
@@ -4376,7 +4376,7 @@
       "prep_time": "15 min",
       "cook_time": "3 hours 30 min",
       "servings": 6,
-      "image": "images/personal/recipes/salmon-feta-tomato-spinach-crockpot-pasta.webp",
+      "image": "/images/personal/salmon-feta-tomato-spinach-crockpot-pasta.webp",
       "enhanced": true
     },
     {
@@ -4413,7 +4413,7 @@
       "prep_time": "20 min",
       "cook_time": "7-8 hours",
       "servings": 6,
-      "image": "images/personal/recipes/creamy-beef-horseradish-pot-roast.webp",
+      "image": "/images/personal/creamy-beef-horseradish-pot-roast.webp",
       "enhanced": true
     },
     {
@@ -4454,7 +4454,7 @@
       "prep_time": "20 min",
       "cook_time": "6-7 hours",
       "servings": 6,
-      "image": "images/personal/recipes/pork-and-chicken-hummus-crockpot.webp",
+      "image": "/images/personal/pork-and-chicken-hummus-crockpot.webp",
       "enhanced": true
     },
     {
@@ -4500,7 +4500,7 @@
       "prep_time": "20 min",
       "cook_time": "25 min",
       "servings": 6,
-      "image": "images/personal/recipes/spicy-peanut-pork-on-glass-noodles.webp",
+      "image": "/images/personal/spicy-peanut-pork-on-glass-noodles.webp",
       "enhanced": true
     },
     {
@@ -4537,7 +4537,7 @@
       "prep_time": "20 min",
       "cook_time": "45 min",
       "servings": 8,
-      "image": "images/personal/recipes/bbq-sweet-potato-beef-and-pork-shoulder.webp",
+      "image": "/images/personal/bbq-sweet-potato-beef-and-pork-shoulder.webp",
       "enhanced": true
     },
     {
@@ -4579,7 +4579,7 @@
       "prep_time": "20 min",
       "cook_time": "25 min",
       "servings": 8,
-      "image": "images/personal/recipes/creamy-steak-and-sourkrout-hot-sauce-pasta.webp",
+      "image": "/images/personal/creamy-steak-and-sourkrout-hot-sauce-pasta.webp",
       "enhanced": true
     },
     {
@@ -4617,7 +4617,7 @@
       "prep_time": "20 min",
       "cook_time": "25 min",
       "servings": 8,
-      "image": "images/personal/recipes/buffalo-chicken-bacon-ranch-pasta.webp",
+      "image": "/images/personal/buffalo-chicken-bacon-ranch-pasta.webp",
       "enhanced": true
     },
     {
@@ -4663,7 +4663,7 @@
       "prep_time": "20 min",
       "cook_time": "30 min",
       "servings": 6,
-      "image": "images/personal/recipes/chicken-bacon-ranch-chipotle-rice-and-potatoes.webp",
+      "image": "/images/personal/chicken-bacon-ranch-chipotle-rice-and-potatoes.webp",
       "enhanced": true
     },
     {
@@ -4696,7 +4696,7 @@
       "prep_time": "20 min",
       "cook_time": "25 min",
       "servings": 6,
-      "image": "images/personal/recipes/dill-chicken-bacon-ranch-pasta.webp",
+      "image": "/images/personal/dill-chicken-bacon-ranch-pasta.webp",
       "enhanced": true
     },
     {
@@ -4738,7 +4738,7 @@
       "prep_time": "20 min",
       "cook_time": "4 hours",
       "servings": 8,
-      "image": "images/personal/recipes/meat-lovers-pizza-pasta-crockpot.webp",
+      "image": "/images/personal/meat-lovers-pizza-pasta-crockpot.webp",
       "enhanced": true
     },
     {
@@ -4781,7 +4781,7 @@
       "prep_time": "20 min",
       "cook_time": "45 min",
       "servings": 8,
-      "image": "images/personal/recipes/italian-creamy-chicken-pasta-kinda-soup.webp",
+      "image": "/images/personal/italian-creamy-chicken-pasta-kinda-soup.webp",
       "enhanced": true
     },
     {
@@ -4817,7 +4817,7 @@
       "prep_time": "20 min",
       "cook_time": "6-7 hours",
       "servings": 6,
-      "image": "images/personal/recipes/bbq-ground-beef-and-potato-crockpot.webp",
+      "image": "/images/personal/bbq-ground-beef-and-potato-crockpot.webp",
       "enhanced": true
     },
     {
@@ -4856,7 +4856,7 @@
       "prep_time": "20 min",
       "cook_time": "6 hours",
       "servings": 10,
-      "image": "images/personal/recipes/baked-beans-and-sausage-crockpot.webp",
+      "image": "/images/personal/baked-beans-and-sausage-crockpot.webp",
       "enhanced": true
     },
     {
@@ -4892,7 +4892,7 @@
       "prep_time": "20 min",
       "cook_time": "5 hours",
       "servings": 8,
-      "image": "images/personal/recipes/cajun-chicken-shrimp-and-sausage-crockpot.webp",
+      "image": "/images/personal/cajun-chicken-shrimp-and-sausage-crockpot.webp",
       "enhanced": true
     },
     {
@@ -4931,7 +4931,7 @@
       "prep_time": "20 min",
       "cook_time": "6-7 hours",
       "servings": 8,
-      "image": "images/personal/recipes/lil-smokies-cheese-stew-crockpot.webp",
+      "image": "/images/personal/lil-smokies-cheese-stew-crockpot.webp",
       "enhanced": true
     },
     {
@@ -4972,7 +4972,7 @@
       "prep_time": "20 min",
       "cook_time": "6-8 hours",
       "servings": 8,
-      "image": "images/personal/recipes/beef-stroganoff-crockpot.webp",
+      "image": "/images/personal/beef-stroganoff-crockpot.webp",
       "enhanced": true
     },
     {
@@ -5019,7 +5019,7 @@
       "prep_time": "25 min",
       "cook_time": "3 hours",
       "servings": 12,
-      "image": "images/personal/recipes/frito-pie-crockpot-dip.webp",
+      "image": "/images/personal/frito-pie-crockpot-dip.webp",
       "enhanced": true
     },
     {
@@ -5049,7 +5049,7 @@
       "prep_time": "25 min",
       "cook_time": "30 min",
       "servings": 12,
-      "image": "images/personal/recipes/dorthy-lynch-lil-smokeys.webp",
+      "image": "/images/personal/dorthy-lynch-lil-smokeys.webp",
       "enhanced": true
     },
     {
@@ -5088,7 +5088,7 @@
       "prep_time": "20 min",
       "cook_time": "4 hours",
       "servings": 12,
-      "image": "images/personal/recipes/dorthy-lynch-crockpot-dip.webp",
+      "image": "/images/personal/dorthy-lynch-crockpot-dip.webp",
       "enhanced": true
     },
     {
@@ -5134,7 +5134,7 @@
       "prep_time": "30 min",
       "cook_time": "15 min",
       "servings": 10,
-      "image": "images/personal/recipes/yellow-potato-salad.webp",
+      "image": "/images/personal/yellow-potato-salad.webp",
       "enhanced": true
     },
     {
@@ -5180,7 +5180,7 @@
       "prep_time": "25 min",
       "cook_time": "12 min",
       "servings": 12,
-      "image": "images/personal/recipes/italian-pasta-salad.webp",
+      "image": "/images/personal/italian-pasta-salad.webp",
       "enhanced": true
     },
     {
@@ -5214,7 +5214,7 @@
       "prep_time": "20 min",
       "cook_time": "2 hours 30 min",
       "servings": 6,
-      "image": "images/personal/recipes/pork-belly-chicharron-with-guacamole.webp",
+      "image": "/images/personal/pork-belly-chicharron-with-guacamole.webp",
       "enhanced": true
     },
     {
@@ -5257,7 +5257,7 @@
       "prep_time": "20 min",
       "cook_time": "10 min",
       "servings": 6,
-      "image": "images/personal/recipes/tuna-salad-no-pasta.webp",
+      "image": "/images/personal/tuna-salad-no-pasta.webp",
       "enhanced": true
     },
     {
@@ -5296,7 +5296,7 @@
       "prep_time": "20 min",
       "cook_time": "12 min",
       "servings": 8,
-      "image": "images/personal/recipes/tuna-pasta-salad.webp",
+      "image": "/images/personal/tuna-pasta-salad.webp",
       "enhanced": true
     },
     {
@@ -5343,7 +5343,7 @@
       "prep_time": "25 min",
       "cook_time": "5 min",
       "servings": 8,
-      "image": "images/personal/recipes/everything-egg-salad.webp",
+      "image": "/images/personal/everything-egg-salad.webp",
       "enhanced": true
     },
     {
@@ -5387,7 +5387,7 @@
       "prep_time": "20 min",
       "cook_time": "20 min",
       "servings": 8,
-      "image": "images/personal/recipes/white-potato-salad.webp",
+      "image": "/images/personal/white-potato-salad.webp",
       "enhanced": true
     },
     {
@@ -5426,7 +5426,7 @@
       "prep_time": "20 min",
       "cook_time": "25 min",
       "servings": 4,
-      "image": "images/personal/recipes/tri-tip-steak-sandwich.webp",
+      "image": "/images/personal/tri-tip-steak-sandwich.webp",
       "enhanced": true
     },
     {
@@ -5456,7 +5456,7 @@
       "prep_time": "10 min",
       "cook_time": "25 min",
       "servings": 8,
-      "image": "images/personal/recipes/colorful-rice-for-curry.webp",
+      "image": "/images/personal/colorful-rice-for-curry.webp",
       "enhanced": true
     },
     {
@@ -5491,7 +5491,7 @@
       "prep_time": "10 min",
       "cook_time": "20 min",
       "servings": 6,
-      "image": "images/personal/recipes/marry-me-chicken-gnocchi-soup.webp",
+      "image": "/images/personal/marry-me-chicken-gnocchi-soup.webp",
       "enhanced": true
     },
     {
@@ -5519,7 +5519,7 @@
       "cook_time": "5 min",
       "servings": 8,
       "subcategory": "general",
-      "image": "images/personal/recipes/raisin-canes-copy-cat-sauce.webp",
+      "image": "/images/personal/raisin-canes-copy-cat-sauce.webp",
       "enhanced": true
     },
     {
@@ -5564,7 +5564,7 @@
       "prep_time": "25 min",
       "cook_time": "7-8 hours",
       "servings": 8,
-      "image": "images/personal/recipes/crispy-chili-sweet-and-sour-pork-shoulder-crockpot.webp",
+      "image": "/images/personal/crispy-chili-sweet-and-sour-pork-shoulder-crockpot.webp",
       "enhanced": true
     },
     {
@@ -5596,7 +5596,7 @@
       "prep_time": "20 min",
       "cook_time": "5 hours",
       "servings": 8,
-      "image": "images/personal/recipes/bbq-candied-party-ribs.webp",
+      "image": "/images/personal/bbq-candied-party-ribs.webp",
       "enhanced": true
     },
     {
@@ -5637,7 +5637,7 @@
       "prep_time": "20 min",
       "cook_time": "35 min",
       "servings": 6,
-      "image": "images/personal/recipes/cajun-shrimp-chicken-and-bacon-scampi-pasta.webp",
+      "image": "/images/personal/cajun-shrimp-chicken-and-bacon-scampi-pasta.webp",
       "enhanced": true
     },
     {
@@ -5679,7 +5679,7 @@
       "prep_time": "20 min",
       "cook_time": "40 min",
       "servings": 6,
-      "image": "images/personal/recipes/creamy-crispy-chili-oil-chicken-bacon-pasta.webp",
+      "image": "/images/personal/creamy-crispy-chili-oil-chicken-bacon-pasta.webp",
       "enhanced": true
     },
     {
@@ -5718,7 +5718,7 @@
       "prep_time": "20 min",
       "cook_time": "6-7 hours",
       "servings": 8,
-      "image": "images/personal/recipes/creamy-cajun-cabbage-and-sausage-crockpot.webp",
+      "image": "/images/personal/creamy-cajun-cabbage-and-sausage-crockpot.webp",
       "enhanced": true
     },
     {
@@ -5760,7 +5760,7 @@
       "prep_time": "25 min",
       "cook_time": "45 min",
       "servings": 10,
-      "image": "images/personal/recipes/eggs-benedict-casserole.webp",
+      "image": "/images/personal/eggs-benedict-casserole.webp",
       "enhanced": true
     },
     {
@@ -5803,7 +5803,7 @@
       "prep_time": "20 min",
       "cook_time": "30 min",
       "servings": 6,
-      "image": "images/personal/recipes/cajun-tuscan-salmon-pasta.webp",
+      "image": "/images/personal/cajun-tuscan-salmon-pasta.webp",
       "enhanced": true
     },
     {
@@ -5848,7 +5848,7 @@
       "prep_time": "25 min",
       "cook_time": "35 min",
       "servings": 6,
-      "image": "images/personal/recipes/spicy-pink-sauce-angel-hair-pasta.webp",
+      "image": "/images/personal/spicy-pink-sauce-angel-hair-pasta.webp",
       "enhanced": true
     },
     {
@@ -5890,7 +5890,7 @@
       "prep_time": "20 min",
       "cook_time": "45 min",
       "servings": 8,
-      "image": "images/personal/recipes/roasted-peppers-and-walnuts-pasta.webp",
+      "image": "/images/personal/roasted-peppers-and-walnuts-pasta.webp",
       "enhanced": true
     },
     {
@@ -5920,7 +5920,7 @@
       "prep_time": "10 min",
       "cook_time": "10 min",
       "servings": 6,
-      "image": "images/personal/recipes/alfs-kitchen-on-youtube-for-all-things-burger-recipes.webp",
+      "image": "/images/personal/alfs-kitchen-on-youtube-for-all-things-burger-recipes.webp",
       "enhanced": true
     },
     {
@@ -5979,7 +5979,7 @@
       "prep_time": "20 min",
       "cook_time": "30 min",
       "servings": 12,
-      "image": "images/personal/recipes/burger-sauces.webp",
+      "image": "/images/personal/burger-sauces.webp",
       "enhanced": true
     },
     {
@@ -6037,7 +6037,7 @@
       "prep_time": "15 min",
       "cook_time": "10 min",
       "servings": 12,
-      "image": "images/personal/recipes/burger-sauces-v2.webp",
+      "image": "/images/personal/burger-sauces-v2.webp",
       "enhanced": true
     },
     {
@@ -6061,7 +6061,7 @@
       "prep_time": "2 min",
       "cook_time": "0 min",
       "servings": 16,
-      "image": "images/personal/recipes/crazy-good-sauces.webp",
+      "image": "/images/personal/crazy-good-sauces.webp",
       "enhanced": true
     },
     {
@@ -6087,7 +6087,7 @@
       "prep_time": "5 min",
       "cook_time": "5 min",
       "servings": 2,
-      "image": "images/personal/recipes/tomato-salami-sandwich.webp",
+      "image": "/images/personal/tomato-salami-sandwich.webp",
       "enhanced": true
     },
     {
@@ -6128,7 +6128,7 @@
       "prep_time": "20 min",
       "cook_time": "15 min",
       "servings": 4,
-      "image": "images/personal/recipes/egg-salad-sandwich.webp",
+      "image": "/images/personal/egg-salad-sandwich.webp",
       "enhanced": true
     },
     {
@@ -6163,7 +6163,7 @@
       "prep_time": "20 min",
       "cook_time": "10 min",
       "servings": 4,
-      "image": "images/personal/recipes/chicken-salad-sandwich.webp",
+      "image": "/images/personal/chicken-salad-sandwich.webp",
       "enhanced": true
     },
     {
@@ -6194,7 +6194,7 @@
       "prep_time": "10 min",
       "cook_time": "15 min",
       "servings": 2,
-      "image": "images/personal/recipes/creamed-spinach-steak-sandwich.webp",
+      "image": "/images/personal/creamed-spinach-steak-sandwich.webp",
       "enhanced": true
     },
     {
@@ -6225,7 +6225,7 @@
       "prep_time": "15 min",
       "cook_time": "10 min",
       "servings": 4,
-      "image": "images/personal/recipes/cubano-sandwich.webp",
+      "image": "/images/personal/cubano-sandwich.webp",
       "enhanced": true
     },
     {
@@ -6256,7 +6256,7 @@
       "prep_time": "15 min",
       "cook_time": "10 min",
       "servings": 4,
-      "image": "images/personal/recipes/salmon-cucumber-cream-cheese-sandwich.webp",
+      "image": "/images/personal/salmon-cucumber-cream-cheese-sandwich.webp",
       "enhanced": true
     },
     {
@@ -6291,7 +6291,7 @@
       "prep_time": "15 min",
       "cook_time": "30 min",
       "servings": 4,
-      "image": "images/personal/recipes/sausage-gravy-breakfast-sandwich.webp",
+      "image": "/images/personal/sausage-gravy-breakfast-sandwich.webp",
       "enhanced": true
     },
     {
@@ -6322,7 +6322,7 @@
       "prep_time": "15 min",
       "cook_time": "10 min",
       "servings": 4,
-      "image": "images/personal/recipes/turkey-avocado-bacon-garden-salad.webp",
+      "image": "/images/personal/turkey-avocado-bacon-garden-salad.webp",
       "enhanced": true
     },
     {
@@ -6352,7 +6352,7 @@
       "prep_time": "10 min",
       "cook_time": "10 min",
       "servings": 4,
-      "image": "images/personal/recipes/tuna-salad-melt-sandwich.webp",
+      "image": "/images/personal/tuna-salad-melt-sandwich.webp",
       "enhanced": true
     },
     {
@@ -6382,7 +6382,7 @@
       "prep_time": "10 min",
       "cook_time": "15 min",
       "servings": 4,
-      "image": "images/personal/recipes/tomato-bacon-mayo-sandwich.webp",
+      "image": "/images/personal/tomato-bacon-mayo-sandwich.webp",
       "enhanced": true
     },
     {
@@ -6415,7 +6415,7 @@
       "prep_time": "15 min",
       "cook_time": "20 min",
       "servings": 4,
-      "image": "images/personal/recipes/pepperoni-pizza-bacon-ranch-sandwich.webp",
+      "image": "/images/personal/pepperoni-pizza-bacon-ranch-sandwich.webp",
       "enhanced": true
     },
     {
@@ -6447,7 +6447,7 @@
       "prep_time": "10 min",
       "cook_time": "15 min",
       "servings": 4,
-      "image": "images/personal/recipes/turkey-vodka-pesto-sandwich.webp",
+      "image": "/images/personal/turkey-vodka-pesto-sandwich.webp",
       "enhanced": true
     },
     {
@@ -6480,7 +6480,7 @@
       "prep_time": "10 min",
       "cook_time": "15 min",
       "servings": 2,
-      "image": "images/personal/recipes/pesto-capressi-pesto-sandwich.webp",
+      "image": "/images/personal/pesto-capressi-pesto-sandwich.webp",
       "enhanced": true
     },
     {
@@ -6514,7 +6514,7 @@
       "prep_time": "15 min",
       "cook_time": "10 min",
       "servings": 4,
-      "image": "images/personal/recipes/ruben-sandwich.webp",
+      "image": "/images/personal/ruben-sandwich.webp",
       "enhanced": true
     },
     {
@@ -6548,7 +6548,7 @@
       "prep_time": "10 min",
       "cook_time": "10 min",
       "servings": 4,
-      "image": "images/personal/recipes/pastrami-swiss-sandwich.webp",
+      "image": "/images/personal/pastrami-swiss-sandwich.webp",
       "enhanced": true
     },
     {
@@ -6581,7 +6581,7 @@
       "prep_time": "5 min",
       "cook_time": "15 min",
       "servings": 1,
-      "image": "images/personal/recipes/ham-egg-and-cheese-sandwich.webp",
+      "image": "/images/personal/ham-egg-and-cheese-sandwich.webp",
       "enhanced": true
     },
     {
@@ -6617,7 +6617,7 @@
       "prep_time": "20 min",
       "cook_time": "10 min",
       "servings": 4,
-      "image": "images/personal/recipes/bbq-ranch-pulled-pork-sandwich.webp",
+      "image": "/images/personal/bbq-ranch-pulled-pork-sandwich.webp",
       "enhanced": true
     },
     {
@@ -6653,7 +6653,7 @@
       "prep_time": "15 min",
       "cook_time": "20 min",
       "servings": 2,
-      "image": "images/personal/recipes/buffalo-chicken-bacon-ranch-sandwich.webp",
+      "image": "/images/personal/buffalo-chicken-bacon-ranch-sandwich.webp",
       "enhanced": true
     },
     {
@@ -6699,7 +6699,7 @@
       "prep_time": "20 min",
       "cook_time": "30 min",
       "servings": 2,
-      "image": "images/personal/recipes/spicy-italian-sandwich.webp",
+      "image": "/images/personal/spicy-italian-sandwich.webp",
       "enhanced": true
     },
     {
@@ -6734,7 +6734,7 @@
       "prep_time": "20 min",
       "cook_time": "10 min",
       "servings": 2,
-      "image": "images/personal/recipes/steak-sandwich.webp",
+      "image": "/images/personal/steak-sandwich.webp",
       "enhanced": true
     },
     {
@@ -6768,7 +6768,7 @@
       "prep_time": "20 min",
       "cook_time": "15 min",
       "servings": 2,
-      "image": "images/personal/recipes/carne-asada-sandwich.webp",
+      "image": "/images/personal/carne-asada-sandwich.webp",
       "enhanced": true
     },
     {
@@ -6806,7 +6806,7 @@
       "prep_time": "10 min",
       "cook_time": "5 min",
       "servings": 1,
-      "image": "images/personal/recipes/roast-beef-sandwich.webp",
+      "image": "/images/personal/roast-beef-sandwich.webp",
       "enhanced": true
     },
     {
@@ -6848,7 +6848,7 @@
       "prep_time": "20 min",
       "cook_time": "15 min",
       "servings": 3,
-      "image": "images/personal/recipes/fancy-club-sandwich.webp",
+      "image": "/images/personal/fancy-club-sandwich.webp",
       "enhanced": true
     },
     {
@@ -6887,7 +6887,7 @@
       "prep_time": "10 min",
       "cook_time": "20 min",
       "servings": 2,
-      "image": "images/personal/recipes/spam-and-eggs-sandwich.webp",
+      "image": "/images/personal/spam-and-eggs-sandwich.webp",
       "enhanced": true
     },
     {
@@ -6936,7 +6936,7 @@
       "prep_time": "20 min",
       "cook_time": "7-8 hours",
       "servings": 8,
-      "image": "images/personal/recipes/pork-shoulder-tikka-masala-crockpot.webp",
+      "image": "/images/personal/pork-shoulder-tikka-masala-crockpot.webp",
       "enhanced": true
     },
     {
@@ -6964,7 +6964,7 @@
       "prep_time": "10 min",
       "cook_time": "0 min",
       "servings": 4,
-      "image": "images/personal/recipes/salami-cheddar-pickle-sandwich.webp",
+      "image": "/images/personal/salami-cheddar-pickle-sandwich.webp",
       "enhanced": true
     },
     {
@@ -6992,7 +6992,7 @@
       "prep_time": "10 min",
       "cook_time": "5 min",
       "servings": 2,
-      "image": "images/personal/recipes/will-ferrels-favorite-sandwich.webp",
+      "image": "/images/personal/will-ferrels-favorite-sandwich.webp",
       "enhanced": true
     },
     {
@@ -7031,7 +7031,7 @@
       "prep_time": "45 min",
       "cook_time": "20 min",
       "servings": 4,
-      "image": "images/personal/recipes/crazy-chicken-sandwiches.webp",
+      "image": "/images/personal/crazy-chicken-sandwiches.webp",
       "enhanced": true
     },
     {
@@ -7067,7 +7067,7 @@
       "prep_time": "15 min",
       "cook_time": "5 min",
       "servings": 4,
-      "image": "images/personal/recipes/chicken-olive-feta-hummus-wrap.webp",
+      "image": "/images/personal/chicken-olive-feta-hummus-wrap.webp",
       "enhanced": true
     },
     {
@@ -7104,7 +7104,7 @@
       "prep_time": "20 min",
       "cook_time": "10 min",
       "servings": 2,
-      "image": "images/personal/recipes/buffalo-carne-asada-blue-cheese-wrap.webp",
+      "image": "/images/personal/buffalo-carne-asada-blue-cheese-wrap.webp",
       "enhanced": true
     },
     {
@@ -7145,7 +7145,7 @@
       "prep_time": "20 min",
       "cook_time": "20 min",
       "servings": 4,
-      "image": "images/personal/recipes/bbq-steak-wraps.webp",
+      "image": "/images/personal/bbq-steak-wraps.webp",
       "enhanced": true
     },
     {
@@ -7182,7 +7182,7 @@
       "prep_time": "20 min",
       "cook_time": "15 min",
       "servings": 4,
-      "image": "images/personal/recipes/cajun-shrimp-and-sausage-burrito.webp",
+      "image": "/images/personal/cajun-shrimp-and-sausage-burrito.webp",
       "enhanced": true
     },
     {
@@ -7219,7 +7219,7 @@
       "prep_time": "15 min",
       "cook_time": "10 min",
       "servings": 2,
-      "image": "images/personal/recipes/teriyaki-chicken-wrap.webp",
+      "image": "/images/personal/teriyaki-chicken-wrap.webp",
       "enhanced": true
     },
     {
@@ -7256,7 +7256,7 @@
       "prep_time": "10 min",
       "cook_time": "5 min",
       "servings": 1,
-      "image": "images/personal/recipes/buffalo-chicken-bacon-ranch-wrap.webp",
+      "image": "/images/personal/buffalo-chicken-bacon-ranch-wrap.webp",
       "enhanced": true
     },
     {
@@ -7293,7 +7293,7 @@
       "prep_time": "20 min",
       "cook_time": "15 min",
       "servings": 2,
-      "image": "images/personal/recipes/honey-chili-garlic-chicken-wrap.webp",
+      "image": "/images/personal/honey-chili-garlic-chicken-wrap.webp",
       "enhanced": true
     },
     {
@@ -7328,7 +7328,7 @@
       "prep_time": "15 min",
       "cook_time": "0 min",
       "servings": 2,
-      "image": "images/personal/recipes/asian-peanut-butter-wrap.webp",
+      "image": "/images/personal/asian-peanut-butter-wrap.webp",
       "enhanced": true
     },
     {
@@ -7363,7 +7363,7 @@
       "prep_time": "15 min",
       "cook_time": "5 min",
       "servings": 2,
-      "image": "images/personal/recipes/bbq-pork-shoulder-chipotle-slaw-wrap.webp",
+      "image": "/images/personal/bbq-pork-shoulder-chipotle-slaw-wrap.webp",
       "enhanced": true
     },
     {
@@ -7396,7 +7396,7 @@
       "prep_time": "10 min",
       "cook_time": "0 min",
       "servings": 8,
-      "image": "images/personal/recipes/taco-bell-creamy-jalapeno-sauce.webp",
+      "image": "/images/personal/taco-bell-creamy-jalapeno-sauce.webp",
       "enhanced": true
     },
     {
@@ -7435,7 +7435,7 @@
       "prep_time": "20 min",
       "cook_time": "10 min",
       "servings": 4,
-      "image": "images/personal/recipes/carne-asada-tzatziki-wrap.webp",
+      "image": "/images/personal/carne-asada-tzatziki-wrap.webp",
       "enhanced": true
     },
     {
@@ -7483,7 +7483,7 @@
       "prep_time": "20 min",
       "cook_time": "5 min",
       "servings": 2,
-      "image": "images/personal/recipes/southwestern-sauce-burrito.webp",
+      "image": "/images/personal/southwestern-sauce-burrito.webp",
       "enhanced": true
     },
     {
@@ -7524,7 +7524,7 @@
       "prep_time": "20 min",
       "cook_time": "15 min",
       "servings": 2,
-      "image": "images/personal/recipes/carne-asada-chimmichuri-burrito.webp",
+      "image": "/images/personal/carne-asada-chimmichuri-burrito.webp",
       "enhanced": true
     },
     {
@@ -7566,7 +7566,7 @@
       "prep_time": "20 min",
       "cook_time": "25 min",
       "servings": 4,
-      "image": "images/personal/recipes/chipotle-ground-beef-mexican-burrito.webp",
+      "image": "/images/personal/chipotle-ground-beef-mexican-burrito.webp",
       "enhanced": true
     },
     {
@@ -7604,7 +7604,7 @@
       "prep_time": "15 min",
       "cook_time": "10 min",
       "servings": 4,
-      "image": "images/personal/recipes/bbq-chopped-pork-shoulder-burritos.webp",
+      "image": "/images/personal/bbq-chopped-pork-shoulder-burritos.webp",
       "enhanced": true
     },
     {
@@ -7637,7 +7637,7 @@
       "prep_time": "20 min",
       "cook_time": "25 min",
       "servings": 2,
-      "image": "images/personal/recipes/california-burrito.webp",
+      "image": "/images/personal/california-burrito.webp",
       "enhanced": true
     },
     {
@@ -7673,7 +7673,7 @@
       "prep_time": "15 min",
       "cook_time": "20 min",
       "servings": 2,
-      "image": "images/personal/recipes/carne-asada-caesar-wrap.webp",
+      "image": "/images/personal/carne-asada-caesar-wrap.webp",
       "enhanced": true
     },
     {
@@ -7707,7 +7707,7 @@
       "prep_time": "20 min",
       "cook_time": "25 min",
       "servings": 8,
-      "image": "images/personal/recipes/crazy-chicken-sandwiches-v2.webp",
+      "image": "/images/personal/crazy-chicken-sandwiches-v2.webp",
       "enhanced": true
     },
     {
@@ -7742,7 +7742,7 @@
       "prep_time": "15 min",
       "cook_time": "20 min",
       "servings": 2,
-      "image": "images/personal/recipes/nashville-hot-chicken-wrap.webp",
+      "image": "/images/personal/nashville-hot-chicken-wrap.webp",
       "enhanced": true
     },
     {
@@ -7781,7 +7781,7 @@
       "prep_time": "15 min",
       "cook_time": "10 min",
       "servings": 1,
-      "image": "images/personal/recipes/smoked-salmon-honey-chipotle-burrito.webp",
+      "image": "/images/personal/smoked-salmon-honey-chipotle-burrito.webp",
       "enhanced": true
     },
     {
@@ -7822,7 +7822,7 @@
       "prep_time": "20 min",
       "cook_time": "20 min",
       "servings": 4,
-      "image": "images/personal/recipes/meat-lovers-pizza-burritos.webp",
+      "image": "/images/personal/meat-lovers-pizza-burritos.webp",
       "enhanced": true
     },
     {
@@ -7860,7 +7860,7 @@
       "prep_time": "20 min",
       "cook_time": "15 min",
       "servings": 2,
-      "image": "images/personal/recipes/mac-and-cheese-loaded-baked-potato-burrito.webp",
+      "image": "/images/personal/mac-and-cheese-loaded-baked-potato-burrito.webp",
       "enhanced": true
     },
     {
@@ -7900,7 +7900,7 @@
       "prep_time": "15 min",
       "cook_time": "25 min",
       "servings": 2,
-      "image": "images/personal/recipes/creamy-horseradish-steak-burrito.webp",
+      "image": "/images/personal/creamy-horseradish-steak-burrito.webp",
       "enhanced": true
     },
     {
@@ -7941,7 +7941,7 @@
       "prep_time": "20 min",
       "cook_time": "15 min",
       "servings": 4,
-      "image": "images/personal/recipes/chicken-pot-pie-burrito.webp",
+      "image": "/images/personal/chicken-pot-pie-burrito.webp",
       "enhanced": true
     },
     {

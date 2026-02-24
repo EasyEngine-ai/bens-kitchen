@@ -43,13 +43,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://gobigbencookbook.com/categories/sandwiches/</loc>
+    <loc>https://gobigbencookbook.com/categories/burritos-wraps/</loc>
     <lastmod>2026-02-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://gobigbencookbook.com/categories/burritos-wraps/</loc>
+    <loc>https://gobigbencookbook.com/categories/sandwiches/</loc>
     <lastmod>2026-02-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1946,6 +1946,42 @@
   </url>
   <url>
     <loc>https://gobigbencookbook.com/recipes/chicken-pot-pie-burrito/</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gobigbencookbook.com/recipes/orange-chicken-burrito/</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gobigbencookbook.com/recipes/cobb-salad-wrap/</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gobigbencookbook.com/recipes/italian-meatball-burrito/</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gobigbencookbook.com/recipes/hot-italian-burrito/</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gobigbencookbook.com/recipes/sweet-potato-bbq-steak-burrito/</loc>
+    <lastmod>2026-02-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gobigbencookbook.com/recipes/fried-chicken-gravy-and-french-fries-burrito/</loc>
     <lastmod>2026-02-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
