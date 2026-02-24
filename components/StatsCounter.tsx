@@ -57,7 +57,7 @@ const CATEGORIES = [
   { label: "Chicken Sandwiches", count: 100 },
   { label: "Sauces", count: 68 },
   { label: "Salads & Sides", count: 31 },
-  { label: "Burritos & Wraps", count: 29 },
+  { label: "Burritos & Wraps", count: 30 },
   { label: "Sandwiches", count: 26 },
   { label: "Crockpot", count: 23 },
   { label: "Pasta", count: 12 },

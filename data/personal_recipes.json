@@ -14,7 +14,7 @@
     {
       "id": "burritos-wraps",
       "name": "Burritos & Wraps",
-      "count": 29
+      "count": 30
     },
     {
       "id": "sandwiches",
@@ -8131,6 +8131,42 @@
       "servings": 2,
       "enhanced": true,
       "image": "/images/personal/sweet-potato-bbq-steak-burrito.webp"
+    },
+    {
+      "title": "Fried Chicken Gravy and French Fries Burrito",
+      "slug": "fried-chicken-gravy-and-french-fries-burrito",
+      "category": "burritos-wraps",
+      "ingredients": [
+        "2 large flour tortillas (burrito size)",
+        "2 fried chicken thighs, chopped into bite-sized pieces",
+        "4 strips bacon, cooked crispy and crumbled",
+        "1 cup shredded cheddar cheese",
+        "1 cup brown gravy, warmed",
+        "1/2 cup corn kernels (canned or frozen, drained)",
+        "1/4 cup red onion, diced",
+        "1/2 cup yellow onion, sliced",
+        "3 cloves garlic, minced",
+        "1 tablespoon butter",
+        "1 1/2 cups French fries, cooked crispy",
+        "Salt and pepper to taste"
+      ],
+      "directions": [
+        "In a skillet over medium heat, melt butter and sauté the sliced yellow onion and garlic until soft and golden, about 5-7 minutes. Season with salt and pepper. Set aside.",
+        "Warm the flour tortillas in a dry skillet or microwave until pliable. Lay them flat on a clean surface.",
+        "Down the center of each tortilla, layer the chopped fried chicken, French fries, sautéed onions and garlic, corn, red onion, crumbled bacon, and shredded cheddar cheese.",
+        "Drizzle about 1/2 cup of warm brown gravy over the fillings in each burrito (don't overdo it or it'll be too messy to wrap).",
+        "Fold in the sides of the tortilla, then roll tightly from the bottom up, tucking as you go to keep everything secure.",
+        "Optional: Toast the wrapped burrito seam-side down in a hot skillet for 2-3 minutes to seal and crisp up the outside.",
+        "Slice in half on the diagonal and serve immediately with extra brown gravy on the side for dipping."
+      ],
+      "youtube_url": null,
+      "source_file": "note_388.txt",
+      "description": "This loaded burrito is pure comfort food indulgence — crispy fried chicken, bacon, and French fries all wrapped up with brown gravy, melted cheddar, and sautéed onions. It's messy, it's over-the-top, and it's absolutely worth it.",
+      "prep_time": "15 min",
+      "cook_time": "15 min",
+      "servings": 2,
+      "enhanced": true,
+      "image": "/images/personal/fried-chicken-gravy-and-french-fries-burrito.webp"
     }
   ]
 }
