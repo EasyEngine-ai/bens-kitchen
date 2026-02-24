@@ -55,14 +55,16 @@ function StatItem({ value, suffix = "", label, delay = 0 }: StatItemProps) {
 
 const CATEGORIES = [
   { label: "Chicken Sandwiches", count: 100 },
-  { label: "Sauces", count: 64 },
-  { label: "Salads & Sides", count: 30 },
-  { label: "Crockpot", count: 22 },
+  { label: "Sauces", count: 68 },
+  { label: "Salads & Sides", count: 31 },
+  { label: "Sandwiches", count: 26 },
+  { label: "Crockpot", count: 23 },
+  { label: "Burritos & Wraps", count: 18 },
   { label: "Pasta", count: 12 },
   { label: "Main Dishes", count: 12 },
   { label: "Soups & Stews", count: 5 },
   { label: "Dips & Spreads", count: 5 },
-  { label: "Breakfast", count: 3 },
+  { label: "Breakfast", count: 2 },
 ];
 
 export default function StatsCounter() {
