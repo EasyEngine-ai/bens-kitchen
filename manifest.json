@@ -1,0 +1,21 @@
+{
+  "name": "Ben's Kitchen",
+  "short_name": "Ben's Kitchen",
+  "description": "250+ original recipes by Benjamin Larson",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0A0A0A",
+  "theme_color": "#D4A574",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

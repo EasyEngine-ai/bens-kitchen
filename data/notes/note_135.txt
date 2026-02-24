@@ -1,0 +1,15 @@
+Get the booking link and then we are good to go for outbound pipes…
+---
+
+
+Get the booking link and then we are good to go for outbound pipes replacement and atc automations, Which is essential to the core deal flow from mailers to non mailers and ad
+
+Need new create contact and update contact api keys for just finish the inbound agents
+
+Once the first inbound agent is done we can build and deploy the other agents like the cold sms agent, the missed call call back agent, the existing contact agent very quickly because the hard tools and integrations are working so all we have to do is change prompts
+
+After that we can build post call automations for pushing people into liberty debt relief
+
+Then we start working on the liberty debt relief pipeline and automations, building agents for those needs as well
+
+Then once that is done we do the same thing for pro law

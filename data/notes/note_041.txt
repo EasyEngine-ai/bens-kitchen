@@ -1,0 +1,209 @@
+# 🍳 Professional Cookbook Creation — Cowork Agent Master Prompt
+---
+# 🍳 Professional Cookbook Creation — Cowork Agent Master Prompt
+
+## Mission
+
+You are building a **complete, professional-quality cookbook** as a beautifully designed PDF. This cookbook should look like it belongs on a bookstore shelf — with stunning page layouts, AI-generated food photography, styled ingredient shots, cohesive typography, and a clear design system throughout. The final deliverable is a single, multi-page PDF cookbook.
+
+-----
+
+## Phase 0: Research & Setup
+
+Before creating anything, you need to research and install the right tools.
+
+### Required Python Packages (install all)
+
+```bash
+pip install --break-system-packages reportlab pillow pdfplumber pypdf requests
+```
+
+### AI Image Generation
+
+You need food photography for every recipe. Research and use one or more of the following approaches:
+
+1. **Pollinations.ai** (free, no API key needed):
+- Endpoint: `https://image.pollinations.ai/prompt/{prompt}?width=1024&height=1024&seed=42&nologo=true`
+- URL-encode the prompt
+- Download images with `requests.get()` and save as PNG/JPG
+1. **Alternative free image APIs** — search the web for currently working free AI image generation APIs (Stable Diffusion endpoints, HuggingFace Inference API, etc.)
+1. **Fallback**: If AI generation fails, search for high-quality Creative Commons food photography from Unsplash (`https://source.unsplash.com/`) or Pexels API
+
+**For every recipe, generate TWO images:**
+
+- **Hero shot**: The finished dish, beautifully plated, overhead or 45-degree angle, natural lighting, styled with garnishes
+- **Ingredients shot**: A flat-lay arrangement of all raw ingredients, labeled or artfully arranged
+
+### Image Prompt Engineering for Food Photography
+
+When generating images, use prompts like:
+
+> “Professional food photography of [dish name], beautifully plated on [plate style], [camera angle] shot, natural window lighting, shallow depth of field, styled with fresh herbs and garnishes, editorial quality, 4K, food magazine cover quality”
+
+> “Overhead flat-lay of fresh cooking ingredients for [dish name] arranged on marble countertop, [list key ingredients], natural lighting, clean editorial food photography style”
+
+-----
+
+## Phase 1: Cookbook Structure & Content
+
+### Metadata
+
+- **Title**: [User will specify or generate a creative title]
+- **Author**: Benjamin
+- **Subtitle/Tagline**: A personal collection of bold flavors and comfort classics
+
+### Suggested Chapters (adjust based on user’s recipe preferences)
+
+1. **Wings & Things** — Creative wing recipes, sauces, dry rubs
+1. **Burger Lab** — Smash burgers, stuffed burgers, sauce pairings
+1. **Comfort Classics** — Mac & cheese, loaded fries, sliders
+1. **Grill & Smoke** — BBQ ribs, smoked meats, grilled sides
+1. **Sauces & Rubs** — Signature sauces, marinades, dry rub blends
+1. **Sides That Steal the Show** — Coleslaw, cornbread, loaded potatoes
+1. **Sweet Endings** — Desserts and indulgent treats
+
+### Recipe Page Template (for each recipe)
+
+Each recipe spread should include:
+
+- **Recipe title** (large, styled typography)
+- **Hero food photo** (dominant visual, at least 40% of the page)
+- **Short headnote/story** (1-3 sentences — why this recipe matters, a memory, or a tip)
+- **Ingredients list** (clean, easy to read — no measurements unless user specifies, just ingredients)
+- **Method/Steps** (numbered, concise)
+- **Estimated cook time & servings**
+- **Optional: Chef’s tip callout box**
+
+-----
+
+## Phase 2: Design System
+
+### Design Philosophy
+
+Create a cohesive visual identity for the entire book. Before designing pages, write a short design philosophy document (save as `design-philosophy.md`) that covers:
+
+- **Color palette**: Choose 4-5 colors. Suggestion: warm, rustic tones (deep charcoal, warm cream/off-white, burnt orange or paprika red, sage green, gold accent)
+- **Typography**: Use 2-3 fonts max
+  - **Headlines**: Bold, personality-driven (slab serif or hand-drawn feel)
+  - **Body text**: Clean, readable sans-serif or serif
+  - **Accents**: For callouts, tips, page numbers
+- **Grid/Layout system**: Consistent margins, gutters, image placement zones
+- **Visual motifs**: Recurring design elements (divider lines, icons, texture overlays)
+
+### Page Types to Design
+
+1. **Cover Page** — Title, author, hero image, beautiful typography
+1. **Table of Contents** — Chapter listing with page numbers
+1. **Chapter Divider Pages** — Full-bleed image or illustration + chapter title
+1. **Recipe Pages** — Follow the template above (some single-page, some two-page spreads)
+1. **Tip/Interstitial Pages** — Cooking tips, technique guides, or quotes
+1. **Back Cover** — Author bio, closing image, tagline
+
+### Layout Principles
+
+- **White space is your friend** — Don’t crowd pages
+- **Images should be large and bold** — Food photography is the star
+- **Consistent alignment** — Use a grid system
+- **Page numbers** on every page (except cover and chapter dividers)
+- **Running headers** with chapter name
+
+-----
+
+## Phase 3: Build Process
+
+### Step-by-Step Execution
+
+1. **Generate the design philosophy** → Save as `design-philosophy.md`
+1. **Write all recipe content** → Save each chapter as a separate markdown file for reference
+1. **Generate ALL images first** → Download and save to an `images/` directory
+- Name convention: `chapter_recipename_hero.png`, `chapter_recipename_ingredients.png`
+1. **Build the PDF page by page using ReportLab**:
+- Use `reportlab.platypus` for structured layouts (SimpleDocTemplate or BaseDocTemplate with PageTemplates)
+- Use `reportlab.pdfgen.canvas` for custom-drawn pages (cover, chapter dividers)
+- Use `reportlab.lib.utils.ImageReader` for embedding images
+- Register custom fonts if available (`pdfmetrics.registerFont`)
+1. **Assemble into a single PDF** → Merge all pages in order
+1. **Quality check** → Verify all images render, no text overflow, consistent styling
+1. **Save final output** to `/mnt/user-data/outputs/cookbook.pdf`
+
+### ReportLab Tips for Professional Quality
+
+```python
+# Use Frames and PageTemplates for consistent layouts
+from reportlab.platypus import BaseDocTemplate, PageTemplate, Frame, Image, Paragraph, Spacer
+from reportlab.lib.pagesizes import letter, A4
+from reportlab.lib.styles import ParagraphStyle
+from reportlab.lib.units import inch, cm
+from reportlab.pdfbase import pdfmetrics
+from reportlab.pdfbase.ttfonts import TTFont
+
+# Register fonts from system or downloaded
+# pdfmetrics.registerFont(TTFont('CustomFont', 'path/to/font.ttf'))
+
+# Create reusable styles
+recipe_title_style = ParagraphStyle(
+    'RecipeTitle',
+    fontSize=28,
+    leading=34,
+    spaceAfter=12,
+    textColor=HexColor('#2C2C2C'),
+)
+```
+
+-----
+
+## Phase 4: Polish & Deliver
+
+- Ensure the PDF is at least **40-60 pages** for a substantial cookbook feel
+- Include **15-25 recipes minimum**
+- Every recipe has at least one AI-generated food photo
+- Cover page is visually stunning
+- Table of contents has correct page numbers
+- All text is readable (no overlapping, proper margins)
+- Final file saved to `/mnt/user-data/outputs/cookbook.pdf`
+
+-----
+
+## Key Skills to Read Before Starting
+
+Before writing ANY code, read these skill files for best practices:
+
+1. `/mnt/skills/public/pdf/SKILL.md` — PDF creation fundamentals
+1. `/mnt/skills/public/pdf/REFERENCE.md` — Advanced PDF techniques (if available)
+1. `/mnt/skills/examples/canvas-design/SKILL.md` — Design philosophy and visual art creation
+1. `/mnt/skills/examples/theme-factory/SKILL.md` — Professional theme/color systems
+1. `/mnt/skills/public/frontend-design/SKILL.md` — Design principles
+
+-----
+
+## Important Notes
+
+- **Do NOT skip image generation.** The photos are what make this a real cookbook, not just a recipe list.
+- **Do NOT use placeholder text.** Write real, flavorful recipe content.
+- **Iterate on design.** Build one recipe page first, get it looking great, then template the rest.
+- **Test early.** Generate the PDF after every few pages to catch layout issues.
+- **Be creative with the cover.** This is the first impression — make it count.
+- **All images must be downloaded and embedded** — no external URLs in the PDF.
+
+-----
+
+## User Preferences
+
+- Benjamin prefers **ingredient lists without measurements** (intuitive cooking style)
+- Focus on **bold, comfort food** — wings, burgers, BBQ, hearty sides
+- Tone should be **casual, personal, confident** — like a friend sharing their best recipes
+- Include some **bilingual touches** (English/Spanish) if it fits naturally
+
+-----
+
+## Final Deliverable
+
+A single, professionally designed, multi-page PDF cookbook with:
+
+- ✅ AI-generated food photography for every recipe
+- ✅ Cohesive design system (colors, fonts, layout grid)
+- ✅ Beautiful cover page
+- ✅ Table of contents
+- ✅ Chapter dividers
+- ✅ 15-25+ complete recipes
+- ✅ Saved to `/mnt/user-data/outputs/cookbook.pdf`

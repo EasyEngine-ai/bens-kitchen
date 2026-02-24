@@ -1,0 +1,1004 @@
+[04:00:05] ============================================================
+[04:00:05] Ben's Kitchen Auto-Sync Pipeline
+[04:00:05] Started: 2026-02-22T04:00:05.270270
+[04:00:05] ============================================================
+[04:00:05] Step 1: Exporting from Apple Notes...
+Existing recipes: 156
+Next note number: note_220.txt
+
+Reading Apple Notes folder: 'Sauces'...
+  Found 63 notes
+
+Reading Apple Notes folder: 'Side Dish Recipes'...
+  Found 104 notes
+
+Reading Apple Notes folder: 'Notes'...
+  Found 60 notes
+
+Total notes from Apple Notes: 227
+
+============================================================
+CLASSIFICATION REPORT
+============================================================
+  Already exists: 131
+  Non-recipes:    56
+  NEW recipes:    40
+
+-- EXISTING (skipped) --
+  [EXISTS] Asian Cucumber Salad
+  [EXISTS] Asian Peanut Sauce
+  [EXISTS] BBQ Candied Party Ribs
+  [EXISTS] BBQ Ground Beef and Potato Crockpot
+  [EXISTS] BBQ Pork Pot Pie Crockpot Dip
+  [EXISTS] BBQ Sweet Potato Beef and Pork Shoulder
+  [EXISTS] Bacon Onion and Roasted Garlic Jam
+  [EXISTS] Baconase Burger Sauce
+  [EXISTS] Baked Beans and Sausage Crockpot
+  [EXISTS] Bangin Broccoli Salad
+  [EXISTS] Bbq buffalo Wing Sauce
+  [EXISTS] Beef Pot Pie Crockpot Dip
+  [EXISTS] Beef Stroganoff Crockpot
+  [EXISTS] Better Chick-fil-A Sauce
+  [EXISTS] Better Cowboy Butter
+  [EXISTS] Big Mac Sauce
+  [EXISTS] Blended Green Olives and Feta Sauce
+  [EXISTS] Blue Cheese Crazy Chunky Sauce
+  [EXISTS] Brown Sugar Hot Wing Sauce
+  [EXISTS] Buffalo Chicken Bacon Ranch Pasta
+  [EXISTS] Buffalo chicken cream cheese sauce
+  [EXISTS] Bussin Breakfast Burrito
+  [EXISTS] Cajun Alfredo Wing Sauce
+  [EXISTS] Cajun Chicken, Shrimp and Sausage Crockpot
+  [EXISTS] Cajun Honey Burger Sauce
+  [EXISTS] Cajun Shrimp, Chicken and Bacon Scampi Pasta
+  [EXISTS] Cajun Tuscan Salmon Pasta
+  [EXISTS] Candied Bacon, Jalapeños, and Apples Burger Topping
+  [EXISTS] Caramelized, Onion and Garlic Asian Fusion Spaghetti
+  [EXISTS] Cheeseburger Dip
+  [EXISTS] Chicken Bacon Ranch Chipotle Rice And Potatoes
+  [EXISTS] Chicken Enchiladas Crockpot
+  [EXISTS] Chicken Pot Pie Crockpot Dip
+  [EXISTS] Chimichurri Ranch
+  [EXISTS] Cilantro Lime Sauce
+  [EXISTS] Classic Burger Sauce
+  [EXISTS] Coca Cola BBQ Glaze
+  [EXISTS] Cold Chicken Salad
+  [EXISTS] Cold Mexican Chicken Salad
+  [EXISTS] Colorful Rice for curry
+  [EXISTS] Complete Breakfast Crockpot
+  [EXISTS] Cowboy Ranch
+  [EXISTS] Crazy Chicken Sandwiches
+  [EXISTS] Crazy Coleslaws
+  [EXISTS] Crazy Mac n Cheese
+  [EXISTS] Creamed Spinach
+  [EXISTS] Creamy Al Pastor sauce
+  [EXISTS] Creamy Avocado Lime Sauce
+  [EXISTS] Creamy Beef Horseradish Pot Roast
+  [EXISTS] Creamy Cajun Cabbage and Sausage Crockpot
+  [EXISTS] Creamy Crispy Chili Oil Chicken Bacon Pasta
+  [EXISTS] Creamy Greek Lemon Herb Potatoes
+  [EXISTS] Creamy Horseradish Sauce
+  [EXISTS] Creamy Lemon Roasted Garlic Herb Sauce
+  [EXISTS] Creamy Roasted Tomato Garlic Sauce
+  [EXISTS] Crispy Asian Chili Mayo
+  [EXISTS] Crispy Chili Mayo Salad
+  [EXISTS] Crispy Chili Sweet and Sour Pork Shoulder Crockpot
+  [EXISTS] Crispy Honey Lemon Pepper Wing Sauce
+  [EXISTS] Crockpot Vodka Sauce Lasagna
+  [EXISTS] Dave’s Hot Chicken sauce
+  [EXISTS] Dill Chicken Bacon Ranch Pasta
+  [EXISTS] Dorthy Lynch Lil Smokey’s
+  [EXISTS] Dr Pepper BBQ Wing Sauce
+  [EXISTS] Eggs Benedict Casserole
+  [EXISTS] Everything Egg Salad
+  [EXISTS] Fantastic Fried Rice
+  [EXISTS] Feta Ground Beef Pesto Pasta
+  [EXISTS] Fresh and Crisp Garden Chicken Wrap
+  [EXISTS] Fried Chicken Caesar Salad Pasta Bake
+  [EXISTS] Frito Pie Crockpot Dip
+  [EXISTS] Garlic Herb Butter
+  [EXISTS] Garlic Parmesan Chicken Pasta Crockpot
+  [EXISTS] Garlic Parmesan Sauce
+  [EXISTS] Goat Cheese and Spinach Scrambled Eggs
+  [EXISTS] Homemade Tallow/Butter Mayonnaise
+  [EXISTS] Honey Garlic Sauce
+  [EXISTS] Hot Honey Apple Mayo Sauce
+  [EXISTS] Hot Honey Asian Crunch Ranch
+  [EXISTS] Italian Creamy Chicken Pasta Kinda Soup
+  [EXISTS] Italian Pasta Salad
+  [EXISTS] Jalapeño Poppers Dip
+  [EXISTS] Lemon Rosemary Chicken Rice
+  [EXISTS] Lil Smokies Cheese Stew Crockpot
+  [EXISTS] Magical Marry Me chicken
+  [EXISTS] Mango Habanero Sauce
+  [EXISTS] Marry Me Chicken sauce
+  [EXISTS] Marry me chicken gnocchi soup
+  [EXISTS] Meat Lovers Pizza Pasta Crockpot
+  [EXISTS] Mediterranean Potato Crunchies
+  [EXISTS] Mediterranean White Sauce
+  [EXISTS] Mexican Creamy Bean Sauce
+  [EXISTS] Mexican Street Corn Sauce
+  [EXISTS] Mystic Macaroni Salad
+  [EXISTS] Orange Chicken sauce
+  [EXISTS] Peach Chutney BBQ Burger Topping
+  [EXISTS] Peppercorn Steak Sauce
+  [EXISTS] Pepperoni and Sausage Pizza Dip
+  [EXISTS] Philly Cheese Steak Crockpot Dip
+  [EXISTS] Pineapple Chipotle  Mayo Sauce
+  [EXISTS] Pineapple Jalapeno cream cheese bacon jam
+  [EXISTS] Polynesian Sauce
+  [EXISTS] Pork Belly Chicharron with Guacamole
+  [EXISTS] Pork and Chicken Hummus Crockpot
+  [EXISTS] Potato Pesto Goat Cheese Muffins
+  [EXISTS] Pulled Pork BBQ Queso Dip
+  [EXISTS] Raisin Cane’s Copy Cat Sauce
+  [EXISTS] Ranch Sauce
+  [EXISTS] Remoulade Sauce
+  [EXISTS] Roasted Peppers and Walnuts Pasta
+  [EXISTS] Salmon Feta Tomato Spinach Crockpot Pasta
+  [EXISTS] Sesame Chicken
+  [EXISTS] Sexy Street Corn Salad
+  [EXISTS] Smoked 5 Cheese Spinach Artichoke Dip
+  [EXISTS] Smoked and Candied BBQ Hotdog Burnt Ends
+  [EXISTS] Southwest Salad Dressing
+  [EXISTS] Special Italian Sandwich Sauce
+  [EXISTS] Special Steak Sauce
+  [EXISTS] Spicy Peanut Pork on Glass Noodles
+  [EXISTS] Spicy Pink Sauce Angel Hair Pasta
+  [EXISTS] Sunkist Buffalo Wing Sauce
+  [EXISTS] Terrific Tomato Soup
+  [EXISTS] Thai chili bacon jam
+  [EXISTS] Tomato Jam burger topping
+  [EXISTS] Tomato Pasta Salad
+  [EXISTS] Tri Tip Steak Sandwich
+  [EXISTS] Tuna Pasta Salad
+  [EXISTS] Tuna Salad (no pasta)
+  [EXISTS] White Potato Salad
+  [EXISTS] White Whole Grain Burger Sauce
+  [EXISTS] Yellow Potato Salad
+
+-- NON-RECIPES (skipped) --
+  [SKIP] # 🍳 Professional Cookbook Creation — Cowork Agent  | # 🍳 Professional Cookbook Creation — Cowork Agent Master Pro
+  [SKIP] 1000 |   1000 
+  [SKIP] 91 Willow Rd |  91 Willow Rd Metuchen, NJ 08840
+  [SKIP] Alfs kitchen on YouTube for all things burger reci | Alfs kitchen on YouTube for all things burger recipes 
+  [SKIP] Api Keys  Google o auth O Auth client secret key f |  Api Keys  Google o auth O Auth client secret key for perfec
+  [SKIP] App idea | App idea  Video storage for people to leave behind a record 
+  [SKIP] Being high watching Reece play with his dog | Being high watching Reece play with his dog  Dog is just lik
+  [SKIP] Below is an exhaustive, copy-ready catalogue of Ea | Below is an exhaustive, copy-ready catalogue of EasyEngine.a
+  [SKIP] Boat Lift People | Boat Lift People (218)820-9401
+  [SKIP] Book Notes and Plots | Book Notes and Plots  Plot Lines:  Friend the AI god that le
+  [SKIP] Currently doing yhis |   Currently doing yhis
+  [SKIP] Easy Engine Admin Password | Easy Engine Admin Password  Easy_123$
+  [SKIP] Go Daddy password  EasyEngine123$ | Go Daddy password  EasyEngine123$
+  [SKIP] Hey everyone! We just finished writing an incredib | Hey everyone! We just finished writing an incredible book, G
+  [SKIP] Humans remaining are war only. Nothing left but wa |    Humans remaining are war only. Nothing left but war.  Met
+  [SKIP] I Called ice on someone today | I Called ice on someone today  I don’t think he was even ill
+  [SKIP] I want to start off by saying that just like 1980’ | I want to start off by saying that just like 1980’s Joe Bide
+  [SKIP] I was free balling the other day and I lead me to  |  I was free balling the other day and I lead me to noticing 
+  [SKIP] I was going to the gym a few years ago, and I as w |  I was going to the gym a few years ago, and I as walking in
+  [SKIP] I was hoping not drink would help me loose weight | I was hoping not drink would help me loose weight   So I qui
+  [SKIP] Idk if you can tell by my outfit but I am a big ad |   Idk if you can tell by my outfit but I am a big advocate o
+  [SKIP] Idk if you’ve heard but the birth rates in Japan a | Idk if you’ve heard but the birth rates in Japan are so low 
+  [SKIP] If you're anything like me, you think new years re | If you're anything like me, you think new years resolutions 
+  [SKIP] Insurance phone numbers | Insurance phone numbers   Insurance Companies: AAA 1-800-779
+  [SKIP] It’s good to be back here at emmets, my favorite t |   It’s good to be back here at emmets, my favorite thing abo
+  [SKIP] Japan has a passport for breeding because their bi |  Japan has a passport for breeding because their birth rate 
+  [SKIP] Jokes | Jokes   vibrators put guys out of a job my friend built a ma
+  [SKIP] Lending Tower Ideas | Lending Tower Ideas  HELPFUL EDUCATIONAL LINK PRE CALL OR. P
+  [SKIP] Lending Tower To Do List | Lending Tower To Do List  Utm tracking through funnel so we 
+  [SKIP] Little oak starlink password | Little oak starlink password  LittleOakIsland123
+  [SKIP] MY Fourth login | MY Fourth login  Username: EE4 Password: EasyEngine4!@# Comp
+  [SKIP] Meta mask | Meta mask  Password   MachiDuman94$  0xedD7a7eCAb23433D82E28
+  [SKIP] Meta mask |   Get the booking link and then we are good to go for outbou
+  [SKIP] One Pass Key | One Pass Key  A3-64RN3W-7MGPB4-ZMESN-4M28S-QBH47-92PW2
+  [SKIP] Open claw uses for Lending Tower | Open claw uses for Lending Tower    3. Competitor Intelligen
+  [SKIP] OpenClaw and Kimi K2_5 Implementation Guide for Le | OpenClaw and Kimi K2_5 Implementation Guide for Lending Towe
+  [SKIP] PRQ Improvement ideas | PRQ Improvement ideas  Graph for cost of roofs, Graph for de
+  [SKIP] PRQ ideas | PRQ ideas  Switch from zapier to n8n and host on private ser
+  [SKIP] Perfect Partner Keyboard | Perfect Partner Keyboard   capture and store all copied text
+  [SKIP] Rasa | Rasa Webcrawler4ai Lipsurf Voice in Lang chain Stable diffus
+  [SKIP] Redbird  Assistable Account Login | Redbird  Assistable Account Login    jhughes@redbirdunified.
+  [SKIP] Referral Request Text | Referral Request Text  Hey Richard! This is Benjamin with PR
+  [SKIP] So Kayne got some new music out | So Kayne got some new music out  Two new songs specifically,
+  [SKIP] Stripe | Stripe  Back up uorr-tpxr-baiv-xtzb-osza
+  [SKIP] Tech Stack for Benjamin | Tech Stack for Benjamin Hubspot (crm) Zapier (for automated 
+  [SKIP] The guy who invented ac doesn’t get nearly enough  | The guy who invented ac doesn’t get nearly enough credit or 
+  [SKIP] This Honda civic model is widely regarded as one o |   This Honda civic model is widely regarded as one of the mo
+  [SKIP] Twillio Code | Twillio Code  K5KK8ZG5FL8L1VVYEW6G6781
+  [SKIP] Vampires that are created by herbs but they can cr | Vampires that are created by herbs but they can create other
+  [SKIP] Walk out of line saying I just shit my pants | Walk out of line saying I just shit my pants  Quality contro
+  [SKIP] What I value in a woman, being attractive, frequen |    What I value in a woman, being attractive, frequent sex, 
+  [SKIP] Wood chips | Wood chips  Butter  Brussels   Wood chips  
+  [SKIP] Yes, I can provide detailed information on how to  | Yes, I can provide detailed information on how to petition t
+  [SKIP] You are an elite prompt engineer trained in Anthro | You are an elite prompt engineer trained in Anthropic’s high
+  [SKIP] https://www.xvideos.com/video.kikhalm516e/amateur_ | https://www.xvideos.com/video.kikhalm516e/amateur_girlfriend
+  [SKIP] … |                                                             
+
+-- NEW RECIPES --
+  [NEW] Appetizers (from Side Dish Recipes)
+  [NEW] BBQ Ranch Pulled Pork Sandwich (from Side Dish Recipes)
+  [NEW] Buffalo Chicken Bacon Ranch Sandwich (from Side Dish Recipes)
+  [NEW] Carne Asada Sandwich (from Side Dish Recipes)
+  [NEW] Chicken Salad Sandwich (from Side Dish Recipes)
+  [NEW] Chili (from Side Dish Recipes)
+  [NEW] Cold Lemon Pepper Chicken Taziki Rice (from Side Dish Recipes)
+  [NEW] Creamed Spinach Steak Sandwich (from Side Dish Recipes)
+  [NEW] Creamy Steak and Sourkrout Hot Sauce Pasta (from Side Dish Recipes)
+  [NEW] Cubano Sandwich (from Side Dish Recipes)
+  [NEW] Dorthy Lynch Crockpot Dip (from Side Dish Recipes)
+  [NEW] Egg Salad Sandwich (from Side Dish Recipes)
+  [NEW] Fancy Club Sandwich (from Side Dish Recipes)
+  [NEW] Goat cheese chalua hot sauce (from Sauces)
+  [NEW] Green chile (from Notes)
+  [NEW] Habenareo pizza ranch aloi (from Sauces)
+  [NEW] Ham, Egg and Cheese Sandwich (from Side Dish Recipes)
+  [NEW] Loaded Brautwurst  Potato Salad (from Side Dish Recipes)
+  [NEW] Pastrami Swiss Sandwich (from Side Dish Recipes)
+  [NEW] Pepperoni Cherry Tomatoe jam (from Sauces)
+  [NEW] Pepperoni Pizza Bacon Ranch Sandwich (from Side Dish Recipes)
+  [NEW] Pesto Capressi Pesto Sandwich (from Side Dish Recipes)
+  [NEW] Pork Shoulder Tikka Masala Crockpot (from Side Dish Recipes)
+  [NEW] Red Creamy Chimmichri Sauce (from Sauces)
+  [NEW] Roast Beef Sandwich (from Side Dish Recipes)
+  [NEW] Ruben Sandwich (from Side Dish Recipes)
+  [NEW] Salmon Cucumber Cream Cheese Sandwich (from Side Dish Recipes)
+  [NEW] Sausage Gravy Breakfast Sandwich (from Side Dish Recipes)
+  [NEW] Smash Burger Copy Cat Sauce (from Sauces)
+  [NEW] Spam and Eggs Sandwich (from Side Dish Recipes)
+  [NEW] Spicy Italian Sandwich (from Side Dish Recipes)
+  [NEW] Steak Sandwich (from Side Dish Recipes)
+  [NEW] Sweet Gochujang Aoli (from Sauces)
+  [NEW] Sweet Sourkrout Meatballs Crockpot (from Side Dish Recipes)
+  [NEW] Timeless Tatsiki Sauce (from Sauces)
+  [NEW] Tomato Bacon Mayo Sandwich (from Side Dish Recipes)
+  [NEW] Tomato Salami Sandwich (from Side Dish Recipes)
+  [NEW] Tuna Salad Melt Sandwich (from Side Dish Recipes)
+  [NEW] Turkey Avocado Bacon Garden Salad (from Side Dish Recipes)
+  [NEW] Turkey Vodka Pesto Sandwich (from Side Dish Recipes)
+  Saved: note_220.txt -> Pepperoni Cherry Tomatoe jam
+  Saved: note_221.txt -> Sweet Gochujang Aoli
+  Saved: note_222.txt -> Smash Burger Copy Cat Sauce
+  Saved: note_223.txt -> Red Creamy Chimmichri Sauce
+  Saved: note_224.txt -> Habenareo pizza ranch aloi
+  Saved: note_225.txt -> Goat cheese chalua hot sauce
+  Saved: note_226.txt -> Timeless Tatsiki Sauce
+  Saved: note_227.txt -> Tomato Salami Sandwich
+  Saved: note_228.txt -> Egg Salad Sandwich
+  Saved: note_229.txt -> Chicken Salad Sandwich
+  Saved: note_230.txt -> Creamed Spinach Steak Sandwich
+  Saved: note_231.txt -> Cubano Sandwich
+  Saved: note_232.txt -> Salmon Cucumber Cream Cheese Sandwich
+  Saved: note_233.txt -> Sausage Gravy Breakfast Sandwich
+  Saved: note_234.txt -> Turkey Avocado Bacon Garden Salad
+  Saved: note_235.txt -> Tuna Salad Melt Sandwich
+  Saved: note_236.txt -> Tomato Bacon Mayo Sandwich
+  Saved: note_237.txt -> Pepperoni Pizza Bacon Ranch Sandwich
+  Saved: note_238.txt -> Turkey Vodka Pesto Sandwich
+  Saved: note_239.txt -> Pesto Capressi Pesto Sandwich
+  Saved: note_240.txt -> Ruben Sandwich
+  Saved: note_241.txt -> Pastrami Swiss Sandwich
+  Saved: note_242.txt -> Ham, Egg and Cheese Sandwich
+  Saved: note_243.txt -> BBQ Ranch Pulled Pork Sandwich
+  Saved: note_244.txt -> Buffalo Chicken Bacon Ranch Sandwich
+  Saved: note_245.txt -> Spicy Italian Sandwich
+  Saved: note_246.txt -> Steak Sandwich
+  Saved: note_247.txt -> Carne Asada Sandwich
+  Saved: note_248.txt -> Roast Beef Sandwich
+  Saved: note_249.txt -> Fancy Club Sandwich
+  Saved: note_250.txt -> Spam and Eggs Sandwich
+  Saved: note_251.txt -> Pork Shoulder Tikka Masala Crockpot
+  Saved: note_252.txt -> Cold Lemon Pepper Chicken Taziki Rice
+  Saved: note_253.txt -> Creamy Steak and Sourkrout Hot Sauce Pasta
+  Saved: note_254.txt -> Dorthy Lynch Crockpot Dip
+  Saved: note_255.txt -> Loaded Brautwurst  Potato Salad
+  Saved: note_256.txt -> Sweet Sourkrout Meatballs Crockpot
+  Saved: note_257.txt -> Chili
+  Saved: note_258.txt -> Appetizers
+  Saved: note_259.txt -> Green chile
+
+============================================================
+Saved 40 new note files to /Users/mramir/crazy-chicken-cookbook/data/notes
+Note numbers: note_220.txt through note_259.txt
+[04:00:22] Step 2: Parsing new notes into recipes...
+Existing recipes: 156
+New note files to process: 86
+  [ADD] Alfs kitchen on YouTube for all things burger recipes -> mains
+  [ADD] Burger Sauces -> sauces/burger-sauces
+  [ADD] Sauces -> sauces/general
+  [ADD] Burger Sauces -> sauces/burger-sauces
+  [ADD] Crazy Good Sauces -> sauces/general
+  [ADD] Tomato Salami Sandwich -> mains
+  [ADD] Egg Salad Sandwich -> mains
+  [ADD] Chicken Salad Sandwich -> chicken-sandwiches
+  [ADD] Creamed Spinach Steak Sandwich -> mains
+  [ADD] Cubano Sandwich -> mains
+  [ADD] Salmon Cucumber Cream Cheese Sandwich -> mains
+  [ADD] Sausage Gravy Breakfast Sandwich -> breakfast
+  [ADD] Turkey Avocado Bacon Garden Salad -> salads-sides
+  [ADD] Tuna Salad Melt Sandwich -> mains
+  [ADD] Tomato Bacon Mayo Sandwich -> mains
+  [ADD] Pepperoni Pizza Bacon Ranch Sandwich -> mains
+  [ADD] Turkey Vodka Pesto Sandwich -> mains
+  [ADD] Pesto Capressi Pesto Sandwich -> mains
+  [ADD] Ruben Sandwich -> mains
+  [ADD] Pastrami Swiss Sandwich -> mains
+  [ADD] Ham, Egg and Cheese Sandwich -> mains
+  [ADD] BBQ Ranch Pulled Pork Sandwich -> mains
+  [ADD] Buffalo Chicken Bacon Ranch Sandwich -> chicken-sandwiches
+  [ADD] Spicy Italian Sandwich -> mains
+  [ADD] Steak Sandwich -> mains
+  [ADD] Carne Asada Sandwich -> mains
+  [ADD] Roast Beef Sandwich -> mains
+  [ADD] Fancy Club Sandwich -> mains
+  [ADD] Spam and Eggs Sandwich -> mains
+  [ADD] Pork Shoulder Tikka Masala Crockpot -> crockpot
+
+Skipped 56 non-recipe notes:
+  [SKIP] note_004.txt: I was free balling the other day and I lead me to noticing s
+  [SKIP] note_035.txt: Lending Tower To Do List
+  [SKIP] note_038.txt: OpenClaw and Kimi K2_5 Implementation Guide for Lending Towe
+  [SKIP] note_039.txt: Open claw uses for Lending Tower
+  [SKIP] note_040.txt: 1000
+  [SKIP] note_041.txt: # 🍳 Professional Cookbook Creation — Cowork Agent Master Pro
+  [SKIP] note_043.txt: This Honda civic model is widely regarded as one of the most
+  [SKIP] note_114.txt: Currently doing yhis
+  [SKIP] note_115.txt: Lending Tower Ideas
+  [SKIP] note_116.txt: You are an elite prompt engineer trained in Anthropic’s high
+  [SKIP] note_118.txt: Jokes
+  [SKIP] note_119.txt: …
+  [SKIP] note_120.txt: Api Keys  Google o auth O Auth client secret key for perfect
+  [SKIP] note_121.txt: I Called ice on someone today
+  [SKIP] note_122.txt: Go Daddy password  EasyEngine123$
+  [SKIP] note_123.txt: If you're anything like me, you think new years resolutions 
+  [SKIP] note_124.txt: 91 Willow Rd
+  [SKIP] note_125.txt: Japan has a passport for breeding because their birth rate i
+  [SKIP] note_126.txt: Wood chips
+  [SKIP] note_127.txt: I was going to the gym a few years ago, and I as walking in 
+  [SKIP] note_128.txt: Walk out of line saying I just shit my pants
+  [SKIP] note_129.txt: I was hoping not drink would help me loose weight
+  [SKIP] note_130.txt: Humans remaining are war only. Nothing left but war.
+  [SKIP] note_131.txt: It’s good to be back here at emmets, my favorite thing about
+  [SKIP] note_132.txt: Fritos
+  [SKIP] note_133.txt: Shower cleaner
+  [SKIP] note_134.txt: Meta mask
+  [SKIP] note_135.txt: Get the booking link and then we are good to go for outbound
+  [SKIP] note_136.txt: What I value in a woman, being attractive, frequent sex, bei
+  [SKIP] note_137.txt: PRQ ideas
+  [SKIP] note_139.txt: https://www.xvideos.com/video.kikhalm516e/amateur_girlfriend
+  [SKIP] note_140.txt: MY Fourth login
+  [SKIP] note_141.txt: Twillio Code
+  [SKIP] note_142.txt: One Pass Key
+  [SKIP] note_143.txt: Stripe
+  [SKIP] note_144.txt: Easy Engine Admin Password
+  [SKIP] note_145.txt: Redbird  Assistable Account Login
+  [SKIP] note_146.txt: Below is an exhaustive, copy-ready catalogue of EasyEngine.a
+  [SKIP] note_147.txt: Little oak starlink password
+  [SKIP] note_148.txt: Being high watching Reece play with his dog
+  [SKIP] note_149.txt: Idk if you’ve heard but the birth rates in Japan are so low 
+  [SKIP] note_150.txt: So Kayne got some new music out
+  [SKIP] note_151.txt: App idea
+  [SKIP] note_152.txt: Idk if you can tell by my outfit but I am a big advocate of 
+  [SKIP] note_153.txt: I want to start off by saying that just like 1980’s Joe Bide
+  [SKIP] note_154.txt: Yes, I can provide detailed information on how to petition t
+  [SKIP] note_155.txt: The guy who invented ac doesn’t get nearly enough credit or 
+  [SKIP] note_156.txt: Perfect Partner Keyboard
+  [SKIP] note_157.txt: Tech Stack for Benjamin
+  [SKIP] note_158.txt: Rasa
+  [SKIP] note_159.txt: Referral Request Text
+  [SKIP] note_160.txt: Hey everyone! We just finished writing an incredible book, G
+  [SKIP] note_161.txt: Insurance phone numbers
+  [SKIP] note_162.txt: Vampires that are created by herbs but they can create other
+  [SKIP] note_163.txt: Book Notes and Plots
+  [SKIP] note_164.txt: PRQ Improvement ideas
+
+============================================================
+Added 30 new recipes (total: 186)
+Updated categories:
+  Sauces                     68
+  Main Dishes                33
+  Salads & Sides             31
+  Crockpot                   23
+  Pasta                      12
+  Chicken Sandwiches          5
+  Soups & Stews               5
+  Dips & Spreads              5
+  Breakfast                   4
+Saved to /Users/mramir/crazy-chicken-cookbook/data/personal_recipes.json
+[04:00:22] Step 3: Enhancing recipes with Claude API...
+Found 30 recipes to enhance (of 186 total)
+
+  [1/30] Alfs kitchen on YouTube for all things burger recipes... done
+  [2/30] Burger Sauces... done
+  [3/30] Sauces... JSON parse error: Unterminated string starting at: line 22 column 5 (char 4051)
+  [4/30] Burger Sauces... done
+  [5/30] Crazy Good Sauces... done
+  [Saved progress: 4/5 enhanced]
+  [6/30] Tomato Salami Sandwich... done
+  [7/30] Egg Salad Sandwich... done
+  [8/30] Chicken Salad Sandwich... done
+  [9/30] Creamed Spinach Steak Sandwich... done
+  [10/30] Cubano Sandwich... done
+  [Saved progress: 9/10 enhanced]
+  [11/30] Salmon Cucumber Cream Cheese Sandwich... done
+  [12/30] Sausage Gravy Breakfast Sandwich... done
+  [13/30] Turkey Avocado Bacon Garden Salad... done
+  [14/30] Tuna Salad Melt Sandwich... done
+  [15/30] Tomato Bacon Mayo Sandwich... done
+  [Saved progress: 14/15 enhanced]
+  [16/30] Pepperoni Pizza Bacon Ranch Sandwich... done
+  [17/30] Turkey Vodka Pesto Sandwich... done
+  [18/30] Pesto Capressi Pesto Sandwich... done
+  [19/30] Ruben Sandwich... done
+  [20/30] Pastrami Swiss Sandwich... done
+  [Saved progress: 19/20 enhanced]
+  [21/30] Ham, Egg and Cheese Sandwich... done
+  [22/30] BBQ Ranch Pulled Pork Sandwich... done
+  [23/30] Buffalo Chicken Bacon Ranch Sandwich... done
+  [24/30] Spicy Italian Sandwich... done
+  [25/30] Steak Sandwich... done
+  [Saved progress: 24/25 enhanced]
+  [26/30] Carne Asada Sandwich... done
+  [27/30] Roast Beef Sandwich... done
+  [28/30] Fancy Club Sandwich... done
+  [29/30] Spam and Eggs Sandwich... done
+  [30/30] Pork Shoulder Tikka Masala Crockpot... done
+  [Saved progress: 29/30 enhanced]
+
+Done! Enhanced 29/30 recipes
+Saved to /Users/mramir/crazy-chicken-cookbook/src/extract/../../data/personal_recipes.json
+[04:05:23] Step 4: Generating recipe images...
+[04:05:23]   WARNING: 25 recipes need images, capping at 20
+[04:05:23]   Remaining 5 will be generated on next run
+[04:05:23]   Generating 20 images (est. $3.34)
+[04:05:24]   [1/20] Tomato Salami Sandwich...
+[04:06:04]     OK -> tomato-salami-sandwich.png
+[04:06:19]   [2/20] Egg Salad Sandwich...
+[04:06:58]     OK -> egg-salad-sandwich.png
+[04:07:13]   [3/20] Chicken Salad Sandwich...
+[04:07:52]     OK -> chicken-salad-sandwich.png
+[04:08:07]   [4/20] Creamed Spinach Steak Sandwich...
+[04:08:49]     OK -> creamed-spinach-steak-sandwich.png
+[04:09:04]   [5/20] Cubano Sandwich...
+[04:09:47]     OK -> cubano-sandwich.png
+[04:10:02]   [6/20] Salmon Cucumber Cream Cheese Sandwich...
+[04:10:42]     OK -> salmon-cucumber-cream-cheese-sandwich.png
+[04:10:57]   [7/20] Sausage Gravy Breakfast Sandwich...
+[04:11:52]     OK -> sausage-gravy-breakfast-sandwich.png
+[04:12:07]   [8/20] Turkey Avocado Bacon Garden Salad...
+[04:12:48]     OK -> turkey-avocado-bacon-garden-salad.png
+[04:13:03]   [9/20] Tuna Salad Melt Sandwich...
+[04:13:52]     OK -> tuna-salad-melt-sandwich.png
+[04:14:07]   [10/20] Tomato Bacon Mayo Sandwich...
+[04:14:50]     OK -> tomato-bacon-mayo-sandwich.png
+[04:15:06]   [11/20] Pepperoni Pizza Bacon Ranch Sandwich...
+[04:15:56]     OK -> pepperoni-pizza-bacon-ranch-sandwich.png
+[04:16:11]   [12/20] Turkey Vodka Pesto Sandwich...
+[04:16:51]     OK -> turkey-vodka-pesto-sandwich.png
+[04:17:06]   [13/20] Pesto Capressi Pesto Sandwich...
+[04:17:47]     OK -> pesto-capressi-pesto-sandwich.png
+[04:18:02]   [14/20] Ruben Sandwich...
+[04:18:43]     OK -> ruben-sandwich.png
+[04:18:58]   [15/20] Pastrami Swiss Sandwich...
+[04:19:37]     OK -> pastrami-swiss-sandwich.png
+[04:19:52]   [16/20] Ham, Egg and Cheese Sandwich...
+[04:20:29]     OK -> ham-egg-and-cheese-sandwich.png
+[04:20:44]   [17/20] BBQ Ranch Pulled Pork Sandwich...
+[04:21:24]     OK -> bbq-ranch-pulled-pork-sandwich.png
+[04:21:39]   [18/20] Buffalo Chicken Bacon Ranch Sandwich...
+[04:22:31]     OK -> buffalo-chicken-bacon-ranch-sandwich.png
+[04:22:46]   [19/20] Spicy Italian Sandwich...
+[04:23:26]     OK -> spicy-italian-sandwich.png
+[04:23:41]   [20/20] Steak Sandwich...
+[04:24:36]     OK -> steak-sandwich.png
+[04:24:51]   Generated 20/20 images
+[04:24:51] Step 5: Converting new PNGs to WebP...
+[04:24:53]   Converted 20 images to WebP
+[04:24:53] Step 6: Syncing data to site...
+[04:24:53]   Copied to /Users/mramir/crazy-chicken-cookbook/site/data/personal_recipes.json
+[04:24:53] Step 7: Building site...
+[04:25:06]   Build complete
+[04:25:06] Step 8: Deploying to GitHub Pages...
+[04:25:48]   Deployed to gobigbencookbook.com
+[04:25:48] 
+============================================================
+[04:25:48] SUCCESS: Added 30 new recipes (total: 186)
+[04:25:48] ============================================================
+[04:25:49] 
+Duration: 1543.8s
+[04:25:49] Log saved to /Users/mramir/crazy-chicken-cookbook/data/sync_log.json
+[04:00:03] ============================================================
+[04:00:03] Ben's Kitchen Auto-Sync Pipeline
+[04:00:03] Started: 2026-02-23T04:00:03.601660
+[04:00:03] ============================================================
+[04:00:03] Step 1: Exporting from Apple Notes...
+Existing recipes: 186
+Next note number: note_277.txt
+
+Reading Apple Notes folder: 'Sauces'...
+  Found 73 notes
+
+Reading Apple Notes folder: 'Side Dish Recipes'...
+  Found 113 notes
+
+Reading Apple Notes folder: 'Notes'...
+  Found 60 notes
+
+Total notes from Apple Notes: 246
+
+============================================================
+CLASSIFICATION REPORT
+============================================================
+  Already exists: 158
+  Non-recipes:    55
+  NEW recipes:    33
+
+-- EXISTING (skipped) --
+  [EXISTS] Alfs kitchen on YouTube for all things burger recipes
+  [EXISTS] Asian Cucumber Salad
+  [EXISTS] Asian Peanut Sauce
+  [EXISTS] BBQ Candied Party Ribs
+  [EXISTS] BBQ Ground Beef and Potato Crockpot
+  [EXISTS] BBQ Pork Pot Pie Crockpot Dip
+  [EXISTS] BBQ Ranch Pulled Pork Sandwich
+  [EXISTS] BBQ Sweet Potato Beef and Pork Shoulder
+  [EXISTS] Bacon Onion and Roasted Garlic Jam
+  [EXISTS] Baconase Burger Sauce
+  [EXISTS] Baked Beans and Sausage Crockpot
+  [EXISTS] Bangin Broccoli Salad
+  [EXISTS] Bbq buffalo Wing Sauce
+  [EXISTS] Beef Pot Pie Crockpot Dip
+  [EXISTS] Beef Stroganoff Crockpot
+  [EXISTS] Better Chick-fil-A Sauce
+  [EXISTS] Better Cowboy Butter
+  [EXISTS] Big Mac Sauce
+  [EXISTS] Blended Green Olives and Feta Sauce
+  [EXISTS] Blue Cheese Crazy Chunky Sauce
+  [EXISTS] Brown Sugar Hot Wing Sauce
+  [EXISTS] Buffalo Chicken Bacon Ranch Pasta
+  [EXISTS] Buffalo Chicken Bacon Ranch Sandwich
+  [EXISTS] Buffalo chicken cream cheese sauce
+  [EXISTS] Bussin Breakfast Burrito
+  [EXISTS] Cajun Alfredo Wing Sauce
+  [EXISTS] Cajun Chicken, Shrimp and Sausage Crockpot
+  [EXISTS] Cajun Honey Burger Sauce
+  [EXISTS] Cajun Shrimp, Chicken and Bacon Scampi Pasta
+  [EXISTS] Cajun Tuscan Salmon Pasta
+  [EXISTS] Candied Bacon, Jalapeños, and Apples Burger Topping
+  [EXISTS] Caramelized, Onion and Garlic Asian Fusion Spaghetti
+  [EXISTS] Carne Asada Sandwich
+  [EXISTS] Cheeseburger Dip
+  [EXISTS] Chicken Bacon Ranch Chipotle Rice And Potatoes
+  [EXISTS] Chicken Enchiladas Crockpot
+  [EXISTS] Chicken Pot Pie Crockpot Dip
+  [EXISTS] Chicken Salad Sandwich
+  [EXISTS] Chimichurri Ranch
+  [EXISTS] Cilantro Lime Sauce
+  [EXISTS] Classic Burger Sauce
+  [EXISTS] Coca Cola BBQ Glaze
+  [EXISTS] Cold Chicken Salad
+  [EXISTS] Cold Mexican Chicken Salad
+  [EXISTS] Colorful Rice for curry
+  [EXISTS] Complete Breakfast Crockpot
+  [EXISTS] Cowboy Ranch
+  [EXISTS] Crazy Coleslaws
+  [EXISTS] Crazy Mac n Cheese
+  [EXISTS] Creamed Spinach
+  [EXISTS] Creamed Spinach Steak Sandwich
+  [EXISTS] Creamy Al Pastor sauce
+  [EXISTS] Creamy Avocado Lime Sauce
+  [EXISTS] Creamy Beef Horseradish Pot Roast
+  [EXISTS] Creamy Cajun Cabbage and Sausage Crockpot
+  [EXISTS] Creamy Crispy Chili Oil Chicken Bacon Pasta
+  [EXISTS] Creamy Greek Lemon Herb Potatoes
+  [EXISTS] Creamy Horseradish Sauce
+  [EXISTS] Creamy Lemon Roasted Garlic Herb Sauce
+  [EXISTS] Creamy Roasted Tomato Garlic Sauce
+  [EXISTS] Crispy Asian Chili Mayo
+  [EXISTS] Crispy Chili Mayo Salad
+  [EXISTS] Crispy Chili Sweet and Sour Pork Shoulder Crockpot
+  [EXISTS] Crispy Honey Lemon Pepper Wing Sauce
+  [EXISTS] Crockpot Vodka Sauce Lasagna
+  [EXISTS] Cubano Sandwich
+  [EXISTS] Dave’s Hot Chicken sauce
+  [EXISTS] Dill Chicken Bacon Ranch Pasta
+  [EXISTS] Dorthy Lynch Lil Smokey’s
+  [EXISTS] Dr Pepper BBQ Wing Sauce
+  [EXISTS] Egg Salad Sandwich
+  [EXISTS] Eggs Benedict Casserole
+  [EXISTS] Everything Egg Salad
+  [EXISTS] Fancy Club Sandwich
+  [EXISTS] Fantastic Fried Rice
+  [EXISTS] Feta Ground Beef Pesto Pasta
+  [EXISTS] Fresh and Crisp Garden Chicken Wrap
+  [EXISTS] Fried Chicken Caesar Salad Pasta Bake
+  [EXISTS] Frito Pie Crockpot Dip
+  [EXISTS] Garlic Herb Butter
+  [EXISTS] Garlic Parmesan Chicken Pasta Crockpot
+  [EXISTS] Garlic Parmesan Sauce
+  [EXISTS] Goat Cheese and Spinach Scrambled Eggs
+  [EXISTS] Ham, Egg and Cheese Sandwich
+  [EXISTS] Homemade Tallow/Butter Mayonnaise
+  [EXISTS] Honey Garlic Sauce
+  [EXISTS] Hot Honey Apple Mayo Sauce
+  [EXISTS] Hot Honey Asian Crunch Ranch
+  [EXISTS] Italian Creamy Chicken Pasta Kinda Soup
+  [EXISTS] Italian Pasta Salad
+  [EXISTS] Jalapeño Poppers Dip
+  [EXISTS] Lemon Rosemary Chicken Rice
+  [EXISTS] Lil Smokies Cheese Stew Crockpot
+  [EXISTS] Magical Marry Me chicken
+  [EXISTS] Mango Habanero Sauce
+  [EXISTS] Marry Me Chicken sauce
+  [EXISTS] Marry me chicken gnocchi soup
+  [EXISTS] Meat Lovers Pizza Pasta Crockpot
+  [EXISTS] Mediterranean Potato Crunchies
+  [EXISTS] Mediterranean White Sauce
+  [EXISTS] Mexican Creamy Bean Sauce
+  [EXISTS] Mexican Street Corn Sauce
+  [EXISTS] Mystic Macaroni Salad
+  [EXISTS] Orange Chicken sauce
+  [EXISTS] Pastrami Swiss Sandwich
+  [EXISTS] Peach Chutney BBQ Burger Topping
+  [EXISTS] Peppercorn Steak Sauce
+  [EXISTS] Pepperoni Pizza Bacon Ranch Sandwich
+  [EXISTS] Pepperoni and Sausage Pizza Dip
+  [EXISTS] Pesto Capressi Pesto Sandwich
+  [EXISTS] Philly Cheese Steak Crockpot Dip
+  [EXISTS] Pineapple Chipotle  Mayo Sauce
+  [EXISTS] Pineapple Jalapeno cream cheese bacon jam
+  [EXISTS] Polynesian Sauce
+  [EXISTS] Pork Belly Chicharron with Guacamole
+  [EXISTS] Pork Shoulder Tikka Masala Crockpot
+  [EXISTS] Pork and Chicken Hummus Crockpot
+  [EXISTS] Potato Pesto Goat Cheese Muffins
+  [EXISTS] Pulled Pork BBQ Queso Dip
+  [EXISTS] Raisin Cane’s Copy Cat Sauce
+  [EXISTS] Ranch Sauce
+  [EXISTS] Remoulade Sauce
+  [EXISTS] Roast Beef Sandwich
+  [EXISTS] Roasted Peppers and Walnuts Pasta
+  [EXISTS] Ruben Sandwich
+  [EXISTS] Salami Cheddar Pickle Sandwich
+  [EXISTS] Salmon Cucumber Cream Cheese Sandwich
+  [EXISTS] Salmon Feta Tomato Spinach Crockpot Pasta
+  [EXISTS] Sausage Gravy Breakfast Sandwich
+  [EXISTS] Sesame Chicken
+  [EXISTS] Sexy Street Corn Salad
+  [EXISTS] Smoked 5 Cheese Spinach Artichoke Dip
+  [EXISTS] Smoked and Candied BBQ Hotdog Burnt Ends
+  [EXISTS] Southwest Salad Dressing
+  [EXISTS] Spam and Eggs Sandwich
+  [EXISTS] Special Italian Sandwich Sauce
+  [EXISTS] Special Steak Sauce
+  [EXISTS] Spicy Italian Sandwich
+  [EXISTS] Spicy Peanut Pork on Glass Noodles
+  [EXISTS] Spicy Pink Sauce Angel Hair Pasta
+  [EXISTS] Steak Sandwich
+  [EXISTS] Sunkist Buffalo Wing Sauce
+  [EXISTS] Terrific Tomato Soup
+  [EXISTS] Thai chili bacon jam
+  [EXISTS] Tomato Bacon Mayo Sandwich
+  [EXISTS] Tomato Jam burger topping
+  [EXISTS] Tomato Pasta Salad
+  [EXISTS] Tomato Salami Sandwich
+  [EXISTS] Tri Tip Steak Sandwich
+  [EXISTS] Tuna Pasta Salad
+  [EXISTS] Tuna Salad (no pasta)
+  [EXISTS] Tuna Salad Melt Sandwich
+  [EXISTS] Turkey Avocado Bacon Garden Salad
+  [EXISTS] Turkey Vodka Pesto Sandwich
+  [EXISTS] White Potato Salad
+  [EXISTS] White Whole Grain Burger Sauce
+  [EXISTS] Will Ferrel’s Favorite Sandwich
+  [EXISTS] Yellow Potato Salad
+
+-- NON-RECIPES (skipped) --
+  [SKIP] # 🍳 Professional Cookbook Creation — Cowork Agent  | # 🍳 Professional Cookbook Creation — Cowork Agent Master Pro
+  [SKIP] 1000 |   1000 
+  [SKIP] 91 Willow Rd |  91 Willow Rd Metuchen, NJ 08840
+  [SKIP] Api Keys  Google o auth O Auth client secret key f |  Api Keys  Google o auth O Auth client secret key for perfec
+  [SKIP] App idea | App idea  Video storage for people to leave behind a record 
+  [SKIP] Being high watching Reece play with his dog | Being high watching Reece play with his dog  Dog is just lik
+  [SKIP] Below is an exhaustive, copy-ready catalogue of Ea | Below is an exhaustive, copy-ready catalogue of EasyEngine.a
+  [SKIP] Boat Lift People | Boat Lift People (218)820-9401
+  [SKIP] Book Notes and Plots | Book Notes and Plots  Plot Lines:  Friend the AI god that le
+  [SKIP] Currently doing yhis |   Currently doing yhis
+  [SKIP] Easy Engine Admin Password | Easy Engine Admin Password  Easy_123$
+  [SKIP] Get the booking link and then we are good to go fo |   Get the booking link and then we are good to go for outbou
+  [SKIP] Go Daddy password  EasyEngine123$ | Go Daddy password  EasyEngine123$
+  [SKIP] Hey everyone! We just finished writing an incredib | Hey everyone! We just finished writing an incredible book, G
+  [SKIP] Humans remaining are war only. Nothing left but wa |    Humans remaining are war only. Nothing left but war.  Met
+  [SKIP] I Called ice on someone today | I Called ice on someone today  I don’t think he was even ill
+  [SKIP] I want to start off by saying that just like 1980’ | I want to start off by saying that just like 1980’s Joe Bide
+  [SKIP] I was free balling the other day and I lead me to  |  I was free balling the other day and I lead me to noticing 
+  [SKIP] I was going to the gym a few years ago, and I as w |  I was going to the gym a few years ago, and I as walking in
+  [SKIP] I was hoping not drink would help me loose weight | I was hoping not drink would help me loose weight   So I qui
+  [SKIP] Idk if you can tell by my outfit but I am a big ad |   Idk if you can tell by my outfit but I am a big advocate o
+  [SKIP] Idk if you’ve heard but the birth rates in Japan a | Idk if you’ve heard but the birth rates in Japan are so low 
+  [SKIP] If you're anything like me, you think new years re | If you're anything like me, you think new years resolutions 
+  [SKIP] Insurance phone numbers | Insurance phone numbers   Insurance Companies: AAA 1-800-779
+  [SKIP] It’s good to be back here at emmets, my favorite t |   It’s good to be back here at emmets, my favorite thing abo
+  [SKIP] Japan has a passport for breeding because their bi |  Japan has a passport for breeding because their birth rate 
+  [SKIP] Jokes | Jokes   vibrators put guys out of a job my friend built a ma
+  [SKIP] Lending Tower Ideas | Lending Tower Ideas  HELPFUL EDUCATIONAL LINK PRE CALL OR. P
+  [SKIP] Lending Tower To Do List | Lending Tower To Do List  Utm tracking through funnel so we 
+  [SKIP] Little oak starlink password | Little oak starlink password  LittleOakIsland123
+  [SKIP] MY Fourth login | MY Fourth login  Username: EE4 Password: EasyEngine4!@# Comp
+  [SKIP] Meta mask | Meta mask  Password   MachiDuman94$  0xedD7a7eCAb23433D82E28
+  [SKIP] One Pass Key | One Pass Key  A3-64RN3W-7MGPB4-ZMESN-4M28S-QBH47-92PW2
+  [SKIP] Open claw uses for Lending Tower | Open claw uses for Lending Tower    3. Competitor Intelligen
+  [SKIP] OpenClaw and Kimi K2_5 Implementation Guide for Le | OpenClaw and Kimi K2_5 Implementation Guide for Lending Towe
+  [SKIP] PRQ Improvement ideas | PRQ Improvement ideas  Graph for cost of roofs, Graph for de
+  [SKIP] PRQ ideas | PRQ ideas  Switch from zapier to n8n and host on private ser
+  [SKIP] Perfect Partner Keyboard | Perfect Partner Keyboard   capture and store all copied text
+  [SKIP] Rasa | Rasa Webcrawler4ai Lipsurf Voice in Lang chain Stable diffus
+  [SKIP] Redbird  Assistable Account Login | Redbird  Assistable Account Login    jhughes@redbirdunified.
+  [SKIP] Referral Request Text | Referral Request Text  Hey Richard! This is Benjamin with PR
+  [SKIP] So Kayne got some new music out | So Kayne got some new music out  Two new songs specifically,
+  [SKIP] Stripe | Stripe  Back up uorr-tpxr-baiv-xtzb-osza
+  [SKIP] Tech Stack for Benjamin | Tech Stack for Benjamin Hubspot (crm) Zapier (for automated 
+  [SKIP] The guy who invented ac doesn’t get nearly enough  | The guy who invented ac doesn’t get nearly enough credit or 
+  [SKIP] This Honda civic model is widely regarded as one o |   This Honda civic model is widely regarded as one of the mo
+  [SKIP] Twillio Code | Twillio Code  K5KK8ZG5FL8L1VVYEW6G6781
+  [SKIP] Vampires that are created by herbs but they can cr | Vampires that are created by herbs but they can create other
+  [SKIP] Walk out of line saying I just shit my pants | Walk out of line saying I just shit my pants  Quality contro
+  [SKIP] What I value in a woman, being attractive, frequen |    What I value in a woman, being attractive, frequent sex, 
+  [SKIP] Wood chips | Wood chips  Butter  Brussels   Wood chips  
+  [SKIP] Yes, I can provide detailed information on how to  | Yes, I can provide detailed information on how to petition t
+  [SKIP] You are an elite prompt engineer trained in Anthro | You are an elite prompt engineer trained in Anthropic’s high
+  [SKIP] https://www.xvideos.com/video.kikhalm516e/amateur_ | https://www.xvideos.com/video.kikhalm516e/amateur_girlfriend
+  [SKIP] … |                                                             
+
+-- NEW RECIPES --
+  [NEW] Appetizers (from Side Dish Recipes)
+  [NEW] Asian Peanut Butter Wrap (from Sauces)
+  [NEW] BBQ Chopped Pork Shoulder Burritos (from Side Dish Recipes)
+  [NEW] BBQ Pork Shoulder Chipotle Slaw Wrap (from Sauces)
+  [NEW] BBQ Steak Wraps (from Sauces)
+  [NEW] Buffalo Carne Asada Blue Cheese Wrap (from Sauces)
+  [NEW] Buffalo Chicken Bacon Ranch Wrap (from Sauces)
+  [NEW] Cajun Shrimp and Sausage Burrito (from Sauces)
+  [NEW] California Burrito (from Side Dish Recipes)
+  [NEW] Carne Asada Caesar Wrap (from Side Dish Recipes)
+  [NEW] Carne Asada Chimmichuri Burrito (from Side Dish Recipes)
+  [NEW] Carne Asada Tzatziki Wrap (from Side Dish Recipes)
+  [NEW] Chicken Olive Feta Hummus Wrap (from Sauces)
+  [NEW] Chili (from Side Dish Recipes)
+  [NEW] Chipotle Ground Beef Mexican Burrito (from Side Dish Recipes)
+  [NEW] Cold Lemon Pepper Chicken Taziki Rice (from Side Dish Recipes)
+  [NEW] Crazy Chicken Sandwiches (from Notes)
+  [NEW] Creamy Steak and Sourkrout Hot Sauce Pasta (from Side Dish Recipes)
+  [NEW] Dorthy Lynch Crockpot Dip (from Side Dish Recipes)
+  [NEW] Goat cheese chalua hot sauce (from Sauces)
+  [NEW] Green chile (from Notes)
+  [NEW] Habenareo pizza ranch aloi (from Sauces)
+  [NEW] Honey Chili Garlic Chicken Wrap (from Sauces)
+  [NEW] Loaded Brautwurst  Potato Salad (from Side Dish Recipes)
+  [NEW] Pepperoni Cherry Tomatoe jam (from Sauces)
+  [NEW] Red Creamy Chimmichri Sauce (from Sauces)
+  [NEW] Smash Burger Copy Cat Sauce (from Sauces)
+  [NEW] Southwestern Sauce Burrito (from Side Dish Recipes)
+  [NEW] Sweet Gochujang Aoli (from Sauces)
+  [NEW] Sweet Sourkrout Meatballs Crockpot (from Side Dish Recipes)
+  [NEW] Taco Bell Creamy Jalapeno Sauce (from Sauces)
+  [NEW] Teriyaki Chicken Wrap (from Sauces)
+  [NEW] Timeless Tatsiki Sauce (from Sauces)
+  Saved: note_277.txt -> Chicken Olive Feta Hummus Wrap
+  Saved: note_278.txt -> Buffalo Carne Asada Blue Cheese Wrap
+  Saved: note_279.txt -> BBQ Steak Wraps
+  Saved: note_280.txt -> Cajun Shrimp and Sausage Burrito
+  Saved: note_281.txt -> Teriyaki Chicken Wrap
+  Saved: note_282.txt -> Buffalo Chicken Bacon Ranch Wrap
+  Saved: note_283.txt -> Honey Chili Garlic Chicken Wrap
+  Saved: note_284.txt -> Asian Peanut Butter Wrap
+  Saved: note_285.txt -> BBQ Pork Shoulder Chipotle Slaw Wrap
+  Saved: note_286.txt -> Taco Bell Creamy Jalapeno Sauce
+  Saved: note_287.txt -> Pepperoni Cherry Tomatoe jam
+  Saved: note_288.txt -> Sweet Gochujang Aoli
+  Saved: note_289.txt -> Smash Burger Copy Cat Sauce
+  Saved: note_290.txt -> Red Creamy Chimmichri Sauce
+  Saved: note_291.txt -> Habenareo pizza ranch aloi
+  Saved: note_292.txt -> Goat cheese chalua hot sauce
+  Saved: note_293.txt -> Timeless Tatsiki Sauce
+  Saved: note_294.txt -> Carne Asada Tzatziki Wrap
+  Saved: note_295.txt -> Southwestern Sauce Burrito
+  Saved: note_296.txt -> Carne Asada Chimmichuri Burrito
+  Saved: note_297.txt -> Chipotle Ground Beef Mexican Burrito
+  Saved: note_298.txt -> BBQ Chopped Pork Shoulder Burritos
+  Saved: note_299.txt -> California Burrito
+  Saved: note_300.txt -> Carne Asada Caesar Wrap
+  Saved: note_301.txt -> Cold Lemon Pepper Chicken Taziki Rice
+  Saved: note_302.txt -> Creamy Steak and Sourkrout Hot Sauce Pasta
+  Saved: note_303.txt -> Dorthy Lynch Crockpot Dip
+  Saved: note_304.txt -> Loaded Brautwurst  Potato Salad
+  Saved: note_305.txt -> Sweet Sourkrout Meatballs Crockpot
+  Saved: note_306.txt -> Chili
+  Saved: note_307.txt -> Appetizers
+  Saved: note_308.txt -> Crazy Chicken Sandwiches
+  Saved: note_309.txt -> Green chile
+
+============================================================
+Saved 33 new note files to /Users/mramir/crazy-chicken-cookbook/data/notes
+Note numbers: note_277.txt through note_309.txt
+[04:00:13] Step 2: Parsing new notes into recipes...
+Existing recipes: 187
+New note files to process: 75
+  [ADD] Crazy Chicken Sandwiches -> chicken-sandwiches
+  [ADD] Chicken Olive Feta Hummus Wrap -> chicken-sandwiches
+  [ADD] Buffalo Carne Asada Blue Cheese Wrap -> mains
+  [ADD] BBQ Steak Wraps -> mains
+  [ADD] Cajun Shrimp and Sausage Burrito -> mains
+  [ADD] Teriyaki Chicken Wrap -> chicken-sandwiches
+  [ADD] Buffalo Chicken Bacon Ranch Wrap -> chicken-sandwiches
+  [ADD] Honey Chili Garlic Chicken Wrap -> chicken-sandwiches
+  [ADD] Asian Peanut Butter Wrap -> mains
+  [ADD] BBQ Pork Shoulder Chipotle Slaw Wrap -> mains
+  [ADD] Taco Bell Creamy Jalapeno Sauce -> sauces/general
+  [ADD] Carne Asada Tzatziki Wrap -> mains
+  [ADD] Southwestern Sauce Burrito -> sauces/general
+  [ADD] Carne Asada Chimmichuri Burrito -> mains
+  [ADD] Chipotle Ground Beef Mexican Burrito -> mains
+  [ADD] BBQ Chopped Pork Shoulder Burritos -> mains
+  [ADD] California Burrito -> mains
+  [ADD] Carne Asada Caesar Wrap -> mains
+  [ADD] Crazy Chicken Sandwiches -> chicken-sandwiches
+
+Skipped 56 non-recipe notes:
+  [SKIP] note_004.txt: I was free balling the other day and I lead me to noticing s
+  [SKIP] note_035.txt: Lending Tower To Do List
+  [SKIP] note_038.txt: OpenClaw and Kimi K2_5 Implementation Guide for Lending Towe
+  [SKIP] note_039.txt: Open claw uses for Lending Tower
+  [SKIP] note_040.txt: 1000
+  [SKIP] note_041.txt: # 🍳 Professional Cookbook Creation — Cowork Agent Master Pro
+  [SKIP] note_043.txt: This Honda civic model is widely regarded as one of the most
+  [SKIP] note_114.txt: Currently doing yhis
+  [SKIP] note_115.txt: Lending Tower Ideas
+  [SKIP] note_116.txt: You are an elite prompt engineer trained in Anthropic’s high
+  [SKIP] note_118.txt: Jokes
+  [SKIP] note_119.txt: …
+  [SKIP] note_120.txt: Api Keys  Google o auth O Auth client secret key for perfect
+  [SKIP] note_121.txt: I Called ice on someone today
+  [SKIP] note_122.txt: Go Daddy password  EasyEngine123$
+  [SKIP] note_123.txt: If you're anything like me, you think new years resolutions 
+  [SKIP] note_124.txt: 91 Willow Rd
+  [SKIP] note_125.txt: Japan has a passport for breeding because their birth rate i
+  [SKIP] note_126.txt: Wood chips
+  [SKIP] note_127.txt: I was going to the gym a few years ago, and I as walking in 
+  [SKIP] note_128.txt: Walk out of line saying I just shit my pants
+  [SKIP] note_129.txt: I was hoping not drink would help me loose weight
+  [SKIP] note_130.txt: Humans remaining are war only. Nothing left but war.
+  [SKIP] note_131.txt: It’s good to be back here at emmets, my favorite thing about
+  [SKIP] note_132.txt: Fritos
+  [SKIP] note_133.txt: Shower cleaner
+  [SKIP] note_134.txt: Meta mask
+  [SKIP] note_135.txt: Get the booking link and then we are good to go for outbound
+  [SKIP] note_136.txt: What I value in a woman, being attractive, frequent sex, bei
+  [SKIP] note_137.txt: PRQ ideas
+  [SKIP] note_139.txt: https://www.xvideos.com/video.kikhalm516e/amateur_girlfriend
+  [SKIP] note_140.txt: MY Fourth login
+  [SKIP] note_141.txt: Twillio Code
+  [SKIP] note_142.txt: One Pass Key
+  [SKIP] note_143.txt: Stripe
+  [SKIP] note_144.txt: Easy Engine Admin Password
+  [SKIP] note_145.txt: Redbird  Assistable Account Login
+  [SKIP] note_146.txt: Below is an exhaustive, copy-ready catalogue of EasyEngine.a
+  [SKIP] note_147.txt: Little oak starlink password
+  [SKIP] note_148.txt: Being high watching Reece play with his dog
+  [SKIP] note_149.txt: Idk if you’ve heard but the birth rates in Japan are so low 
+  [SKIP] note_150.txt: So Kayne got some new music out
+  [SKIP] note_151.txt: App idea
+  [SKIP] note_152.txt: Idk if you can tell by my outfit but I am a big advocate of 
+  [SKIP] note_153.txt: I want to start off by saying that just like 1980’s Joe Bide
+  [SKIP] note_154.txt: Yes, I can provide detailed information on how to petition t
+  [SKIP] note_155.txt: The guy who invented ac doesn’t get nearly enough credit or 
+  [SKIP] note_156.txt: Perfect Partner Keyboard
+  [SKIP] note_157.txt: Tech Stack for Benjamin
+  [SKIP] note_158.txt: Rasa
+  [SKIP] note_159.txt: Referral Request Text
+  [SKIP] note_160.txt: Hey everyone! We just finished writing an incredible book, G
+  [SKIP] note_161.txt: Insurance phone numbers
+  [SKIP] note_162.txt: Vampires that are created by herbs but they can create other
+  [SKIP] note_163.txt: Book Notes and Plots
+  [SKIP] note_164.txt: PRQ Improvement ideas
+
+============================================================
+Added 19 new recipes (total: 206)
+Updated categories:
+  Sauces                     70
+  Salads & Sides             31
+  Crockpot                   23
+  Main Dishes                23
+  Pasta                      12
+  Chicken Sandwiches          6
+  Soups & Stews               5
+  Dips & Spreads              5
+  Breakfast                   3
+Saved to /Users/mramir/crazy-chicken-cookbook/data/personal_recipes.json
+[04:00:13] Step 3: Enhancing recipes with Claude API...
+Found 20 recipes to enhance (of 206 total)
+
+  [1/20] Sauces... JSON parse error: Expecting value: line 128 column 8 (char 3940)
+  [2/20] Crazy Chicken Sandwiches... done
+  [3/20] Chicken Olive Feta Hummus Wrap... done
+  [4/20] Buffalo Carne Asada Blue Cheese Wrap... done
+  [5/20] BBQ Steak Wraps... done
+  [Saved progress: 4/5 enhanced]
+  [6/20] Cajun Shrimp and Sausage Burrito... done
+  [7/20] Teriyaki Chicken Wrap... done
+  [8/20] Buffalo Chicken Bacon Ranch Wrap... done
+  [9/20] Honey Chili Garlic Chicken Wrap... done
+  [10/20] Asian Peanut Butter Wrap... done
+  [Saved progress: 9/10 enhanced]
+  [11/20] BBQ Pork Shoulder Chipotle Slaw Wrap... done
+  [12/20] Taco Bell Creamy Jalapeno Sauce... done
+  [13/20] Carne Asada Tzatziki Wrap... done
+  [14/20] Southwestern Sauce Burrito... done
+  [15/20] Carne Asada Chimmichuri Burrito... done
+  [Saved progress: 14/15 enhanced]
+  [16/20] Chipotle Ground Beef Mexican Burrito... done
+  [17/20] BBQ Chopped Pork Shoulder Burritos... done
+  [18/20] California Burrito... done
+  [19/20] Carne Asada Caesar Wrap... done
+  [20/20] Crazy Chicken Sandwiches... done
+  [Saved progress: 19/20 enhanced]
+
+Done! Enhanced 19/20 recipes
+Saved to /Users/mramir/crazy-chicken-cookbook/src/extract/../../data/personal_recipes.json
+[04:04:07] Step 4: Generating recipe images...
+[04:04:07]   Generating 18 images (est. $3.01)
+[04:04:07]   [1/18] Chicken Olive Feta Hummus Wrap...
+[04:04:50]     OK -> chicken-olive-feta-hummus-wrap.png
+[04:05:05]   [2/18] Buffalo Carne Asada Blue Cheese Wrap...
+[04:05:47]     OK -> buffalo-carne-asada-blue-cheese-wrap.png
+[04:06:02]   [3/18] BBQ Steak Wraps...
+[04:06:45]     OK -> bbq-steak-wraps.png
+[04:07:00]   [4/18] Cajun Shrimp and Sausage Burrito...
+[04:07:40]     OK -> cajun-shrimp-and-sausage-burrito.png
+[04:07:55]   [5/18] Teriyaki Chicken Wrap...
+[04:08:36]     OK -> teriyaki-chicken-wrap.png
+[04:08:51]   [6/18] Buffalo Chicken Bacon Ranch Wrap...
+[04:09:32]     OK -> buffalo-chicken-bacon-ranch-wrap.png
+[04:09:47]   [7/18] Honey Chili Garlic Chicken Wrap...
+[04:10:26]     OK -> honey-chili-garlic-chicken-wrap.png
+[04:10:42]   [8/18] Asian Peanut Butter Wrap...
+[04:11:23]     OK -> asian-peanut-butter-wrap.png
+[04:11:38]   [9/18] BBQ Pork Shoulder Chipotle Slaw Wrap...
+[04:12:19]     OK -> bbq-pork-shoulder-chipotle-slaw-wrap.png
+[04:12:34]   [10/18] Taco Bell Creamy Jalapeno Sauce...
+[04:13:14]     OK -> taco-bell-creamy-jalapeno-sauce.png
+[04:13:29]   [11/18] Carne Asada Tzatziki Wrap...
+[04:14:06]     OK -> carne-asada-tzatziki-wrap.png
+[04:14:21]   [12/18] Southwestern Sauce Burrito...
+[04:14:58]     OK -> southwestern-sauce-burrito.png
+[04:15:13]   [13/18] Carne Asada Chimmichuri Burrito...
+[04:16:06]     OK -> carne-asada-chimmichuri-burrito.png
+[04:16:21]   [14/18] Chipotle Ground Beef Mexican Burrito...
+[04:17:16]     OK -> chipotle-ground-beef-mexican-burrito.png
+[04:17:31]   [15/18] BBQ Chopped Pork Shoulder Burritos...
+[04:18:09]     OK -> bbq-chopped-pork-shoulder-burritos.png
+[04:18:25]   [16/18] California Burrito...
+[04:19:07]     OK -> california-burrito.png
+[04:19:22]   [17/18] Carne Asada Caesar Wrap...
+[04:20:02]     OK -> carne-asada-caesar-wrap.png
+[04:20:17]   [18/18] Crazy Chicken Sandwiches...
+[04:20:55]     OK -> crazy-chicken-sandwiches-v2.png
+[04:21:10]   Generated 18/18 images
+[04:21:10] Step 5: Converting new PNGs to WebP...
+[04:21:12]   Converted 18 images to WebP
+[04:21:12] Step 6: Syncing data to site...
+[04:21:12]   Copied to /Users/mramir/crazy-chicken-cookbook/site/data/personal_recipes.json
+[04:21:12] Step 7: Building site...
+[04:21:31]   Build complete
+[04:21:31] Step 8: Deploying to GitHub Pages...
+[04:21:32]   DEPLOY FAILED:
+ent Invalid response body while trying to fetch https://registry.npmjs.org/gh-pages: ENOENT: no such file or directory, stat '/tmp/npm-cache/_cacache/content-v2/sha512/90/3d/736e24d062bd317f4c7a7deb675c031c215ae4acaee18cb66cac74d5daabf7d4e5caec0aae683d3a703f1a4a938d1ba469ddc9c01ccead5ff671f2e1902e'
+npm error enoent This is related to npm not being able to find a file.
+npm error enoent
+npm error A complete log of this run can be found in: /tmp/npm-cache/_logs/2026-02-23T10_21_31_614Z-debug-0.log
+
+[04:21:32] 
+ERROR: gh-pages deploy failed
+[04:21:32] 
+Duration: 1288.9s
+[04:21:32] Log saved to /Users/mramir/crazy-chicken-cookbook/data/sync_log.json

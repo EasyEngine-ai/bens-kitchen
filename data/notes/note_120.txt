@@ -1,0 +1,8 @@
+Api Keys  Google o auth O Auth client secret key for perfect partner…
+---
+ Api Keys  Google o auth O Auth client secret key for perfect partner  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  Anthropic 
+ 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  password for ticket master api  mKbSqwg@KAsV!46  Api keys for ticket master  Consumer Key (API Key): Xa0AHpMOwrPKRXxxws9ndfF9PWvVpHGH
+Consumer Secret: mUHTv6IA9DQBaGoe
+  Eventbrite Api keys  private tokens Y5CGSJU2IRA6JHROKHHM  url example https://www.eventbriteapi.com/v3/users/me/?token=Y5CGSJU2IRA6JHROKHHM  http example GET /v3/users/me HTTP 1.1 
+Host: www.eventbriteapi.com 
+Authorization: Bearer Y5CGSJU2IRA6JHROKHHM
