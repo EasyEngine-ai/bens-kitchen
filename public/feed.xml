@@ -5,7 +5,7 @@
     <link>https://gobigbencookbook.com</link>
     <description>250+ original recipes — from signature chicken sandwiches to everyday sauces, sides, and everything in between. By Benjamin Larson.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Feb 2026 05:23:46 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 24 Feb 2026 06:23:25 GMT</lastBuildDate>
     <atom:link href="https://gobigbencookbook.com/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Buffalo Ranch Chicken Sandwich</title>
@@ -2325,6 +2325,54 @@
       <description>This is your master guide to creating over 120 wild and creative fried chicken sandwiches, each with its own unique sauce, seasoning, and toppings. Every sandwich starts with crispy lard-fried chicken thighs on buttered potato buns, then goes in a completely different flavor direction — from classic Buffalo to crazy combos like Blueberry Bacon Banana PB.</description>
       <category>Chicken Sandwiches</category>
       <enclosure url="https://gobigbencookbook.comimages/personal/recipes/crazy-chicken-sandwiches-v2.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>Nashville Hot Chicken Wrap</title>
+      <link>https://gobigbencookbook.com/recipes/nashville-hot-chicken-wrap/</link>
+      <guid>https://gobigbencookbook.com/recipes/nashville-hot-chicken-wrap/</guid>
+      <description>A loaded wrap packed with crispy Nashville hot chicken, creamy coleslaw, Cajun fries, and all the fixings, then drizzled with jalapeño cheese sauce and Dave&apos;s hot sauce for serious heat lovers.</description>
+      <category>Burritos &amp; Wraps</category>
+      <enclosure url="https://gobigbencookbook.comimages/personal/recipes/nashville-hot-chicken-wrap.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>Smoked Salmon Honey Chipotle Burrito</title>
+      <link>https://gobigbencookbook.com/recipes/smoked-salmon-honey-chipotle-burrito/</link>
+      <guid>https://gobigbencookbook.com/recipes/smoked-salmon-honey-chipotle-burrito/</guid>
+      <description>A loaded breakfast burrito that brings together smoky salmon, crispy bacon, and scrambled eggs with a sweet-heat honey chipotle cream that&apos;ll wake up your taste buds. Stuffed with creamy avocado, tangy feta, and even crispy fries inside for that perfect crunch.</description>
+      <category>Burritos &amp; Wraps</category>
+      <enclosure url="https://gobigbencookbook.comimages/personal/recipes/smoked-salmon-honey-chipotle-burrito.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>Meat Lovers Pizza Burritos</title>
+      <link>https://gobigbencookbook.com/recipes/meat-lovers-pizza-burritos/</link>
+      <guid>https://gobigbencookbook.com/recipes/meat-lovers-pizza-burritos/</guid>
+      <description>A loaded pizza burrito stuffed with five kinds of meat, melty cheese, and all your favorite pizza toppings wrapped in a tomato basil tortilla. Served with crispy garlic parmesan fries and ranch for dipping — it&apos;s like pizza night met burrito night and they had a delicious baby.</description>
+      <category>Burritos &amp; Wraps</category>
+      <enclosure url="https://gobigbencookbook.comimages/personal/recipes/meat-lovers-pizza-burritos.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>Mac and Cheese Loaded Baked Potato Burrito</title>
+      <link>https://gobigbencookbook.com/recipes/mac-and-cheese-loaded-baked-potato-burrito/</link>
+      <guid>https://gobigbencookbook.com/recipes/mac-and-cheese-loaded-baked-potato-burrito/</guid>
+      <description>This is the ultimate loaded burrito that takes everything you love about a loaded baked potato and wraps it up with smoky pulled pork, crispy fries, and a mountain of Cool Ranch Doritos. It&apos;s messy, it&apos;s indulgent, and it&apos;s absolutely worth every bite.</description>
+      <category>Burritos &amp; Wraps</category>
+      <enclosure url="https://gobigbencookbook.comimages/personal/recipes/mac-and-cheese-loaded-baked-potato-burrito.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>Creamy Horseradish Steak Burrito</title>
+      <link>https://gobigbencookbook.com/recipes/creamy-horseradish-steak-burrito/</link>
+      <guid>https://gobigbencookbook.com/recipes/creamy-horseradish-steak-burrito/</guid>
+      <description>A loaded steak burrito packed with peppered beef, crispy bacon, and sautéed veggies, all tied together with tangy creamy horseradish sauce. Served with a side of garlic parmesan fries for the ultimate hearty meal.</description>
+      <category>Burritos &amp; Wraps</category>
+      <enclosure url="https://gobigbencookbook.comimages/personal/recipes/creamy-horseradish-steak-burrito.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>Chicken Pot Pie Burrito</title>
+      <link>https://gobigbencookbook.com/recipes/chicken-pot-pie-burrito/</link>
+      <guid>https://gobigbencookbook.com/recipes/chicken-pot-pie-burrito/</guid>
+      <description>A loaded burrito that takes all the comfort of chicken pot pie and wraps it up with crispy fries, bacon, and a fried egg. This is next-level comfort food that eats like a full meal in your hands.</description>
+      <category>Burritos &amp; Wraps</category>
+      <enclosure url="https://gobigbencookbook.comimages/personal/recipes/chicken-pot-pie-burrito.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>

@@ -57,9 +57,9 @@ const CATEGORIES = [
   { label: "Chicken Sandwiches", count: 100 },
   { label: "Sauces", count: 68 },
   { label: "Salads & Sides", count: 31 },
+  { label: "Burritos & Wraps", count: 29 },
   { label: "Sandwiches", count: 26 },
   { label: "Crockpot", count: 23 },
-  { label: "Burritos & Wraps", count: 18 },
   { label: "Pasta", count: 12 },
   { label: "Main Dishes", count: 12 },
   { label: "Soups & Stews", count: 5 },
@@ -83,7 +83,7 @@ export default function StatsCounter() {
         {/* Top stats: Recipes + Components */}
         <div className="grid grid-cols-2 gap-8 mb-14 max-w-md mx-auto">
           <StatItem
-            value={250}
+            value={310}
             suffix="+"
             label="Original Recipes"
             delay={0}
