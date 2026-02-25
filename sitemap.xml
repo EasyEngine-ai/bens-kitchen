@@ -61,13 +61,13 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://gobigbencookbook.com/categories/pasta/</loc>
+    <loc>https://gobigbencookbook.com/categories/mains/</loc>
     <lastmod>2026-02-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://gobigbencookbook.com/categories/mains/</loc>
+    <loc>https://gobigbencookbook.com/categories/pasta/</loc>
     <lastmod>2026-02-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -2030,6 +2030,24 @@
   </url>
   <url>
     <loc>https://gobigbencookbook.com/recipes/pastrami-breakfast-burrito/</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gobigbencookbook.com/recipes/chopped/</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gobigbencookbook.com/recipes/roasted-chicken-salad-wraps/</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://gobigbencookbook.com/recipes/chicken-cheddar-broccoli-and-rice-burrito/</loc>
     <lastmod>2026-02-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

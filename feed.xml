@@ -5,7 +5,7 @@
     <link>https://gobigbencookbook.com</link>
     <description>250+ original recipes — from signature chicken sandwiches to everyday sauces, sides, and everything in between. By Benjamin Larson.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Feb 2026 05:50:08 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Feb 2026 06:08:21 GMT</lastBuildDate>
     <atom:link href="https://gobigbencookbook.com/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Buffalo Ranch Chicken Sandwich</title>
@@ -2485,6 +2485,30 @@
       <description>This isn&apos;t your average breakfast burrito — it&apos;s loaded with pastrami, bacon, crispy fries, and goat cheese scrambled eggs, then topped with a tangy hot sauce mayo that&apos;ll wake you right up. A hearty Southern-style monster that&apos;s perfect for weekend mornings when you&apos;re really hungry.</description>
       <category>Breakfast</category>
       <enclosure url="https://gobigbencookbook.com/images/personal/pastrami-breakfast-burrito.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>Chopped</title>
+      <link>https://gobigbencookbook.com/recipes/chopped/</link>
+      <guid>https://gobigbencookbook.com/recipes/chopped/</guid>
+      <description>A hearty, crunchy broccoli salad loaded with bacon, pepperoni, sharp cheddar, and sweet dried fruit — tossed in a tangy mayo dressing that brings it all together. Perfect for potlucks or as a filling side that eats like a meal.</description>
+      <category>Main Dishes</category>
+      <enclosure url="https://gobigbencookbook.com/images/personal/chopped.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>Roasted Chicken Salad Wraps</title>
+      <link>https://gobigbencookbook.com/recipes/roasted-chicken-salad-wraps/</link>
+      <guid>https://gobigbencookbook.com/recipes/roasted-chicken-salad-wraps/</guid>
+      <description>A loaded wrap packed with tender roasted chicken, crispy bacon, sweet fruit, crunchy nuts, and creamy feta — all brought together with a honey-mayo dressing and topped with crushed potato chips for that perfect crunch.</description>
+      <category>Burritos &amp; Wraps</category>
+      <enclosure url="https://gobigbencookbook.com/images/personal/roasted-chicken-salad-wraps.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>Chicken Cheddar Broccoli and Rice Burrito</title>
+      <link>https://gobigbencookbook.com/recipes/chicken-cheddar-broccoli-and-rice-burrito/</link>
+      <guid>https://gobigbencookbook.com/recipes/chicken-cheddar-broccoli-and-rice-burrito/</guid>
+      <description>A hearty, loaded burrito packed with seasoned chicken, crispy bacon, and tender broccoli rice, all wrapped up with melted cheddar and a tangy lemon-mayo sauce. It&apos;s got everything you want in a burrito — creamy, crunchy, and seriously satisfying.</description>
+      <category>Burritos &amp; Wraps</category>
+      <enclosure url="https://gobigbencookbook.com/images/personal/chicken-cheddar-broccoli-and-rice-burrito.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>

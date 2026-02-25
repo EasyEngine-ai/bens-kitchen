@@ -110,5 +110,21 @@
     "recipes_added": 8,
     "total_recipes": 225,
     "duration_seconds": 567.8
+  },
+  {
+    "timestamp": "2026-02-25T00:03:22.333697",
+    "status": "success",
+    "steps": {
+      "export": 18,
+      "parse": 3,
+      "enhance": 3,
+      "images": 3,
+      "image_cost": 0.5,
+      "webp_converted": 4
+    },
+    "errors": [],
+    "recipes_added": 3,
+    "total_recipes": 228,
+    "duration_seconds": 262.5
   }
 ]
