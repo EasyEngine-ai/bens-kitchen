@@ -5,7 +5,7 @@
     <link>https://gobigbencookbook.com</link>
     <description>250+ original recipes — from signature chicken sandwiches to everyday sauces, sides, and everything in between. By Benjamin Larson.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Feb 2026 08:43:41 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Feb 2026 05:16:33 GMT</lastBuildDate>
     <atom:link href="https://gobigbencookbook.com/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Buffalo Ranch Chicken Sandwich</title>
@@ -2421,6 +2421,70 @@
       <description>This loaded burrito is pure comfort food indulgence — crispy fried chicken, bacon, and French fries all wrapped up with brown gravy, melted cheddar, and sautéed onions. It&apos;s messy, it&apos;s over-the-top, and it&apos;s absolutely worth it.</description>
       <category>Burritos &amp; Wraps</category>
       <enclosure url="https://gobigbencookbook.com/images/personal/fried-chicken-gravy-and-french-fries-burrito.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>Sauces</title>
+      <link>https://gobigbencookbook.com/recipes/sauces/</link>
+      <guid>https://gobigbencookbook.com/recipes/sauces/</guid>
+      <description>A collection of versatile homemade sauces perfect for topping everything from steaks and burgers to tacos and salads. Mix and match these flavor-packed condiments to elevate any meal.</description>
+      <category>Sauces</category>
+      <enclosure url="https://gobigbencookbook.com/images/personal/sauces.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>Steak and Creamed Spinach Burrito</title>
+      <link>https://gobigbencookbook.com/recipes/steak-and-creamed-spinach-burrito/</link>
+      <guid>https://gobigbencookbook.com/recipes/steak-and-creamed-spinach-burrito/</guid>
+      <description>This loaded breakfast burrito is a serious meal — peppered steak, crispy bacon, creamed spinach, and a fried egg all wrapped up with sautéed veggies and topped with crunchy onion strings. Served with garlic parm fries and that peppercorn steak sauce for dipping, it&apos;s basically brunch and dinner had a delicious baby.</description>
+      <category>Burritos &amp; Wraps</category>
+      <enclosure url="https://gobigbencookbook.com/images/personal/steak-and-creamed-spinach-burrito.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>Big Mac Burrito</title>
+      <link>https://gobigbencookbook.com/recipes/big-mac-burrito/</link>
+      <guid>https://gobigbencookbook.com/recipes/big-mac-burrito/</guid>
+      <description>All the flavors of a Big Mac wrapped up in a loaded burrito with seasoned fries, cheese, and that iconic special sauce. This is fast food mashup heaven that&apos;ll make you forget about the drive-thru.</description>
+      <category>Burritos &amp; Wraps</category>
+      <enclosure url="https://gobigbencookbook.com/images/personal/big-mac-burrito.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>Ham And Cheese Burrito</title>
+      <link>https://gobigbencookbook.com/recipes/ham-and-cheese-burrito/</link>
+      <guid>https://gobigbencookbook.com/recipes/ham-and-cheese-burrito/</guid>
+      <description>A loaded breakfast burrito that&apos;s stuffed with everything good — smoky ham, crispy bacon, melted cheese, fried eggs, and even french fries for that perfect crunch. This is the kind of hearty wrap that&apos;ll keep you going all day.</description>
+      <category>Burritos &amp; Wraps</category>
+      <enclosure url="https://gobigbencookbook.com/images/personal/ham-and-cheese-burrito.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>Cheesy Chipotle Lime Chicken Burrito</title>
+      <link>https://gobigbencookbook.com/recipes/cheesy-chipotle-lime-chicken-burrito/</link>
+      <guid>https://gobigbencookbook.com/recipes/cheesy-chipotle-lime-chicken-burrito/</guid>
+      <description>This is the ultimate loaded burrito — crispy bacon, smoky chipotle chicken, creamy cheeses, and crunchy Takis all wrapped up in one ridiculously satisfying package. It&apos;s got everything from pickled onions to fried onion strips, because why choose when you can have it all?</description>
+      <category>Burritos &amp; Wraps</category>
+      <enclosure url="https://gobigbencookbook.com/images/personal/cheesy-chipotle-lime-chicken-burrito.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>Pastrami Ground Beef Chili  Burrito</title>
+      <link>https://gobigbencookbook.com/recipes/pastrami-ground-beef-chili-burrito/</link>
+      <guid>https://gobigbencookbook.com/recipes/pastrami-ground-beef-chili-burrito/</guid>
+      <description>A massive loaded burrito stuffed with smoky pastrami, bacon, hearty ground beef chili, and all the fixings — crispy fries, Fritos, and tangy pickled peppers make this the ultimate comfort food mashup.</description>
+      <category>Burritos &amp; Wraps</category>
+      <enclosure url="https://gobigbencookbook.com/images/personal/pastrami-ground-beef-chili-burrito.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>Pastrami Ruben Burrito</title>
+      <link>https://gobigbencookbook.com/recipes/pastrami-ruben-burrito/</link>
+      <guid>https://gobigbencookbook.com/recipes/pastrami-ruben-burrito/</guid>
+      <description>A monster mash-up that takes everything you love about a pastrami Reuben and wraps it up burrito-style with crispy fries and chips tucked inside. It&apos;s messy, indulgent, and absolutely worth every napkin you&apos;ll go through.</description>
+      <category>Burritos &amp; Wraps</category>
+      <enclosure url="https://gobigbencookbook.com/images/personal/pastrami-ruben-burrito.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>Pastrami Breakfast Burrito</title>
+      <link>https://gobigbencookbook.com/recipes/pastrami-breakfast-burrito/</link>
+      <guid>https://gobigbencookbook.com/recipes/pastrami-breakfast-burrito/</guid>
+      <description>This isn&apos;t your average breakfast burrito — it&apos;s loaded with pastrami, bacon, crispy fries, and goat cheese scrambled eggs, then topped with a tangy hot sauce mayo that&apos;ll wake you right up. A hearty Southern-style monster that&apos;s perfect for weekend mornings when you&apos;re really hungry.</description>
+      <category>Breakfast</category>
+      <enclosure url="https://gobigbencookbook.com/images/personal/pastrami-breakfast-burrito.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>
