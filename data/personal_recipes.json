@@ -4,17 +4,17 @@
     {
       "id": "sauces",
       "name": "Sauces",
-      "count": 69
+      "count": 70
+    },
+    {
+      "id": "burritos-wraps",
+      "name": "Burritos & Wraps",
+      "count": 34
     },
     {
       "id": "salads-sides",
       "name": "Salads & Sides",
       "count": 31
-    },
-    {
-      "id": "burritos-wraps",
-      "name": "Burritos & Wraps",
-      "count": 30
     },
     {
       "id": "sandwiches",
@@ -39,7 +39,7 @@
     {
       "id": "soups",
       "name": "Soups & Stews",
-      "count": 5
+      "count": 6
     },
     {
       "id": "dips",
@@ -47,13 +47,13 @@
       "count": 5
     },
     {
-      "id": "chicken-sandwiches",
-      "name": "Chicken Sandwiches",
-      "count": 2
-    },
-    {
       "id": "breakfast",
       "name": "Breakfast",
+      "count": 3
+    },
+    {
+      "id": "chicken-sandwiches",
+      "name": "Chicken Sandwiches",
       "count": 2
     },
     {
@@ -8173,26 +8173,293 @@
       "slug": "sauces",
       "category": "sauces",
       "ingredients": [
-        "Cowboy butter",
-        "Garlic herb butter",
-        "Tallow mayo",
-        "Sour cream horseradish sauce",
-        "Sand which sauce",
-        "Tatkiiki",
-        "Barilla sauce",
-        "Al pastor",
-        "Cesar vinegrete",
-        "Yogurt, red chimmichri, extra lemon"
+        "For Cowboy Butter: 1 cup butter (softened), 4 cloves garlic (minced), 2 tablespoons fresh parsley (chopped), 1 tablespoon chives (chopped), 1 teaspoon smoked paprika, 1 teaspoon red pepper flakes, 1 tablespoon lemon juice, 1 teaspoon Dijon mustard, salt and pepper to taste",
+        "For Garlic Herb Butter: 1 cup butter (softened), 6 cloves garlic (minced), 2 tablespoons mixed fresh herbs (parsley, thyme, rosemary), 1 teaspoon salt, 1/2 teaspoon black pepper",
+        "For Tallow Mayo: 1 cup beef tallow (melted and cooled), 2 egg yolks, 1 tablespoon lemon juice, 1 teaspoon Dijon mustard, salt to taste",
+        "For Sour Cream Horseradish Sauce: 1 cup sour cream, 3 tablespoons prepared horseradish, 1 tablespoon lemon juice, 1/2 teaspoon salt, 1/4 teaspoon black pepper",
+        "For Sandwich Sauce: 1/2 cup mayonnaise, 1/4 cup sour cream, 2 tablespoons ketchup, 1 tablespoon sweet pickle relish, 1 teaspoon garlic powder, 1 teaspoon onion powder, salt and pepper to taste",
+        "For Tzatziki: 2 cups Greek yogurt, 1 cucumber (grated and squeezed dry), 4 cloves garlic (minced), 2 tablespoons fresh dill (chopped), 1 tablespoon lemon juice, 2 tablespoons olive oil, salt to taste",
+        "For Al Pastor Sauce: 1/2 cup pineapple juice, 3 dried guajillo chiles (rehydrated), 3 cloves garlic, 1/4 cup white vinegar, 1 tablespoon achiote paste, 1 teaspoon cumin, 1 teaspoon oregano, salt to taste",
+        "For Caesar Vinaigrette: 1/2 cup olive oil, 2 tablespoons lemon juice, 2 cloves garlic (minced), 2 tablespoons Dijon mustard, 1 tablespoon anchovy paste, 1/4 cup grated Parmesan, salt and pepper to taste",
+        "For Red Chimichurri Yogurt: 1 cup Greek yogurt, 1/2 cup fresh cilantro (chopped), 1/4 cup fresh parsley (chopped), 3 cloves garlic (minced), 2 tablespoons red wine vinegar, 1/4 cup olive oil, 1 teaspoon red pepper flakes, juice of 2 lemons, salt to taste"
       ],
       "directions": [
-        "Apples, onion, in and out sauce, sour cream, yogurt, cucumber, garlic, herb seasoning",
-        "Mayo, sour cream, yogurt, peppers, onion, garlic, cilantro, spicy peppers and powders, lime, vinegar, chorizo, cjota cheese, taco seasoning, corn, roasted tomatoe",
-        "Goat cheese, mayo, sour cream, yogurt, cholua, sun-dried tomatoes, garlic, cilantro, jalapeño, lime, tomato bullion, corn",
-        "Buffalo sauce, butter, sour cream, or yogurt, chives, sweet pepper, and habanero with lots and lots of cream cheese, chicken and tomato  bullion"
+        "For compound butters (Cowboy and Garlic Herb): Combine softened butter with all ingredients in a bowl, mix thoroughly, shape into a log using plastic wrap, and refrigerate until firm (at least 2 hours).",
+        "For Tallow Mayo: Whisk egg yolks with mustard and lemon juice, then slowly drizzle in cooled melted tallow while whisking constantly until emulsified and creamy. Season with salt.",
+        "For cold sauces (Sour Cream Horseradish, Sandwich Sauce, Tzatziki, Red Chimichurri Yogurt): Combine all ingredients in a bowl, mix well, and refrigerate for at least 30 minutes to let flavors develop.",
+        "For Al Pastor Sauce: Blend rehydrated chiles, garlic, pineapple juice, vinegar, achiote paste, and spices until smooth. Simmer in a small saucepan for 10 minutes, then strain if desired.",
+        "For Caesar Vinaigrette: Whisk together garlic, mustard, anchovy paste, and lemon juice, then slowly drizzle in olive oil while whisking constantly. Stir in Parmesan and season to taste.",
+        "Taste all sauces and adjust seasoning as needed — add more salt, acid (lemon/vinegar), or spices to suit your preference.",
+        "Store all sauces in airtight containers in the refrigerator. Compound butters keep for 2 weeks, mayo-based sauces for 3-5 days, and yogurt-based sauces for up to 1 week."
       ],
       "youtube_url": null,
       "source_file": "note_138.txt",
-      "subcategory": "general"
+      "subcategory": "general",
+      "description": "A collection of versatile homemade sauces perfect for topping everything from steaks and burgers to tacos and salads. Mix and match these flavor-packed condiments to elevate any meal.",
+      "prep_time": "45 min",
+      "cook_time": "15 min",
+      "servings": 16
+    },
+    {
+      "title": "Steak and Creamed Spinach Burrito",
+      "slug": "steak-and-creamed-spinach-burrito",
+      "category": "burritos-wraps",
+      "ingredients": [
+        "1 large flour tortilla (12-inch)",
+        "6 oz sliced peppered steak",
+        "3 strips bacon",
+        "1 large egg",
+        "1/4 cup grated Parmesan cheese",
+        "2 tablespoons cream cheese, softened",
+        "1/2 cup creamed spinach",
+        "1/2 cup sliced mushrooms",
+        "1/4 cup diced onions",
+        "1/4 cup diced red bell peppers",
+        "2 cloves garlic, minced",
+        "1/4 cup crispy fried onion strings",
+        "1 tablespoon fresh parsley, chopped",
+        "1/2 teaspoon fresh thyme leaves",
+        "1 1/2 cups garlic Parmesan french fries",
+        "1 cup jalapeño kettle cooked chips",
+        "1/4 cup peppercorn steak sauce",
+        "2 tablespoons butter, divided",
+        "Salt and pepper to taste"
+      ],
+      "directions": [
+        "Cook bacon in a skillet until crispy, then set aside. In the same pan with 1 tablespoon butter, sauté mushrooms, onions, red peppers, and garlic over medium-high heat for 5-6 minutes until softened. Season with salt, pepper, parsley, and thyme. Remove and keep warm.",
+        "In the same skillet, cook the sliced peppered steak for 2-3 minutes per side until heated through and edges are slightly crispy. Set aside and keep warm.",
+        "Fry the egg in remaining butter to your preferred doneness (over-easy recommended for a runny yolk). Meanwhile, warm the flour tortilla in a dry skillet or microwave for 20 seconds until pliable.",
+        "Spread cream cheese down the center of the tortilla, then layer with creamed spinach, steak, bacon, sautéed vegetables, and the fried egg. Top with Parmesan cheese and fried onion strings.",
+        "Fold in the sides of the tortilla, then roll tightly from bottom to top, tucking as you go. Cut in half on a diagonal.",
+        "Serve immediately with garlic Parmesan fries, jalapeño chips, and peppercorn steak sauce on the side for dipping."
+      ],
+      "youtube_url": null,
+      "source_file": "note_419.txt",
+      "description": "This loaded breakfast burrito is a serious meal — peppered steak, crispy bacon, creamed spinach, and a fried egg all wrapped up with sautéed veggies and topped with crunchy onion strings. Served with garlic parm fries and that peppercorn steak sauce for dipping, it's basically brunch and dinner had a delicious baby.",
+      "prep_time": "15 min",
+      "cook_time": "20 min",
+      "servings": 1
+    },
+    {
+      "title": "Big Mac Burrito",
+      "slug": "big-mac-burrito",
+      "category": "sauces",
+      "ingredients": [
+        "1 lb ground beef",
+        "4 large flour tortillas (12-inch)",
+        "2 cups shredded cheddar cheese",
+        "1/2 cup diced red onion",
+        "1/2 cup diced white onion",
+        "1/2 cup diced dill pickles",
+        "1 large tomato, diced",
+        "2 cups shredded iceberg lettuce",
+        "2 cups frozen french fries",
+        "1 teaspoon garlic salt",
+        "1/2 teaspoon black pepper",
+        "1 cup Big Mac sauce",
+        "Kettle cooked chips, for serving"
+      ],
+      "directions": [
+        "Cook french fries according to package directions until crispy, then season with garlic salt and pepper while hot. Set aside.",
+        "Brown ground beef in a large skillet over medium-high heat, breaking it apart as it cooks. Season with salt and pepper, then drain excess grease.",
+        "Warm tortillas in a dry skillet or microwave until pliable. Lay each tortilla flat and spread 2-3 tablespoons Big Mac sauce down the center.",
+        "Layer each tortilla with seasoned beef, a handful of fries, cheddar cheese, red and white onions, pickles, tomatoes, and lettuce.",
+        "Fold in the sides of the tortilla, then roll tightly from bottom to top to form a burrito.",
+        "Optional: Place burritos seam-side down in a hot skillet for 1-2 minutes per side to crisp the outside and melt the cheese.",
+        "Cut in half and serve with kettle cooked chips on the side and extra Big Mac sauce for dipping."
+      ],
+      "youtube_url": null,
+      "source_file": "note_420.txt",
+      "subcategory": "burger-sauces",
+      "description": "All the flavors of a Big Mac wrapped up in a loaded burrito with seasoned fries, cheese, and that iconic special sauce. This is fast food mashup heaven that'll make you forget about the drive-thru.",
+      "prep_time": "15 min",
+      "cook_time": "20 min",
+      "servings": 4
+    },
+    {
+      "title": "Ham And Cheese Burrito",
+      "slug": "ham-and-cheese-burrito",
+      "category": "burritos-wraps",
+      "ingredients": [
+        "1 large flour tortilla (12-inch)",
+        "4 oz smoked thick cut ham, diced",
+        "3 strips bacon, cooked crispy and chopped",
+        "1/2 cup shredded cheddar cheese",
+        "1/4 cup shredded pepper jack cheese",
+        "2 tablespoons diced pickles",
+        "1 jalapeño, sliced",
+        "1/4 cup diced yellow onion",
+        "2 fried eggs",
+        "1/2 cup french fries, cooked crispy",
+        "1/4 cup crushed kettle cooked chips",
+        "2 tablespoons mayo",
+        "2 tablespoons sour cream"
+      ],
+      "directions": [
+        "Cook the bacon until crispy, then chop and set aside. In the same pan, cook the diced ham until lightly browned, about 3-4 minutes. Remove and set aside.",
+        "Fry 2 eggs to your liking (over easy or scrambled works great). Season with salt and pepper.",
+        "Mix the mayo and sour cream together in a small bowl. Warm the tortilla in a dry skillet or microwave for 20 seconds to make it pliable.",
+        "Spread the mayo-sour cream mixture down the center of the tortilla. Layer on the ham, bacon, both cheeses, pickles, jalapeño, and onion.",
+        "Top with the fried eggs, then add the french fries and crushed chips for crunch.",
+        "Fold in the sides of the tortilla, then roll it up tightly from bottom to top, tucking as you go.",
+        "Optional: Place the burrito seam-side down in a hot skillet for 1-2 minutes per side to crisp up the outside and melt the cheese even more."
+      ],
+      "youtube_url": null,
+      "source_file": "note_421.txt",
+      "description": "A loaded breakfast burrito that's stuffed with everything good — smoky ham, crispy bacon, melted cheese, fried eggs, and even french fries for that perfect crunch. This is the kind of hearty wrap that'll keep you going all day.",
+      "prep_time": "10 min",
+      "cook_time": "15 min",
+      "servings": 1
+    },
+    {
+      "title": "Cheesy Chipotle Lime Chicken Burrito",
+      "slug": "cheesy-chipotle-lime-chicken-burrito",
+      "category": "burritos-wraps",
+      "ingredients": [
+        "2 large flour tortillas (12-inch)",
+        "1 lb chicken thighs, seasoned with 2 tablespoons chipotle seasoning",
+        "6 strips bacon",
+        "4 eggs, scrambled with 2 oz goat cheese",
+        "1 cup shredded Mexican cheese blend",
+        "1/2 cup crumbled feta cheese",
+        "1/2 cup red pickled onions",
+        "1 medium onion, sliced",
+        "1 red bell pepper, sliced",
+        "4 cloves garlic, minced",
+        "1 jalapeño, sliced (raw)",
+        "1 (4 oz) can diced green chilies, drained",
+        "1 cup guacamole",
+        "1/4 cup fresh cilantro, chopped",
+        "2 tablespoons fresh lime juice",
+        "1/2 cup fried onion strips",
+        "1 cup black beans, drained and rinsed",
+        "2 cups chile lime seasoned french fries, cooked crispy",
+        "1 cup crushed Takis",
+        "1/2 cup sour cream mixed with 3 tablespoons chipotle sauce"
+      ],
+      "directions": [
+        "Cook bacon until crispy, then chop into pieces. Season chicken thighs with chipotle seasoning and cook in a skillet over medium-high heat until fully cooked and slightly charred, about 6-8 minutes per side. Slice into strips.",
+        "Sauté sliced onion, red bell pepper, and minced garlic in a skillet with a little oil until softened and caramelized, about 8-10 minutes. In a separate pan, scramble eggs with goat cheese until just set.",
+        "Warm black beans in a small pot. Cook french fries according to package directions until extra crispy, then toss with chile lime seasoning. Warm tortillas in a dry skillet or microwave until pliable.",
+        "Lay out tortilla and layer ingredients down the center: goat cheese scrambled eggs, sliced chipotle chicken, bacon pieces, sautéed vegetables, black beans, Mexican cheese, feta, green chilies, pickled onions, raw jalapeños, and crispy fries.",
+        "Top with guacamole, cilantro, drizzle with lime juice and chipotle sour cream, then add fried onion strips and crushed Takis for crunch.",
+        "Fold in the sides of the tortilla, then roll tightly from bottom to top, tucking as you go. Cut in half on an angle and serve immediately while everything is still warm and crispy."
+      ],
+      "youtube_url": null,
+      "source_file": "note_422.txt",
+      "description": "This is the ultimate loaded burrito — crispy bacon, smoky chipotle chicken, creamy cheeses, and crunchy Takis all wrapped up in one ridiculously satisfying package. It's got everything from pickled onions to fried onion strips, because why choose when you can have it all?",
+      "prep_time": "20 min",
+      "cook_time": "25 min",
+      "servings": 2
+    },
+    {
+      "title": "Pastrami Ground Beef Chili  Burrito",
+      "slug": "pastrami-ground-beef-chili-burrito",
+      "category": "soups",
+      "ingredients": [
+        "4 large flour tortillas (12-inch)",
+        "1/2 lb deli pastrami, chopped",
+        "6 slices bacon, cooked and crumbled",
+        "1 cup shredded cheddar cheese",
+        "4 oz cream cheese, softened",
+        "2 cups ground beef chili (homemade or canned)",
+        "1 cup corn (frozen or canned, drained)",
+        "1/2 cup raw red onion, diced",
+        "1/2 cup raw white onion, diced",
+        "1/2 cup dill pickles, chopped",
+        "1/4 cup pickled jalapeños, sliced",
+        "1/4 cup pepperoncini peppers, sliced",
+        "1 cup parsley french fries, cooked crispy",
+        "1 cup Fritos or Chili Cheese Fritos",
+        "1/4 cup mayonnaise",
+        "1 tablespoon yellow mustard",
+        "1/4 cup sour cream"
+      ],
+      "directions": [
+        "Cook bacon until crispy and crumble; chop pastrami into bite-sized pieces. Warm ground beef chili in a pot over medium heat.",
+        "In a small bowl, mix together mayonnaise, yellow mustard, and sour cream to make the sauce. Set aside.",
+        "Warm flour tortillas in a dry skillet or microwave until pliable. Spread a thin layer of cream cheese down the center of each tortilla.",
+        "Layer pastrami, bacon, hot chili, corn, both onions, pickles, jalapeños, and pepperoncini down the center of each tortilla.",
+        "Top with cheddar cheese, a handful of crispy french fries, and Fritos. Drizzle with the mayo-mustard-sour cream sauce.",
+        "Fold in the sides of the tortilla, then roll tightly from bottom to top, tucking as you go to keep everything inside.",
+        "Optional: Place burrito seam-side down in a hot skillet for 1-2 minutes per side to crisp up and seal the tortilla."
+      ],
+      "youtube_url": null,
+      "source_file": "note_423.txt",
+      "description": "A massive loaded burrito stuffed with smoky pastrami, bacon, hearty ground beef chili, and all the fixings — crispy fries, Fritos, and tangy pickled peppers make this the ultimate comfort food mashup.",
+      "prep_time": "20 min",
+      "cook_time": "15 min",
+      "servings": 4
+    },
+    {
+      "title": "Pastrami Ruben Burrito",
+      "slug": "pastrami-ruben-burrito",
+      "category": "burritos-wraps",
+      "ingredients": [
+        "1 large flour tortilla (12-14 inch)",
+        "6 oz sliced pastrami",
+        "4 strips bacon, cooked crispy",
+        "1/2 cup shredded Swiss cheese, melted",
+        "1/2 cup shredded provolone cheese, melted",
+        "1/2 cup sauerkraut, drained well",
+        "1/4 cup sliced dill pickles",
+        "1/4 cup thinly sliced raw red onion",
+        "2 tablespoons canned diced green chiles",
+        "3 tablespoons Thousand Island dressing",
+        "1 cup frozen French fries, cooked and seasoned with salt, pepper, thyme, and sugar",
+        "1/2 cup salt and vinegar kettle chips"
+      ],
+      "directions": [
+        "Cook the bacon until crispy, then cook the French fries according to package directions and season generously with salt, pepper, thyme, and a pinch of sugar while hot.",
+        "Warm the tortilla in a dry skillet or microwave until pliable. Layer the pastrami in the center, then top with the crispy bacon pieces.",
+        "Sprinkle both melted cheeses over the meat while still hot, then add the drained sauerkraut, pickles, red onion, and green chiles.",
+        "Add the seasoned French fries and kettle chips right on top of everything, then drizzle with Thousand Island dressing.",
+        "Fold in the sides of the tortilla, then roll tightly from the bottom up, tucking as you go to keep everything contained.",
+        "Optional: Place the burrito seam-side down in a hot skillet for 1-2 minutes to seal and crisp up the outside before serving."
+      ],
+      "youtube_url": null,
+      "source_file": "note_424.txt",
+      "description": "A monster mash-up that takes everything you love about a pastrami Reuben and wraps it up burrito-style with crispy fries and chips tucked inside. It's messy, indulgent, and absolutely worth every napkin you'll go through.",
+      "prep_time": "10 min",
+      "cook_time": "15 min",
+      "servings": 1
+    },
+    {
+      "title": "Pastrami Breakfast Burrito",
+      "slug": "pastrami-breakfast-burrito",
+      "category": "breakfast",
+      "ingredients": [
+        "1 large flour tortilla (12-inch)",
+        "4 oz pastrami, sliced",
+        "3 strips bacon, cooked crispy and chopped",
+        "1/2 cup shredded cheddar cheese",
+        "3 large eggs",
+        "2 tablespoons goat cheese, crumbled",
+        "2 tablespoons diced green chilies",
+        "2 tablespoons pickled red onions",
+        "1/4 cup sautéed onions and garlic (about 1/2 medium onion and 2 cloves garlic)",
+        "1/4 cup diced tomatoes",
+        "2 tablespoons cottage cheese",
+        "1/4 cup fresh spinach",
+        "1/2 cup frozen french fries, cooked crispy",
+        "2 tablespoons sour cream",
+        "1 tablespoon mayonnaise",
+        "1 teaspoon hot sauce"
+      ],
+      "directions": [
+        "Cook the bacon until crispy, then chop and set aside. Cook the french fries according to package directions until golden and crispy.",
+        "Scramble the eggs with the goat cheese crumbles in a skillet over medium heat until just set but still creamy. Set aside and keep warm.",
+        "In a small bowl, mix together the sour cream, mayonnaise, and hot sauce to make the sauce. Set aside.",
+        "Warm the tortilla in a dry skillet or microwave for 20 seconds until pliable. Layer the spinach down the center, then add the scrambled eggs, pastrami, bacon, french fries, sautéed onions and garlic, tomatoes, green chilies, and pickled red onions.",
+        "Top with cheddar cheese, cottage cheese, and drizzle with the hot sauce mayo.",
+        "Fold in the sides of the tortilla, then roll tightly from bottom to top to form a burrito. Place seam-side down in a hot skillet for 1-2 minutes to seal and crisp up the outside if desired. Serve immediately."
+      ],
+      "youtube_url": null,
+      "source_file": "note_425.txt",
+      "description": "This isn't your average breakfast burrito — it's loaded with pastrami, bacon, crispy fries, and goat cheese scrambled eggs, then topped with a tangy hot sauce mayo that'll wake you right up. A hearty Southern-style monster that's perfect for weekend mornings when you're really hungry.",
+      "prep_time": "15 min",
+      "cook_time": "20 min",
+      "servings": 1
     }
   ]
 }

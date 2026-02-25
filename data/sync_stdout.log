@@ -1406,3 +1406,13 @@ Saved to /Users/mramir/crazy-chicken-cookbook/src/extract/../../data/personal_re
 [04:00:13] Step 6: Syncing data to site...
 [04:00:13]   Copied to /Users/mramir/crazy-chicken-cookbook/site/data/personal_recipes.json
 [04:00:13] Step 7: Building site...
+[04:00:31]   Build complete
+[04:00:31] Step 8: Deploying to GitHub Pages...
+[04:01:14]   Deployed to gobigbencookbook.com
+[04:01:14] 
+============================================================
+[04:01:14] SUCCESS: Added 1 new recipes (total: 218)
+[04:01:14] ============================================================
+[04:01:14] 
+Duration: 71.9s
+[04:01:14] Log saved to /Users/mramir/crazy-chicken-cookbook/data/sync_log.json
