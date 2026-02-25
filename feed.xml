@@ -5,7 +5,7 @@
     <link>https://gobigbencookbook.com</link>
     <description>250+ original recipes — from signature chicken sandwiches to everyday sauces, sides, and everything in between. By Benjamin Larson.</description>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Feb 2026 07:00:57 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Feb 2026 08:16:09 GMT</lastBuildDate>
     <atom:link href="https://gobigbencookbook.com/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Buffalo Ranch Chicken Sandwich</title>
@@ -2509,6 +2509,30 @@
       <description>A hearty, loaded burrito packed with seasoned chicken, crispy bacon, and tender broccoli rice, all wrapped up with melted cheddar and a tangy lemon-mayo sauce. It&apos;s got everything you want in a burrito — creamy, crunchy, and seriously satisfying.</description>
       <category>Burritos &amp; Wraps</category>
       <enclosure url="https://gobigbencookbook.com/images/personal/chicken-cheddar-broccoli-and-rice-burrito.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>Chicharron And Guacamole Burrito</title>
+      <link>https://gobigbencookbook.com/recipes/chicharron-and-guacamole-burrito/</link>
+      <guid>https://gobigbencookbook.com/recipes/chicharron-and-guacamole-burrito/</guid>
+      <description>A loaded burrito packed with crispy chicharron, bacon, and creamy guacamole, then topped with tangy pickled jalapeños and crunchy chips. The roasted garlic and poblano add a smoky depth that takes this from good to unforgettable.</description>
+      <category>Burritos &amp; Wraps</category>
+      <enclosure url="https://gobigbencookbook.com/images/personal/chicharron-and-guacamole-burrito.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>Chicken Fajita Burrito</title>
+      <link>https://gobigbencookbook.com/recipes/chicken-fajita-burrito/</link>
+      <guid>https://gobigbencookbook.com/recipes/chicken-fajita-burrito/</guid>
+      <description>A loaded fajita burrito stuffed with hot sauce-glazed chicken, sautéed peppers and onions, and a wild mix of cheeses that shouldn&apos;t work together but absolutely do. Topped with pickled everything and crispy taco fries for crunch.</description>
+      <category>Burritos &amp; Wraps</category>
+      <enclosure url="https://gobigbencookbook.com/images/personal/chicken-fajita-burrito.webp" type="image/webp"/>
+    </item>
+    <item>
+      <title>Chicken Broccoli Salad Wrap</title>
+      <link>https://gobigbencookbook.com/recipes/chicken-broccoli-salad-wrap/</link>
+      <guid>https://gobigbencookbook.com/recipes/chicken-broccoli-salad-wrap/</guid>
+      <description>A hearty, flavor-packed wrap that combines tender roasted chicken with crunchy broccoli slaw, crispy bacon and pepperoni, and a tangy-sweet dressing. Perfect for lunch or a quick dinner when you want something satisfying and delicious.</description>
+      <category>Burritos &amp; Wraps</category>
+      <enclosure url="https://gobigbencookbook.com/images/personal/chicken-broccoli-salad-wrap.webp" type="image/webp"/>
     </item>
   </channel>
 </rss>
