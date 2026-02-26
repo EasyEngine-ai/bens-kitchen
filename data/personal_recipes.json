@@ -9,7 +9,7 @@
     {
       "id": "burritos-wraps",
       "name": "Burritos & Wraps",
-      "count": 41
+      "count": 42
     },
     {
       "id": "salads-sides",
@@ -8690,6 +8690,26 @@
       "cook_time": "0 min",
       "servings": 6,
       "image": "/images/personal/chicken-broccoli-salad-wrap.webp"
+    },
+    {
+      "title": "Pastrami Biscuits and Gravy Burritos",
+      "slug": "pastrami-biscuits-and-gravy-burritos",
+      "category": "burritos-wraps",
+      "ingredients": [
+        "Large Flour Tortilla",
+        "Pastrami",
+        "Smoked Pork Belly",
+        "Biscuits",
+        "Goat Cheese Scrambled Eggs",
+        "Sautéed Onions and Garlic",
+        "Green Chiles",
+        "Cherry Tomatoes",
+        "Hot Sauce",
+        "Country Sausage Gravy"
+      ],
+      "directions": [],
+      "youtube_url": null,
+      "source_file": "note_492.txt"
     }
   ]
 }
