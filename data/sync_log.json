@@ -158,5 +158,21 @@
     "recipes_added": 0,
     "total_recipes": 231,
     "duration_seconds": 89.7
+  },
+  {
+    "timestamp": "2026-02-26T04:11:29.846665",
+    "status": "error",
+    "steps": {
+      "export": 16,
+      "parse": 1,
+      "enhance": 0,
+      "images": 1,
+      "image_cost": 0.17,
+      "webp_converted": 1
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 8927.8
   }
 ]
