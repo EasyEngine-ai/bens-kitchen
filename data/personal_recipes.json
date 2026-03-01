@@ -8696,20 +8696,33 @@
       "slug": "pastrami-biscuits-and-gravy-burritos",
       "category": "burritos-wraps",
       "ingredients": [
-        "Large Flour Tortilla",
-        "Pastrami",
-        "Smoked Pork Belly",
-        "Biscuits",
-        "Goat Cheese Scrambled Eggs",
-        "Sautéed Onions and Garlic",
-        "Green Chiles",
-        "Cherry Tomatoes",
-        "Hot Sauce",
-        "Country Sausage Gravy"
+        "4 large flour tortillas (12-inch)",
+        "1 lb pastrami, sliced thin",
+        "8 oz smoked pork belly, diced",
+        "4 buttermilk biscuits, crumbled",
+        "8 eggs",
+        "3 oz goat cheese, crumbled",
+        "1 large yellow onion, sliced",
+        "4 cloves garlic, minced",
+        "1 (4 oz) can diced green chiles",
+        "1 cup cherry tomatoes, halved",
+        "Hot sauce, to taste",
+        "2 cups country sausage gravy, warmed"
       ],
-      "directions": [],
+      "directions": [
+        "In a large skillet over medium heat, cook the diced pork belly until crispy, about 6-8 minutes. Remove and set aside, leaving some fat in the pan.",
+        "In the same skillet, sauté the sliced onions until softened, about 5 minutes. Add garlic and cook another minute. Add pastrami and warm through, then remove everything and set aside.",
+        "Whisk eggs with crumbled goat cheese. Scramble in the skillet until just set and fluffy. Season with salt and pepper to taste.",
+        "Warm tortillas slightly. On each tortilla, layer crumbled biscuits, scrambled eggs, pastrami mixture, crispy pork belly, green chiles, and cherry tomatoes.",
+        "Generously ladle warm sausage gravy over the fillings and add hot sauce to taste.",
+        "Fold in the sides and roll tightly into burritos. Serve immediately with extra gravy and hot sauce on the side."
+      ],
       "youtube_url": null,
-      "source_file": "note_492.txt"
+      "source_file": "note_492.txt",
+      "description": "A ridiculously indulgent breakfast burrito that combines tender pastrami, crispy pork belly, and fluffy biscuits all smothered in country sausage gravy. This is what happens when Southern comfort food meets Tex-Mex — and it's absolutely worth the mess.",
+      "prep_time": "20 min",
+      "cook_time": "20 min",
+      "servings": 4
     }
   ]
 }

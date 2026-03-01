@@ -174,5 +174,37 @@
       "gh-pages deploy failed"
     ],
     "duration_seconds": 8927.8
+  },
+  {
+    "timestamp": "2026-02-27T04:12:40.839876",
+    "status": "success",
+    "steps": {
+      "export": 15,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [],
+    "recipes_added": 0,
+    "total_recipes": 232,
+    "duration_seconds": 4245.0
+  },
+  {
+    "timestamp": "2026-02-28T04:00:02.754100",
+    "status": "error",
+    "steps": {
+      "export": 15,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 27.7
   }
 ]
