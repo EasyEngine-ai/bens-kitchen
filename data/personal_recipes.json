@@ -4,7 +4,7 @@
     {
       "id": "sauces",
       "name": "Sauces",
-      "count": 69
+      "count": 70
     },
     {
       "id": "burritos-wraps",
@@ -8723,6 +8723,26 @@
       "prep_time": "20 min",
       "cook_time": "20 min",
       "servings": 4
+    },
+    {
+      "title": "Green Goddess Dressing",
+      "slug": "green-goddess-dressing",
+      "category": "sauces",
+      "ingredients": [
+        "Greek Yogurt",
+        "Avacado",
+        "Cilantro",
+        "Mint",
+        "Basil",
+        "Garlic",
+        "Lemon Juice",
+        "Olive oil",
+        "Black Pepper"
+      ],
+      "directions": [],
+      "youtube_url": null,
+      "source_file": "note_591.txt",
+      "subcategory": "dressings"
     }
   ]
 }
