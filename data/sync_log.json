@@ -302,5 +302,37 @@
     "recipes_added": 0,
     "total_recipes": 233,
     "duration_seconds": 6754.9
+  },
+  {
+    "timestamp": "2026-03-07T04:00:05.340523",
+    "status": "success",
+    "steps": {
+      "export": 15,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [],
+    "recipes_added": 0,
+    "total_recipes": 233,
+    "duration_seconds": 110.7
+  },
+  {
+    "timestamp": "2026-03-08T05:03:35.677845",
+    "status": "error",
+    "steps": {
+      "export": 15,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 1371.7
   }
 ]
