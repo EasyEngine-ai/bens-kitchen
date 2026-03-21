@@ -462,5 +462,69 @@
       "gh-pages deploy failed"
     ],
     "duration_seconds": 1724.1
+  },
+  {
+    "timestamp": "2026-03-17T04:09:13.767452",
+    "status": "success",
+    "steps": {
+      "export": 15,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [],
+    "recipes_added": 0,
+    "total_recipes": 234,
+    "duration_seconds": 7328.1
+  },
+  {
+    "timestamp": "2026-03-18T02:03:40.195880",
+    "status": "error",
+    "steps": {
+      "export": 15,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 13398.9
+  },
+  {
+    "timestamp": "2026-03-19T02:01:16.365078",
+    "status": "error",
+    "steps": {
+      "export": 15,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 1918.1
+  },
+  {
+    "timestamp": "2026-03-20T02:05:00.230522",
+    "status": "error",
+    "steps": {
+      "export": 15,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 1169.4
   }
 ]
