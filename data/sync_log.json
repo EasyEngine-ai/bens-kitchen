@@ -766,5 +766,37 @@
       "Next.js build failed"
     ],
     "duration_seconds": 330.6
+  },
+  {
+    "timestamp": "2026-04-05T03:00:01.401314",
+    "status": "success",
+    "steps": {
+      "export": 15,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [],
+    "recipes_added": 0,
+    "total_recipes": 234,
+    "duration_seconds": 73.7
+  },
+  {
+    "timestamp": "2026-04-06T03:04:23.740082",
+    "status": "error",
+    "steps": {
+      "export": 15,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 950.3
   }
 ]
