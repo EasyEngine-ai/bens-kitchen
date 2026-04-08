@@ -798,5 +798,21 @@
       "gh-pages deploy failed"
     ],
     "duration_seconds": 950.3
+  },
+  {
+    "timestamp": "2026-04-07T03:04:58.096026",
+    "status": "success",
+    "steps": {
+      "export": 15,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [],
+    "recipes_added": 0,
+    "total_recipes": 234,
+    "duration_seconds": 3195.6
   }
 ]
