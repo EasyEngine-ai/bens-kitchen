@@ -29,7 +29,7 @@
     {
       "id": "mains",
       "name": "Main Dishes",
-      "count": 14
+      "count": 15
     },
     {
       "id": "pasta",
@@ -8754,6 +8754,21 @@
       ],
       "youtube_url": null,
       "source_file": "note_681.txt"
+    },
+    {
+      "title": "Ldr card info",
+      "slug": "ldr-card-info",
+      "category": "mains",
+      "ingredients": [
+        "4246315332161981",
+        "10/28 742",
+        "Candice Green",
+        "1240 S State College suite 260",
+        "Anaheim 92806"
+      ],
+      "directions": [],
+      "youtube_url": null,
+      "source_file": "note_1014.txt"
     }
   ]
 }
