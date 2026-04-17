@@ -4,7 +4,7 @@
     {
       "id": "sauces",
       "name": "Sauces",
-      "count": 70
+      "count": 74
     },
     {
       "id": "burritos-wraps",
@@ -29,7 +29,7 @@
     {
       "id": "mains",
       "name": "Main Dishes",
-      "count": 15
+      "count": 22
     },
     {
       "id": "pasta",
@@ -8769,6 +8769,251 @@
       "directions": [],
       "youtube_url": null,
       "source_file": "note_1014.txt"
+    },
+    {
+      "title": "Honey Mango Sauce Salmon",
+      "slug": "honey-mango-sauce-salmon",
+      "category": "sauces",
+      "ingredients": [
+        "Salmon with soy sauce",
+        "Mango",
+        "Honey",
+        "Rice vinegar",
+        "Lime juice"
+      ],
+      "directions": [
+        "Served with rice, cucumbers, and carrots"
+      ],
+      "youtube_url": null,
+      "source_file": "note_1007.txt",
+      "subcategory": "general"
+    },
+    {
+      "title": "Goat Cheese Onion Tomato Cod",
+      "slug": "goat-cheese-onion-tomato-cod",
+      "category": "mains",
+      "ingredients": [
+        "Cod",
+        "Olive oil",
+        "Butter",
+        "Goat Cheese",
+        "Sun-dried tomatoes",
+        "Lemon slices and juice",
+        "Lots of Canned Whole Tomato’s",
+        "Lots of onions",
+        "Garlic",
+        "Oregano",
+        "Thyme",
+        "Paprika",
+        "Fresh Parsley"
+      ],
+      "directions": [],
+      "youtube_url": null,
+      "source_file": "note_1008.txt"
+    },
+    {
+      "title": "Butter Tomato Capers Cod",
+      "slug": "butter-tomato-capers-cod",
+      "category": "sauces",
+      "ingredients": [
+        "Cod",
+        "Tomatoes",
+        "Capers",
+        "Onions",
+        "Garlic",
+        "Butter",
+        "White wine",
+        "Vegetable stock",
+        "Parsley",
+        "Parmesan",
+        "Cornstarch to thicken"
+      ],
+      "directions": [],
+      "youtube_url": null,
+      "source_file": "note_1009.txt",
+      "subcategory": "general"
+    },
+    {
+      "title": "Orange Ginger Honey Salmon",
+      "slug": "orange-ginger-honey-salmon",
+      "category": "mains",
+      "ingredients": [
+        "Salmon",
+        "Honey",
+        "Orange Juice and zest",
+        "Soy sauce",
+        "Garlic",
+        "Ginger",
+        "Green Onion",
+        "Sesame Seeds",
+        "Butter"
+      ],
+      "directions": [],
+      "youtube_url": null,
+      "source_file": "note_1010.txt"
+    },
+    {
+      "title": "Coconut Lime Cod",
+      "slug": "coconut-lime-cod",
+      "category": "mains",
+      "ingredients": [
+        "Cod",
+        "Coconut Milk",
+        "Lime Juice",
+        "Ginger",
+        "Onions",
+        "Garlic",
+        "Green onions",
+        "Vegetable Broth",
+        "Corn Starch to thicken"
+      ],
+      "directions": [
+        "Serve on rice"
+      ],
+      "youtube_url": null,
+      "source_file": "note_1011.txt"
+    },
+    {
+      "title": "Creamy Rosemary Cod",
+      "slug": "creamy-rosemary-cod",
+      "category": "mains",
+      "ingredients": [
+        "Cod",
+        "Cream",
+        "Butter",
+        "Chicken stock",
+        "Rosemary",
+        "Thyme",
+        "Parsley",
+        "Parmesan",
+        "Garlic",
+        "Onion",
+        "Lemon slices"
+      ],
+      "directions": [],
+      "youtube_url": null,
+      "source_file": "note_1012.txt"
+    },
+    {
+      "title": "Creamy Lemon Dill Salmon",
+      "slug": "creamy-lemon-dill-salmon",
+      "category": "mains",
+      "ingredients": [
+        "Salmon",
+        "White wine",
+        "Butter",
+        "Lemon",
+        "Cream",
+        "Goat Cheese",
+        "Bit of Dijon Mustard",
+        "Fresh Dill",
+        "Lemon slices",
+        "Garlic",
+        "Shallots",
+        "Corn Starch  to thicken sauce",
+        "And with Garlic Bread Topped with"
+      ],
+      "directions": [
+        "Serve with Lemon Greek Potato’s",
+        "Greek Yogurt with Cucumber, Raw Garlic, and lemon juice"
+      ],
+      "youtube_url": null,
+      "source_file": "note_1013.txt"
+    },
+    {
+      "title": "Honey Lemon Garlic Salmon",
+      "slug": "honey-lemon-garlic-salmon",
+      "category": "mains",
+      "ingredients": [
+        "Salmon",
+        "Honey",
+        "Soy sauce",
+        "Lemon Juice",
+        "Butter",
+        "Garlic",
+        "Grean onions",
+        "Parsley",
+        "Crispy Chili Oil"
+      ],
+      "directions": [
+        "Serve with Peanut Sauce and Corn Rice"
+      ],
+      "youtube_url": null,
+      "source_file": "note_1014.txt"
+    },
+    {
+      "title": "Creamy Lemon Butter Cod",
+      "slug": "creamy-lemon-butter-cod",
+      "category": "sauces",
+      "ingredients": [
+        "Cod",
+        "Butter",
+        "Lemon Juice",
+        "Heavy Cream",
+        "Parmesan",
+        "Parsley",
+        "Onions",
+        "Garlic",
+        "Capers",
+        "Corn Starch"
+      ],
+      "directions": [
+        "Serve with Tomato Basil Quinoa",
+        "Roasted Garlic, Butter, Corn Mashed Potatoes"
+      ],
+      "youtube_url": null,
+      "source_file": "note_1015.txt",
+      "subcategory": "general"
+    },
+    {
+      "title": "Tomato Mediterranean Lemon Cod",
+      "slug": "tomato-mediterranean-lemon-cod",
+      "category": "mains",
+      "ingredients": [
+        "Cod",
+        "Olive Oil",
+        "Crushed Tomatoes",
+        "Butter",
+        "Lemon slices",
+        "Onions",
+        "Whole Garlic",
+        "Kalamata Olives",
+        "Thyme",
+        "Parsley",
+        "Oregano"
+      ],
+      "directions": [
+        "Serve with Garlic Bread",
+        "Also with Olive Oil, Roasted Garlic, Red Onions, Parsley and Parmesan Cheese Roasted Potatoes"
+      ],
+      "youtube_url": null,
+      "source_file": "note_1016.txt"
+    },
+    {
+      "title": "Tuscan Butter Salmon",
+      "slug": "tuscan-butter-salmon",
+      "category": "sauces",
+      "ingredients": [
+        "Salmon",
+        "Butter",
+        "Onions",
+        "Sun-dried tomatoes",
+        "White wine",
+        "Heavy cream",
+        "Tomato paste",
+        "Cherry tomatoes",
+        "Sliced lemons",
+        "Spinach",
+        "Fresh Basil",
+        "Thyme",
+        "Black pepper"
+      ],
+      "directions": [
+        "Serve on Lemon and Rosemary Garlic Mashed Potatoes"
+      ],
+      "youtube_url": null,
+      "source_file": "note_1017.txt",
+      "subcategory": "general"
     }
   ]
 }
