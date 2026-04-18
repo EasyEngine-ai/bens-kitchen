@@ -14,7 +14,12 @@
     {
       "id": "salads-sides",
       "name": "Salads & Sides",
-      "count": 31
+      "count": 36
+    },
+    {
+      "id": "mains",
+      "name": "Main Dishes",
+      "count": 29
     },
     {
       "id": "sandwiches",
@@ -27,11 +32,6 @@
       "count": 23
     },
     {
-      "id": "mains",
-      "name": "Main Dishes",
-      "count": 22
-    },
-    {
       "id": "pasta",
       "name": "Pasta",
       "count": 12
@@ -39,7 +39,7 @@
     {
       "id": "soups",
       "name": "Soups & Stews",
-      "count": 5
+      "count": 6
     },
     {
       "id": "dips",
@@ -49,7 +49,7 @@
     {
       "id": "breakfast",
       "name": "Breakfast",
-      "count": 3
+      "count": 4
     },
     {
       "id": "chicken-sandwiches",
@@ -9014,6 +9014,274 @@
       "youtube_url": null,
       "source_file": "note_1017.txt",
       "subcategory": "general"
+    },
+    {
+      "title": "Salmon Pot Pie",
+      "slug": "salmon-pot-pie",
+      "category": "mains",
+      "ingredients": [
+        "Salmon Chunks",
+        "Cream of chicken",
+        "Mashed Potatoes",
+        "Corn",
+        "Green beans",
+        "Carrots",
+        "Onions",
+        "Peas",
+        "Garlic",
+        "Celery"
+      ],
+      "directions": [],
+      "youtube_url": null,
+      "source_file": "note_1007.txt"
+    },
+    {
+      "title": "Sweet Potatoes Sausage and Egg Hashbrowns",
+      "slug": "sweet-potatoes-sausage-and-egg-hashbrowns",
+      "category": "salads-sides",
+      "ingredients": [
+        "Sweet Potatoes",
+        "Breakfast Sausage",
+        "Red Bell Peppers",
+        "Onion",
+        "Garlic",
+        "Goat Cheese",
+        "Eggs on Top"
+      ],
+      "directions": [],
+      "youtube_url": null,
+      "source_file": "note_1008.txt"
+    },
+    {
+      "title": "Mediterranean Sweet Potato Scrambled Eggs",
+      "slug": "mediterranean-sweet-potato-scrambled-eggs",
+      "category": "breakfast",
+      "ingredients": [
+        "Sweet Potatoes",
+        "Butter",
+        "Onions",
+        "Bacon",
+        "Tomatoes",
+        "Spinach",
+        "Feta Cheese"
+      ],
+      "directions": [],
+      "youtube_url": null,
+      "source_file": "note_1009.txt"
+    },
+    {
+      "title": "Mashed Sweet Potatoes with Honey and Goat Cheese",
+      "slug": "mashed-sweet-potatoes-with-honey-and-goat-cheese",
+      "category": "salads-sides",
+      "ingredients": [
+        "Mashed Sweet Potatoes",
+        "Honey",
+        "Goat Cheese",
+        "Bacon",
+        "Walnuts"
+      ],
+      "directions": [],
+      "youtube_url": null,
+      "source_file": "note_1010.txt"
+    },
+    {
+      "title": "Garlic Honey Butter Sweet Potatoe Rounds",
+      "slug": "garlic-honey-butter-sweet-potatoe-rounds",
+      "category": "salads-sides",
+      "ingredients": [
+        "Slice thick rounds of Sweet Potatoes",
+        "Goat Cheese",
+        "Walnuts"
+      ],
+      "directions": [
+        "A Mixture of thyme, butter, roasted garlic, and Honey"
+      ],
+      "youtube_url": null,
+      "source_file": "note_1011.txt"
+    },
+    {
+      "title": "Stacked Sweet Potato’s in Muffin Tray",
+      "slug": "stacked-sweet-potatos-in-muffin-tray",
+      "category": "salads-sides",
+      "ingredients": [
+        "Slice Sweet Potatoes Thin",
+        "Butter",
+        "Garlic",
+        "Rosemary",
+        "Egg",
+        "Half Flour/corn starch"
+      ],
+      "directions": [
+        "Stack them on top of each other in a muffin tray and bake them"
+      ],
+      "youtube_url": null,
+      "source_file": "note_1012.txt"
+    },
+    {
+      "title": "Parmesan Mushroom Cream Salmon",
+      "slug": "parmesan-mushroom-cream-salmon",
+      "category": "mains",
+      "ingredients": [
+        "Salmon",
+        "Butter",
+        "Lots of Garlic",
+        "Shallots",
+        "Mushrooms",
+        "Cherry Tomatoes",
+        "Spinach",
+        "Lots of Parmesan",
+        "Parsley"
+      ],
+      "directions": [
+        "Serve with lemon garlic Parmesan mashed potatoes"
+      ],
+      "youtube_url": null,
+      "source_file": "note_1013.txt"
+    },
+    {
+      "title": "Salmon with Corn Salad and Sweet Potatoes",
+      "slug": "salmon-with-corn-salad-and-sweet-potatoes",
+      "category": "salads-sides",
+      "ingredients": [
+        "Honey Lime Salmon",
+        "Corn",
+        "Tomatoes",
+        "Red Bell Pepper",
+        "Cilantro",
+        "Cjota Cheese",
+        "Bit of Mayo",
+        "Bit of lime",
+        "Mashed Honey Goat Cheese Sweet Potatoes"
+      ],
+      "directions": [
+        "Drizzle over Everything With Cilantro Lime Cream Sauce"
+      ],
+      "youtube_url": null,
+      "source_file": "note_1014.txt"
+    },
+    {
+      "title": "Coconut Miso Salmon and Sweet Potatoes",
+      "slug": "coconut-miso-salmon-and-sweet-potatoes",
+      "category": "mains",
+      "ingredients": [
+        "Honey covered Salmon",
+        "Sweet potatoes Mashed",
+        "Coconut Milk",
+        "Lime Juice",
+        "White Miso",
+        "Garlic"
+      ],
+      "directions": [],
+      "youtube_url": null,
+      "source_file": "note_1015.txt"
+    },
+    {
+      "title": "Pineapple Teriyaki Salmon",
+      "slug": "pineapple-teriyaki-salmon",
+      "category": "mains",
+      "ingredients": [
+        "Salmon cover in soy",
+        "Garlic",
+        "Shallots",
+        "Apples",
+        "Pineapples",
+        "Ginger",
+        "Orange Bell Pepper",
+        "Broccoli",
+        "Sesame Seeds"
+      ],
+      "directions": [
+        "Served with white rice and corn purre covered sweet potatoes"
+      ],
+      "youtube_url": null,
+      "source_file": "note_1016.txt"
+    },
+    {
+      "title": "Thai Sweet Chili Salmon",
+      "slug": "thai-sweet-chili-salmon",
+      "category": "soups",
+      "ingredients": [
+        "Salmon covered in soy sauce",
+        "Green onions",
+        "Garlic",
+        "Corn",
+        "Red Bell Peppers",
+        "Lime slices",
+        "Thai Sweet Chili"
+      ],
+      "directions": [
+        "Serve with Pineapple and Lime White Rice"
+      ],
+      "youtube_url": null,
+      "source_file": "note_1017.txt"
+    },
+    {
+      "title": "Miso Cream Scallops",
+      "slug": "miso-cream-scallops",
+      "category": "mains",
+      "ingredients": [
+        "Pan Seared Scallops",
+        "Sautéed onions and garlic",
+        "Cream",
+        "Cream cheese",
+        "White miso",
+        "Soy sauce",
+        "Chives",
+        "Lemon slices",
+        "Sesame seeds"
+      ],
+      "directions": [
+        "Served with peanut rice, pickled ginger, cucumber and carrots"
+      ],
+      "youtube_url": null,
+      "source_file": "note_1018.txt"
+    },
+    {
+      "title": "Lemon Beurre Blanc Scallops",
+      "slug": "lemon-beurre-blanc-scallops",
+      "category": "mains",
+      "ingredients": [
+        "Pan Seared Scallops",
+        "Garlic",
+        "Thyme",
+        "Red onions",
+        "Cream",
+        "Lots of butter",
+        "Rosemary",
+        "Dijon mustard",
+        "Lemon juice"
+      ],
+      "directions": [
+        "Served with rosemary Parmesan mashed potatoes"
+      ],
+      "youtube_url": null,
+      "source_file": "note_1019.txt"
+    },
+    {
+      "title": "Creamy Mushroom Garlic Salmon",
+      "slug": "creamy-mushroom-garlic-salmon",
+      "category": "mains",
+      "ingredients": [
+        "Salmon",
+        "Mushrooms",
+        "Tomato’s",
+        "Garlic",
+        "Onions",
+        "Butter",
+        "Cream",
+        "Thyme",
+        "Rosemary",
+        "Lemon slices",
+        "Spinach",
+        "Parmesan cheese",
+        "And",
+        "Mushroom reisoto"
+      ],
+      "directions": [
+        "Serve with Garlic Bread with Parmesan and pickled red onions"
+      ],
+      "youtube_url": null,
+      "source_file": "note_1020.txt"
     }
   ]
 }
