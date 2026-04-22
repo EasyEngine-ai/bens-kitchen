@@ -8729,31 +8729,62 @@
       "slug": "green-goddess-dressing",
       "category": "sauces",
       "ingredients": [
-        "Greek Yogurt",
-        "Avacado",
-        "Cilantro",
-        "Mint",
-        "Basil",
-        "Garlic",
-        "Lemon Juice",
-        "Olive oil",
-        "Black Pepper"
+        "1 cup Greek yogurt",
+        "1 ripe avocado",
+        "1 cup fresh cilantro leaves",
+        "1/2 cup fresh mint leaves",
+        "1/2 cup fresh basil leaves",
+        "3 cloves garlic",
+        "3 tablespoons fresh lemon juice",
+        "1/4 cup olive oil",
+        "1/2 teaspoon black pepper",
+        "Salt to taste"
       ],
-      "directions": [],
+      "directions": [
+        "Add Greek yogurt, avocado, cilantro, mint, basil, and garlic to a blender or food processor.",
+        "Pour in lemon juice and olive oil, then add black pepper.",
+        "Blend on high speed until completely smooth and creamy, about 1-2 minutes, scraping down sides as needed.",
+        "Taste and adjust seasoning with salt and additional lemon juice if desired. Thin with a tablespoon or two of water if you want a thinner consistency.",
+        "Store in an airtight container in the refrigerator for up to 5 days."
+      ],
       "youtube_url": null,
       "source_file": "note_591.txt",
-      "subcategory": "dressings"
+      "subcategory": "dressings",
+      "description": "A creamy, herb-packed dressing that's bright and tangy from fresh lemon juice. Perfect for salads, grain bowls, or as a dip for fresh vegetables.",
+      "prep_time": "10 min",
+      "cook_time": "0 min",
+      "servings": 8
     },
     {
       "title": "Fasting Foods  Sardines, Eggs, avocados, greek yogurt, cumber, red…",
       "slug": "fasting-foodssardines-eggs-avocados-greek-yogurt-cumber-red",
       "category": "mains",
-      "ingredients": [],
+      "ingredients": [
+        "2 cans sardines (packed in olive oil or water)",
+        "4 hard-boiled eggs, peeled and halved",
+        "2 ripe avocados, sliced",
+        "1 cup plain Greek yogurt",
+        "1 large cucumber, sliced",
+        "1/2 medium red onion, thinly sliced",
+        "2 medium tomatoes, chopped",
+        "1 cup cottage cheese",
+        "Salt and black pepper to taste",
+        "Fresh lemon wedges (optional)"
+      ],
       "directions": [
-        "Fasting Foods  Sardines, Eggs, avocados, greek yogurt, cumber, red onions, and tomatoes and cottage cheese"
+        "Hard-boil the eggs if not already prepared, then peel and halve them.",
+        "Slice the cucumber, chop the tomatoes, and thinly slice the red onion.",
+        "Halve and slice the avocados just before serving.",
+        "Arrange all ingredients in individual bowls or on a large platter — sardines, eggs, avocado slices, Greek yogurt, cottage cheese, cucumber, red onion, and tomatoes.",
+        "Season everything with salt and black pepper to taste.",
+        "Serve with lemon wedges on the side for squeezing over the top."
       ],
       "youtube_url": null,
-      "source_file": "note_681.txt"
+      "source_file": "note_681.txt",
+      "description": "A protein-packed fasting bowl that's fresh, filling, and ready in minutes. Layer quality ingredients for a satisfying meal that'll keep you going strong.",
+      "prep_time": "15 min",
+      "cook_time": "0 min",
+      "servings": 2
     },
     {
       "title": "Ldr card info",
@@ -8775,18 +8806,31 @@
       "slug": "honey-mango-sauce-salmon",
       "category": "sauces",
       "ingredients": [
-        "Salmon with soy sauce",
-        "Mango",
-        "Honey",
-        "Rice vinegar",
-        "Lime juice"
+        "4 salmon fillets (6 oz each)",
+        "2 tablespoons soy sauce",
+        "1 ripe mango, peeled and diced",
+        "3 tablespoons honey",
+        "2 tablespoons rice vinegar",
+        "2 tablespoons fresh lime juice",
+        "1 tablespoon olive oil",
+        "Salt and pepper to taste",
+        "Cooked rice, for serving",
+        "Sliced cucumbers, for serving",
+        "Julienned carrots, for serving"
       ],
       "directions": [
-        "Served with rice, cucumbers, and carrots"
+        "Season salmon fillets with salt and pepper, then brush both sides with soy sauce and let sit for 10 minutes.",
+        "Heat olive oil in a large skillet over medium-high heat and cook salmon skin-side down for 4-5 minutes, then flip and cook another 3-4 minutes until cooked through. Remove and set aside.",
+        "In the same skillet, combine diced mango, honey, rice vinegar, and lime juice. Bring to a simmer over medium heat and cook for 3-4 minutes, stirring occasionally, until mango softens and sauce thickens slightly.",
+        "Plate salmon over rice, spoon honey mango sauce generously over the top, and serve with sliced cucumbers and julienned carrots on the side."
       ],
       "youtube_url": null,
       "source_file": "note_1007.txt",
-      "subcategory": "general"
+      "subcategory": "general",
+      "description": "Pan-seared salmon gets dressed up with a sweet and tangy honey-mango sauce that's bright with lime and perfect over rice with fresh veggies on the side.",
+      "prep_time": "15 min",
+      "cook_time": "15 min",
+      "servings": 4
     },
     {
       "title": "Goat Cheese Onion Tomato Cod",
@@ -8816,83 +8860,132 @@
       "slug": "butter-tomato-capers-cod",
       "category": "sauces",
       "ingredients": [
-        "Cod",
-        "Tomatoes",
-        "Capers",
-        "Onions",
-        "Garlic",
-        "Butter",
-        "White wine",
-        "Vegetable stock",
-        "Parsley",
-        "Parmesan",
-        "Cornstarch to thicken"
+        "4 cod fillets (6 oz each)",
+        "2 cups cherry tomatoes, halved",
+        "3 tablespoons capers, drained",
+        "1 medium onion, diced",
+        "6 cloves garlic, minced",
+        "4 tablespoons butter, divided",
+        "1/2 cup white wine",
+        "1 cup vegetable stock",
+        "1/4 cup fresh parsley, chopped",
+        "1/3 cup grated Parmesan cheese",
+        "2 tablespoons cornstarch mixed with 2 tablespoons water",
+        "Salt and pepper to taste",
+        "2 tablespoons olive oil"
       ],
-      "directions": [],
+      "directions": [
+        "Season cod fillets with salt and pepper. Heat olive oil and 1 tablespoon butter in a large skillet over medium-high heat. Sear cod for 3-4 minutes per side until golden, then remove and set aside.",
+        "In the same skillet, add 1 tablespoon butter and sauté onion until softened, about 3 minutes. Add garlic and cook until fragrant, about 1 minute.",
+        "Add tomatoes, capers, white wine, and vegetable stock. Bring to a simmer and cook for 5-6 minutes until tomatoes start to break down.",
+        "Stir in cornstarch mixture and cook until sauce thickens slightly, about 2 minutes. Add remaining 2 tablespoons butter and stir until melted.",
+        "Return cod to the skillet, spooning sauce over the top. Simmer for 2-3 minutes until fish is cooked through and flakes easily.",
+        "Remove from heat, sprinkle with Parmesan and fresh parsley, and serve immediately."
+      ],
       "youtube_url": null,
       "source_file": "note_1009.txt",
-      "subcategory": "general"
+      "subcategory": "general",
+      "description": "Pan-seared cod fillets swimming in a bright, buttery tomato sauce with briny capers and garlic. This restaurant-quality dish comes together in under 30 minutes and pairs perfectly with crusty bread or pasta.",
+      "prep_time": "10 min",
+      "cook_time": "20 min",
+      "servings": 4
     },
     {
       "title": "Orange Ginger Honey Salmon",
       "slug": "orange-ginger-honey-salmon",
       "category": "mains",
       "ingredients": [
-        "Salmon",
-        "Honey",
-        "Orange Juice and zest",
-        "Soy sauce",
-        "Garlic",
-        "Ginger",
-        "Green Onion",
-        "Sesame Seeds",
-        "Butter"
+        "1½ lbs salmon fillets",
+        "¼ cup honey",
+        "¼ cup orange juice",
+        "1 tablespoon orange zest",
+        "3 tablespoons soy sauce",
+        "4 cloves garlic, minced",
+        "2 tablespoons fresh ginger, minced",
+        "3 green onions, sliced",
+        "1 tablespoon sesame seeds",
+        "2 tablespoons butter"
       ],
-      "directions": [],
+      "directions": [
+        "Preheat oven to 400°F and line a baking sheet with foil or parchment paper.",
+        "In a small saucepan over medium heat, melt butter then add garlic and ginger. Cook for 1 minute until fragrant.",
+        "Add honey, orange juice, orange zest, and soy sauce to the saucepan. Simmer for 3-4 minutes until slightly thickened, then remove from heat.",
+        "Place salmon fillets on the prepared baking sheet and brush generously with half the glaze.",
+        "Bake for 12-15 minutes until salmon flakes easily with a fork, brushing with more glaze halfway through.",
+        "Remove from oven and brush with remaining glaze. Top with sliced green onions and sesame seeds before serving."
+      ],
       "youtube_url": null,
-      "source_file": "note_1010.txt"
+      "source_file": "note_1010.txt",
+      "description": "Flaky salmon fillets glazed with a sweet and tangy orange-ginger sauce that caramelizes beautifully in the oven. This weeknight-friendly dish tastes like takeout but comes together in under 30 minutes.",
+      "prep_time": "10 min",
+      "cook_time": "15 min",
+      "servings": 4
     },
     {
       "title": "Coconut Lime Cod",
       "slug": "coconut-lime-cod",
       "category": "mains",
       "ingredients": [
-        "Cod",
-        "Coconut Milk",
-        "Lime Juice",
-        "Ginger",
-        "Onions",
-        "Garlic",
-        "Green onions",
-        "Vegetable Broth",
-        "Corn Starch to thicken"
+        "1½ lbs cod fillets, cut into 4 pieces",
+        "1 can (14 oz) coconut milk",
+        "3 tablespoons fresh lime juice",
+        "2 tablespoons fresh ginger, minced",
+        "1 medium yellow onion, diced",
+        "6 cloves garlic, minced",
+        "3 green onions, sliced (white and green parts separated)",
+        "½ cup vegetable broth",
+        "2 tablespoons corn starch",
+        "2 tablespoons vegetable oil",
+        "Salt and pepper to taste",
+        "Cooked rice for serving"
       ],
       "directions": [
-        "Serve on rice"
+        "Season cod fillets with salt and pepper on both sides and set aside.",
+        "Heat vegetable oil in a large skillet over medium heat. Add diced onion and cook until softened, about 4 minutes. Add garlic, ginger, and white parts of green onions, cooking for 1 minute until fragrant.",
+        "Pour in coconut milk, vegetable broth, and lime juice. Stir to combine and bring to a gentle simmer.",
+        "Gently place cod fillets into the sauce. Cover and simmer for 8-10 minutes until fish flakes easily with a fork.",
+        "Remove cod to a plate. Mix corn starch with 2 tablespoons water to make a slurry, then stir into the sauce. Simmer for 2-3 minutes until thickened.",
+        "Return cod to the skillet and spoon sauce over the top. Garnish with green parts of green onions and serve over rice."
       ],
       "youtube_url": null,
-      "source_file": "note_1011.txt"
+      "source_file": "note_1011.txt",
+      "description": "Tender cod fillets simmered in a fragrant coconut-lime sauce with ginger and garlic. Light, flavorful, and perfect served over a bed of steamed rice.",
+      "prep_time": "15 min",
+      "cook_time": "20 min",
+      "servings": 4
     },
     {
       "title": "Creamy Rosemary Cod",
       "slug": "creamy-rosemary-cod",
       "category": "mains",
       "ingredients": [
-        "Cod",
-        "Cream",
-        "Butter",
-        "Chicken stock",
-        "Rosemary",
-        "Thyme",
-        "Parsley",
-        "Parmesan",
-        "Garlic",
-        "Onion",
-        "Lemon slices"
+        "1½ lbs cod fillets",
+        "1 cup heavy cream",
+        "3 tablespoons butter",
+        "½ cup chicken stock",
+        "2 tablespoons fresh rosemary, chopped (or 2 teaspoons dried)",
+        "1 tablespoon fresh thyme leaves (or 1 teaspoon dried)",
+        "¼ cup fresh parsley, chopped",
+        "½ cup grated Parmesan cheese",
+        "6 cloves garlic, minced",
+        "1 medium onion, diced",
+        "1 lemon, sliced into rounds",
+        "Salt and black pepper to taste"
       ],
-      "directions": [],
+      "directions": [
+        "Pat cod fillets dry and season both sides generously with salt and pepper.",
+        "Melt butter in a large skillet over medium-high heat. Add onion and cook until softened, about 4 minutes. Add garlic, rosemary, and thyme, cooking until fragrant, about 1 minute.",
+        "Pour in chicken stock and heavy cream, stirring to combine. Bring to a gentle simmer, then reduce heat to medium-low.",
+        "Nestle cod fillets into the sauce and top each with a lemon slice. Cover and cook for 8-10 minutes until fish flakes easily with a fork.",
+        "Remove lid and stir in Parmesan cheese until melted. Taste sauce and adjust seasoning with salt and pepper.",
+        "Garnish with fresh parsley and serve immediately, spooning extra sauce over the fish."
+      ],
       "youtube_url": null,
-      "source_file": "note_1012.txt"
+      "source_file": "note_1012.txt",
+      "description": "Tender cod fillets nestled in a rich, herb-infused cream sauce with garlic and Parmesan. This elegant yet simple dish tastes like something from a fancy restaurant but comes together in your own kitchen in under 30 minutes.",
+      "prep_time": "10 min",
+      "cook_time": "20 min",
+      "servings": 4
     },
     {
       "title": "Creamy Lemon Dill Salmon",
@@ -8925,115 +9018,169 @@
       "slug": "honey-lemon-garlic-salmon",
       "category": "mains",
       "ingredients": [
-        "Salmon",
-        "Honey",
-        "Soy sauce",
-        "Lemon Juice",
-        "Butter",
-        "Garlic",
-        "Grean onions",
-        "Parsley",
-        "Crispy Chili Oil"
+        "4 salmon fillets (6 oz each)",
+        "3 tablespoons honey",
+        "3 tablespoons soy sauce",
+        "2 tablespoons lemon juice",
+        "3 tablespoons butter",
+        "6 cloves garlic, minced",
+        "2 green onions, sliced",
+        "2 tablespoons fresh parsley, chopped",
+        "1-2 teaspoons crispy chili oil"
       ],
       "directions": [
-        "Serve with Peanut Sauce and Corn Rice"
+        "Pat salmon fillets dry with paper towels and season lightly with salt and pepper.",
+        "In a small bowl, whisk together honey, soy sauce, and lemon juice until well combined.",
+        "Melt butter in a large skillet over medium-high heat. Add minced garlic and cook for 30 seconds until fragrant.",
+        "Add salmon fillets skin-side up and cook for 4-5 minutes. Flip and cook another 3-4 minutes until salmon is cooked through.",
+        "Pour the honey-lemon mixture over the salmon and let it simmer for 2 minutes, spooning the sauce over the fillets to glaze them.",
+        "Remove from heat and drizzle with crispy chili oil. Top with sliced green onions and fresh parsley.",
+        "Serve with peanut sauce and corn rice on the side."
       ],
       "youtube_url": null,
-      "source_file": "note_1014.txt"
+      "source_file": "note_1014.txt",
+      "description": "Sweet and savory salmon with a sticky honey-garlic glaze that caramelizes beautifully in the pan. The crispy chili oil adds a nice kick, and it's perfect served over corn rice with peanut sauce on the side.",
+      "prep_time": "10 min",
+      "cook_time": "15 min",
+      "servings": 4
     },
     {
       "title": "Creamy Lemon Butter Cod",
       "slug": "creamy-lemon-butter-cod",
       "category": "sauces",
       "ingredients": [
-        "Cod",
-        "Butter",
-        "Lemon Juice",
-        "Heavy Cream",
-        "Parmesan",
-        "Parsley",
-        "Onions",
-        "Garlic",
-        "Capers",
-        "Corn Starch"
+        "4 cod fillets (6 oz each)",
+        "4 tablespoons butter, divided",
+        "3 tablespoons lemon juice",
+        "1 cup heavy cream",
+        "1/2 cup grated Parmesan cheese",
+        "1/4 cup fresh parsley, chopped",
+        "1 medium onion, diced",
+        "6 cloves garlic, minced",
+        "2 tablespoons capers, drained",
+        "1 tablespoon corn starch",
+        "Salt and pepper to taste"
       ],
       "directions": [
-        "Serve with Tomato Basil Quinoa",
-        "Roasted Garlic, Butter, Corn Mashed Potatoes"
+        "Season cod fillets generously with salt and pepper. In a large skillet, melt 2 tablespoons butter over medium-high heat and sear cod for 3-4 minutes per side until golden and cooked through. Remove and set aside.",
+        "In the same skillet, melt remaining 2 tablespoons butter. Add diced onion and cook 3-4 minutes until softened, then add garlic and cook 1 minute until fragrant.",
+        "Whisk corn starch into heavy cream until smooth. Pour into skillet along with lemon juice and capers. Bring to a simmer, stirring constantly, until sauce begins to thicken.",
+        "Reduce heat to low and stir in Parmesan cheese until melted and smooth. Season sauce with salt and pepper to taste.",
+        "Return cod fillets to the skillet, spooning sauce over top. Simmer gently for 2-3 minutes to warm through.",
+        "Garnish with fresh parsley and serve immediately over Tomato Basil Quinoa or alongside Roasted Garlic Butter Corn Mashed Potatoes."
       ],
       "youtube_url": null,
       "source_file": "note_1015.txt",
-      "subcategory": "general"
+      "subcategory": "general",
+      "description": "Pan-seared cod fillets swimming in a rich, garlicky lemon butter cream sauce with capers and fresh parsley. This restaurant-quality dish comes together in under 30 minutes and pairs beautifully with just about any side.",
+      "prep_time": "10 min",
+      "cook_time": "20 min",
+      "servings": 4
     },
     {
       "title": "Tomato Mediterranean Lemon Cod",
       "slug": "tomato-mediterranean-lemon-cod",
       "category": "mains",
       "ingredients": [
-        "Cod",
-        "Olive Oil",
-        "Crushed Tomatoes",
-        "Butter",
-        "Lemon slices",
-        "Onions",
-        "Whole Garlic",
-        "Kalamata Olives",
-        "Thyme",
-        "Parsley",
-        "Oregano"
+        "1½ lbs cod fillets",
+        "3 tablespoons olive oil, divided",
+        "1 (28 oz) can crushed tomatoes",
+        "2 tablespoons butter",
+        "1 lemon, sliced into rounds",
+        "1 medium yellow onion, diced",
+        "6 cloves garlic, peeled and smashed",
+        "½ cup kalamata olives, pitted and halved",
+        "2 teaspoons fresh thyme (or 1 teaspoon dried)",
+        "¼ cup fresh parsley, chopped",
+        "1 teaspoon dried oregano",
+        "Salt and black pepper to taste"
       ],
       "directions": [
-        "Serve with Garlic Bread",
-        "Also with Olive Oil, Roasted Garlic, Red Onions, Parsley and Parmesan Cheese Roasted Potatoes"
+        "Preheat oven to 400°F. Heat 2 tablespoons olive oil in a large oven-safe skillet over medium heat.",
+        "Add diced onion and cook until softened, about 4 minutes. Add smashed garlic cloves and cook another minute until fragrant.",
+        "Stir in crushed tomatoes, butter, kalamata olives, thyme, oregano, and half the parsley. Season with salt and pepper. Simmer for 5 minutes to blend flavors.",
+        "Pat cod fillets dry and season both sides with salt and pepper. Nestle the cod into the tomato sauce and top each fillet with lemon slices.",
+        "Drizzle remaining 1 tablespoon olive oil over the fish. Transfer skillet to oven and bake for 12-15 minutes until cod flakes easily with a fork.",
+        "Remove from oven, garnish with remaining fresh parsley, and serve immediately with garlic bread and roasted potatoes."
       ],
       "youtube_url": null,
-      "source_file": "note_1016.txt"
+      "source_file": "note_1016.txt",
+      "description": "Flaky cod fillets baked in a bright Mediterranean sauce with crushed tomatoes, kalamata olives, and fresh herbs. Serve alongside garlic bread and roasted potatoes for a complete, flavor-packed meal.",
+      "prep_time": "15 min",
+      "cook_time": "25 min",
+      "servings": 4
     },
     {
       "title": "Tuscan Butter Salmon",
       "slug": "tuscan-butter-salmon",
       "category": "sauces",
       "ingredients": [
-        "Salmon",
-        "Butter",
-        "Onions",
-        "Sun-dried tomatoes",
-        "White wine",
-        "Heavy cream",
-        "Tomato paste",
-        "Cherry tomatoes",
-        "Sliced lemons",
-        "Spinach",
-        "Fresh Basil",
-        "Thyme",
-        "Black pepper"
+        "4 salmon fillets (6 oz each)",
+        "4 tablespoons butter, divided",
+        "1 medium onion, diced",
+        "1/2 cup sun-dried tomatoes, chopped",
+        "1/2 cup white wine",
+        "1 cup heavy cream",
+        "2 tablespoons tomato paste",
+        "1 cup cherry tomatoes, halved",
+        "1 lemon, sliced",
+        "3 cups fresh spinach",
+        "1/4 cup fresh basil, chopped",
+        "1 teaspoon dried thyme",
+        "1 teaspoon black pepper",
+        "Salt to taste"
       ],
       "directions": [
-        "Serve on Lemon and Rosemary Garlic Mashed Potatoes"
+        "Season salmon fillets with salt, pepper, and thyme. In a large skillet over medium-high heat, melt 2 tablespoons butter and sear salmon skin-side up for 4-5 minutes until golden. Flip and cook 3 more minutes, then remove and set aside.",
+        "In the same skillet, melt remaining 2 tablespoons butter and sauté onion for 3-4 minutes until softened. Add sun-dried tomatoes and cook 2 minutes more.",
+        "Stir in tomato paste, then deglaze pan with white wine, scraping up any browned bits. Let simmer 2-3 minutes until reduced by half.",
+        "Add heavy cream, cherry tomatoes, and lemon slices. Bring to a gentle simmer and cook 3-4 minutes until sauce thickens slightly.",
+        "Stir in spinach and basil, cooking just until spinach wilts, about 1-2 minutes.",
+        "Return salmon to the skillet, spooning sauce over the top. Simmer 2-3 minutes to warm through and let flavors meld.",
+        "Taste and adjust seasoning with salt and pepper. Serve salmon over Lemon and Rosemary Garlic Mashed Potatoes with plenty of that Tuscan butter sauce."
       ],
       "youtube_url": null,
       "source_file": "note_1017.txt",
-      "subcategory": "general"
+      "subcategory": "general",
+      "description": "Rich, creamy salmon with sun-dried tomatoes and spinach in a buttery white wine sauce that'll make you feel like you're dining in Italy. Perfect served over garlic mashed potatoes to soak up every bit of that incredible sauce.",
+      "prep_time": "15 min",
+      "cook_time": "25 min",
+      "servings": 4
     },
     {
       "title": "Salmon Pot Pie",
       "slug": "salmon-pot-pie",
       "category": "mains",
       "ingredients": [
-        "Salmon Chunks",
-        "Cream of chicken",
-        "Mashed Potatoes",
-        "Corn",
-        "Green beans",
-        "Carrots",
-        "Onions",
-        "Peas",
-        "Garlic",
-        "Celery"
+        "1½ lbs salmon, cut into 1-inch chunks",
+        "2 cans (10.5 oz each) cream of chicken soup",
+        "3 cups prepared mashed potatoes",
+        "1 cup frozen corn",
+        "1 cup frozen green beans",
+        "1 cup diced carrots",
+        "1 medium onion, diced",
+        "1 cup frozen peas",
+        "4 cloves garlic, minced",
+        "2 stalks celery, diced",
+        "½ cup milk or chicken broth",
+        "2 tablespoons butter",
+        "Salt and pepper to taste"
       ],
-      "directions": [],
+      "directions": [
+        "Preheat oven to 375°F and grease a 9x13 inch baking dish.",
+        "In a large skillet over medium heat, melt butter and sauté onion, celery, carrots, and garlic until softened, about 5-7 minutes.",
+        "Add cream of chicken soup, milk, corn, green beans, and peas to the skillet. Stir to combine and simmer for 3-4 minutes. Gently fold in salmon chunks and season with salt and pepper.",
+        "Pour the salmon and vegetable mixture into the prepared baking dish and spread evenly.",
+        "Spread mashed potatoes over the top in an even layer, sealing to the edges.",
+        "Bake for 30-35 minutes until the potatoes are golden on top and the filling is bubbly around the edges.",
+        "Let rest for 5 minutes before serving."
+      ],
       "youtube_url": null,
-      "source_file": "note_1007.txt"
+      "source_file": "note_1007.txt",
+      "description": "A hearty twist on chicken pot pie that swaps in flaky salmon with plenty of vegetables in a creamy sauce, all topped with a golden layer of mashed potatoes. Comfort food that's a little fancy but still down-home delicious.",
+      "prep_time": "20 min",
+      "cook_time": "35 min",
+      "servings": 6
     },
     {
       "title": "Sweet Potatoes Sausage and Egg Hashbrowns",
@@ -9057,123 +9204,214 @@
       "slug": "mediterranean-sweet-potato-scrambled-eggs",
       "category": "breakfast",
       "ingredients": [
-        "Sweet Potatoes",
-        "Butter",
-        "Onions",
-        "Bacon",
-        "Tomatoes",
-        "Spinach",
-        "Feta Cheese"
+        "2 medium sweet potatoes, peeled and diced small",
+        "3 tablespoons butter, divided",
+        "1 medium onion, diced",
+        "6 strips bacon, chopped",
+        "1 cup cherry tomatoes, halved",
+        "2 cups fresh spinach",
+        "8 large eggs",
+        "1/2 cup crumbled feta cheese",
+        "Salt and black pepper to taste"
       ],
-      "directions": [],
+      "directions": [
+        "Cook the chopped bacon in a large skillet over medium heat until crispy, then remove and set aside, leaving about 1 tablespoon of drippings in the pan.",
+        "Add 2 tablespoons butter to the skillet and toss in the diced sweet potatoes. Cook for 8-10 minutes, stirring occasionally, until they're tender and starting to brown. Add the diced onion and cook another 3-4 minutes until softened.",
+        "Add the cherry tomatoes and spinach to the skillet, stirring until the spinach wilts, about 2 minutes. Return the cooked bacon to the pan.",
+        "Crack the eggs into a bowl, whisk them up with a pinch of salt and pepper, then add the remaining 1 tablespoon butter to the skillet. Pour in the eggs and gently scramble everything together until the eggs are just set.",
+        "Remove from heat, sprinkle the feta cheese over top, and give it one more gentle stir. Taste and adjust seasoning as needed."
+      ],
       "youtube_url": null,
-      "source_file": "note_1009.txt"
+      "source_file": "note_1009.txt",
+      "description": "A hearty breakfast scramble with crispy sweet potatoes, smoky bacon, and tangy feta that'll keep you going all morning. The spinach and tomatoes lighten it up just enough to call it Mediterranean.",
+      "prep_time": "15 min",
+      "cook_time": "20 min",
+      "servings": 4
     },
     {
       "title": "Mashed Sweet Potatoes with Honey and Goat Cheese",
       "slug": "mashed-sweet-potatoes-with-honey-and-goat-cheese",
       "category": "salads-sides",
       "ingredients": [
-        "Mashed Sweet Potatoes",
-        "Honey",
-        "Goat Cheese",
-        "Bacon",
-        "Walnuts"
+        "3 lbs sweet potatoes, peeled and cubed",
+        "4 oz goat cheese, crumbled",
+        "3 tablespoons honey",
+        "6 strips bacon",
+        "1/2 cup walnuts, chopped",
+        "3 tablespoons butter",
+        "1/4 cup milk or cream",
+        "Salt and pepper to taste"
       ],
-      "directions": [],
+      "directions": [
+        "Cook bacon in a skillet until crispy, then crumble and set aside. Toast walnuts in the same skillet for 2-3 minutes until fragrant.",
+        "Boil sweet potatoes in salted water for 15-20 minutes until fork-tender, then drain well.",
+        "Mash sweet potatoes with butter and milk until smooth and creamy. Season with salt and pepper.",
+        "Fold in half the goat cheese and half the honey while potatoes are still hot.",
+        "Transfer to serving dish and top with remaining goat cheese, bacon crumbles, toasted walnuts, and drizzle with remaining honey."
+      ],
       "youtube_url": null,
-      "source_file": "note_1010.txt"
+      "source_file": "note_1010.txt",
+      "description": "Creamy mashed sweet potatoes get dressed up with tangy goat cheese, a drizzle of honey, crispy bacon, and crunchy walnuts. This sweet and savory side dish is perfect for Sunday dinner or holidays.",
+      "prep_time": "15 min",
+      "cook_time": "25 min",
+      "servings": 6
     },
     {
       "title": "Garlic Honey Butter Sweet Potatoe Rounds",
       "slug": "garlic-honey-butter-sweet-potatoe-rounds",
       "category": "salads-sides",
       "ingredients": [
-        "Slice thick rounds of Sweet Potatoes",
-        "Goat Cheese",
-        "Walnuts"
+        "2 large sweet potatoes, sliced into 1-inch thick rounds",
+        "3 tablespoons butter",
+        "6 cloves roasted garlic, mashed",
+        "2 tablespoons honey",
+        "1 teaspoon fresh thyme leaves",
+        "4 oz goat cheese, crumbled",
+        "1/2 cup walnuts, roughly chopped",
+        "2 tablespoons olive oil",
+        "Salt and black pepper to taste"
       ],
       "directions": [
-        "A Mixture of thyme, butter, roasted garlic, and Honey"
+        "Preheat oven to 400°F. Arrange sweet potato rounds on a baking sheet, brush both sides with olive oil, and season with salt and pepper.",
+        "Roast sweet potatoes for 25-30 minutes, flipping halfway through, until tender and edges are caramelized.",
+        "While potatoes roast, toast walnuts in a dry skillet over medium heat for 3-4 minutes until fragrant, then set aside.",
+        "In a small saucepan, melt butter over low heat. Add mashed roasted garlic, honey, and thyme, stirring until well combined and fragrant, about 2 minutes.",
+        "Arrange roasted sweet potato rounds on a serving platter and drizzle generously with the garlic-honey butter.",
+        "Top each round with crumbled goat cheese and toasted walnuts. Serve warm."
       ],
       "youtube_url": null,
-      "source_file": "note_1011.txt"
+      "source_file": "note_1011.txt",
+      "description": "Thick rounds of sweet potato roasted until tender and caramelized, then topped with a luxurious garlic-honey butter sauce, creamy goat cheese, and toasted walnuts. This Southern-inspired side dish walks the line between savory and sweet in the best way possible.",
+      "prep_time": "10 min",
+      "cook_time": "30 min",
+      "servings": 4
     },
     {
       "title": "Stacked Sweet Potato’s in Muffin Tray",
       "slug": "stacked-sweet-potatos-in-muffin-tray",
       "category": "salads-sides",
       "ingredients": [
-        "Slice Sweet Potatoes Thin",
-        "Butter",
-        "Garlic",
-        "Rosemary",
-        "Egg",
-        "Half Flour/corn starch"
+        "3 medium sweet potatoes, peeled and sliced 1/8-inch thick",
+        "4 tablespoons butter, melted",
+        "4 cloves garlic, minced",
+        "2 tablespoons fresh rosemary, chopped",
+        "1 egg, beaten",
+        "2 tablespoons flour",
+        "2 tablespoons cornstarch",
+        "Salt and pepper to taste"
       ],
       "directions": [
-        "Stack them on top of each other in a muffin tray and bake them"
+        "Preheat oven to 375°F and generously grease a 12-cup muffin tin with butter or cooking spray.",
+        "In a small bowl, mix together melted butter, minced garlic, and chopped rosemary. In another small bowl, combine flour and cornstarch.",
+        "Toss the sliced sweet potatoes with the beaten egg until evenly coated, then sprinkle with the flour-cornstarch mixture and season with salt and pepper.",
+        "Stack 5-6 sweet potato slices in each muffin cup, drizzling the garlic-rosemary butter between every few layers as you stack.",
+        "Cover the muffin tin with foil and bake for 30 minutes, then remove foil and bake another 15-20 minutes until sweet potatoes are tender and edges are crispy and golden.",
+        "Let cool in the pan for 5 minutes, then run a knife around the edges and carefully remove each stack. Serve warm."
       ],
       "youtube_url": null,
-      "source_file": "note_1012.txt"
+      "source_file": "note_1012.txt",
+      "description": "Crispy-edged sweet potato stacks that bake up golden in a muffin tin, with layers of buttery garlic and fresh rosemary. These make a beautiful and delicious side dish that's fancy enough for company but easy enough for weeknight dinners.",
+      "prep_time": "20 min",
+      "cook_time": "50 min",
+      "servings": 12
     },
     {
       "title": "Parmesan Mushroom Cream Salmon",
       "slug": "parmesan-mushroom-cream-salmon",
       "category": "mains",
       "ingredients": [
-        "Salmon",
-        "Butter",
-        "Lots of Garlic",
-        "Shallots",
-        "Mushrooms",
-        "Cherry Tomatoes",
-        "Spinach",
-        "Lots of Parmesan",
-        "Parsley"
+        "4 salmon fillets (6 oz each)",
+        "3 tablespoons butter",
+        "8 cloves garlic, minced",
+        "2 shallots, finely diced",
+        "8 oz mushrooms, sliced",
+        "1 cup cherry tomatoes, halved",
+        "3 cups fresh spinach",
+        "1 cup heavy cream",
+        "1 cup grated Parmesan cheese",
+        "2 tablespoons fresh parsley, chopped",
+        "Salt and black pepper to taste"
       ],
       "directions": [
-        "Serve with lemon garlic Parmesan mashed potatoes"
+        "Season salmon fillets with salt and pepper. In a large skillet over medium-high heat, melt 1 tablespoon butter and sear salmon skin-side up for 4-5 minutes until golden. Flip and cook 3-4 minutes more. Remove salmon and set aside.",
+        "In the same skillet, melt remaining 2 tablespoons butter. Add garlic and shallots, cooking until fragrant, about 1 minute.",
+        "Add mushrooms and cherry tomatoes, cooking until mushrooms are golden and tomatoes start to soften, about 5 minutes.",
+        "Pour in heavy cream and bring to a simmer. Stir in Parmesan cheese until melted and sauce thickens, about 2-3 minutes.",
+        "Add spinach and cook until just wilted, about 1 minute. Season sauce with salt and pepper to taste.",
+        "Return salmon to the skillet, spooning sauce over the top. Let simmer for 2 minutes to warm through.",
+        "Garnish with fresh parsley and serve immediately with lemon garlic Parmesan mashed potatoes."
       ],
       "youtube_url": null,
-      "source_file": "note_1013.txt"
+      "source_file": "note_1013.txt",
+      "description": "Rich, creamy salmon with garlic-butter mushrooms, fresh spinach, and a generous helping of Parmesan cheese. Pairs perfectly with lemon garlic Parmesan mashed potatoes for a restaurant-quality dinner at home.",
+      "prep_time": "15 min",
+      "cook_time": "25 min",
+      "servings": 4
     },
     {
       "title": "Salmon with Corn Salad and Sweet Potatoes",
       "slug": "salmon-with-corn-salad-and-sweet-potatoes",
       "category": "salads-sides",
       "ingredients": [
-        "Honey Lime Salmon",
-        "Corn",
-        "Tomatoes",
-        "Red Bell Pepper",
-        "Cilantro",
-        "Cjota Cheese",
-        "Bit of Mayo",
-        "Bit of lime",
-        "Mashed Honey Goat Cheese Sweet Potatoes"
+        "4 salmon fillets (6 oz each)",
+        "3 tablespoons honey",
+        "2 limes, juiced and zested (divided)",
+        "3 cups corn kernels (fresh or frozen)",
+        "2 cups cherry tomatoes, halved",
+        "1 red bell pepper, diced",
+        "1/2 cup cilantro, chopped (divided)",
+        "1/2 cup cotija cheese, crumbled",
+        "3 tablespoons mayonnaise",
+        "3 large sweet potatoes, peeled and cubed",
+        "4 oz goat cheese",
+        "2 tablespoons honey",
+        "1/2 cup sour cream",
+        "Salt and pepper to taste"
       ],
       "directions": [
-        "Drizzle over Everything With Cilantro Lime Cream Sauce"
+        "Boil sweet potatoes in salted water until tender, about 15 minutes. Drain and mash with goat cheese, 2 tablespoons honey, salt, and pepper. Keep warm.",
+        "Season salmon with salt and pepper. Mix 3 tablespoons honey with juice of 1 lime. Sear salmon in a hot skillet 4-5 minutes per side, brushing with honey-lime glaze during the last 2 minutes.",
+        "While salmon cooks, combine corn, tomatoes, bell pepper, half the cilantro, and cotija cheese in a bowl. Season with salt and pepper.",
+        "Make cilantro lime cream sauce by mixing sour cream, mayonnaise, remaining lime juice and zest, remaining cilantro, salt, and pepper.",
+        "Plate the mashed sweet potatoes, top with corn salad, and place salmon alongside. Drizzle everything generously with cilantro lime cream sauce."
       ],
       "youtube_url": null,
-      "source_file": "note_1014.txt"
+      "source_file": "note_1014.txt",
+      "description": "Honey-glazed salmon served alongside a fresh corn salad with tomatoes and peppers, creamy goat cheese mashed sweet potatoes, and finished with a tangy cilantro lime cream sauce that ties it all together.",
+      "prep_time": "20 min",
+      "cook_time": "25 min",
+      "servings": 4
     },
     {
       "title": "Coconut Miso Salmon and Sweet Potatoes",
       "slug": "coconut-miso-salmon-and-sweet-potatoes",
       "category": "mains",
       "ingredients": [
-        "Honey covered Salmon",
-        "Sweet potatoes Mashed",
-        "Coconut Milk",
-        "Lime Juice",
-        "White Miso",
-        "Garlic"
+        "4 salmon fillets (6 oz each)",
+        "3 tablespoons honey",
+        "2 lbs sweet potatoes, peeled and cubed",
+        "1 cup coconut milk",
+        "2 tablespoons white miso paste",
+        "4 cloves garlic, minced",
+        "2 tablespoons lime juice",
+        "2 tablespoons butter",
+        "Salt and pepper to taste"
       ],
-      "directions": [],
+      "directions": [
+        "Preheat oven to 400°F. Place sweet potato cubes in a large pot, cover with water, and boil until tender, about 15-20 minutes.",
+        "While potatoes cook, brush salmon fillets with honey and season with salt and pepper. Place on a lined baking sheet.",
+        "In a small bowl, whisk together coconut milk, miso paste, half the minced garlic, and lime juice until smooth.",
+        "Drain sweet potatoes and return to pot. Add butter, remaining garlic, and half the coconut miso mixture. Mash until creamy and smooth, adding more coconut mixture if needed. Season with salt and pepper.",
+        "Bake salmon for 12-15 minutes until it flakes easily with a fork.",
+        "Warm remaining coconut miso sauce in a small saucepan over low heat.",
+        "Serve salmon over a bed of mashed sweet potatoes, drizzled with the warm coconut miso sauce."
+      ],
       "youtube_url": null,
-      "source_file": "note_1015.txt"
+      "source_file": "note_1015.txt",
+      "description": "Tender honey-glazed salmon paired with creamy coconut miso sweet potatoes makes for a weeknight dinner that tastes way fancier than the effort required. The miso and coconut milk give everything a rich, umami depth that'll have folks asking for seconds.",
+      "prep_time": "15 min",
+      "cook_time": "25 min",
+      "servings": 4
     },
     {
       "title": "Pineapple Teriyaki Salmon",
@@ -9201,87 +9439,129 @@
       "slug": "thai-sweet-chili-salmon",
       "category": "soups",
       "ingredients": [
-        "Salmon covered in soy sauce",
-        "Green onions",
-        "Garlic",
-        "Corn",
-        "Red Bell Peppers",
-        "Lime slices",
-        "Thai Sweet Chili"
+        "4 salmon fillets (about 6 oz each)",
+        "3 tablespoons soy sauce",
+        "1/2 cup Thai sweet chili sauce",
+        "4 green onions, sliced",
+        "6 cloves garlic, minced",
+        "1 1/2 cups corn kernels (fresh or frozen)",
+        "2 red bell peppers, diced",
+        "2 limes, sliced into rounds",
+        "2 tablespoons olive oil",
+        "Salt and black pepper to taste"
       ],
       "directions": [
-        "Serve with Pineapple and Lime White Rice"
+        "Preheat oven to 400°F. Place salmon fillets in a large baking dish and brush each fillet generously with soy sauce on all sides.",
+        "Heat olive oil in a large skillet over medium heat. Add garlic and cook for 1 minute until fragrant, then add corn and diced bell peppers. Sauté for 4-5 minutes until peppers are slightly softened.",
+        "Spoon the vegetable mixture around the salmon in the baking dish. Pour Thai sweet chili sauce over the salmon fillets and top with lime slices.",
+        "Bake for 15-18 minutes until salmon flakes easily with a fork and reaches an internal temperature of 145°F.",
+        "Remove from oven and sprinkle with sliced green onions. Serve immediately over pineapple and lime white rice."
       ],
       "youtube_url": null,
-      "source_file": "note_1017.txt"
+      "source_file": "note_1017.txt",
+      "description": "Flaky salmon fillets glazed with Thai sweet chili sauce and soy, loaded with colorful veggies and bright lime. Serve it over pineapple rice for a sweet and savory dinner that beats takeout any day.",
+      "prep_time": "15 min",
+      "cook_time": "20 min",
+      "servings": 4
     },
     {
       "title": "Miso Cream Scallops",
       "slug": "miso-cream-scallops",
       "category": "mains",
       "ingredients": [
-        "Pan Seared Scallops",
-        "Sautéed onions and garlic",
-        "Cream",
-        "Cream cheese",
-        "White miso",
-        "Soy sauce",
-        "Chives",
-        "Lemon slices",
-        "Sesame seeds"
+        "1½ lbs large sea scallops, patted dry",
+        "2 tablespoons butter, divided",
+        "1 medium onion, finely diced",
+        "4 cloves garlic, minced",
+        "1 cup heavy cream",
+        "4 oz cream cheese, softened",
+        "3 tablespoons white miso paste",
+        "2 tablespoons soy sauce",
+        "2 tablespoons fresh chives, chopped",
+        "1 lemon, sliced",
+        "1 tablespoon sesame seeds, toasted",
+        "Salt and pepper to taste"
       ],
       "directions": [
-        "Served with peanut rice, pickled ginger, cucumber and carrots"
+        "Pat scallops completely dry with paper towels and season both sides with salt and pepper. Heat 1 tablespoon butter in a large skillet over high heat until almost smoking.",
+        "Sear scallops 2-3 minutes per side until golden brown and just cooked through. Remove to a plate and tent with foil to keep warm.",
+        "Reduce heat to medium and add remaining butter to the skillet. Sauté onions for 3-4 minutes until softened, then add garlic and cook 1 minute more until fragrant.",
+        "Add heavy cream and cream cheese to the skillet, stirring until cream cheese melts and sauce is smooth, about 2-3 minutes.",
+        "Whisk in miso paste and soy sauce, then simmer for 2-3 minutes until sauce thickens slightly. Taste and adjust seasoning as needed.",
+        "Return scallops to the skillet and spoon sauce over them. Garnish with chopped chives, lemon slices, and toasted sesame seeds before serving."
       ],
       "youtube_url": null,
-      "source_file": "note_1018.txt"
+      "source_file": "note_1018.txt",
+      "description": "Pan-seared scallops nestled in a rich, savory miso cream sauce with hints of garlic and soy. Served over peanut rice with fresh pickled vegetables for a restaurant-worthy dinner at home.",
+      "prep_time": "10 min",
+      "cook_time": "15 min",
+      "servings": 4
     },
     {
       "title": "Lemon Beurre Blanc Scallops",
       "slug": "lemon-beurre-blanc-scallops",
       "category": "mains",
       "ingredients": [
-        "Pan Seared Scallops",
-        "Garlic",
-        "Thyme",
-        "Red onions",
-        "Cream",
-        "Lots of butter",
-        "Rosemary",
-        "Dijon mustard",
-        "Lemon juice"
+        "1½ lbs large sea scallops, patted dry",
+        "8 cloves garlic, minced",
+        "3 sprigs fresh thyme",
+        "1 small red onion, finely diced",
+        "½ cup heavy cream",
+        "8 tablespoons butter, divided",
+        "2 sprigs fresh rosemary",
+        "2 tablespoons Dijon mustard",
+        "¼ cup fresh lemon juice",
+        "Salt and black pepper to taste",
+        "2 tablespoons olive oil"
       ],
       "directions": [
-        "Served with rosemary Parmesan mashed potatoes"
+        "Pat scallops completely dry with paper towels and season both sides generously with salt and pepper.",
+        "Heat olive oil and 2 tablespoons butter in a large skillet over high heat until just smoking. Sear scallops 2-3 minutes per side until golden brown crust forms, then remove to a plate.",
+        "Reduce heat to medium and add red onion and garlic to the same pan, cooking 2-3 minutes until softened.",
+        "Add lemon juice, Dijon mustard, thyme, and rosemary, stirring to combine and scraping up any browned bits from the pan.",
+        "Pour in cream and bring to a simmer, then reduce heat to low and whisk in remaining 6 tablespoons butter one tablespoon at a time until sauce is smooth and glossy.",
+        "Return scallops to pan along with any accumulated juices, spooning sauce over top and warming through for 1-2 minutes.",
+        "Remove herb sprigs, taste and adjust seasoning with salt and pepper, then serve immediately with rosemary Parmesan mashed potatoes."
       ],
       "youtube_url": null,
-      "source_file": "note_1019.txt"
+      "source_file": "note_1019.txt",
+      "description": "Perfectly seared scallops swimming in a rich, buttery lemon sauce with garlic and fresh herbs. Pair these with rosemary Parmesan mashed potatoes for a restaurant-worthy meal at home.",
+      "prep_time": "10 min",
+      "cook_time": "15 min",
+      "servings": 4
     },
     {
       "title": "Creamy Mushroom Garlic Salmon",
       "slug": "creamy-mushroom-garlic-salmon",
       "category": "mains",
       "ingredients": [
-        "Salmon",
-        "Mushrooms",
-        "Tomato’s",
-        "Garlic",
-        "Onions",
-        "Butter",
-        "Cream",
-        "Thyme",
-        "Rosemary",
-        "Lemon slices",
-        "Spinach",
-        "Parmesan cheese",
-        "And",
-        "Mushroom reisoto"
+        "4 salmon fillets (6 oz each)",
+        "8 oz mushrooms, sliced",
+        "2 cups cherry tomatoes, halved",
+        "6 cloves garlic, minced",
+        "1 small onion, diced",
+        "3 tablespoons butter",
+        "1 cup heavy cream",
+        "1 teaspoon fresh thyme (or 1/2 teaspoon dried)",
+        "1 teaspoon fresh rosemary, chopped (or 1/2 teaspoon dried)",
+        "1 lemon, sliced",
+        "2 cups fresh spinach",
+        "1/2 cup grated Parmesan cheese",
+        "Salt and pepper to taste"
       ],
       "directions": [
-        "Serve with Garlic Bread with Parmesan and pickled red onions"
+        "Season salmon fillets with salt and pepper. In a large skillet over medium-high heat, melt 2 tablespoons butter and sear salmon skin-side up for 4-5 minutes until golden. Flip, cook 3 more minutes, then remove and set aside.",
+        "In the same skillet, add remaining butter and sauté onions until softened, about 3 minutes. Add garlic and mushrooms, cooking until mushrooms are golden and liquid has evaporated, about 5-6 minutes.",
+        "Add tomatoes, thyme, and rosemary, cooking for 2 minutes. Pour in heavy cream and bring to a gentle simmer, stirring occasionally until sauce thickens slightly, about 3-4 minutes.",
+        "Stir in spinach until wilted, then add Parmesan cheese. Season with salt and pepper to taste. Return salmon to the skillet, spooning sauce over the top, and nestle lemon slices around the fish.",
+        "Let salmon warm through in the sauce for 2-3 minutes. Serve immediately with mushroom risotto and garlic bread topped with Parmesan and pickled red onions."
       ],
       "youtube_url": null,
-      "source_file": "note_1020.txt"
+      "source_file": "note_1020.txt",
+      "description": "Pan-seared salmon fillets nestled in a rich, creamy mushroom and garlic sauce with fresh spinach and tomatoes. Pairs perfectly with mushroom risotto and garlic bread for a restaurant-quality meal at home.",
+      "prep_time": "15 min",
+      "cook_time": "25 min",
+      "servings": 4
     }
   ]
 }
