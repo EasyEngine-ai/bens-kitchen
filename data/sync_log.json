@@ -1054,5 +1054,21 @@
     "recipes_added": 0,
     "total_recipes": 260,
     "duration_seconds": 2408.2
+  },
+  {
+    "timestamp": "2026-04-24T02:07:54.278108",
+    "status": "success",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [],
+    "recipes_added": 0,
+    "total_recipes": 260,
+    "duration_seconds": 17448.4
   }
 ]
