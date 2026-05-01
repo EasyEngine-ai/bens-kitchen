@@ -1070,5 +1070,101 @@
     "recipes_added": 0,
     "total_recipes": 260,
     "duration_seconds": 17448.4
+  },
+  {
+    "timestamp": "2026-04-25T02:01:37.442562",
+    "status": "success",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 1,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [],
+    "recipes_added": 0,
+    "total_recipes": 260,
+    "duration_seconds": 16162.7
+  },
+  {
+    "timestamp": "2026-04-26T02:02:18.543221",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "Next.js build failed"
+    ],
+    "duration_seconds": 10963.5
+  },
+  {
+    "timestamp": "2026-04-27T02:10:14.791320",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "Next.js build failed"
+    ],
+    "duration_seconds": 11261.2
+  },
+  {
+    "timestamp": "2026-04-28T02:13:53.934071",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "Next.js build failed"
+    ],
+    "duration_seconds": 12252.7
+  },
+  {
+    "timestamp": "2026-04-29T02:13:46.237746",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "Next.js build failed"
+    ],
+    "duration_seconds": 16712.4
+  },
+  {
+    "timestamp": "2026-04-30T02:12:59.609210",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "Next.js build failed"
+    ],
+    "duration_seconds": 12797.0
   }
 ]
