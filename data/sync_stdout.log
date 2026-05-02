@@ -28309,3 +28309,300 @@ Saved to /Users/mramir/crazy-chicken-cookbook/src/extract/../../data/personal_re
 [02:08:52] Step 6: Syncing data to site...
 [02:08:52]   Copied to /Users/mramir/crazy-chicken-cookbook/site/data/personal_recipes.json
 [02:08:52] Step 7: Building site...
+[02:09:21]   Build complete
+[02:09:21] Step 8: Deploying to GitHub Pages...
+[02:25:11]   Deployed to gobigbencookbook.com
+[02:25:11] 
+============================================================
+[02:25:11] SUCCESS: Added 0 new recipes (total: 260)
+[02:25:11] ============================================================
+[02:25:11] 
+Duration: 1234.4s
+[02:25:11] Log saved to /Users/mramir/crazy-chicken-cookbook/data/sync_log.json
+[02:07:50] ============================================================
+[02:07:50] Ben's Kitchen Auto-Sync Pipeline
+[02:07:50] Started: 2026-05-02T02:07:50.058106
+[02:07:50] ============================================================
+[02:07:50] Step 1: Exporting from Apple Notes...
+Existing recipes: 258
+Next note number: note_1000.txt
+
+Reading Apple Notes folder: 'Sauces'...
+  Found 65 notes
+
+Reading Apple Notes folder: 'Side Dish Recipes'...
+  Found 0 notes
+
+Reading Apple Notes folder: 'Notes'...
+  Found 70 notes
+
+Total notes from Apple Notes: 135
+
+============================================================
+CLASSIFICATION REPORT
+============================================================
+  Already exists: 64
+  Non-recipes:    62
+  NEW recipes:    9
+
+-- EXISTING (skipped) --
+  [EXISTS] Alfs kitchen on YouTube for all things burger recipes
+  [EXISTS] Asian Peanut Sauce
+  [EXISTS] Bacon Onion and Roasted Garlic Jam
+  [EXISTS] Baconase Burger Sauce
+  [EXISTS] Bbq buffalo Wing Sauce
+  [EXISTS] Better Chick-fil-A Sauce
+  [EXISTS] Better Cowboy Butter
+  [EXISTS] Big Mac Sauce
+  [EXISTS] Blended Green Olives and Feta Sauce
+  [EXISTS] Blue Cheese Crazy Chunky Sauce
+  [EXISTS] Brown Sugar Hot Wing Sauce
+  [EXISTS] Buffalo chicken cream cheese sauce
+  [EXISTS] Cajun Alfredo Wing Sauce
+  [EXISTS] Cajun Honey Burger Sauce
+  [EXISTS] Candied Bacon, Jalapeños, and Apples Burger Topping
+  [EXISTS] Chimichurri Ranch
+  [EXISTS] Cilantro Lime Sauce
+  [EXISTS] Classic Burger Sauce
+  [EXISTS] Coca Cola BBQ Glaze
+  [EXISTS] Cowboy Ranch
+  [EXISTS] Crazy Chicken Sandwiches
+  [EXISTS] Creamy Al Pastor sauce
+  [EXISTS] Creamy Avocado Lime Sauce
+  [EXISTS] Creamy Horseradish Sauce
+  [EXISTS] Creamy Lemon Roasted Garlic Herb Sauce
+  [EXISTS] Creamy Roasted Tomato Garlic Sauce
+  [EXISTS] Crispy Asian Chili Mayo
+  [EXISTS] Crispy Honey Lemon Pepper Wing Sauce
+  [EXISTS] Dave’s Hot Chicken sauce
+  [EXISTS] Dr Pepper BBQ Wing Sauce
+  [EXISTS] Fasting Foods  Sardines, Eggs, avocados, greek yogurt, cumber, red…
+  [EXISTS] Garlic Herb Butter
+  [EXISTS] Garlic Parmesan Sauce
+  [EXISTS] Green Goddess Dressing
+  [EXISTS] Homemade Tallow/Butter Mayonnaise
+  [EXISTS] Honey Garlic Sauce
+  [EXISTS] Hot Honey Apple Mayo Sauce
+  [EXISTS] Hot Honey Asian Crunch Ranch
+  [EXISTS] Ldr card info
+  [EXISTS] Magical Marry Me chicken
+  [EXISTS] Mango Habanero Sauce
+  [EXISTS] Marry Me Chicken sauce
+  [EXISTS] Marry me chicken gnocchi soup
+  [EXISTS] Mediterranean White Sauce
+  [EXISTS] Mexican Creamy Bean Sauce
+  [EXISTS] Mexican Street Corn Sauce
+  [EXISTS] Orange Chicken sauce
+  [EXISTS] Peach Chutney BBQ Burger Topping
+  [EXISTS] Peppercorn Steak Sauce
+  [EXISTS] Pineapple Chipotle  Mayo Sauce
+  [EXISTS] Pineapple Jalapeno cream cheese bacon jam
+  [EXISTS] Polynesian Sauce
+  [EXISTS] Raisin Cane’s Copy Cat Sauce
+  [EXISTS] Ranch Sauce
+  [EXISTS] Remoulade Sauce
+  [EXISTS] Sesame Chicken
+  [EXISTS] Southwest Salad Dressing
+  [EXISTS] Special Italian Sandwich Sauce
+  [EXISTS] Special Steak Sauce
+  [EXISTS] Sunkist Buffalo Wing Sauce
+  [EXISTS] Taco Bell Creamy Jalapeno Sauce
+  [EXISTS] Thai chili bacon jam
+  [EXISTS] Tomato Jam burger topping
+  [EXISTS] White Whole Grain Burger Sauce
+
+-- NON-RECIPES (skipped) --
+  [SKIP] # 🍳 Professional Cookbook Creation — Cowork Agent  | # 🍳 Professional Cookbook Creation — Cowork Agent Master Pro
+  [SKIP] 1000 |   1000 
+  [SKIP] 91 Willow Rd |  91 Willow Rd Metuchen, NJ 08840
+  [SKIP] Api Keys  Google o auth O Auth client secret key f |  Api Keys  Google o auth O Auth client secret key for perfec
+  [SKIP] App idea | App idea  Video storage for people to leave behind a record 
+  [SKIP] Being high watching Reece play with his dog | Being high watching Reece play with his dog  Dog is just lik
+  [SKIP] Below is an exhaustive, copy-ready catalogue of Ea | Below is an exhaustive, copy-ready catalogue of EasyEngine.a
+  [SKIP] Boat Lift People | Boat Lift People (218)820-9401
+  [SKIP] Book Notes and Plots | Book Notes and Plots  Plot Lines:  Friend the AI god that le
+  [SKIP] But I did leave in a hurry | But I did leave in a hurry 
+  [SKIP] Currently doing yhis |   Currently doing yhis
+  [SKIP] Easy Engine Admin Password | Easy Engine Admin Password  Easy_123$
+  [SKIP] Get the booking link and then we are good to go fo |   Get the booking link and then we are good to go for outbou
+  [SKIP] Go Daddy password  EasyEngine123$ | Go Daddy password  EasyEngine123$
+  [SKIP] Hey everyone! We just finished writing an incredib | Hey everyone! We just finished writing an incredible book, G
+  [SKIP] Humans remaining are war only. Nothing left but wa |    Humans remaining are war only. Nothing left but war.  Met
+  [SKIP] I Called ice on someone today | I Called ice on someone today  I don’t think he was even ill
+  [SKIP] I called ice on someone | I called ice on someone  Today, i know I know, to be honest 
+  [SKIP] I want to start off by saying that just like 1980’ | I want to start off by saying that just like 1980’s Joe Bide
+  [SKIP] I was free balling the other day and I lead me to  |  I was free balling the other day and I lead me to noticing 
+  [SKIP] I was going to the gym a few years ago, and I as w |  I was going to the gym a few years ago, and I as walking in
+  [SKIP] I was hoping not drink would help me loose weight | I was hoping not drink would help me loose weight   So I qui
+  [SKIP] Idk if you can tell by my outfit but I am a big ad |   Idk if you can tell by my outfit but I am a big advocate o
+  [SKIP] Idk if you’ve heard but the birth rates in Japan a | Idk if you’ve heard but the birth rates in Japan are so low 
+  [SKIP] If you're anything like me, you think new years re | If you're anything like me, you think new years resolutions 
+  [SKIP] Insurance phone numbers | Insurance phone numbers   Insurance Companies: AAA 1-800-779
+  [SKIP] It’s good to be back here at emmets, my favorite t |   It’s good to be back here at emmets, my favorite thing abo
+  [SKIP] Japan has a passport for breeding because their bi |  Japan has a passport for breeding because their birth rate 
+  [SKIP] Jokes | Jokes   vibrators put guys out of a job my friend built a ma
+  [SKIP] Lending Tower Ideas | Lending Tower Ideas  HELPFUL EDUCATIONAL LINK PRE CALL OR. P
+  [SKIP] Lending Tower To Do List | Lending Tower To Do List  Utm tracking through funnel so we 
+  [SKIP] Little oak starlink password | Little oak starlink password  LittleOakIsland123
+  [SKIP] MY Fourth login | MY Fourth login  Username: EE4 Password: EasyEngine4!@# Comp
+  [SKIP] Meta mask | Meta mask  Password   MachiDuman94$  0xedD7a7eCAb23433D82E28
+  [SKIP] New Note | ￼ 
+  [SKIP] One Pass Key | One Pass Key  A3-64RN3W-7MGPB4-ZMESN-4M28S-QBH47-92PW2
+  [SKIP] Open claw uses for Lending Tower | Open claw uses for Lending Tower    3. Competitor Intelligen
+  [SKIP] OpenClaw and Kimi K2_5 Implementation Guide for Le | OpenClaw and Kimi K2_5 Implementation Guide for Lending Towe
+  [SKIP] PRQ Improvement ideas | PRQ Improvement ideas  Graph for cost of roofs, Graph for de
+  [SKIP] PRQ ideas | PRQ ideas  Switch from zapier to n8n and host on private ser
+  [SKIP] Perfect Partner Keyboard | Perfect Partner Keyboard   capture and store all copied text
+  [SKIP] Rasa | Rasa Webcrawler4ai Lipsurf Voice in Lang chain Stable diffus
+  [SKIP] Redbird  Assistable Account Login | Redbird  Assistable Account Login    jhughes@redbirdunified.
+  [SKIP] Referral Request Text | Referral Request Text  Hey Richard! This is Benjamin with PR
+  [SKIP] So Kayne got some new music out | So Kayne got some new music out  Two new songs specifically,
+  [SKIP] Stripe | Stripe  Back up uorr-tpxr-baiv-xtzb-osza
+  [SKIP] Tax Advocate Case Number 224373 | Tax Advocate Case Number 224373
+  [SKIP] Tech Stack for Benjamin | Tech Stack for Benjamin Hubspot (crm) Zapier (for automated 
+  [SKIP] Telegram Bots Rosespritz api keys  Manual product  | Telegram Bots Rosespritz api keys  Manual product outreach b
+  [SKIP] The guy who invented ac doesn’t get nearly enough  | The guy who invented ac doesn’t get nearly enough credit or 
+  [SKIP] This Honda civic model is widely regarded as one o |   This Honda civic model is widely regarded as one of the mo
+  [SKIP] Twillio Code | Twillio Code  K5KK8ZG5FL8L1VVYEW6G6781
+  [SKIP] Vampires that are created by herbs but they can cr | Vampires that are created by herbs but they can create other
+  [SKIP] Walk out of line saying I just shit my pants | Walk out of line saying I just shit my pants  Quality contro
+  [SKIP] What I value in a woman, being attractive, frequen |    What I value in a woman, being attractive, frequent sex, 
+  [SKIP] Wood chips | Wood chips  Butter  Brussels   Wood chips  
+  [SKIP] Yes, I can provide detailed information on how to  | Yes, I can provide detailed information on how to petition t
+  [SKIP] You are an elite prompt engineer trained in Anthro | You are an elite prompt engineer trained in Anthropic’s high
+  [SKIP] You guys remember sucking on your mom’s tits as a  |   You guys remember sucking on your mom’s tits as a baby? No
+  [SKIP] Zip ties | Zip ties Ice bag Zip lock bag
+  [SKIP] https://www.xvideos.com/video.kikhalm516e/amateur_ | https://www.xvideos.com/video.kikhalm516e/amateur_girlfriend
+  [SKIP] … |                                                             
+
+-- NEW RECIPES --
+  [NEW] Credit Card (from Notes)
+  [NEW] Goat cheese chalua hot sauce (from Sauces)
+  [NEW] Green chile (from Notes)
+  [NEW] Habenareo pizza ranch aloi (from Sauces)
+  [NEW] Pepperoni Cherry Tomatoe jam (from Sauces)
+  [NEW] Red Creamy Chimmichri Sauce (from Sauces)
+  [NEW] Smash Burger Copy Cat Sauce (from Sauces)
+  [NEW] Sweet Gochujang Aoli (from Sauces)
+  [NEW] Timeless Tatsiki Sauce (from Sauces)
+  Saved: note_1000.txt -> Pepperoni Cherry Tomatoe jam
+  Saved: note_1001.txt -> Sweet Gochujang Aoli
+  Saved: note_1002.txt -> Smash Burger Copy Cat Sauce
+  Saved: note_1003.txt -> Red Creamy Chimmichri Sauce
+  Saved: note_1004.txt -> Habenareo pizza ranch aloi
+  Saved: note_1005.txt -> Goat cheese chalua hot sauce
+  Saved: note_1006.txt -> Timeless Tatsiki Sauce
+  Saved: note_1007.txt -> Credit Card
+  Saved: note_1008.txt -> Green chile
+
+============================================================
+Saved 9 new note files to /Users/mramir/crazy-chicken-cookbook/data/notes
+Note numbers: note_1000.txt through note_1008.txt
+[02:23:11] Step 2: Parsing new notes into recipes...
+Existing recipes: 260
+New note files to process: 57
+  [ADD] Credit Card -> mains
+
+Skipped 56 non-recipe notes:
+  [SKIP] note_004.txt: I was free balling the other day and I lead me to noticing s
+  [SKIP] note_035.txt: Lending Tower To Do List
+  [SKIP] note_038.txt: OpenClaw and Kimi K2_5 Implementation Guide for Lending Towe
+  [SKIP] note_039.txt: Open claw uses for Lending Tower
+  [SKIP] note_040.txt: 1000
+  [SKIP] note_041.txt: # 🍳 Professional Cookbook Creation — Cowork Agent Master Pro
+  [SKIP] note_043.txt: This Honda civic model is widely regarded as one of the most
+  [SKIP] note_114.txt: Currently doing yhis
+  [SKIP] note_115.txt: Lending Tower Ideas
+  [SKIP] note_116.txt: You are an elite prompt engineer trained in Anthropic’s high
+  [SKIP] note_118.txt: Jokes
+  [SKIP] note_119.txt: …
+  [SKIP] note_120.txt: Api Keys  Google o auth O Auth client secret key for perfect
+  [SKIP] note_121.txt: I Called ice on someone today
+  [SKIP] note_122.txt: Go Daddy password  EasyEngine123$
+  [SKIP] note_123.txt: If you're anything like me, you think new years resolutions 
+  [SKIP] note_124.txt: 91 Willow Rd
+  [SKIP] note_125.txt: Japan has a passport for breeding because their birth rate i
+  [SKIP] note_126.txt: Wood chips
+  [SKIP] note_127.txt: I was going to the gym a few years ago, and I as walking in 
+  [SKIP] note_128.txt: Walk out of line saying I just shit my pants
+  [SKIP] note_129.txt: I was hoping not drink would help me loose weight
+  [SKIP] note_130.txt: Humans remaining are war only. Nothing left but war.
+  [SKIP] note_131.txt: It’s good to be back here at emmets, my favorite thing about
+  [SKIP] note_132.txt: Fritos
+  [SKIP] note_133.txt: Shower cleaner
+  [SKIP] note_134.txt: Meta mask
+  [SKIP] note_135.txt: Get the booking link and then we are good to go for outbound
+  [SKIP] note_136.txt: What I value in a woman, being attractive, frequent sex, bei
+  [SKIP] note_137.txt: PRQ ideas
+  [SKIP] note_139.txt: https://www.xvideos.com/video.kikhalm516e/amateur_girlfriend
+  [SKIP] note_140.txt: MY Fourth login
+  [SKIP] note_141.txt: Twillio Code
+  [SKIP] note_142.txt: One Pass Key
+  [SKIP] note_143.txt: Stripe
+  [SKIP] note_144.txt: Easy Engine Admin Password
+  [SKIP] note_145.txt: Redbird  Assistable Account Login
+  [SKIP] note_146.txt: Below is an exhaustive, copy-ready catalogue of EasyEngine.a
+  [SKIP] note_147.txt: Little oak starlink password
+  [SKIP] note_148.txt: Being high watching Reece play with his dog
+  [SKIP] note_149.txt: Idk if you’ve heard but the birth rates in Japan are so low 
+  [SKIP] note_150.txt: So Kayne got some new music out
+  [SKIP] note_151.txt: App idea
+  [SKIP] note_152.txt: Idk if you can tell by my outfit but I am a big advocate of 
+  [SKIP] note_153.txt: I want to start off by saying that just like 1980’s Joe Bide
+  [SKIP] note_154.txt: Yes, I can provide detailed information on how to petition t
+  [SKIP] note_155.txt: The guy who invented ac doesn’t get nearly enough credit or 
+  [SKIP] note_156.txt: Perfect Partner Keyboard
+  [SKIP] note_157.txt: Tech Stack for Benjamin
+  [SKIP] note_158.txt: Rasa
+  [SKIP] note_159.txt: Referral Request Text
+  [SKIP] note_160.txt: Hey everyone! We just finished writing an incredible book, G
+  [SKIP] note_161.txt: Insurance phone numbers
+  [SKIP] note_162.txt: Vampires that are created by herbs but they can create other
+  [SKIP] note_163.txt: Book Notes and Plots
+  [SKIP] note_164.txt: PRQ Improvement ideas
+
+============================================================
+Added 1 new recipes (total: 261)
+Updated categories:
+  Sauces                     74
+  Burritos & Wraps           42
+  Salads & Sides             36
+  Main Dishes                30
+  Sandwiches                 26
+  Crockpot                   23
+  Pasta                      12
+  Soups & Stews               6
+  Dips & Spreads              5
+  Breakfast                   4
+  Chicken Sandwiches          2
+  Crazy Fried Chicken Sandwiches   1
+Saved to /Users/mramir/crazy-chicken-cookbook/data/personal_recipes.json
+[02:23:12] Step 3: Enhancing recipes with Claude API...
+Found 2 recipes to enhance (of 261 total)
+
+  [1/2] Ldr card info... error: The read operation timed out
+  [2/2] Credit Card... error: The read operation timed out
+  [Saved progress: 0/2 enhanced]
+
+Done! Enhanced 0/2 recipes
+Saved to /Users/mramir/crazy-chicken-cookbook/src/extract/../../data/personal_recipes.json
+[05:44:27] Step 4: Generating recipe images...
+[05:44:27]   Generating 6 images (est. $1.00)
+[05:44:28]   [1/6] Ldr card info...
+[05:44:29]     FAIL: Error code: 400 - {'error': {'message': 'Billing hard limit has been reached.', 'type': 'billing_lim
+[06:31:55]   [2/6] Thai Sweet Chili Salmon...
+[06:31:56]     FAIL: Error code: 400 - {'error': {'message': 'Billing hard limit has been reached.', 'type': 'billing_lim
+[07:04:42]   [3/6] Miso Cream Scallops...
+[12:37:27]     FAIL: Error code: 400 - {'error': {'message': 'Billing hard limit has been reached.', 'type': 'billing_lim
+[12:37:42]   [4/6] Lemon Beurre Blanc Scallops...
+[12:37:43]     FAIL: Error code: 400 - {'error': {'message': 'Billing hard limit has been reached.', 'type': 'billing_lim
+[12:41:10]   [5/6] Creamy Mushroom Garlic Salmon...
+[12:41:11]     FAIL: Error code: 400 - {'error': {'message': 'Billing hard limit has been reached.', 'type': 'billing_lim
+[12:45:24]   [6/6] Credit Card...
+[12:45:26]     FAIL: Error code: 400 - {'error': {'message': 'Billing hard limit has been reached.', 'type': 'billing_lim
+[12:47:49]   Generated 0/6 images
+[12:47:49] Step 5: Converting new PNGs to WebP...
+[12:47:49]   Converted 0 images to WebP
+[12:47:49] Step 6: Syncing data to site...
+[12:47:49]   Copied to /Users/mramir/crazy-chicken-cookbook/site/data/personal_recipes.json
+[12:47:49] Step 7: Building site...

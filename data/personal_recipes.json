@@ -19,7 +19,7 @@
     {
       "id": "mains",
       "name": "Main Dishes",
-      "count": 29
+      "count": 30
     },
     {
       "id": "sandwiches",
@@ -9606,6 +9606,19 @@
       "prep_time": "15 min",
       "cook_time": "25 min",
       "servings": 4
+    },
+    {
+      "title": "Credit Card",
+      "slug": "credit-card",
+      "category": "mains",
+      "ingredients": [
+        "4147 1818 3590 2903",
+        "4/30",
+        "536  Mercury Card  5481087177394685 05/31 519"
+      ],
+      "directions": [],
+      "youtube_url": null,
+      "source_file": "note_1007.txt"
     }
   ]
 }

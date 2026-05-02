@@ -1166,5 +1166,21 @@
       "Next.js build failed"
     ],
     "duration_seconds": 12797.0
+  },
+  {
+    "timestamp": "2026-05-01T02:04:37.120177",
+    "status": "success",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [],
+    "recipes_added": 0,
+    "total_recipes": 260,
+    "duration_seconds": 1234.4
   }
 ]
