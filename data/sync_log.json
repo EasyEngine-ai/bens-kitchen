@@ -1262,5 +1262,1061 @@
     "recipes_added": 0,
     "total_recipes": 261,
     "duration_seconds": 22402.8
+  },
+  {
+    "timestamp": "2026-05-07T02:12:29.345572",
+    "status": "success",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [],
+    "recipes_added": 0,
+    "total_recipes": 261,
+    "duration_seconds": 8726.9
+  },
+  {
+    "timestamp": "2026-05-08T02:04:29.594437",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 2849.7
+  },
+  {
+    "timestamp": "2026-05-09T02:00:04.915956",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 195.9
+  },
+  {
+    "timestamp": "2026-05-10T02:01:34.833296",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 2134.7
+  },
+  {
+    "timestamp": "2026-05-11T02:00:03.312556",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 181.5
+  },
+  {
+    "timestamp": "2026-05-12T02:00:04.801375",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 185.2
+  },
+  {
+    "timestamp": "2026-05-13T02:14:28.643073",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 9974.4
+  },
+  {
+    "timestamp": "2026-05-14T02:00:05.310524",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 184.1
+  },
+  {
+    "timestamp": "2026-05-15T02:14:50.467706",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 32801.2
+  },
+  {
+    "timestamp": "2026-05-16T02:12:39.071485",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 43011.5
+  },
+  {
+    "timestamp": "2026-05-17T02:00:00.750814",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 23810.5
+  },
+  {
+    "timestamp": "2026-05-18T02:08:29.855625",
+    "status": "error",
+    "steps": {
+      "export": 9,
+      "parse": 1,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 28586.5
+  },
+  {
+    "timestamp": "2026-05-19T02:00:03.747266",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 196.0
+  },
+  {
+    "timestamp": "2026-05-20T02:00:06.581673",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 190.8
+  },
+  {
+    "timestamp": "2026-05-21T02:05:47.307659",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 14928.2
+  },
+  {
+    "timestamp": "2026-05-22T02:09:31.247840",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 10050.1
+  },
+  {
+    "timestamp": "2026-05-23T02:12:01.474904",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "Next.js build failed"
+    ],
+    "duration_seconds": 44325.8
+  },
+  {
+    "timestamp": "2026-05-24T02:11:54.956128",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 24134.9
+  },
+  {
+    "timestamp": "2026-05-25T02:15:00.753573",
+    "status": "error",
+    "steps": {
+      "export": 2,
+      "parse": 1,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 6240.6
+  },
+  {
+    "timestamp": "2026-05-26T02:00:02.479046",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 226.2
+  },
+  {
+    "timestamp": "2026-05-27T02:00:04.892852",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 230.5
+  },
+  {
+    "timestamp": "2026-05-28T02:38:11.550672",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 21091.4
+  },
+  {
+    "timestamp": "2026-05-29T02:11:03.502143",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 25627.2
+  },
+  {
+    "timestamp": "2026-05-30T02:00:05.555427",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 199.0
+  },
+  {
+    "timestamp": "2026-05-31T01:16:51.094345",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 16285.6
+  },
+  {
+    "timestamp": "2026-06-01T01:00:03.520391",
+    "status": "error",
+    "steps": {
+      "export": 9,
+      "parse": 1,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 218.6
+  },
+  {
+    "timestamp": "2026-06-02T01:05:55.779084",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 36647.7
+  },
+  {
+    "timestamp": "2026-06-03T01:00:15.941659",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 3457.1
+  },
+  {
+    "timestamp": "2026-06-04T01:04:58.770986",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 31213.0
+  },
+  {
+    "timestamp": "2026-06-05T01:09:46.928037",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 18846.5
+  },
+  {
+    "timestamp": "2026-06-06T01:14:52.084196",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "Next.js build failed"
+    ],
+    "duration_seconds": 25315.1
+  },
+  {
+    "timestamp": "2026-06-07T01:03:43.489744",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "Next.js build failed"
+    ],
+    "duration_seconds": 27813.6
+  },
+  {
+    "timestamp": "2026-06-08T01:00:36.542072",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "Next.js build failed"
+    ],
+    "duration_seconds": 26658.0
+  },
+  {
+    "timestamp": "2026-06-09T02:02:40.011572",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 40434.8
+  },
+  {
+    "timestamp": "2026-06-10T15:32:40.071551",
+    "status": "error",
+    "steps": {
+      "export": 9,
+      "parse": 1,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 292.1
+  },
+  {
+    "timestamp": "2026-06-11T02:00:03.735044",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "Next.js build failed"
+    ],
+    "duration_seconds": 335.1
+  },
+  {
+    "timestamp": "2026-06-12T02:00:03.993983",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 238.3
+  },
+  {
+    "timestamp": "2026-06-13T02:07:02.824196",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 52532.3
+  },
+  {
+    "timestamp": "2026-06-14T02:01:26.897804",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "Next.js build failed"
+    ],
+    "duration_seconds": 73841.2
+  },
+  {
+    "timestamp": "2026-06-15T02:00:03.425578",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 27541.9
+  },
+  {
+    "timestamp": "2026-06-16T02:00:04.394557",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 196.7
+  },
+  {
+    "timestamp": "2026-06-17T02:05:02.591696",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 35425.9
+  },
+  {
+    "timestamp": "2026-06-18T02:07:31.534039",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 31838.1
+  },
+  {
+    "timestamp": "2026-06-22T13:02:15.905049",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 250.9
+  },
+  {
+    "timestamp": "2026-06-23T02:02:04.014072",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 29282.3
+  },
+  {
+    "timestamp": "2026-06-24T02:14:30.261300",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 41992.2
+  },
+  {
+    "timestamp": "2026-06-25T02:04:00.284493",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 78148.8
+  },
+  {
+    "timestamp": "2026-06-26T02:09:09.966673",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 36942.6
+  },
+  {
+    "timestamp": "2026-06-27T02:00:05.263668",
+    "status": "error",
+    "steps": {
+      "export": 9,
+      "parse": 1,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 215.9
+  },
+  {
+    "timestamp": "2026-06-28T02:00:24.827370",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 53949.3
+  },
+  {
+    "timestamp": "2026-06-29T02:03:01.884363",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 36821.1
+  },
+  {
+    "timestamp": "2026-06-30T02:06:12.168853",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 24929.5
+  },
+  {
+    "timestamp": "2026-07-01T02:00:03.596810",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 261.5
+  },
+  {
+    "timestamp": "2026-07-02T02:12:41.386527",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 21221.1
+  },
+  {
+    "timestamp": "2026-07-03T02:14:50.616440",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 15603.1
+  },
+  {
+    "timestamp": "2026-07-04T02:06:50.689009",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 53978.0
+  },
+  {
+    "timestamp": "2026-07-05T02:06:23.932344",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 122428.5
+  },
+  {
+    "timestamp": "2026-07-07T02:11:17.145882",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 37623.0
+  },
+  {
+    "timestamp": "2026-07-08T02:00:04.690130",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 1180.9
+  },
+  {
+    "timestamp": "2026-07-09T02:00:03.908493",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 258.8
+  },
+  {
+    "timestamp": "2026-07-10T02:11:20.869039",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 23942.8
+  },
+  {
+    "timestamp": "2026-07-11T02:00:03.129230",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 258.2
+  },
+  {
+    "timestamp": "2026-07-12T02:00:03.358587",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 260.8
+  },
+  {
+    "timestamp": "2026-07-13T02:14:50.254217",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 21119.3
+  },
+  {
+    "timestamp": "2026-07-14T02:15:08.082800",
+    "status": "error",
+    "steps": {
+      "export": 9,
+      "parse": 1,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 17409.5
+  },
+  {
+    "timestamp": "2026-07-15T12:59:18.111950",
+    "status": "error",
+    "steps": {
+      "export": 8,
+      "parse": 0,
+      "enhance": 0,
+      "images": 0,
+      "image_cost": 0.0,
+      "webp_converted": 0
+    },
+    "errors": [
+      "gh-pages deploy failed"
+    ],
+    "duration_seconds": 329.3
   }
 ]
